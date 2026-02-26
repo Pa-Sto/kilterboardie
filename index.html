@@ -1,0 +1,109 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Kilterboardie - Generate New Climbs</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;600&family=Space+Grotesk:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <div class="page">
+      <header class="hero">
+        <div class="brand">
+          <div class="logo" aria-hidden="true">
+            <span class="logo-eye"></span>
+            <span class="logo-eye"></span>
+            <span class="logo-mouth"></span>
+          </div>
+          <div>
+            <h1>Kilterboardie</h1>
+            <p class="subtitle">Predict and prototype new Kilterboard climbs with our trained models.</p>
+          </div>
+        </div>
+      </header>
+
+      <main class="layout">
+        <section class="panel controls" aria-labelledby="controls-title">
+          <h2 id="controls-title">Generate a Climb</h2>
+          <p class="panel-hint">Pick grade, angle, and model. Then generate a new climb.</p>
+
+          <label class="field">
+            <span class="field-label">Grade (V / French)</span>
+            <select id="gradeSelect" class="field-control" aria-label="Select grade">
+              <option value="V3 / 6A">V3 / 6A</option>
+              <option value="V4 / 6B">V4 / 6B</option>
+              <option value="V5 / 6C">V5 / 6C</option>
+              <option value="V6 / 7A">V6 / 7A</option>
+              <option value="V7 / 7A+">V7 / 7A+</option>
+              <option value="V8 / 7B">V8 / 7B</option>
+              <option value="V9 / 7C">V9 / 7C</option>
+              <option value="V10 / 7C+">V10 / 7C+</option>
+              <option value="V11 / 8A">V11 / 8A</option>
+              <option value="V12 / 8A+">V12 / 8A+</option>
+              <option value="V13 / 8B">V13 / 8B</option>
+            </select>
+          </label>
+
+          <label class="field">
+            <span class="field-label">Board Angle</span>
+            <select id="angleSelect" class="field-control" aria-label="Select board angle">
+              <option value="50">50° (available)</option>
+            </select>
+            <span class="field-note">Dataset currently contains only 50° climbs.</span>
+          </label>
+
+          <label class="field">
+            <span class="field-label">Model</span>
+            <select id="modelSelect" class="field-control" aria-label="Select model">
+              <option value="KilterCVAE">KilterCVAE (current)</option>
+              <option value="Diffusion">Diffusion model (planned)</option>
+            </select>
+          </label>
+
+          <button id="generateBtn" class="primary">Generate Climbs</button>
+        </section>
+
+        <section class="panel output" aria-labelledby="output-title">
+          <div class="output-header">
+            <h2 id="output-title">Generated Climbs</h2>
+            <span id="outputStatus" class="status">Ready</span>
+          </div>
+          <div id="generatedList" class="generated-list" role="list"></div>
+        </section>
+
+      </main>
+
+      <footer class="footer">
+        <div class="footer-block">
+          <h3>Dataset</h3>
+          <p>
+            <a
+              class="footer-link"
+              href="https://github.com/Pa-Sto/kilterboardie/tree/main"
+              target="_blank"
+              rel="noreferrer"
+            >
+              Kilterboard Dataset (Git)
+            </a>
+          </p>
+        </div>
+        <div class="footer-block">
+          <h3>Available Models</h3>
+          <ul class="footer-list">
+            <li>KilterCVAE for grade-conditional generation</li>
+            <li>Diffusion model for future high-fidelity sampling</li>
+          </ul>
+        </div>
+      </footer>
+    </div>
+
+    <script src="config.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>

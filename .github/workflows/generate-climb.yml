@@ -1,0 +1,54 @@
+name: Generate climb
+
+on:
+  workflow_dispatch:
+    inputs:
+      grade:
+        description: "V grade to generate"
+        required: true
+        default: "6"
+  repository_dispatch:
+    types: [generate-climb]
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.11"
+
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+
+      - name: Generate climb overlay
+        env:
+          INPUT_GRADE: ${{ github.event.inputs.grade }}
+          PAYLOAD_GRADE: ${{ github.event.client_payload.grade }}
+          PAYLOAD_REQUEST_ID: ${{ github.event.client_payload.request_id }}
+        run: |
+          GRADE=${INPUT_GRADE:-${PAYLOAD_GRADE:-6}}
+          REQUEST_ID=${PAYLOAD_REQUEST_ID:-${GITHUB_RUN_ID}}
+          python tools/generate_overlay.py \
+            --checkpoint models/best.pt \
+            --grade "$GRADE" \
+            --holds-json ImageData/References/holds.json \
+            --board-image ImageData/References/empty_board.png \
+            --out-image generated/latest.png \
+            --out-matrix generated/latest.npy \
+            --out-meta generated/latest.json \
+            --request-id "$REQUEST_ID"
+
+      - name: Commit generated assets
+        run: |
+          git config user.name "github-actions"
+          git config user.email "github-actions@users.noreply.github.com"
+          git add generated/latest.png generated/latest.npy generated/latest.json
+          git commit -m "Update generated climb" || exit 0
+          git push
