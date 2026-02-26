@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image27991.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 7,
+    "foot": 2
+  },
+  "raw_text": "swooped\njwebxl\n\nZat/V7 Yeo.\n",
+  "lines": [
+    "swooped",
+    "jwebxl",
+    "Zat/V7 Yeo."
+  ],
+  "name": "swooped",
+  "setter": "jwebxl",
+  "grade_raw": "Zat/V7 Yeo.",
+  "grade_v": 7,
+  "stars": 3
+}

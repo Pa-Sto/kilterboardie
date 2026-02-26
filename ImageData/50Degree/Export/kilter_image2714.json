@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image2714.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 2,
+    "hand": 6,
+    "foot": 7
+  },
+  "raw_text": "36 Chambers\nimportedbean\n\n\u00ae& 7b+/V8 yk ke oe\n",
+  "lines": [
+    "36 Chambers",
+    "importedbean",
+    "\u00ae& 7b+/V8 yk ke oe"
+  ],
+  "name": "36 Chambers",
+  "setter": "importedbean",
+  "grade_raw": "\u00ae& 7b+/V8 yk ke oe",
+  "grade_v": 8,
+  "stars": 2
+}

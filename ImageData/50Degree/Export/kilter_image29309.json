@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image29309.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 3,
+    "finish": 1,
+    "hand": 6,
+    "foot": 4
+  },
+  "raw_text": "Perps\nfaculangbehn\n\n8at/V12 Yroe ve\n",
+  "lines": [
+    "Perps",
+    "faculangbehn",
+    "8at/V12 Yroe ve"
+  ],
+  "name": "Perps",
+  "setter": "faculangbehn",
+  "grade_raw": "8at/V12 Yroe ve",
+  "grade_v": 12,
+  "stars": 2
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image23607.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 5,
+    "foot": 6
+  },
+  "raw_text": "Keep Holding On\nksmd\n\n6a/V3 Ye ee\n",
+  "lines": [
+    "Keep Holding On",
+    "ksmd",
+    "6a/V3 Ye ee"
+  ],
+  "name": "Keep Holding On",
+  "setter": "ksmd",
+  "grade_raw": "6a/V3 Ye ee",
+  "grade_v": 3,
+  "stars": 2
+}

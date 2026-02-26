@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image9904.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 7
+  },
+  "raw_text": "Sort of warm\nKilterStudio\n\n6a/V3 Ye ee\n",
+  "lines": [
+    "Sort of warm",
+    "KilterStudio",
+    "6a/V3 Ye ee"
+  ],
+  "name": "Sort of warm",
+  "setter": "KilterStudio",
+  "grade_raw": "6a/V3 Ye ee",
+  "grade_v": 3,
+  "stars": 2
+}

@@ -1,0 +1,29 @@
+{
+  "filename": "kilter_image4105.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 8,
+    "foot": 2
+  },
+  "raw_text": "brunomorita\n\n6a/V3 Ye ee\n",
+  "lines": [
+    "brunomorita",
+    "6a/V3 Ye ee"
+  ],
+  "name": "brunomorita",
+  "setter": "6a/V3 Ye ee",
+  "grade_raw": "6a/V3 Ye ee",
+  "grade_v": 3,
+  "stars": 2
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image9437.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 7,
+    "foot": 3
+  },
+  "raw_text": "warm 1\nkrimdogbillionaire\n\n6b+/V4 Yeo.\n",
+  "lines": [
+    "warm 1",
+    "krimdogbillionaire",
+    "6b+/V4 Yeo."
+  ],
+  "name": "warm 1",
+  "setter": "krimdogbillionaire",
+  "grade_raw": "6b+/V4 Yeo.",
+  "grade_v": 4,
+  "stars": 3
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image29998.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 8,
+    "foot": 6
+  },
+  "raw_text": "Sure 2\nKilterStudio\n\n6a/V3 Ye ee\n",
+  "lines": [
+    "Sure 2",
+    "KilterStudio",
+    "6a/V3 Ye ee"
+  ],
+  "name": "Sure 2",
+  "setter": "KilterStudio",
+  "grade_raw": "6a/V3 Ye ee",
+  "grade_v": 3,
+  "stars": 2
+}

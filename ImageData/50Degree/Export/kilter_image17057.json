@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image17057.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 3,
+    "foot": 3
+  },
+  "raw_text": "-or Worse or Better\nxavierborg30\n\n7a/V6 Ye ee\n",
+  "lines": [
+    "-or Worse or Better",
+    "xavierborg30",
+    "7a/V6 Ye ee"
+  ],
+  "name": "-or Worse or Better",
+  "setter": "xavierborg30",
+  "grade_raw": "7a/V6 Ye ee",
+  "grade_v": 6,
+  "stars": 2
+}

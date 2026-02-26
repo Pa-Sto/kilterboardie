@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image23595.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 3,
+    "foot": 2
+  },
+  "raw_text": "ashioned Hurgusbu!\nJaeden\n\n7b/V8 Ye ee\n",
+  "lines": [
+    "ashioned Hurgusbu!",
+    "Jaeden",
+    "7b/V8 Ye ee"
+  ],
+  "name": "ashioned Hurgusbu!",
+  "setter": "Jaeden",
+  "grade_raw": "7b/V8 Ye ee",
+  "grade_v": 8,
+  "stars": 2
+}

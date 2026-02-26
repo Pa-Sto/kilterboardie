@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image16837.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 2
+  },
+  "raw_text": "unknown #80\nspalermo\n\nZat/V7 Yeo.\n",
+  "lines": [
+    "unknown #80",
+    "spalermo",
+    "Zat/V7 Yeo."
+  ],
+  "name": "unknown #80",
+  "setter": "spalermo",
+  "grade_raw": "Zat/V7 Yeo.",
+  "grade_v": 7,
+  "stars": 3
+}

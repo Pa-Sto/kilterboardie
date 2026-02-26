@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image8992.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 2,
+    "hand": 5,
+    "foot": 6
+  },
+  "raw_text": "Floats Your Boat\nwill_avelar\n\n6at/V3 Ye oroe\n",
+  "lines": [
+    "Floats Your Boat",
+    "will_avelar",
+    "6at/V3 Ye oroe"
+  ],
+  "name": "Floats Your Boat",
+  "setter": "will_avelar",
+  "grade_raw": "6at/V3 Ye oroe",
+  "grade_v": 3,
+  "stars": 4
+}

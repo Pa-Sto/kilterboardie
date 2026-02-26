@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image13435.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 5
+  },
+  "raw_text": "Kiss FM\nKilterStudio\n\n7a/V6 Ye ee\n",
+  "lines": [
+    "Kiss FM",
+    "KilterStudio",
+    "7a/V6 Ye ee"
+  ],
+  "name": "Kiss FM",
+  "setter": "KilterStudio",
+  "grade_raw": "7a/V6 Ye ee",
+  "grade_v": 6,
+  "stars": 2
+}

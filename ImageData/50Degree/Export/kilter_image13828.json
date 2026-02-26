@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image13828.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 2,
+    "hand": 3,
+    "foot": 2
+  },
+  "raw_text": "Dapper Dan Man\nshmitch\n\n6at/V3 Ye oroe\n",
+  "lines": [
+    "Dapper Dan Man",
+    "shmitch",
+    "6at/V3 Ye oroe"
+  ],
+  "name": "Dapper Dan Man",
+  "setter": "shmitch",
+  "grade_raw": "6at/V3 Ye oroe",
+  "grade_v": 3,
+  "stars": 4
+}

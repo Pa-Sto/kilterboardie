@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image4782.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 2
+  },
+  "raw_text": "Levitation\nAustin_hoyt\n\n7c+/V10 Yeo ve\n",
+  "lines": [
+    "Levitation",
+    "Austin_hoyt",
+    "7c+/V10 Yeo ve"
+  ],
+  "name": "Levitation",
+  "setter": "Austin_hoyt",
+  "grade_raw": "7c+/V10 Yeo ve",
+  "grade_v": 10,
+  "stars": 2
+}

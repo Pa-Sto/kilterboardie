@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image18575.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 2,
+    "hand": 5,
+    "foot": 6
+  },
+  "raw_text": "Jason's Warmup\nsam\n\n6at/V3 Ye oroe\n",
+  "lines": [
+    "Jason's Warmup",
+    "sam",
+    "6at/V3 Ye oroe"
+  ],
+  "name": "Jason's Warmup",
+  "setter": "sam",
+  "grade_raw": "6at/V3 Ye oroe",
+  "grade_v": 3,
+  "stars": 4
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image4747.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 7,
+    "foot": 7
+  },
+  "raw_text": "Krazy Kathi\nalexfritz\n\n7b/V8 Ye ee\n",
+  "lines": [
+    "Krazy Kathi",
+    "alexfritz",
+    "7b/V8 Ye ee"
+  ],
+  "name": "Krazy Kathi",
+  "setter": "alexfritz",
+  "grade_raw": "7b/V8 Ye ee",
+  "grade_v": 8,
+  "stars": 2
+}

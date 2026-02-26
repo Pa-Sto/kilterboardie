@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image21645.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 4,
+    "foot": 4
+  },
+  "raw_text": "Lock Off, Lock Ahn\nAhnsight\n\n7b/V8 Ye ee\n",
+  "lines": [
+    "Lock Off, Lock Ahn",
+    "Ahnsight",
+    "7b/V8 Ye ee"
+  ],
+  "name": "Lock Off, Lock Ahn",
+  "setter": "Ahnsight",
+  "grade_raw": "7b/V8 Ye ee",
+  "grade_v": 8,
+  "stars": 2
+}

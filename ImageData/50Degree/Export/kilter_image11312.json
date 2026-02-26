@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image11312.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 6
+  },
+  "raw_text": "Jax Smaks\nconnor.kainalu\n\n6b/V4 ye yee\n",
+  "lines": [
+    "Jax Smaks",
+    "connor.kainalu",
+    "6b/V4 ye yee"
+  ],
+  "name": "Jax Smaks",
+  "setter": "connor.kainalu",
+  "grade_raw": "6b/V4 ye yee",
+  "grade_v": 4,
+  "stars": 3
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image1067.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 3,
+    "foot": 2
+  },
+  "raw_text": "Darry-Legen\nAlexanderMegos\n\n\u00ae& 8at+/V12 ye oe oe\n",
+  "lines": [
+    "Darry-Legen",
+    "AlexanderMegos",
+    "\u00ae& 8at+/V12 ye oe oe"
+  ],
+  "name": "Darry-Legen",
+  "setter": "AlexanderMegos",
+  "grade_raw": "\u00ae& 8at+/V12 ye oe oe",
+  "grade_v": 12,
+  "stars": 2
+}

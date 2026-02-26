@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image3906.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 6,
+    "foot": 8
+  },
+  "raw_text": "You Don't Know Me\nJustinKo\n\n6a/V3 Ye ee\n",
+  "lines": [
+    "You Don't Know Me",
+    "JustinKo",
+    "6a/V3 Ye ee"
+  ],
+  "name": "You Don't Know Me",
+  "setter": "JustinKo",
+  "grade_raw": "6a/V3 Ye ee",
+  "grade_v": 3,
+  "stars": 2
+}

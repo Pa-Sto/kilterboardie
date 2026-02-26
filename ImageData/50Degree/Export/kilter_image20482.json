@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image20482.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 5
+  },
+  "raw_text": "Gangster Style\ndaxxta\n\n7c+/V10 ye vee\n",
+  "lines": [
+    "Gangster Style",
+    "daxxta",
+    "7c+/V10 ye vee"
+  ],
+  "name": "Gangster Style",
+  "setter": "daxxta",
+  "grade_raw": "7c+/V10 ye vee",
+  "grade_v": 10,
+  "stars": 3
+}

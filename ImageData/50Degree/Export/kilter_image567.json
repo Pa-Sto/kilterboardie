@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image567.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 4
+  },
+  "raw_text": "Intro to Crimps 2.0\nDanielHenstein\n\n6c+/V5 Yevroe\n",
+  "lines": [
+    "Intro to Crimps 2.0",
+    "DanielHenstein",
+    "6c+/V5 Yevroe"
+  ],
+  "name": "Intro to Crimps 2.0",
+  "setter": "DanielHenstein",
+  "grade_raw": "6c+/V5 Yevroe",
+  "grade_v": 5,
+  "stars": 4
+}

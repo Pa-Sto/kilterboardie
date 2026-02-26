@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image3291.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 4
+  },
+  "raw_text": "1-800-blowfex\njohn.polo4\n\n7c/V9 Ye vee\n",
+  "lines": [
+    "1-800-blowfex",
+    "john.polo4",
+    "7c/V9 Ye vee"
+  ],
+  "name": "1-800-blowfex",
+  "setter": "john.polo4",
+  "grade_raw": "7c/V9 Ye vee",
+  "grade_v": 9,
+  "stars": 3
+}

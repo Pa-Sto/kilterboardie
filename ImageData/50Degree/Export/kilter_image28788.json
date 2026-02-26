@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image28788.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 6
+  },
+  "raw_text": "Tra-la-la\nwill_avelar\n\n6a/V3 Ye ee\n",
+  "lines": [
+    "Tra-la-la",
+    "will_avelar",
+    "6a/V3 Ye ee"
+  ],
+  "name": "Tra-la-la",
+  "setter": "will_avelar",
+  "grade_raw": "6a/V3 Ye ee",
+  "grade_v": 3,
+  "stars": 2
+}

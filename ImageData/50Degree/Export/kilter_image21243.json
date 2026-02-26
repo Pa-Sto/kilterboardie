@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image21243.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 3
+  },
+  "raw_text": "power is technique\nalexkhazanov1\n\n8at/V12 Yroe ve\n",
+  "lines": [
+    "power is technique",
+    "alexkhazanov1",
+    "8at/V12 Yroe ve"
+  ],
+  "name": "power is technique",
+  "setter": "alexkhazanov1",
+  "grade_raw": "8at/V12 Yroe ve",
+  "grade_v": 12,
+  "stars": 2
+}

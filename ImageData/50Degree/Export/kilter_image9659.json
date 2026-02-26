@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image9659.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 3
+  },
+  "raw_text": "PT Cruiser\njwebxl\n\n6at/V3 Ye oroe\n",
+  "lines": [
+    "PT Cruiser",
+    "jwebxl",
+    "6at/V3 Ye oroe"
+  ],
+  "name": "PT Cruiser",
+  "setter": "jwebxl",
+  "grade_raw": "6at/V3 Ye oroe",
+  "grade_v": 3,
+  "stars": 4
+}

@@ -1,0 +1,31 @@
+{
+  "filename": "kilter_image4731.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 4,
+    "foot": 4
+  },
+  "raw_text": "A~AxzX\nSoS\nLimSeungWon98\n\n7bIVE Ye yee\n",
+  "lines": [
+    "A~AxzX",
+    "SoS",
+    "LimSeungWon98",
+    "7bIVE Ye yee"
+  ],
+  "name": "A~AxzX",
+  "setter": "SoS",
+  "grade_raw": "7bIVE Ye yee",
+  "grade_v": null,
+  "stars": 3
+}

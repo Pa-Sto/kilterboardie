@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image28008.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 2,
+    "hand": 4,
+    "foot": 7
+  },
+  "raw_text": "\u2018eachiness Is a Myth\nGirthQuake\n\n7b+/V8 Yee.\n",
+  "lines": [
+    "\u2018eachiness Is a Myth",
+    "GirthQuake",
+    "7b+/V8 Yee."
+  ],
+  "name": "\u2018eachiness Is a Myth",
+  "setter": "GirthQuake",
+  "grade_raw": "7b+/V8 Yee.",
+  "grade_v": 8,
+  "stars": 3
+}

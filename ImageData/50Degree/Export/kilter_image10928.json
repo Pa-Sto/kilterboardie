@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image10928.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 7
+  },
+  "raw_text": "ncing With A Strang\nc_Dog32\n\n7a/V6 Ye ee\n",
+  "lines": [
+    "ncing With A Strang",
+    "c_Dog32",
+    "7a/V6 Ye ee"
+  ],
+  "name": "ncing With A Strang",
+  "setter": "c_Dog32",
+  "grade_raw": "7a/V6 Ye ee",
+  "grade_v": 6,
+  "stars": 2
+}

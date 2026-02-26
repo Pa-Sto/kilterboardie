@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image19704.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 2,
+    "hand": 10,
+    "foot": 15
+  },
+  "raw_text": "ther One Bites the D\nwill_avelar\n\n6a/V3 Ye ee\n",
+  "lines": [
+    "ther One Bites the D",
+    "will_avelar",
+    "6a/V3 Ye ee"
+  ],
+  "name": "ther One Bites the D",
+  "setter": "will_avelar",
+  "grade_raw": "6a/V3 Ye ee",
+  "grade_v": 3,
+  "stars": 2
+}

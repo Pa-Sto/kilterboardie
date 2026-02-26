@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image8800.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 6,
+    "foot": 5
+  },
+  "raw_text": "GUNS and ROSEs\nThatsprettybrad\n\n7b/V8 Ye ee\n",
+  "lines": [
+    "GUNS and ROSEs",
+    "Thatsprettybrad",
+    "7b/V8 Ye ee"
+  ],
+  "name": "GUNS and ROSEs",
+  "setter": "Thatsprettybrad",
+  "grade_raw": "7b/V8 Ye ee",
+  "grade_v": 8,
+  "stars": 2
+}

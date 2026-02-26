@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image23098.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 7,
+    "foot": 5
+  },
+  "raw_text": "Remi's problem :3\nkyba\n\n6b/V4 ye yee\n",
+  "lines": [
+    "Remi's problem :3",
+    "kyba",
+    "6b/V4 ye yee"
+  ],
+  "name": "Remi's problem :3",
+  "setter": "kyba",
+  "grade_raw": "6b/V4 ye yee",
+  "grade_v": 4,
+  "stars": 3
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image24109.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 7,
+    "foot": 3
+  },
+  "raw_text": "Easier than this?\nAdrenaline.Factory\n\n6a/V3 Ye ee\n",
+  "lines": [
+    "Easier than this?",
+    "Adrenaline.Factory",
+    "6a/V3 Ye ee"
+  ],
+  "name": "Easier than this?",
+  "setter": "Adrenaline.Factory",
+  "grade_raw": "6a/V3 Ye ee",
+  "grade_v": 3,
+  "stars": 2
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image8553.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 4
+  },
+  "raw_text": "erlangen freestyle\nderwelt\n\n& 7c/V9 Ye vee\n",
+  "lines": [
+    "erlangen freestyle",
+    "derwelt",
+    "& 7c/V9 Ye vee"
+  ],
+  "name": "erlangen freestyle",
+  "setter": "derwelt",
+  "grade_raw": "& 7c/V9 Ye vee",
+  "grade_v": 9,
+  "stars": 3
+}

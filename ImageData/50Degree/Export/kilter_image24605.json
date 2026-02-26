@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image24605.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 4
+  },
+  "raw_text": "alone\nJamie_Jenkins\n\n7b+/V8 Yee.\n",
+  "lines": [
+    "alone",
+    "Jamie_Jenkins",
+    "7b+/V8 Yee."
+  ],
+  "name": "alone",
+  "setter": "Jamie_Jenkins",
+  "grade_raw": "7b+/V8 Yee.",
+  "grade_v": 8,
+  "stars": 3
+}

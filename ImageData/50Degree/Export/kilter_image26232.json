@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image26232.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 3,
+    "foot": 4
+  },
+  "raw_text": "son 2 Triple Threat <\nBKBChicago\n\n6c+/V5 Yevroe\n",
+  "lines": [
+    "son 2 Triple Threat <",
+    "BKBChicago",
+    "6c+/V5 Yevroe"
+  ],
+  "name": "son 2 Triple Threat <",
+  "setter": "BKBChicago",
+  "grade_raw": "6c+/V5 Yevroe",
+  "grade_v": 5,
+  "stars": 4
+}

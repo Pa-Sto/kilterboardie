@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image28022.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 5
+  },
+  "raw_text": "Poisoned Minds\n|AmNotADinosaur\n\n\u00ae& 8at+/V12 ye oe oe\n",
+  "lines": [
+    "Poisoned Minds",
+    "|AmNotADinosaur",
+    "\u00ae& 8at+/V12 ye oe oe"
+  ],
+  "name": "Poisoned Minds",
+  "setter": "|AmNotADinosaur",
+  "grade_raw": "\u00ae& 8at+/V12 ye oe oe",
+  "grade_v": 12,
+  "stars": 2
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image5474.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 3,
+    "foot": 1
+  },
+  "raw_text": "nds of Letterkenny $\nAndersBukker\n\n7c/V9 Ye vee\n",
+  "lines": [
+    "nds of Letterkenny $",
+    "AndersBukker",
+    "7c/V9 Ye vee"
+  ],
+  "name": "nds of Letterkenny $",
+  "setter": "AndersBukker",
+  "grade_raw": "7c/V9 Ye vee",
+  "grade_v": 9,
+  "stars": 3
+}

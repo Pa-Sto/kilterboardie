@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image17952.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 2
+  },
+  "raw_text": "liv \u2018n\nbotsy\n\n6c/V5 eee\n",
+  "lines": [
+    "liv \u2018n",
+    "botsy",
+    "6c/V5 eee"
+  ],
+  "name": "liv \u2018n",
+  "setter": "botsy",
+  "grade_raw": "6c/V5 eee",
+  "grade_v": 5,
+  "stars": 3
+}

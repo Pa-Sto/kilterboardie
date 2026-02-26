@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image11208.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 7,
+    "foot": 4
+  },
+  "raw_text": "Jormungandr\nmr_van_tastic\n\n7c+/V10 Yeo ve\n",
+  "lines": [
+    "Jormungandr",
+    "mr_van_tastic",
+    "7c+/V10 Yeo ve"
+  ],
+  "name": "Jormungandr",
+  "setter": "mr_van_tastic",
+  "grade_raw": "7c+/V10 Yeo ve",
+  "grade_v": 10,
+  "stars": 2
+}

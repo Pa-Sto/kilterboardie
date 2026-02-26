@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image19377.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 2
+  },
+  "raw_text": "Mr Meeseeks\njwilder\n\n6c+/V5 Yevroe\n",
+  "lines": [
+    "Mr Meeseeks",
+    "jwilder",
+    "6c+/V5 Yevroe"
+  ],
+  "name": "Mr Meeseeks",
+  "setter": "jwilder",
+  "grade_raw": "6c+/V5 Yevroe",
+  "grade_v": 5,
+  "stars": 4
+}

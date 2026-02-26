@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image19012.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 2
+  },
+  "raw_text": "@sssshht, Kyle!\nminimeow\n\n6at/V3 Ye oroe\n",
+  "lines": [
+    "@sssshht, Kyle!",
+    "minimeow",
+    "6at/V3 Ye oroe"
+  ],
+  "name": "@sssshht, Kyle!",
+  "setter": "minimeow",
+  "grade_raw": "6at/V3 Ye oroe",
+  "grade_v": 3,
+  "stars": 4
+}

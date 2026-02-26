@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image19415.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 4,
+    "foot": 3
+  },
+  "raw_text": "first Kurt boulder\nkurt_\n\n7c+/V10 ye vee\n",
+  "lines": [
+    "first Kurt boulder",
+    "kurt_",
+    "7c+/V10 ye vee"
+  ],
+  "name": "first Kurt boulder",
+  "setter": "kurt_",
+  "grade_raw": "7c+/V10 ye vee",
+  "grade_v": 10,
+  "stars": 3
+}

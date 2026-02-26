@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image21204.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 6
+  },
+  "raw_text": "\u2018le Avoidance Therar\nKilterStudio\n\n6at/V3 Yer e\n",
+  "lines": [
+    "\u2018le Avoidance Therar",
+    "KilterStudio",
+    "6at/V3 Yer e"
+  ],
+  "name": "\u2018le Avoidance Therar",
+  "setter": "KilterStudio",
+  "grade_raw": "6at/V3 Yer e",
+  "grade_v": 3,
+  "stars": 1
+}

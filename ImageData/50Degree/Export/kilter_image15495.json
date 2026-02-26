@@ -1,0 +1,29 @@
+{
+  "filename": "kilter_image15495.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 5
+  },
+  "raw_text": "laurin1503\n\n7b/V8 Ye ee\n",
+  "lines": [
+    "laurin1503",
+    "7b/V8 Ye ee"
+  ],
+  "name": "laurin1503",
+  "setter": "7b/V8 Ye ee",
+  "grade_raw": "7b/V8 Ye ee",
+  "grade_v": 8,
+  "stars": 2
+}

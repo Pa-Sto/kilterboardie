@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image21397.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 3,
+    "foot": 3
+  },
+  "raw_text": "Heavy Duty\nscro\n\n7c+/V10 ye vee\n",
+  "lines": [
+    "Heavy Duty",
+    "scro",
+    "7c+/V10 ye vee"
+  ],
+  "name": "Heavy Duty",
+  "setter": "scro",
+  "grade_raw": "7c+/V10 ye vee",
+  "grade_v": 10,
+  "stars": 3
+}

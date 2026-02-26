@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image4371.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 8
+  },
+  "raw_text": "not a hero\nmondragon\n\n7c/V9 Ye vee\n",
+  "lines": [
+    "not a hero",
+    "mondragon",
+    "7c/V9 Ye vee"
+  ],
+  "name": "not a hero",
+  "setter": "mondragon",
+  "grade_raw": "7c/V9 Ye vee",
+  "grade_v": 9,
+  "stars": 3
+}

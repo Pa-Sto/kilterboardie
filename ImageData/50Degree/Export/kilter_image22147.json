@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image22147.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 5
+  },
+  "raw_text": "Testpilot\nkany77\n\n6at/V3 Ye oroe\n",
+  "lines": [
+    "Testpilot",
+    "kany77",
+    "6at/V3 Ye oroe"
+  ],
+  "name": "Testpilot",
+  "setter": "kany77",
+  "grade_raw": "6at/V3 Ye oroe",
+  "grade_v": 3,
+  "stars": 4
+}

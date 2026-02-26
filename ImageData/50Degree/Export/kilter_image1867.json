@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image1867.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 2,
+    "hand": 6,
+    "foot": 6
+  },
+  "raw_text": "Shiny little star\nArne\n\n6b/V4 ye yee\n",
+  "lines": [
+    "Shiny little star",
+    "Arne",
+    "6b/V4 ye yee"
+  ],
+  "name": "Shiny little star",
+  "setter": "Arne",
+  "grade_raw": "6b/V4 ye yee",
+  "grade_v": 4,
+  "stars": 3
+}

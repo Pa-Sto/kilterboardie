@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image16532.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 11
+  },
+  "raw_text": "for mason 2\nboddha\n\n6b+/V4 Yeo.\n",
+  "lines": [
+    "for mason 2",
+    "boddha",
+    "6b+/V4 Yeo."
+  ],
+  "name": "for mason 2",
+  "setter": "boddha",
+  "grade_raw": "6b+/V4 Yeo.",
+  "grade_v": 4,
+  "stars": 3
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image212.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 4,
+    "foot": 2
+  },
+  "raw_text": "mirror of the soul\nHazen\n\n& 7c/V9 Ye vee\n",
+  "lines": [
+    "mirror of the soul",
+    "Hazen",
+    "& 7c/V9 Ye vee"
+  ],
+  "name": "mirror of the soul",
+  "setter": "Hazen",
+  "grade_raw": "& 7c/V9 Ye vee",
+  "grade_v": 9,
+  "stars": 3
+}

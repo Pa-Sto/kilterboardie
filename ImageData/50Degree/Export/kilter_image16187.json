@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image16187.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 5,
+    "foot": 2
+  },
+  "raw_text": "Shauna 3\nshaunafee\n\n8a/V11 eee\n",
+  "lines": [
+    "Shauna 3",
+    "shaunafee",
+    "8a/V11 eee"
+  ],
+  "name": "Shauna 3",
+  "setter": "shaunafee",
+  "grade_raw": "8a/V11 eee",
+  "grade_v": 11,
+  "stars": 3
+}

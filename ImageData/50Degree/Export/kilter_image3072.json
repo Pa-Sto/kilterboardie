@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image3072.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 2,
+    "hand": 6,
+    "foot": 4
+  },
+  "raw_text": "iid totally be at leas\u2019\nshmitch\n\n6a/V3 Ye ee\n",
+  "lines": [
+    "iid totally be at leas\u2019",
+    "shmitch",
+    "6a/V3 Ye ee"
+  ],
+  "name": "iid totally be at leas\u2019",
+  "setter": "shmitch",
+  "grade_raw": "6a/V3 Ye ee",
+  "grade_v": 3,
+  "stars": 2
+}

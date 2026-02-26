@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image23877.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 3,
+    "foot": 2
+  },
+  "raw_text": "Roll tide\njwebxl\n\nZat/V7 Yeo.\n",
+  "lines": [
+    "Roll tide",
+    "jwebxl",
+    "Zat/V7 Yeo."
+  ],
+  "name": "Roll tide",
+  "setter": "jwebxl",
+  "grade_raw": "Zat/V7 Yeo.",
+  "grade_v": 7,
+  "stars": 3
+}

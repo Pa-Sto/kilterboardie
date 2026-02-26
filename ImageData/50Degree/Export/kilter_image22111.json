@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image22111.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 5,
+    "finish": 1,
+    "hand": 4,
+    "foot": 6
+  },
+  "raw_text": ") Candles in the Win\n\nratclaw\n\n\u00ae 8a/V11 eke\n",
+  "lines": [
+    ") Candles in the Win",
+    "ratclaw",
+    "\u00ae 8a/V11 eke"
+  ],
+  "name": ") Candles in the Win",
+  "setter": "ratclaw",
+  "grade_raw": "\u00ae 8a/V11 eke",
+  "grade_v": 11,
+  "stars": 3
+}

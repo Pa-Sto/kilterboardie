@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image6929.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 6
+  },
+  "raw_text": "f the wagon mini mir\nfaisal\n\nZat/V7 Yeo.\n",
+  "lines": [
+    "f the wagon mini mir",
+    "faisal",
+    "Zat/V7 Yeo."
+  ],
+  "name": "f the wagon mini mir",
+  "setter": "faisal",
+  "grade_raw": "Zat/V7 Yeo.",
+  "grade_v": 7,
+  "stars": 3
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image18945.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 3,
+    "foot": 2
+  },
+  "raw_text": "YEET!!!!\nGW_kKilter\n\n6a/V3 Ye ee\n",
+  "lines": [
+    "YEET!!!!",
+    "GW_kKilter",
+    "6a/V3 Ye ee"
+  ],
+  "name": "YEET!!!!",
+  "setter": "GW_kKilter",
+  "grade_raw": "6a/V3 Ye ee",
+  "grade_v": 3,
+  "stars": 2
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image19847.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 3,
+    "finish": 1,
+    "hand": 5,
+    "foot": 3
+  },
+  "raw_text": "Cat Pillar\njwebxl\n\n7a/V6 Ye ee\n",
+  "lines": [
+    "Cat Pillar",
+    "jwebxl",
+    "7a/V6 Ye ee"
+  ],
+  "name": "Cat Pillar",
+  "setter": "jwebxl",
+  "grade_raw": "7a/V6 Ye ee",
+  "grade_v": 6,
+  "stars": 2
+}

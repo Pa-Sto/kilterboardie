@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image14839.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 4
+  },
+  "raw_text": "Left hand dim sum\nvukyle\n\n& 7b/V8 eke oe\n",
+  "lines": [
+    "Left hand dim sum",
+    "vukyle",
+    "& 7b/V8 eke oe"
+  ],
+  "name": "Left hand dim sum",
+  "setter": "vukyle",
+  "grade_raw": "& 7b/V8 eke oe",
+  "grade_v": 8,
+  "stars": 2
+}

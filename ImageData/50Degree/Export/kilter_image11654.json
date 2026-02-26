@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image11654.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 4,
+    "foot": 5
+  },
+  "raw_text": "Aj's boulder\nquintin_b\n\n& 7c/V9 Ye ve oe\n",
+  "lines": [
+    "Aj's boulder",
+    "quintin_b",
+    "& 7c/V9 Ye ve oe"
+  ],
+  "name": "Aj's boulder",
+  "setter": "quintin_b",
+  "grade_raw": "& 7c/V9 Ye ve oe",
+  "grade_v": 9,
+  "stars": 2
+}

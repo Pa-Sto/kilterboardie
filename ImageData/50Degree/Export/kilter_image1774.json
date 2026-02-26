@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image1774.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 3,
+    "foot": 3
+  },
+  "raw_text": "no pogo just pull\npat96\n7c+/V10 ye eve\n",
+  "lines": [
+    "no pogo just pull",
+    "pat96",
+    "7c+/V10 ye eve"
+  ],
+  "name": "no pogo just pull",
+  "setter": "pat96",
+  "grade_raw": "7c+/V10 ye eve",
+  "grade_v": 10,
+  "stars": 3
+}

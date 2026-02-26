@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image2346.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 4,
+    "foot": 4
+  },
+  "raw_text": "2aking Newton's Law\nAndrew\n\n\u00ae 7a+/V7 vee\n",
+  "lines": [
+    "2aking Newton's Law",
+    "Andrew",
+    "\u00ae 7a+/V7 vee"
+  ],
+  "name": "2aking Newton's Law",
+  "setter": "Andrew",
+  "grade_raw": "\u00ae 7a+/V7 vee",
+  "grade_v": 7,
+  "stars": 3
+}

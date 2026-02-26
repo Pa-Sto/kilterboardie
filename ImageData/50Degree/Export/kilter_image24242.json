@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image24242.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 2
+  },
+  "raw_text": "Errrproyect\nSputnik\n\n8at/V12 Yroe ve\n",
+  "lines": [
+    "Errrproyect",
+    "Sputnik",
+    "8at/V12 Yroe ve"
+  ],
+  "name": "Errrproyect",
+  "setter": "Sputnik",
+  "grade_raw": "8at/V12 Yroe ve",
+  "grade_v": 12,
+  "stars": 2
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image20077.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 6
+  },
+  "raw_text": "No Deal\ntrendyrendy\n\n7bIVE Ye yee\n",
+  "lines": [
+    "No Deal",
+    "trendyrendy",
+    "7bIVE Ye yee"
+  ],
+  "name": "No Deal",
+  "setter": "trendyrendy",
+  "grade_raw": "7bIVE Ye yee",
+  "grade_v": null,
+  "stars": 3
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image6711.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 8,
+    "foot": 6
+  },
+  "raw_text": "Slopy Tension\nArne\n\n7c/V9 Ye vee\n",
+  "lines": [
+    "Slopy Tension",
+    "Arne",
+    "7c/V9 Ye vee"
+  ],
+  "name": "Slopy Tension",
+  "setter": "Arne",
+  "grade_raw": "7c/V9 Ye vee",
+  "grade_v": 9,
+  "stars": 3
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image8406.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 0
+  },
+  "raw_text": "-ampus Onlyfans #1\ndevilsphilosopher\n\n6a/V3 Ye ee\n",
+  "lines": [
+    "-ampus Onlyfans #1",
+    "devilsphilosopher",
+    "6a/V3 Ye ee"
+  ],
+  "name": "-ampus Onlyfans #1",
+  "setter": "devilsphilosopher",
+  "grade_raw": "6a/V3 Ye ee",
+  "grade_v": 3,
+  "stars": 2
+}

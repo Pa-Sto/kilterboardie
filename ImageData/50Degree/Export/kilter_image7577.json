@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image7577.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 6,
+    "foot": 1
+  },
+  "raw_text": "Kiel training 1:1\nKilterStudio\n\nZat/V7 Yeo.\n",
+  "lines": [
+    "Kiel training 1:1",
+    "KilterStudio",
+    "Zat/V7 Yeo."
+  ],
+  "name": "Kiel training 1:1",
+  "setter": "KilterStudio",
+  "grade_raw": "Zat/V7 Yeo.",
+  "grade_v": 7,
+  "stars": 3
+}

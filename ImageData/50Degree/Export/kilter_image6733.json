@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image6733.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 7
+  },
+  "raw_text": "on't turn around, yet\nkiel\n\n7b/V8 Ye ee\n",
+  "lines": [
+    "on't turn around, yet",
+    "kiel",
+    "7b/V8 Ye ee"
+  ],
+  "name": "on't turn around, yet",
+  "setter": "kiel",
+  "grade_raw": "7b/V8 Ye ee",
+  "grade_v": 8,
+  "stars": 2
+}

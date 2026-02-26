@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image10664.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 5
+  },
+  "raw_text": "Antsy Dog\nCuckovich\n\n6b/V4 ye yee\n",
+  "lines": [
+    "Antsy Dog",
+    "Cuckovich",
+    "6b/V4 ye yee"
+  ],
+  "name": "Antsy Dog",
+  "setter": "Cuckovich",
+  "grade_raw": "6b/V4 ye yee",
+  "grade_v": 4,
+  "stars": 3
+}

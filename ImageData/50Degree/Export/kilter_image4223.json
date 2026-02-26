@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image4223.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 4
+  },
+  "raw_text": "Good stuff\njwebxl\n\nS TalV6 eee\n",
+  "lines": [
+    "Good stuff",
+    "jwebxl",
+    "S TalV6 eee"
+  ],
+  "name": "Good stuff",
+  "setter": "jwebxl",
+  "grade_raw": "S TalV6 eee",
+  "grade_v": 6,
+  "stars": 3
+}

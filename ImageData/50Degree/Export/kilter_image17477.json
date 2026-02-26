@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image17477.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 2,
+    "hand": 7,
+    "foot": 8
+  },
+  "raw_text": "Alienor\nBKBChicago\n\n6b/V4 ye yee\n",
+  "lines": [
+    "Alienor",
+    "BKBChicago",
+    "6b/V4 ye yee"
+  ],
+  "name": "Alienor",
+  "setter": "BKBChicago",
+  "grade_raw": "6b/V4 ye yee",
+  "grade_v": 4,
+  "stars": 3
+}

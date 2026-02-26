@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image19167.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 5,
+    "foot": 6
+  },
+  "raw_text": "Miley Skybus\nmikey.rocks\n\n6c/V5 eee\n",
+  "lines": [
+    "Miley Skybus",
+    "mikey.rocks",
+    "6c/V5 eee"
+  ],
+  "name": "Miley Skybus",
+  "setter": "mikey.rocks",
+  "grade_raw": "6c/V5 eee",
+  "grade_v": 5,
+  "stars": 3
+}

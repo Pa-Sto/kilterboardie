@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image3402.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 3
+  },
+  "raw_text": "STEIL helicopter &\nAlex2004\n\n\u00ae 8a/V11 eke\n",
+  "lines": [
+    "STEIL helicopter &",
+    "Alex2004",
+    "\u00ae 8a/V11 eke"
+  ],
+  "name": "STEIL helicopter &",
+  "setter": "Alex2004",
+  "grade_raw": "\u00ae 8a/V11 eke",
+  "grade_v": 11,
+  "stars": 3
+}

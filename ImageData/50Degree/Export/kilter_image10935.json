@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image10935.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 3
+  },
+  "raw_text": "PonPon\nkeita\n\n7a/V6 Ye ee\n",
+  "lines": [
+    "PonPon",
+    "keita",
+    "7a/V6 Ye ee"
+  ],
+  "name": "PonPon",
+  "setter": "keita",
+  "grade_raw": "7a/V6 Ye ee",
+  "grade_v": 6,
+  "stars": 2
+}

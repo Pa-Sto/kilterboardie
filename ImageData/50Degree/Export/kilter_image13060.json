@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image13060.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 0
+  },
+  "raw_text": "Rocampus\nSharma_Climbing_BCN\n\n\u00ae& 8at+/V12 ye oe oe\n",
+  "lines": [
+    "Rocampus",
+    "Sharma_Climbing_BCN",
+    "\u00ae& 8at+/V12 ye oe oe"
+  ],
+  "name": "Rocampus",
+  "setter": "Sharma_Climbing_BCN",
+  "grade_raw": "\u00ae& 8at+/V12 ye oe oe",
+  "grade_v": 12,
+  "stars": 2
+}

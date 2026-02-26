@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image11519.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 2
+  },
+  "raw_text": "BG 1\njwebxl\n\n6at/V3 Ye oroe\n",
+  "lines": [
+    "BG 1",
+    "jwebxl",
+    "6at/V3 Ye oroe"
+  ],
+  "name": "BG 1",
+  "setter": "jwebxl",
+  "grade_raw": "6at/V3 Ye oroe",
+  "grade_v": 3,
+  "stars": 4
+}

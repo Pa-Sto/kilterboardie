@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image19475.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 3,
+    "foot": 4
+  },
+  "raw_text": "I'ts Local\nido.ilouz\n\n7c+/V10 Yeo ve\n",
+  "lines": [
+    "I'ts Local",
+    "ido.ilouz",
+    "7c+/V10 Yeo ve"
+  ],
+  "name": "I'ts Local",
+  "setter": "ido.ilouz",
+  "grade_raw": "7c+/V10 Yeo ve",
+  "grade_v": 10,
+  "stars": 2
+}

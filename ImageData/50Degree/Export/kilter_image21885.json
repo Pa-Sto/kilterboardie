@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image21885.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 5
+  },
+  "raw_text": "Pico de Gallo\nyoti\n\n7b/V8 Ye ee\n",
+  "lines": [
+    "Pico de Gallo",
+    "yoti",
+    "7b/V8 Ye ee"
+  ],
+  "name": "Pico de Gallo",
+  "setter": "yoti",
+  "grade_raw": "7b/V8 Ye ee",
+  "grade_v": 8,
+  "stars": 2
+}

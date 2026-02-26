@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image11021.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 5
+  },
+  "raw_text": "teil\u2019s steiler Sommer\nsteil.boulderhalle\n\n7c+/V10 ye vee\n",
+  "lines": [
+    "teil\u2019s steiler Sommer",
+    "steil.boulderhalle",
+    "7c+/V10 ye vee"
+  ],
+  "name": "teil\u2019s steiler Sommer",
+  "setter": "steil.boulderhalle",
+  "grade_raw": "7c+/V10 ye vee",
+  "grade_v": 10,
+  "stars": 3
+}

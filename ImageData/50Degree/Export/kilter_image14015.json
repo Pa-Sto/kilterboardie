@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image14015.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 4
+  },
+  "raw_text": "Jule's 45deg treats\nShawn_lab06\n6a/V3 yee\n",
+  "lines": [
+    "Jule's 45deg treats",
+    "Shawn_lab06",
+    "6a/V3 yee"
+  ],
+  "name": "Jule's 45deg treats",
+  "setter": "Shawn_lab06",
+  "grade_raw": "6a/V3 yee",
+  "grade_v": 3,
+  "stars": 3
+}

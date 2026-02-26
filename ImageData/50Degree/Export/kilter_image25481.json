@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image25481.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 5,
+    "foot": 4
+  },
+  "raw_text": "Charlie Work\nimportedbean\n\n7b/V8 Ye ee\n",
+  "lines": [
+    "Charlie Work",
+    "importedbean",
+    "7b/V8 Ye ee"
+  ],
+  "name": "Charlie Work",
+  "setter": "importedbean",
+  "grade_raw": "7b/V8 Ye ee",
+  "grade_v": 8,
+  "stars": 2
+}

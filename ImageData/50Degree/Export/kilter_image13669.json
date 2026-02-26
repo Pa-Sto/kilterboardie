@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image13669.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 2,
+    "hand": 5,
+    "foot": 2
+  },
+  "raw_text": "10 beer and massage\ncold__pizza\n\n6ct/V5 Yee\n",
+  "lines": [
+    "10 beer and massage",
+    "cold__pizza",
+    "6ct/V5 Yee"
+  ],
+  "name": "10 beer and massage",
+  "setter": "cold__pizza",
+  "grade_raw": "6ct/V5 Yee",
+  "grade_v": 5,
+  "stars": 3
+}

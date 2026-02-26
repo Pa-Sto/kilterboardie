@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image12658.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 6,
+    "foot": 4
+  },
+  "raw_text": "Crouching Tiger V8\naustinsivo\n\nZat/V7 Yeo.\n",
+  "lines": [
+    "Crouching Tiger V8",
+    "austinsivo",
+    "Zat/V7 Yeo."
+  ],
+  "name": "Crouching Tiger V8",
+  "setter": "austinsivo",
+  "grade_raw": "Zat/V7 Yeo.",
+  "grade_v": 7,
+  "stars": 3
+}

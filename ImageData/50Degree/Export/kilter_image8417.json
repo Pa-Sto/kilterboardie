@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image8417.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 3,
+    "foot": 4
+  },
+  "raw_text": "reeses in pieces\nryanneedles\n\n8a/V11 eee\n",
+  "lines": [
+    "reeses in pieces",
+    "ryanneedles",
+    "8a/V11 eee"
+  ],
+  "name": "reeses in pieces",
+  "setter": "ryanneedles",
+  "grade_raw": "8a/V11 eee",
+  "grade_v": 11,
+  "stars": 3
+}

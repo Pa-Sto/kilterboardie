@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image18014.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 2,
+    "foot": 3
+  },
+  "raw_text": "Fly high\nBenny9595\n\n7c/V9 Ye vee\n",
+  "lines": [
+    "Fly high",
+    "Benny9595",
+    "7c/V9 Ye vee"
+  ],
+  "name": "Fly high",
+  "setter": "Benny9595",
+  "grade_raw": "7c/V9 Ye vee",
+  "grade_v": 9,
+  "stars": 3
+}

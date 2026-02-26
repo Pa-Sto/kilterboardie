@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image27000.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 7,
+    "foot": 5
+  },
+  "raw_text": "Boot Spur\ns14rob\n\n6c/V5 eee\n",
+  "lines": [
+    "Boot Spur",
+    "s14rob",
+    "6c/V5 eee"
+  ],
+  "name": "Boot Spur",
+  "setter": "s14rob",
+  "grade_raw": "6c/V5 eee",
+  "grade_v": 5,
+  "stars": 3
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image21498.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 5,
+    "foot": 1
+  },
+  "raw_text": "inch with the dawgs\nqblidp\n\n& 7c+/V10 9&9\n",
+  "lines": [
+    "inch with the dawgs",
+    "qblidp",
+    "& 7c+/V10 9&9"
+  ],
+  "name": "inch with the dawgs",
+  "setter": "qblidp",
+  "grade_raw": "& 7c+/V10 9&9",
+  "grade_v": 10,
+  "stars": null
+}

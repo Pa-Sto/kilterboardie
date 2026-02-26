@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image10319.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 3,
+    "finish": 1,
+    "hand": 5,
+    "foot": 6
+  },
+  "raw_text": "Bump it!\nJayson\n\n& 6a/V3 eke\n",
+  "lines": [
+    "Bump it!",
+    "Jayson",
+    "& 6a/V3 eke"
+  ],
+  "name": "Bump it!",
+  "setter": "Jayson",
+  "grade_raw": "& 6a/V3 eke",
+  "grade_v": 3,
+  "stars": 3
+}

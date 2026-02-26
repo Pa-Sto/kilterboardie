@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image9550.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 9,
+    "foot": 4
+  },
+  "raw_text": "Gotta Poop\nGirthQuake\n\n6b/V4 ye yee\n",
+  "lines": [
+    "Gotta Poop",
+    "GirthQuake",
+    "6b/V4 ye yee"
+  ],
+  "name": "Gotta Poop",
+  "setter": "GirthQuake",
+  "grade_raw": "6b/V4 ye yee",
+  "grade_v": 4,
+  "stars": 3
+}

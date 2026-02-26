@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image15017.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 8,
+    "foot": 7
+  },
+  "raw_text": "naster of stinking so\nkerstin1020\n\n6at/V3 Ye oroe\n",
+  "lines": [
+    "naster of stinking so",
+    "kerstin1020",
+    "6at/V3 Ye oroe"
+  ],
+  "name": "naster of stinking so",
+  "setter": "kerstin1020",
+  "grade_raw": "6at/V3 Ye oroe",
+  "grade_v": 3,
+  "stars": 4
+}

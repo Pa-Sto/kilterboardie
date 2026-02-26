@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image9094.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 2,
+    "hand": 3,
+    "foot": 1
+  },
+  "raw_text": "3angers and Mash 2\ntlandman\n\nZat/V7 Yeo.\n",
+  "lines": [
+    "3angers and Mash 2",
+    "tlandman",
+    "Zat/V7 Yeo."
+  ],
+  "name": "3angers and Mash 2",
+  "setter": "tlandman",
+  "grade_raw": "Zat/V7 Yeo.",
+  "grade_v": 7,
+  "stars": 3
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image2027.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 7,
+    "foot": 6
+  },
+  "raw_text": "is the new yellow ak\nwandzi\n\n7c+/V10 ye vee\n",
+  "lines": [
+    "is the new yellow ak",
+    "wandzi",
+    "7c+/V10 ye vee"
+  ],
+  "name": "is the new yellow ak",
+  "setter": "wandzi",
+  "grade_raw": "7c+/V10 ye vee",
+  "grade_v": 10,
+  "stars": 3
+}

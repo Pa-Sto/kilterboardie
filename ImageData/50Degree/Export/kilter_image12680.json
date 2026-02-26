@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image12680.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 6
+  },
+  "raw_text": "Dad?\njwebxl\n\nS TalV6 eee\n",
+  "lines": [
+    "Dad?",
+    "jwebxl",
+    "S TalV6 eee"
+  ],
+  "name": "Dad?",
+  "setter": "jwebxl",
+  "grade_raw": "S TalV6 eee",
+  "grade_v": 6,
+  "stars": 3
+}

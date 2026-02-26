@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image5086.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 2,
+    "foot": 1
+  },
+  "raw_text": "13s big Texas\nthe__zac\n\n7c+/V10 Yeo ve\n",
+  "lines": [
+    "13s big Texas",
+    "the__zac",
+    "7c+/V10 Yeo ve"
+  ],
+  "name": "13s big Texas",
+  "setter": "the__zac",
+  "grade_raw": "7c+/V10 Yeo ve",
+  "grade_v": 10,
+  "stars": 2
+}

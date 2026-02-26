@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image11100.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 7,
+    "foot": 5
+  },
+  "raw_text": "Cherry On Top &\nLimSeungWon98\n\n\u00ae& 7b+/V8 yk ke oe\n",
+  "lines": [
+    "Cherry On Top &",
+    "LimSeungWon98",
+    "\u00ae& 7b+/V8 yk ke oe"
+  ],
+  "name": "Cherry On Top &",
+  "setter": "LimSeungWon98",
+  "grade_raw": "\u00ae& 7b+/V8 yk ke oe",
+  "grade_v": 8,
+  "stars": 2
+}

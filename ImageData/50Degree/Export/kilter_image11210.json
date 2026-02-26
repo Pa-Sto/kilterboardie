@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image11210.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 3,
+    "foot": 1
+  },
+  "raw_text": "parish\nandrewharmon\n\n7bIVE Ye yee\n",
+  "lines": [
+    "parish",
+    "andrewharmon",
+    "7bIVE Ye yee"
+  ],
+  "name": "parish",
+  "setter": "andrewharmon",
+  "grade_raw": "7bIVE Ye yee",
+  "grade_v": null,
+  "stars": 3
+}

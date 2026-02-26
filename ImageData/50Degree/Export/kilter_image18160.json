@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image18160.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 4
+  },
+  "raw_text": "\u2018deeeee. Carl Carmo\njackson5240\n\nZat/V7 Yeo.\n",
+  "lines": [
+    "\u2018deeeee. Carl Carmo",
+    "jackson5240",
+    "Zat/V7 Yeo."
+  ],
+  "name": "\u2018deeeee. Carl Carmo",
+  "setter": "jackson5240",
+  "grade_raw": "Zat/V7 Yeo.",
+  "grade_v": 7,
+  "stars": 3
+}

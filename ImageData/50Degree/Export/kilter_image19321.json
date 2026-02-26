@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image19321.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 2
+  },
+  "raw_text": "Dad Sports\ngriffinwhiteside\n\nZat/V7 Yeo.\n",
+  "lines": [
+    "Dad Sports",
+    "griffinwhiteside",
+    "Zat/V7 Yeo."
+  ],
+  "name": "Dad Sports",
+  "setter": "griffinwhiteside",
+  "grade_raw": "Zat/V7 Yeo.",
+  "grade_v": 7,
+  "stars": 3
+}

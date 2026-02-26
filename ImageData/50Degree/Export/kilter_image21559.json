@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image21559.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 8,
+    "foot": 5
+  },
+  "raw_text": "100 Joints\nagrphoto\n\n6c+/V5 Yevroe\n",
+  "lines": [
+    "100 Joints",
+    "agrphoto",
+    "6c+/V5 Yevroe"
+  ],
+  "name": "100 Joints",
+  "setter": "agrphoto",
+  "grade_raw": "6c+/V5 Yevroe",
+  "grade_v": 5,
+  "stars": 4
+}

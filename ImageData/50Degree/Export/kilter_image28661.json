@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image28661.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 3,
+    "foot": 5
+  },
+  "raw_text": "Frontside\nadriankask\n\n7b+/V8 Yee.\n",
+  "lines": [
+    "Frontside",
+    "adriankask",
+    "7b+/V8 Yee."
+  ],
+  "name": "Frontside",
+  "setter": "adriankask",
+  "grade_raw": "7b+/V8 Yee.",
+  "grade_v": 8,
+  "stars": 3
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image3735.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 7,
+    "foot": 6
+  },
+  "raw_text": "ung Whippersnappe\nkilterjackie\n\n7b/V8 Ye ee\n",
+  "lines": [
+    "ung Whippersnappe",
+    "kilterjackie",
+    "7b/V8 Ye ee"
+  ],
+  "name": "ung Whippersnappe",
+  "setter": "kilterjackie",
+  "grade_raw": "7b/V8 Ye ee",
+  "grade_v": 8,
+  "stars": 2
+}

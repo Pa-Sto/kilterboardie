@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image19238.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 1
+  },
+  "raw_text": "Ny Weak Right Hand\nvukyle\n\n& 7c/V9 Ye ye oe\n",
+  "lines": [
+    "Ny Weak Right Hand",
+    "vukyle",
+    "& 7c/V9 Ye ye oe"
+  ],
+  "name": "Ny Weak Right Hand",
+  "setter": "vukyle",
+  "grade_raw": "& 7c/V9 Ye ye oe",
+  "grade_v": 9,
+  "stars": 2
+}

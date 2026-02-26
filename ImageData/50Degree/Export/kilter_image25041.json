@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image25041.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 2,
+    "hand": 2,
+    "foot": 4
+  },
+  "raw_text": "p11\nSean0318\n7c+/V10 Yeo ve\n",
+  "lines": [
+    "p11",
+    "Sean0318",
+    "7c+/V10 Yeo ve"
+  ],
+  "name": "p11",
+  "setter": "Sean0318",
+  "grade_raw": "7c+/V10 Yeo ve",
+  "grade_v": 10,
+  "stars": 2
+}

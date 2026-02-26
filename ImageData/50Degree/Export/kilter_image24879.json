@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image24879.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 7
+  },
+  "raw_text": "Crowd Control\nKilterStudio\n\n6b/V4 ye yee\n",
+  "lines": [
+    "Crowd Control",
+    "KilterStudio",
+    "6b/V4 ye yee"
+  ],
+  "name": "Crowd Control",
+  "setter": "KilterStudio",
+  "grade_raw": "6b/V4 ye yee",
+  "grade_v": 4,
+  "stars": 3
+}

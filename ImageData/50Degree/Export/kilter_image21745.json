@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image21745.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 6,
+    "foot": 7
+  },
+  "raw_text": "mak atak\njwebxl\n\n6at/V3 Ye oroe\n",
+  "lines": [
+    "mak atak",
+    "jwebxl",
+    "6at/V3 Ye oroe"
+  ],
+  "name": "mak atak",
+  "setter": "jwebxl",
+  "grade_raw": "6at/V3 Ye oroe",
+  "grade_v": 3,
+  "stars": 4
+}

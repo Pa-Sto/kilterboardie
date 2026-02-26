@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image26901.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 4,
+    "foot": 2
+  },
+  "raw_text": "Brendan has a\nBayers24\n\n7b/V8 Ye ee\n",
+  "lines": [
+    "Brendan has a",
+    "Bayers24",
+    "7b/V8 Ye ee"
+  ],
+  "name": "Brendan has a",
+  "setter": "Bayers24",
+  "grade_raw": "7b/V8 Ye ee",
+  "grade_v": 8,
+  "stars": 2
+}

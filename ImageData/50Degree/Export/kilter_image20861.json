@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image20861.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 2
+  },
+  "raw_text": "Beat It\nKilterStudio\n\n6b/V4 ye yee\n",
+  "lines": [
+    "Beat It",
+    "KilterStudio",
+    "6b/V4 ye yee"
+  ],
+  "name": "Beat It",
+  "setter": "KilterStudio",
+  "grade_raw": "6b/V4 ye yee",
+  "grade_v": 4,
+  "stars": 3
+}

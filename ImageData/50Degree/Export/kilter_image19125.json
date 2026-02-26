@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image19125.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 4
+  },
+  "raw_text": "Bend and Snap\ndperez\n\n6b/V4 ye yee\n",
+  "lines": [
+    "Bend and Snap",
+    "dperez",
+    "6b/V4 ye yee"
+  ],
+  "name": "Bend and Snap",
+  "setter": "dperez",
+  "grade_raw": "6b/V4 ye yee",
+  "grade_v": 4,
+  "stars": 3
+}

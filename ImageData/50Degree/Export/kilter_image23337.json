@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image23337.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 7,
+    "foot": 5
+  },
+  "raw_text": "Tusken\nArne\n\n7bIVE Ye yee\n",
+  "lines": [
+    "Tusken",
+    "Arne",
+    "7bIVE Ye yee"
+  ],
+  "name": "Tusken",
+  "setter": "Arne",
+  "grade_raw": "7bIVE Ye yee",
+  "grade_v": null,
+  "stars": 3
+}

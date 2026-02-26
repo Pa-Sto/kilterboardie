@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image11597.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 3,
+    "foot": 3
+  },
+  "raw_text": "yrecast for tomorrov\nrian_smyth\n\n& 7b/V8 ek oe\n",
+  "lines": [
+    "yrecast for tomorrov",
+    "rian_smyth",
+    "& 7b/V8 ek oe"
+  ],
+  "name": "yrecast for tomorrov",
+  "setter": "rian_smyth",
+  "grade_raw": "& 7b/V8 ek oe",
+  "grade_v": 8,
+  "stars": 2
+}

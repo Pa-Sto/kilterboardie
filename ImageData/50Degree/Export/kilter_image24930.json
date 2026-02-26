@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image24930.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 5
+  },
+  "raw_text": "IT Bandit\nKilterStudio\n\n7a/V6 Ye ee\n",
+  "lines": [
+    "IT Bandit",
+    "KilterStudio",
+    "7a/V6 Ye ee"
+  ],
+  "name": "IT Bandit",
+  "setter": "KilterStudio",
+  "grade_raw": "7a/V6 Ye ee",
+  "grade_v": 6,
+  "stars": 2
+}

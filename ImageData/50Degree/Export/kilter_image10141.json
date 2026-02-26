@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image10141.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 3,
+    "foot": 7
+  },
+  "raw_text": "twisty McFly\ngigi9311\n\n7c+/V10 Yeo ve\n",
+  "lines": [
+    "twisty McFly",
+    "gigi9311",
+    "7c+/V10 Yeo ve"
+  ],
+  "name": "twisty McFly",
+  "setter": "gigi9311",
+  "grade_raw": "7c+/V10 Yeo ve",
+  "grade_v": 10,
+  "stars": 2
+}

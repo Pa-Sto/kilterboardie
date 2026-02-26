@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image6051.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 2
+  },
+  "raw_text": "jump n' run\nallez_ale\n\n7c/V9 Ye vee\n",
+  "lines": [
+    "jump n' run",
+    "allez_ale",
+    "7c/V9 Ye vee"
+  ],
+  "name": "jump n' run",
+  "setter": "allez_ale",
+  "grade_raw": "7c/V9 Ye vee",
+  "grade_v": 9,
+  "stars": 3
+}

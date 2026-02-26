@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image103.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 3
+  },
+  "raw_text": "yw long is your span\nAlexanderMegos\n\n\u00a9 8b/V13 ok\n",
+  "lines": [
+    "yw long is your span",
+    "AlexanderMegos",
+    "\u00a9 8b/V13 ok"
+  ],
+  "name": "yw long is your span",
+  "setter": "AlexanderMegos",
+  "grade_raw": "\u00a9 8b/V13 ok",
+  "grade_v": 13,
+  "stars": 2
+}

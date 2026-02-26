@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image3064.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 4,
+    "foot": 4
+  },
+  "raw_text": "Noodle Gore\nsakahiet\n\n7a/V6 Ye ee\n",
+  "lines": [
+    "Noodle Gore",
+    "sakahiet",
+    "7a/V6 Ye ee"
+  ],
+  "name": "Noodle Gore",
+  "setter": "sakahiet",
+  "grade_raw": "7a/V6 Ye ee",
+  "grade_v": 6,
+  "stars": 2
+}

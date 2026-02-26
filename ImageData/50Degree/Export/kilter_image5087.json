@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image5087.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 6
+  },
+  "raw_text": "bmission (B Variatio1\nRavioliTriceps\n\n7c+/V10 ye vee\n",
+  "lines": [
+    "bmission (B Variatio1",
+    "RavioliTriceps",
+    "7c+/V10 ye vee"
+  ],
+  "name": "bmission (B Variatio1",
+  "setter": "RavioliTriceps",
+  "grade_raw": "7c+/V10 ye vee",
+  "grade_v": 10,
+  "stars": 3
+}

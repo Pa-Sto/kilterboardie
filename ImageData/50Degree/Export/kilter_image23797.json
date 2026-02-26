@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image23797.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 2
+  },
+  "raw_text": "am | tall??\nleeyspaul\n\n6a/V3 Ye ee\n",
+  "lines": [
+    "am | tall??",
+    "leeyspaul",
+    "6a/V3 Ye ee"
+  ],
+  "name": "am | tall??",
+  "setter": "leeyspaul",
+  "grade_raw": "6a/V3 Ye ee",
+  "grade_v": 3,
+  "stars": 2
+}

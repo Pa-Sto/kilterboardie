@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image22826.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 7,
+    "foot": 5
+  },
+  "raw_text": "Down pour\njwebxl\n\n6b+/V4 Yeo.\n",
+  "lines": [
+    "Down pour",
+    "jwebxl",
+    "6b+/V4 Yeo."
+  ],
+  "name": "Down pour",
+  "setter": "jwebxl",
+  "grade_raw": "6b+/V4 Yeo.",
+  "grade_v": 4,
+  "stars": 3
+}

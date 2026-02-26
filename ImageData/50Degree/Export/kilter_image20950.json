@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image20950.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 4,
+    "foot": 2
+  },
+  "raw_text": "n't Fart in a Spacest\njwilder\n\n@ 6b/V4 ke kee\n",
+  "lines": [
+    "n't Fart in a Spacest",
+    "jwilder",
+    "@ 6b/V4 ke kee"
+  ],
+  "name": "n't Fart in a Spacest",
+  "setter": "jwilder",
+  "grade_raw": "@ 6b/V4 ke kee",
+  "grade_v": 4,
+  "stars": 3
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image20449.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 8,
+    "foot": 3
+  },
+  "raw_text": "Squeege\njwebxl\n\n7a/V6 Ye ee\n",
+  "lines": [
+    "Squeege",
+    "jwebxl",
+    "7a/V6 Ye ee"
+  ],
+  "name": "Squeege",
+  "setter": "jwebxl",
+  "grade_raw": "7a/V6 Ye ee",
+  "grade_v": 6,
+  "stars": 2
+}

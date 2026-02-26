@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image11118.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 3,
+    "foot": 4
+  },
+  "raw_text": "king James\ncliff_shredder\n\n7c+/V10 Yeo ve\n",
+  "lines": [
+    "king James",
+    "cliff_shredder",
+    "7c+/V10 Yeo ve"
+  ],
+  "name": "king James",
+  "setter": "cliff_shredder",
+  "grade_raw": "7c+/V10 Yeo ve",
+  "grade_v": 10,
+  "stars": 2
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image10977.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 5
+  },
+  "raw_text": "Swang\nmyleswamsley\n\n@ 6b/V4 He ee\n",
+  "lines": [
+    "Swang",
+    "myleswamsley",
+    "@ 6b/V4 He ee"
+  ],
+  "name": "Swang",
+  "setter": "myleswamsley",
+  "grade_raw": "@ 6b/V4 He ee",
+  "grade_v": 4,
+  "stars": 2
+}

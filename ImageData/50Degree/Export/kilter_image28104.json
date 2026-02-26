@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image28104.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 5,
+    "foot": 6
+  },
+  "raw_text": "underklingon\nryanneedles\n\n6b/V4 ye yee\n",
+  "lines": [
+    "underklingon",
+    "ryanneedles",
+    "6b/V4 ye yee"
+  ],
+  "name": "underklingon",
+  "setter": "ryanneedles",
+  "grade_raw": "6b/V4 ye yee",
+  "grade_v": 4,
+  "stars": 3
+}

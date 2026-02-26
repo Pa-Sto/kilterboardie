@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image20280.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 3
+  },
+  "raw_text": "the Wifi of Seoul\nsangwoo_lee.de\n\n& 7c/V9 Ye vee\n",
+  "lines": [
+    "the Wifi of Seoul",
+    "sangwoo_lee.de",
+    "& 7c/V9 Ye vee"
+  ],
+  "name": "the Wifi of Seoul",
+  "setter": "sangwoo_lee.de",
+  "grade_raw": "& 7c/V9 Ye vee",
+  "grade_v": 9,
+  "stars": 3
+}

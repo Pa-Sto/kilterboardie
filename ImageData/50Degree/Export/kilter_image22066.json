@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image22066.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 2
+  },
+  "raw_text": "quay 30 board\nJoegott\n\nZat/V7 Yeo.\n",
+  "lines": [
+    "quay 30 board",
+    "Joegott",
+    "Zat/V7 Yeo."
+  ],
+  "name": "quay 30 board",
+  "setter": "Joegott",
+  "grade_raw": "Zat/V7 Yeo.",
+  "grade_v": 7,
+  "stars": 3
+}

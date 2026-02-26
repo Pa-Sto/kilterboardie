@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image2222.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 2,
+    "foot": 3
+  },
+  "raw_text": "floundering time\npaulnagy\n\n\u00ae& 7b+/V8 yk ke oe\n",
+  "lines": [
+    "floundering time",
+    "paulnagy",
+    "\u00ae& 7b+/V8 yk ke oe"
+  ],
+  "name": "floundering time",
+  "setter": "paulnagy",
+  "grade_raw": "\u00ae& 7b+/V8 yk ke oe",
+  "grade_v": 8,
+  "stars": 2
+}

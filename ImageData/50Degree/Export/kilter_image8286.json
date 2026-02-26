@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image8286.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 5,
+    "foot": 5
+  },
+  "raw_text": "New Quick Suck\nKilterStudio\n\n6c/V5 eee\n",
+  "lines": [
+    "New Quick Suck",
+    "KilterStudio",
+    "6c/V5 eee"
+  ],
+  "name": "New Quick Suck",
+  "setter": "KilterStudio",
+  "grade_raw": "6c/V5 eee",
+  "grade_v": 5,
+  "stars": 3
+}

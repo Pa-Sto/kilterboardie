@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image2265.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 4
+  },
+  "raw_text": "Warm Up BN 1\nbennorman\n\n6b/V4 ye yee\n",
+  "lines": [
+    "Warm Up BN 1",
+    "bennorman",
+    "6b/V4 ye yee"
+  ],
+  "name": "Warm Up BN 1",
+  "setter": "bennorman",
+  "grade_raw": "6b/V4 ye yee",
+  "grade_v": 4,
+  "stars": 3
+}

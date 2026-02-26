@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image24830.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 7
+  },
+  "raw_text": "Tex Dinoco\nAndrew\n\n& 7a/V6 ke ee\n",
+  "lines": [
+    "Tex Dinoco",
+    "Andrew",
+    "& 7a/V6 ke ee"
+  ],
+  "name": "Tex Dinoco",
+  "setter": "Andrew",
+  "grade_raw": "& 7a/V6 ke ee",
+  "grade_v": 6,
+  "stars": 2
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image4423.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 3,
+    "finish": 1,
+    "hand": 4,
+    "foot": 3
+  },
+  "raw_text": "mums the word\njwebxl\n\n6c/V5 eee\n",
+  "lines": [
+    "mums the word",
+    "jwebxl",
+    "6c/V5 eee"
+  ],
+  "name": "mums the word",
+  "setter": "jwebxl",
+  "grade_raw": "6c/V5 eee",
+  "grade_v": 5,
+  "stars": 3
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image12687.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 8,
+    "foot": 4
+  },
+  "raw_text": "For Nessa\nAhnsight\n\n6c/V5 eee\n",
+  "lines": [
+    "For Nessa",
+    "Ahnsight",
+    "6c/V5 eee"
+  ],
+  "name": "For Nessa",
+  "setter": "Ahnsight",
+  "grade_raw": "6c/V5 eee",
+  "grade_v": 5,
+  "stars": 3
+}

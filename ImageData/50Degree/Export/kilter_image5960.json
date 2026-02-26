@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image5960.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 2
+  },
+  "raw_text": "ter Board Koncussio\nnickwedge\n\n7a/V6 Ye ee\n",
+  "lines": [
+    "ter Board Koncussio",
+    "nickwedge",
+    "7a/V6 Ye ee"
+  ],
+  "name": "ter Board Koncussio",
+  "setter": "nickwedge",
+  "grade_raw": "7a/V6 Ye ee",
+  "grade_v": 6,
+  "stars": 2
+}

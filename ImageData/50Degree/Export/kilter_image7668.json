@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image7668.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 9,
+    "foot": 8
+  },
+  "raw_text": "e's Harder Lemonac\njun_ueda\n\n7a/V6 Ye ee\n",
+  "lines": [
+    "e's Harder Lemonac",
+    "jun_ueda",
+    "7a/V6 Ye ee"
+  ],
+  "name": "e's Harder Lemonac",
+  "setter": "jun_ueda",
+  "grade_raw": "7a/V6 Ye ee",
+  "grade_v": 6,
+  "stars": 2
+}

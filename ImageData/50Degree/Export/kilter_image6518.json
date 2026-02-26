@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image6518.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 5
+  },
+  "raw_text": "The over-under\nEnlife\n\n7b+/V8 Yee.\n",
+  "lines": [
+    "The over-under",
+    "Enlife",
+    "7b+/V8 Yee."
+  ],
+  "name": "The over-under",
+  "setter": "Enlife",
+  "grade_raw": "7b+/V8 Yee.",
+  "grade_v": 8,
+  "stars": 3
+}

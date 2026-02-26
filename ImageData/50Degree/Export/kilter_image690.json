@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image690.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 7,
+    "foot": 6
+  },
+  "raw_text": "minst 7a+\nECMay\n\n7a/V6 Ye ee\n",
+  "lines": [
+    "minst 7a+",
+    "ECMay",
+    "7a/V6 Ye ee"
+  ],
+  "name": "minst 7a+",
+  "setter": "ECMay",
+  "grade_raw": "7a/V6 Ye ee",
+  "grade_v": 6,
+  "stars": 2
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image13462.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 3,
+    "finish": 1,
+    "hand": 5,
+    "foot": 5
+  },
+  "raw_text": "Hold the Door\neddiehills\n\n\u00ae& 7b+/V8 yk ke oe\n",
+  "lines": [
+    "Hold the Door",
+    "eddiehills",
+    "\u00ae& 7b+/V8 yk ke oe"
+  ],
+  "name": "Hold the Door",
+  "setter": "eddiehills",
+  "grade_raw": "\u00ae& 7b+/V8 yk ke oe",
+  "grade_v": 8,
+  "stars": 2
+}

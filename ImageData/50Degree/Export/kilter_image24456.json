@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image24456.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 4,
+    "foot": 1
+  },
+  "raw_text": "Cucky Cameron\nimportedbean\n\n6b+/V4 Yeo.\n",
+  "lines": [
+    "Cucky Cameron",
+    "importedbean",
+    "6b+/V4 Yeo."
+  ],
+  "name": "Cucky Cameron",
+  "setter": "importedbean",
+  "grade_raw": "6b+/V4 Yeo.",
+  "grade_v": 4,
+  "stars": 3
+}

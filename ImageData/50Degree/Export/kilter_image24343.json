@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image24343.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 3
+  },
+  "raw_text": "hat Would Hunter Ds\nnick_climbs\n\n& 7c/V9 Ye ve oe\n",
+  "lines": [
+    "hat Would Hunter Ds",
+    "nick_climbs",
+    "& 7c/V9 Ye ve oe"
+  ],
+  "name": "hat Would Hunter Ds",
+  "setter": "nick_climbs",
+  "grade_raw": "& 7c/V9 Ye ve oe",
+  "grade_v": 9,
+  "stars": 2
+}

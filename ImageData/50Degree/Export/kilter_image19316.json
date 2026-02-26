@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image19316.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 6
+  },
+  "raw_text": "joe mamma\nNoah_Colvin\n\n6c/V5 eee\n",
+  "lines": [
+    "joe mamma",
+    "Noah_Colvin",
+    "6c/V5 eee"
+  ],
+  "name": "joe mamma",
+  "setter": "Noah_Colvin",
+  "grade_raw": "6c/V5 eee",
+  "grade_v": 5,
+  "stars": 3
+}

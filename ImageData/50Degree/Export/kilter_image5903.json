@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image5903.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 7,
+    "foot": 3
+  },
+  "raw_text": "wrmps\njwebxl\n\n6at/V3 Ye oroe\n",
+  "lines": [
+    "wrmps",
+    "jwebxl",
+    "6at/V3 Ye oroe"
+  ],
+  "name": "wrmps",
+  "setter": "jwebxl",
+  "grade_raw": "6at/V3 Ye oroe",
+  "grade_v": 3,
+  "stars": 4
+}

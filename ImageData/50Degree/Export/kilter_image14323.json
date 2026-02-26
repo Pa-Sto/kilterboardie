@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image14323.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 2
+  },
+  "raw_text": "yo yo master\nclimbcentral\n\n7b+/V8 Yee.\n",
+  "lines": [
+    "yo yo master",
+    "climbcentral",
+    "7b+/V8 Yee."
+  ],
+  "name": "yo yo master",
+  "setter": "climbcentral",
+  "grade_raw": "7b+/V8 Yee.",
+  "grade_v": 8,
+  "stars": 3
+}

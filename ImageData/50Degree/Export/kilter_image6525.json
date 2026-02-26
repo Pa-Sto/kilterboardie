@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image6525.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 4
+  },
+  "raw_text": "piss up a rope\nmondragon\n\n7a/V6 Ye ee\n",
+  "lines": [
+    "piss up a rope",
+    "mondragon",
+    "7a/V6 Ye ee"
+  ],
+  "name": "piss up a rope",
+  "setter": "mondragon",
+  "grade_raw": "7a/V6 Ye ee",
+  "grade_v": 6,
+  "stars": 2
+}

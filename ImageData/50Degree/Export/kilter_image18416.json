@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image18416.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 4
+  },
+  "raw_text": "sarah failin\nKilterStudio\n\n7b/V8 Ye ee\n",
+  "lines": [
+    "sarah failin",
+    "KilterStudio",
+    "7b/V8 Ye ee"
+  ],
+  "name": "sarah failin",
+  "setter": "KilterStudio",
+  "grade_raw": "7b/V8 Ye ee",
+  "grade_v": 8,
+  "stars": 2
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image26623.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 6,
+    "foot": 4
+  },
+  "raw_text": "Hunca Munca\nkilterjackie\n\n6c/V5 eee\n",
+  "lines": [
+    "Hunca Munca",
+    "kilterjackie",
+    "6c/V5 eee"
+  ],
+  "name": "Hunca Munca",
+  "setter": "kilterjackie",
+  "grade_raw": "6c/V5 eee",
+  "grade_v": 5,
+  "stars": 3
+}

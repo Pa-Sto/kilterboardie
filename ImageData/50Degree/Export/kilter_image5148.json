@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image5148.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 12
+  },
+  "raw_text": "Crimpr Dumpr\nC.macdonald\n\nZat/V7 Yeo.\n",
+  "lines": [
+    "Crimpr Dumpr",
+    "C.macdonald",
+    "Zat/V7 Yeo."
+  ],
+  "name": "Crimpr Dumpr",
+  "setter": "C.macdonald",
+  "grade_raw": "Zat/V7 Yeo.",
+  "grade_v": 7,
+  "stars": 3
+}

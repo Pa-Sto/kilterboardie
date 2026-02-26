@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image14191.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 6,
+    "foot": 5
+  },
+  "raw_text": "LionKing\nksmd\n\n7b/V8 Ye ee\n",
+  "lines": [
+    "LionKing",
+    "ksmd",
+    "7b/V8 Ye ee"
+  ],
+  "name": "LionKing",
+  "setter": "ksmd",
+  "grade_raw": "7b/V8 Ye ee",
+  "grade_v": 8,
+  "stars": 2
+}

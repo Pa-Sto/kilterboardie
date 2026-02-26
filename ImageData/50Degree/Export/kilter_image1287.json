@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image1287.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 5,
+    "foot": 7
+  },
+  "raw_text": "Green Man\nimportedbean\n\n7b/V8 Ye ee\n",
+  "lines": [
+    "Green Man",
+    "importedbean",
+    "7b/V8 Ye ee"
+  ],
+  "name": "Green Man",
+  "setter": "importedbean",
+  "grade_raw": "7b/V8 Ye ee",
+  "grade_v": 8,
+  "stars": 2
+}

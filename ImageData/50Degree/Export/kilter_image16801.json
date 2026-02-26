@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image16801.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 2
+  },
+  "raw_text": "-rogression Mindset\ntrendyrendy\n\n7b/V8 Ye ee\n",
+  "lines": [
+    "-rogression Mindset",
+    "trendyrendy",
+    "7b/V8 Ye ee"
+  ],
+  "name": "-rogression Mindset",
+  "setter": "trendyrendy",
+  "grade_raw": "7b/V8 Ye ee",
+  "grade_v": 8,
+  "stars": 2
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image24383.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 3
+  },
+  "raw_text": "bph20\nbrianharrington\n\n7b+/V8 Yee.\n",
+  "lines": [
+    "bph20",
+    "brianharrington",
+    "7b+/V8 Yee."
+  ],
+  "name": "bph20",
+  "setter": "brianharrington",
+  "grade_raw": "7b+/V8 Yee.",
+  "grade_v": 8,
+  "stars": 3
+}

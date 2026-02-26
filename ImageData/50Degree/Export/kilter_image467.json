@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image467.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 4
+  },
+  "raw_text": "mama tambien tamk\nDrPlim\n\nZat/V7 Yeo.\n",
+  "lines": [
+    "mama tambien tamk",
+    "DrPlim",
+    "Zat/V7 Yeo."
+  ],
+  "name": "mama tambien tamk",
+  "setter": "DrPlim",
+  "grade_raw": "Zat/V7 Yeo.",
+  "grade_v": 7,
+  "stars": 3
+}

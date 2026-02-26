@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image5712.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 7,
+    "foot": 4
+  },
+  "raw_text": "-RY BIG and very tin\nKilterStudio\n\n7a/V6 Ye ee\n",
+  "lines": [
+    "-RY BIG and very tin",
+    "KilterStudio",
+    "7a/V6 Ye ee"
+  ],
+  "name": "-RY BIG and very tin",
+  "setter": "KilterStudio",
+  "grade_raw": "7a/V6 Ye ee",
+  "grade_v": 6,
+  "stars": 2
+}

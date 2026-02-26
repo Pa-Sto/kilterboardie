@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image27911.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 1
+  },
+  "raw_text": "Motor mouth\njkassay\n\n7c/V9 Ye vee\n",
+  "lines": [
+    "Motor mouth",
+    "jkassay",
+    "7c/V9 Ye vee"
+  ],
+  "name": "Motor mouth",
+  "setter": "jkassay",
+  "grade_raw": "7c/V9 Ye vee",
+  "grade_v": 9,
+  "stars": 3
+}

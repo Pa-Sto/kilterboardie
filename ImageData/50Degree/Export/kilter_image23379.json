@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image23379.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 3,
+    "finish": 2,
+    "hand": 5,
+    "foot": 7
+  },
+  "raw_text": "Cumquaddel\nArne\n\n6at/V3 Ye oroe\n",
+  "lines": [
+    "Cumquaddel",
+    "Arne",
+    "6at/V3 Ye oroe"
+  ],
+  "name": "Cumquaddel",
+  "setter": "Arne",
+  "grade_raw": "6at/V3 Ye oroe",
+  "grade_v": 3,
+  "stars": 4
+}

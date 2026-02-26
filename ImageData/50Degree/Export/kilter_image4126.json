@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image4126.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 10
+  },
+  "raw_text": "Dad Dancing 6a+\nEpicBeast\n\n\u00ae 6at/V3 9k oe\n",
+  "lines": [
+    "Dad Dancing 6a+",
+    "EpicBeast",
+    "\u00ae 6at/V3 9k oe"
+  ],
+  "name": "Dad Dancing 6a+",
+  "setter": "EpicBeast",
+  "grade_raw": "\u00ae 6at/V3 9k oe",
+  "grade_v": 3,
+  "stars": 2
+}

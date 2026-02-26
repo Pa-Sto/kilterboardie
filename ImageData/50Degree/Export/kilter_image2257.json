@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image2257.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 2
+  },
+  "raw_text": "first try1\nmrantoine\n\nZat/V7 Yeo.\n",
+  "lines": [
+    "first try1",
+    "mrantoine",
+    "Zat/V7 Yeo."
+  ],
+  "name": "first try1",
+  "setter": "mrantoine",
+  "grade_raw": "Zat/V7 Yeo.",
+  "grade_v": 7,
+  "stars": 3
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image4818.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 3
+  },
+  "raw_text": "y at the Covered Bric\njackson5240\n\nZat/V7 Yeo.\n",
+  "lines": [
+    "y at the Covered Bric",
+    "jackson5240",
+    "Zat/V7 Yeo."
+  ],
+  "name": "y at the Covered Bric",
+  "setter": "jackson5240",
+  "grade_raw": "Zat/V7 Yeo.",
+  "grade_v": 7,
+  "stars": 3
+}

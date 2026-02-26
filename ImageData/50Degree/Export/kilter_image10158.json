@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image10158.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 3,
+    "foot": 4
+  },
+  "raw_text": "Down to the waist\njoejoonkim\n\n\u00ae& 7b+/V8 yk ke oe\n",
+  "lines": [
+    "Down to the waist",
+    "joejoonkim",
+    "\u00ae& 7b+/V8 yk ke oe"
+  ],
+  "name": "Down to the waist",
+  "setter": "joejoonkim",
+  "grade_raw": "\u00ae& 7b+/V8 yk ke oe",
+  "grade_v": 8,
+  "stars": 2
+}

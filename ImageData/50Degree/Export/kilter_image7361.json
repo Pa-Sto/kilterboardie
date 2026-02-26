@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image7361.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 4,
+    "foot": 3
+  },
+  "raw_text": "bap bap\nJStreet\n\n& 7c+/V10 9&9\n",
+  "lines": [
+    "bap bap",
+    "JStreet",
+    "& 7c+/V10 9&9"
+  ],
+  "name": "bap bap",
+  "setter": "JStreet",
+  "grade_raw": "& 7c+/V10 9&9",
+  "grade_v": 10,
+  "stars": null
+}

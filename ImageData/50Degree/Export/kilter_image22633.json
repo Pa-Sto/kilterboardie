@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image22633.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 6
+  },
+  "raw_text": "seven Deuce Offsuit\nAhnsight\n\n7b/V8 Ye ee\n",
+  "lines": [
+    "seven Deuce Offsuit",
+    "Ahnsight",
+    "7b/V8 Ye ee"
+  ],
+  "name": "seven Deuce Offsuit",
+  "setter": "Ahnsight",
+  "grade_raw": "7b/V8 Ye ee",
+  "grade_v": 8,
+  "stars": 2
+}

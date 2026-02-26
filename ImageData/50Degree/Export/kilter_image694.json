@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image694.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 5,
+    "foot": 2
+  },
+  "raw_text": "Mortynight Run\njwilder\n\nZat/V7 Yeo.\n",
+  "lines": [
+    "Mortynight Run",
+    "jwilder",
+    "Zat/V7 Yeo."
+  ],
+  "name": "Mortynight Run",
+  "setter": "jwilder",
+  "grade_raw": "Zat/V7 Yeo.",
+  "grade_v": 7,
+  "stars": 3
+}

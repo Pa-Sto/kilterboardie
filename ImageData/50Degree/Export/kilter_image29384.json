@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image29384.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 1
+  },
+  "raw_text": "X mode\njwebxl\n\n7c/V9 Ye vee\n",
+  "lines": [
+    "X mode",
+    "jwebxl",
+    "7c/V9 Ye vee"
+  ],
+  "name": "X mode",
+  "setter": "jwebxl",
+  "grade_raw": "7c/V9 Ye vee",
+  "grade_v": 9,
+  "stars": 3
+}

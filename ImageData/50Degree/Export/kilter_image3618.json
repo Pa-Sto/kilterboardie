@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image3618.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 3
+  },
+  "raw_text": "gravie babie\njwebxl\n\n6b+/V4 Yeo.\n",
+  "lines": [
+    "gravie babie",
+    "jwebxl",
+    "6b+/V4 Yeo."
+  ],
+  "name": "gravie babie",
+  "setter": "jwebxl",
+  "grade_raw": "6b+/V4 Yeo.",
+  "grade_v": 4,
+  "stars": 3
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image28270.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 3
+  },
+  "raw_text": "mario\u2019s angels\nsharma\n\n7b/V8 Ye ee\n",
+  "lines": [
+    "mario\u2019s angels",
+    "sharma",
+    "7b/V8 Ye ee"
+  ],
+  "name": "mario\u2019s angels",
+  "setter": "sharma",
+  "grade_raw": "7b/V8 Ye ee",
+  "grade_v": 8,
+  "stars": 2
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image23175.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 6
+  },
+  "raw_text": "JW 2\njwebxl\n\n8at/V12 Yroe ve\n",
+  "lines": [
+    "JW 2",
+    "jwebxl",
+    "8at/V12 Yroe ve"
+  ],
+  "name": "JW 2",
+  "setter": "jwebxl",
+  "grade_raw": "8at/V12 Yroe ve",
+  "grade_v": 12,
+  "stars": 2
+}

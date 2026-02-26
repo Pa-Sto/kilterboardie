@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image18419.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 3,
+    "foot": 2
+  },
+  "raw_text": "powerful game\nNathan_Collard\n\n7c+/V10 ye vee\n",
+  "lines": [
+    "powerful game",
+    "Nathan_Collard",
+    "7c+/V10 ye vee"
+  ],
+  "name": "powerful game",
+  "setter": "Nathan_Collard",
+  "grade_raw": "7c+/V10 ye vee",
+  "grade_v": 10,
+  "stars": 3
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image9278.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 7,
+    "foot": 5
+  },
+  "raw_text": "s a beautiful morning\nBKBChicago\n\n6b/V4 ye yee\n",
+  "lines": [
+    "s a beautiful morning",
+    "BKBChicago",
+    "6b/V4 ye yee"
+  ],
+  "name": "s a beautiful morning",
+  "setter": "BKBChicago",
+  "grade_raw": "6b/V4 ye yee",
+  "grade_v": 4,
+  "stars": 3
+}

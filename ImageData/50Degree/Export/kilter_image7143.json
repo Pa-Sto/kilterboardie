@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image7143.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 8,
+    "foot": 8
+  },
+  "raw_text": "Bananahands \u00ab:\nKubla_Khan\n\n7c+/V10 Yeo ve\n",
+  "lines": [
+    "Bananahands \u00ab:",
+    "Kubla_Khan",
+    "7c+/V10 Yeo ve"
+  ],
+  "name": "Bananahands \u00ab:",
+  "setter": "Kubla_Khan",
+  "grade_raw": "7c+/V10 Yeo ve",
+  "grade_v": 10,
+  "stars": 2
+}

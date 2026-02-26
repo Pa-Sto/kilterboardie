@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image29943.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 4,
+    "foot": 1
+  },
+  "raw_text": "The Best Coast\nc_Dog32\n\n\u00ae 7a+/V7 vee\n",
+  "lines": [
+    "The Best Coast",
+    "c_Dog32",
+    "\u00ae 7a+/V7 vee"
+  ],
+  "name": "The Best Coast",
+  "setter": "c_Dog32",
+  "grade_raw": "\u00ae 7a+/V7 vee",
+  "grade_v": 7,
+  "stars": 3
+}

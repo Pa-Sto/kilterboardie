@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image6452.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 3,
+    "foot": 2
+  },
+  "raw_text": "not plagiarism\nfundej01\n\n& 7c+/V10 9&9\n",
+  "lines": [
+    "not plagiarism",
+    "fundej01",
+    "& 7c+/V10 9&9"
+  ],
+  "name": "not plagiarism",
+  "setter": "fundej01",
+  "grade_raw": "& 7c+/V10 9&9",
+  "grade_v": 10,
+  "stars": null
+}

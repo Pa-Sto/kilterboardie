@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image12320.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 2
+  },
+  "raw_text": "Beyond Unknowns\nvaliscool\n\n8at/V12 Yroe ve\n",
+  "lines": [
+    "Beyond Unknowns",
+    "valiscool",
+    "8at/V12 Yroe ve"
+  ],
+  "name": "Beyond Unknowns",
+  "setter": "valiscool",
+  "grade_raw": "8at/V12 Yroe ve",
+  "grade_v": 12,
+  "stars": 2
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image20719.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 6
+  },
+  "raw_text": "3FF V1 (easy peasy)\nBffClimb\n\n6at/V3 Ye oroe\n",
+  "lines": [
+    "3FF V1 (easy peasy)",
+    "BffClimb",
+    "6at/V3 Ye oroe"
+  ],
+  "name": "3FF V1 (easy peasy)",
+  "setter": "BffClimb",
+  "grade_raw": "6at/V3 Ye oroe",
+  "grade_v": 3,
+  "stars": 4
+}

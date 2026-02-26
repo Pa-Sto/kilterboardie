@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image21198.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 3
+  },
+  "raw_text": "Zak and Dan\nGW_Kilter\n\nZat/V7 Yeo.\n",
+  "lines": [
+    "Zak and Dan",
+    "GW_Kilter",
+    "Zat/V7 Yeo."
+  ],
+  "name": "Zak and Dan",
+  "setter": "GW_Kilter",
+  "grade_raw": "Zat/V7 Yeo.",
+  "grade_v": 7,
+  "stars": 3
+}

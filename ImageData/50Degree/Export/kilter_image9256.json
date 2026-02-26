@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image9256.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 7
+  },
+  "raw_text": "King Corona\npajaro\n\n\u00ae& 8at+/V12 ye oe oe\n",
+  "lines": [
+    "King Corona",
+    "pajaro",
+    "\u00ae& 8at+/V12 ye oe oe"
+  ],
+  "name": "King Corona",
+  "setter": "pajaro",
+  "grade_raw": "\u00ae& 8at+/V12 ye oe oe",
+  "grade_v": 12,
+  "stars": 2
+}

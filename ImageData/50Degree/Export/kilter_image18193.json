@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image18193.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 1
+  },
+  "raw_text": "The Cult\nRiverTulloss\n\n7bIVE Ye yee\n",
+  "lines": [
+    "The Cult",
+    "RiverTulloss",
+    "7bIVE Ye yee"
+  ],
+  "name": "The Cult",
+  "setter": "RiverTulloss",
+  "grade_raw": "7bIVE Ye yee",
+  "grade_v": null,
+  "stars": 3
+}

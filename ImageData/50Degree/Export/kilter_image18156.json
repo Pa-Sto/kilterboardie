@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image18156.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 4,
+    "foot": 2
+  },
+  "raw_text": "thick foam\njakedotclimbs\n\n7c+/V10 Yeo ve\n",
+  "lines": [
+    "thick foam",
+    "jakedotclimbs",
+    "7c+/V10 Yeo ve"
+  ],
+  "name": "thick foam",
+  "setter": "jakedotclimbs",
+  "grade_raw": "7c+/V10 Yeo ve",
+  "grade_v": 10,
+  "stars": 2
+}

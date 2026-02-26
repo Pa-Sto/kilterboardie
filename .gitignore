@@ -1,0 +1,14 @@
+.DS_Store
+__pycache__/
+*.pyc
+.idea/
+runs/
+
+# Keep only the exported dataset (50Degree/Export) and references
+ImageData/50Degree/*
+!ImageData/50Degree/Export/
+!ImageData/50Degree/Export/**
+
+# Ignore editor source files
+ImageData/References/*.afphoto
+ImageData/References/*.afphoto~lock~

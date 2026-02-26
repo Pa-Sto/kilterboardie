@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image20159.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 5
+  },
+  "raw_text": "tigger\u2019s bounce\nBlakeMaclure\n\n& 7a/V6 ke ee\n",
+  "lines": [
+    "tigger\u2019s bounce",
+    "BlakeMaclure",
+    "& 7a/V6 ke ee"
+  ],
+  "name": "tigger\u2019s bounce",
+  "setter": "BlakeMaclure",
+  "grade_raw": "& 7a/V6 ke ee",
+  "grade_v": 6,
+  "stars": 2
+}

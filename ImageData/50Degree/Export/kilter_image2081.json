@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image2081.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 7,
+    "foot": 6
+  },
+  "raw_text": "ne la V7 blanche ac\nFrancisGroleau\n\n7a/V6 Ye ee\n",
+  "lines": [
+    "ne la V7 blanche ac",
+    "FrancisGroleau",
+    "7a/V6 Ye ee"
+  ],
+  "name": "ne la V7 blanche ac",
+  "setter": "FrancisGroleau",
+  "grade_raw": "7a/V6 Ye ee",
+  "grade_v": 6,
+  "stars": 2
+}

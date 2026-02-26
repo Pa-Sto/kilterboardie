@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image18374.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 3,
+    "foot": 2
+  },
+  "raw_text": "t goes in the streets\nCRANK\n\n7c+/V10 ye vee\n",
+  "lines": [
+    "t goes in the streets",
+    "CRANK",
+    "7c+/V10 ye vee"
+  ],
+  "name": "t goes in the streets",
+  "setter": "CRANK",
+  "grade_raw": "7c+/V10 ye vee",
+  "grade_v": 10,
+  "stars": 3
+}

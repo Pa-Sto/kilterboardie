@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image1166.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 3
+  },
+  "raw_text": "Crimp Project\nTassio\n\n6b/V4 ye yee\n",
+  "lines": [
+    "Crimp Project",
+    "Tassio",
+    "6b/V4 ye yee"
+  ],
+  "name": "Crimp Project",
+  "setter": "Tassio",
+  "grade_raw": "6b/V4 ye yee",
+  "grade_v": 4,
+  "stars": 3
+}

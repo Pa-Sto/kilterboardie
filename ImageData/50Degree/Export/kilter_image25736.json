@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image25736.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 3
+  },
+  "raw_text": "Cold Cereal 1\ntlandman\n\nZat/V7 Yeo.\n",
+  "lines": [
+    "Cold Cereal 1",
+    "tlandman",
+    "Zat/V7 Yeo."
+  ],
+  "name": "Cold Cereal 1",
+  "setter": "tlandman",
+  "grade_raw": "Zat/V7 Yeo.",
+  "grade_v": 7,
+  "stars": 3
+}

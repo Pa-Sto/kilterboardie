@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image22351.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 6,
+    "foot": 2
+  },
+  "raw_text": "Warm Up Circuit #5\nGirthQuake\n\n6at/V3 Ye oroe\n",
+  "lines": [
+    "Warm Up Circuit #5",
+    "GirthQuake",
+    "6at/V3 Ye oroe"
+  ],
+  "name": "Warm Up Circuit #5",
+  "setter": "GirthQuake",
+  "grade_raw": "6at/V3 Ye oroe",
+  "grade_v": 3,
+  "stars": 4
+}

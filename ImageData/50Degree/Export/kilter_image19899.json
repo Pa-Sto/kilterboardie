@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image19899.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 6,
+    "foot": 5
+  },
+  "raw_text": "Weakness x 1\nchalkandcrank\n\n7c/V9 Ye vee\n",
+  "lines": [
+    "Weakness x 1",
+    "chalkandcrank",
+    "7c/V9 Ye vee"
+  ],
+  "name": "Weakness x 1",
+  "setter": "chalkandcrank",
+  "grade_raw": "7c/V9 Ye vee",
+  "grade_v": 9,
+  "stars": 3
+}

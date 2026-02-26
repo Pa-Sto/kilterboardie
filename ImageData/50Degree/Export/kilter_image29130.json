@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image29130.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 3,
+    "finish": 1,
+    "hand": 5,
+    "foot": 4
+  },
+  "raw_text": "listers Before Sisters\ngriffinwhiteside\n\n8b/V13 Yeo e\n",
+  "lines": [
+    "listers Before Sisters",
+    "griffinwhiteside",
+    "8b/V13 Yeo e"
+  ],
+  "name": "listers Before Sisters",
+  "setter": "griffinwhiteside",
+  "grade_raw": "8b/V13 Yeo e",
+  "grade_v": 13,
+  "stars": 1
+}

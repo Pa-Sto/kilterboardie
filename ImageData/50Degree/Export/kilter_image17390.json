@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image17390.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 5,
+    "foot": 3
+  },
+  "raw_text": "Hot Day...\nwill_avelar\n\n6b/V4 ye yee\n",
+  "lines": [
+    "Hot Day...",
+    "will_avelar",
+    "6b/V4 ye yee"
+  ],
+  "name": "Hot Day...",
+  "setter": "will_avelar",
+  "grade_raw": "6b/V4 ye yee",
+  "grade_v": 4,
+  "stars": 3
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image29856.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 6,
+    "foot": 8
+  },
+  "raw_text": "OLMIO\nolmio\n\n7b+/V8 Yee.\n",
+  "lines": [
+    "OLMIO",
+    "olmio",
+    "7b+/V8 Yee."
+  ],
+  "name": "OLMIO",
+  "setter": "olmio",
+  "grade_raw": "7b+/V8 Yee.",
+  "grade_v": 8,
+  "stars": 3
+}

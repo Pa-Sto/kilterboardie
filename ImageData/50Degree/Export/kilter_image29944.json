@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image29944.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 2,
+    "hand": 8,
+    "foot": 7
+  },
+  "raw_text": "Grand Avenue\nvukyle\n\n6at/V3 Ye oroe\n",
+  "lines": [
+    "Grand Avenue",
+    "vukyle",
+    "6at/V3 Ye oroe"
+  ],
+  "name": "Grand Avenue",
+  "setter": "vukyle",
+  "grade_raw": "6at/V3 Ye oroe",
+  "grade_v": 3,
+  "stars": 4
+}

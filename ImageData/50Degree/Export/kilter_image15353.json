@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image15353.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 3,
+    "foot": 3
+  },
+  "raw_text": "Sweet Pinch\namik23\n\n6c+/V5 Yevroe\n",
+  "lines": [
+    "Sweet Pinch",
+    "amik23",
+    "6c+/V5 Yevroe"
+  ],
+  "name": "Sweet Pinch",
+  "setter": "amik23",
+  "grade_raw": "6c+/V5 Yevroe",
+  "grade_v": 5,
+  "stars": 4
+}

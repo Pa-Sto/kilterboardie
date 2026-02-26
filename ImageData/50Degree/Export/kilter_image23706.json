@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image23706.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 4,
+    "foot": 3
+  },
+  "raw_text": "> Big or Go Home V:\n\ncraftedsam\n\n7c+/V10 ye vee\n",
+  "lines": [
+    "> Big or Go Home V:",
+    "craftedsam",
+    "7c+/V10 ye vee"
+  ],
+  "name": "> Big or Go Home V:",
+  "setter": "craftedsam",
+  "grade_raw": "7c+/V10 ye vee",
+  "grade_v": 10,
+  "stars": 3
+}

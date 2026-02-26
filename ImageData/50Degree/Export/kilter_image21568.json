@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image21568.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 4,
+    "foot": 3
+  },
+  "raw_text": "Episode XI\nKilterStudio\n\n6c+/V5 Yevroe\n",
+  "lines": [
+    "Episode XI",
+    "KilterStudio",
+    "6c+/V5 Yevroe"
+  ],
+  "name": "Episode XI",
+  "setter": "KilterStudio",
+  "grade_raw": "6c+/V5 Yevroe",
+  "grade_v": 5,
+  "stars": 4
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image8613.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 3
+  },
+  "raw_text": "-mma Needs a Rock\nhjpugh\n\n7c/V9 Ye vee\n",
+  "lines": [
+    "-mma Needs a Rock",
+    "hjpugh",
+    "7c/V9 Ye vee"
+  ],
+  "name": "-mma Needs a Rock",
+  "setter": "hjpugh",
+  "grade_raw": "7c/V9 Ye vee",
+  "grade_v": 9,
+  "stars": 3
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image17672.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 6,
+    "foot": 3
+  },
+  "raw_text": "nster under the stai\nEnlife\n\n7b+/V8 Yee.\n",
+  "lines": [
+    "nster under the stai",
+    "Enlife",
+    "7b+/V8 Yee."
+  ],
+  "name": "nster under the stai",
+  "setter": "Enlife",
+  "grade_raw": "7b+/V8 Yee.",
+  "grade_v": 8,
+  "stars": 3
+}

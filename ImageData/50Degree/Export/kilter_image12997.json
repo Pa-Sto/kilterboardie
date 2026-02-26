@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image12997.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 7,
+    "foot": 4
+  },
+  "raw_text": "90 degree challenge\nnicole1995\n\n6a/V3 Ye ee\n",
+  "lines": [
+    "90 degree challenge",
+    "nicole1995",
+    "6a/V3 Ye ee"
+  ],
+  "name": "90 degree challenge",
+  "setter": "nicole1995",
+  "grade_raw": "6a/V3 Ye ee",
+  "grade_v": 3,
+  "stars": 2
+}

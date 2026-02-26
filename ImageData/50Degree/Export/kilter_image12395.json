@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image12395.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 3
+  },
+  "raw_text": "Gimme Some Oven\ngriffinwhiteside\n\n8at/V12 Yroe ve\n",
+  "lines": [
+    "Gimme Some Oven",
+    "griffinwhiteside",
+    "8at/V12 Yroe ve"
+  ],
+  "name": "Gimme Some Oven",
+  "setter": "griffinwhiteside",
+  "grade_raw": "8at/V12 Yroe ve",
+  "grade_v": 12,
+  "stars": 2
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image28872.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 4
+  },
+  "raw_text": "Spaghetti legs\nadam1122\n\n7a/V6 Ye ee\n",
+  "lines": [
+    "Spaghetti legs",
+    "adam1122",
+    "7a/V6 Ye ee"
+  ],
+  "name": "Spaghetti legs",
+  "setter": "adam1122",
+  "grade_raw": "7a/V6 Ye ee",
+  "grade_v": 6,
+  "stars": 2
+}

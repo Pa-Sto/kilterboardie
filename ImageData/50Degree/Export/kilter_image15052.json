@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image15052.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 5,
+    "foot": 9
+  },
+  "raw_text": "lil whiskers\nKilterStudio\n\n7b/V8 Ye ee\n",
+  "lines": [
+    "lil whiskers",
+    "KilterStudio",
+    "7b/V8 Ye ee"
+  ],
+  "name": "lil whiskers",
+  "setter": "KilterStudio",
+  "grade_raw": "7b/V8 Ye ee",
+  "grade_v": 8,
+  "stars": 2
+}

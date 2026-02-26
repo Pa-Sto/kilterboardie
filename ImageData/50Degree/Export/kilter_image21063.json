@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image21063.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 2
+  },
+  "raw_text": "Dog Piano\nFrederikS\n\n7c/V9 Ye vee\n",
+  "lines": [
+    "Dog Piano",
+    "FrederikS",
+    "7c/V9 Ye vee"
+  ],
+  "name": "Dog Piano",
+  "setter": "FrederikS",
+  "grade_raw": "7c/V9 Ye vee",
+  "grade_v": 9,
+  "stars": 3
+}
