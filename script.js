@@ -33,11 +33,19 @@ function persistDataset() {
   }
 }
 
+function normalizeBase(base) {
+  if (!base) {
+    return "";
+  }
+  return base.endsWith("/") ? base.slice(0, -1) : base;
+}
+
 function assetUrl(path) {
   if (!SITE_BASE) {
     return path;
   }
-  return `${SITE_BASE.replace(/\\/$/, "")}/${path}`;
+  const base = normalizeBase(SITE_BASE);
+  return `${base}/${path}`;
 }
 
 function createCell(active) {
