@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image27095.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 3,
+    "foot": 3
+  },
+  "raw_text": "asy holdz,big movez\nagutteridge\n\n@ 6c/V5 ek He\n",
+  "lines": [
+    "asy holdz,big movez",
+    "agutteridge",
+    "@ 6c/V5 ek He"
+  ],
+  "name": "asy holdz,big movez",
+  "setter": "agutteridge",
+  "grade_raw": "@ 6c/V5 ek He",
+  "grade_v": 5,
+  "stars": 2
+}

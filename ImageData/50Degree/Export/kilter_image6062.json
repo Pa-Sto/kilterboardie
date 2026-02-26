@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image6062.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 6,
+    "foot": 7
+  },
+  "raw_text": "yt me straight pinchi\njohnsona87\n\n7b+/V8 Yee.\n",
+  "lines": [
+    "yt me straight pinchi",
+    "johnsona87",
+    "7b+/V8 Yee."
+  ],
+  "name": "yt me straight pinchi",
+  "setter": "johnsona87",
+  "grade_raw": "7b+/V8 Yee.",
+  "grade_v": 8,
+  "stars": 3
+}

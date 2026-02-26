@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image26277.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 5,
+    "foot": 4
+  },
+  "raw_text": "Enjoy Bibliographie\nAlexanderMegos\n\nZat/V7 Yeo.\n",
+  "lines": [
+    "Enjoy Bibliographie",
+    "AlexanderMegos",
+    "Zat/V7 Yeo."
+  ],
+  "name": "Enjoy Bibliographie",
+  "setter": "AlexanderMegos",
+  "grade_raw": "Zat/V7 Yeo.",
+  "grade_v": 7,
+  "stars": 3
+}

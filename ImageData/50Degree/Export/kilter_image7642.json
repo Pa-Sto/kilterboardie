@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image7642.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 4,
+    "foot": 4
+  },
+  "raw_text": "yeryone did it but me\nAhnsight\n\n& 7b/V8 eke oe\n",
+  "lines": [
+    "yeryone did it but me",
+    "Ahnsight",
+    "& 7b/V8 eke oe"
+  ],
+  "name": "yeryone did it but me",
+  "setter": "Ahnsight",
+  "grade_raw": "& 7b/V8 eke oe",
+  "grade_v": 8,
+  "stars": 2
+}

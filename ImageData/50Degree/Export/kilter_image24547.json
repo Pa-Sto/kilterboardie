@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image24547.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 3,
+    "foot": 0
+  },
+  "raw_text": "Krampus\u2019s Campus\nVash\n\n6at/V3 Ye oroe\n",
+  "lines": [
+    "Krampus\u2019s Campus",
+    "Vash",
+    "6at/V3 Ye oroe"
+  ],
+  "name": "Krampus\u2019s Campus",
+  "setter": "Vash",
+  "grade_raw": "6at/V3 Ye oroe",
+  "grade_v": 3,
+  "stars": 4
+}

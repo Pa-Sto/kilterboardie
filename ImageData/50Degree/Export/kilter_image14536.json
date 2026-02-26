@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image14536.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 7,
+    "foot": 4
+  },
+  "raw_text": "hing to Burn it Dowr\nRavioliTriceps\n\n7c/V9 Ye vee\n",
+  "lines": [
+    "hing to Burn it Dowr",
+    "RavioliTriceps",
+    "7c/V9 Ye vee"
+  ],
+  "name": "hing to Burn it Dowr",
+  "setter": "RavioliTriceps",
+  "grade_raw": "7c/V9 Ye vee",
+  "grade_v": 9,
+  "stars": 3
+}

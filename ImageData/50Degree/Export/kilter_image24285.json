@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image24285.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 0
+  },
+  "raw_text": "Campus Only #5\nmyleswamsley\n\n& 7alV6 ke ee\n",
+  "lines": [
+    "Campus Only #5",
+    "myleswamsley",
+    "& 7alV6 ke ee"
+  ],
+  "name": "Campus Only #5",
+  "setter": "myleswamsley",
+  "grade_raw": "& 7alV6 ke ee",
+  "grade_v": 6,
+  "stars": 2
+}

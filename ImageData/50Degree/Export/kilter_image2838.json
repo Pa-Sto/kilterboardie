@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image2838.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 3
+  },
+  "raw_text": "Clean The Tank\nmyleswamsley\n\n7b/V8 Ye ee\n",
+  "lines": [
+    "Clean The Tank",
+    "myleswamsley",
+    "7b/V8 Ye ee"
+  ],
+  "name": "Clean The Tank",
+  "setter": "myleswamsley",
+  "grade_raw": "7b/V8 Ye ee",
+  "grade_v": 8,
+  "stars": 2
+}

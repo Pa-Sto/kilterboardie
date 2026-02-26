@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image2617.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 7,
+    "foot": 3
+  },
+  "raw_text": "not soft, small\nconnor.kainalu\n\nJS \u00ae 7c+/V10 9 ee\n",
+  "lines": [
+    "not soft, small",
+    "connor.kainalu",
+    "JS \u00ae 7c+/V10 9 ee"
+  ],
+  "name": "not soft, small",
+  "setter": "connor.kainalu",
+  "grade_raw": "JS \u00ae 7c+/V10 9 ee",
+  "grade_v": 10,
+  "stars": 2
+}

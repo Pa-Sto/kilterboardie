@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image19307.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 3
+  },
+  "raw_text": "32 mph\nHonder\n\n& 7c+/V10 9&9\n",
+  "lines": [
+    "32 mph",
+    "Honder",
+    "& 7c+/V10 9&9"
+  ],
+  "name": "32 mph",
+  "setter": "Honder",
+  "grade_raw": "& 7c+/V10 9&9",
+  "grade_v": 10,
+  "stars": null
+}

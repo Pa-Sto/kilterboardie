@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image13752.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 3,
+    "finish": 2,
+    "hand": 6,
+    "foot": 8
+  },
+  "raw_text": "boldis\nadam_lke\n\n6b/V4 ye yee\n",
+  "lines": [
+    "boldis",
+    "adam_lke",
+    "6b/V4 ye yee"
+  ],
+  "name": "boldis",
+  "setter": "adam_lke",
+  "grade_raw": "6b/V4 ye yee",
+  "grade_v": 4,
+  "stars": 3
+}

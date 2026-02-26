@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image5533.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 4
+  },
+  "raw_text": "twisted in turn\nkieranryan\n\nZat/V7 Yeo.\n",
+  "lines": [
+    "twisted in turn",
+    "kieranryan",
+    "Zat/V7 Yeo."
+  ],
+  "name": "twisted in turn",
+  "setter": "kieranryan",
+  "grade_raw": "Zat/V7 Yeo.",
+  "grade_v": 7,
+  "stars": 3
+}

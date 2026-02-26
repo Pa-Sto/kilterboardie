@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image19611.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 5,
+    "foot": 2
+  },
+  "raw_text": "purgatory\nblob100\n7c+/V10 Yeo ve\n",
+  "lines": [
+    "purgatory",
+    "blob100",
+    "7c+/V10 Yeo ve"
+  ],
+  "name": "purgatory",
+  "setter": "blob100",
+  "grade_raw": "7c+/V10 Yeo ve",
+  "grade_v": 10,
+  "stars": 2
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image5357.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 4,
+    "foot": 3
+  },
+  "raw_text": "deeplock\nlinus\n\n7b+/V8 Yee.\n",
+  "lines": [
+    "deeplock",
+    "linus",
+    "7b+/V8 Yee."
+  ],
+  "name": "deeplock",
+  "setter": "linus",
+  "grade_raw": "7b+/V8 Yee.",
+  "grade_v": 8,
+  "stars": 3
+}

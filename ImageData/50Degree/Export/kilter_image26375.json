@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image26375.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 0
+  },
+  "raw_text": "\u2018y go round campus\nLimSeungWon98\n\n\u00ae 7a+/V7 vee\n",
+  "lines": [
+    "\u2018y go round campus",
+    "LimSeungWon98",
+    "\u00ae 7a+/V7 vee"
+  ],
+  "name": "\u2018y go round campus",
+  "setter": "LimSeungWon98",
+  "grade_raw": "\u00ae 7a+/V7 vee",
+  "grade_v": 7,
+  "stars": 3
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image25239.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 2,
+    "foot": 3
+  },
+  "raw_text": "Pouncy\nkilterjackie\n\n7bIVE Ye yee\n",
+  "lines": [
+    "Pouncy",
+    "kilterjackie",
+    "7bIVE Ye yee"
+  ],
+  "name": "Pouncy",
+  "setter": "kilterjackie",
+  "grade_raw": "7bIVE Ye yee",
+  "grade_v": null,
+  "stars": 3
+}

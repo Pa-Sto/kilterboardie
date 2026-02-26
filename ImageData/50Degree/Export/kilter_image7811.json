@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image7811.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 5
+  },
+  "raw_text": "G.0.A.T\nWangbang\n\n7c+/V10 Yeo ve\n",
+  "lines": [
+    "G.0.A.T",
+    "Wangbang",
+    "7c+/V10 Yeo ve"
+  ],
+  "name": "G.0.A.T",
+  "setter": "Wangbang",
+  "grade_raw": "7c+/V10 Yeo ve",
+  "grade_v": 10,
+  "stars": 2
+}

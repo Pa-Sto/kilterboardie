@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image5628.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 3,
+    "foot": 7
+  },
+  "raw_text": ">tion labs sponsor m\nqblidp\n\n& 7c+/V10 9&9\n",
+  "lines": [
+    ">tion labs sponsor m",
+    "qblidp",
+    "& 7c+/V10 9&9"
+  ],
+  "name": ">tion labs sponsor m",
+  "setter": "qblidp",
+  "grade_raw": "& 7c+/V10 9&9",
+  "grade_v": 10,
+  "stars": null
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image7893.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 10,
+    "foot": 7
+  },
+  "raw_text": "terozygote advantac\ngregorylocker\n\nZat/V7 Yeo.\n",
+  "lines": [
+    "terozygote advantac",
+    "gregorylocker",
+    "Zat/V7 Yeo."
+  ],
+  "name": "terozygote advantac",
+  "setter": "gregorylocker",
+  "grade_raw": "Zat/V7 Yeo.",
+  "grade_v": 7,
+  "stars": 3
+}

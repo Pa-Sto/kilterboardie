@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image24059.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 2
+  },
+  "raw_text": "understaffed\nmikkelsommer\n\n6a/V3 Ye ee\n",
+  "lines": [
+    "understaffed",
+    "mikkelsommer",
+    "6a/V3 Ye ee"
+  ],
+  "name": "understaffed",
+  "setter": "mikkelsommer",
+  "grade_raw": "6a/V3 Ye ee",
+  "grade_v": 3,
+  "stars": 2
+}

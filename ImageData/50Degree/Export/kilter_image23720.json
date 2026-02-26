@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image23720.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 2
+  },
+  "raw_text": "Every day\njwebxl\n\n6at/V3 Ye oroe\n",
+  "lines": [
+    "Every day",
+    "jwebxl",
+    "6at/V3 Ye oroe"
+  ],
+  "name": "Every day",
+  "setter": "jwebxl",
+  "grade_raw": "6at/V3 Ye oroe",
+  "grade_v": 3,
+  "stars": 4
+}

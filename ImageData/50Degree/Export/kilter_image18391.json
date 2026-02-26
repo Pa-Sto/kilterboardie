@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image18391.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 7,
+    "foot": 6
+  },
+  "raw_text": "Mike Hawk\npgfv\n\n& 7b/V8 eke oe\n",
+  "lines": [
+    "Mike Hawk",
+    "pgfv",
+    "& 7b/V8 eke oe"
+  ],
+  "name": "Mike Hawk",
+  "setter": "pgfv",
+  "grade_raw": "& 7b/V8 eke oe",
+  "grade_v": 8,
+  "stars": 2
+}

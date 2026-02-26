@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image19587.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 6,
+    "foot": 7
+  },
+  "raw_text": "Trust Your Shoes\nwill_avelar\n\n6c/V5 eee\n",
+  "lines": [
+    "Trust Your Shoes",
+    "will_avelar",
+    "6c/V5 eee"
+  ],
+  "name": "Trust Your Shoes",
+  "setter": "will_avelar",
+  "grade_raw": "6c/V5 eee",
+  "grade_v": 5,
+  "stars": 3
+}

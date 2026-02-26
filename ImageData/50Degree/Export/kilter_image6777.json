@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image6777.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 2,
+    "hand": 6,
+    "foot": 7
+  },
+  "raw_text": "David hasslebiscoff\nlsaacNoman\n\n6b/V4 ye yee\n",
+  "lines": [
+    "David hasslebiscoff",
+    "lsaacNoman",
+    "6b/V4 ye yee"
+  ],
+  "name": "David hasslebiscoff",
+  "setter": "lsaacNoman",
+  "grade_raw": "6b/V4 ye yee",
+  "grade_v": 4,
+  "stars": 3
+}

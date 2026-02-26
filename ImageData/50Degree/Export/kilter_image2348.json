@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image2348.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 3,
+    "foot": 3
+  },
+  "raw_text": "unknown #50\nspalermo\n\n7a/V6 Ye ee\n",
+  "lines": [
+    "unknown #50",
+    "spalermo",
+    "7a/V6 Ye ee"
+  ],
+  "name": "unknown #50",
+  "setter": "spalermo",
+  "grade_raw": "7a/V6 Ye ee",
+  "grade_v": 6,
+  "stars": 2
+}

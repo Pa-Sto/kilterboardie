@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image16969.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 2
+  },
+  "raw_text": "an You Ear Me Now\u2019\nKilterStudio\n\n6c/V5 eee\n",
+  "lines": [
+    "an You Ear Me Now\u2019",
+    "KilterStudio",
+    "6c/V5 eee"
+  ],
+  "name": "an You Ear Me Now\u2019",
+  "setter": "KilterStudio",
+  "grade_raw": "6c/V5 eee",
+  "grade_v": 5,
+  "stars": 3
+}

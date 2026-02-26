@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image28363.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 6
+  },
+  "raw_text": "Skandiamannen\npajaro\n\n8a/V11 eee\n",
+  "lines": [
+    "Skandiamannen",
+    "pajaro",
+    "8a/V11 eee"
+  ],
+  "name": "Skandiamannen",
+  "setter": "pajaro",
+  "grade_raw": "8a/V11 eee",
+  "grade_v": 11,
+  "stars": 3
+}

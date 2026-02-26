@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image509.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 7,
+    "foot": 6
+  },
+  "raw_text": "picknick am see\nKatha_pl\n\n& 7c/V9 Ye vee\n",
+  "lines": [
+    "picknick am see",
+    "Katha_pl",
+    "& 7c/V9 Ye vee"
+  ],
+  "name": "picknick am see",
+  "setter": "Katha_pl",
+  "grade_raw": "& 7c/V9 Ye vee",
+  "grade_v": 9,
+  "stars": 3
+}

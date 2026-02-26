@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image4844.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 6
+  },
+  "raw_text": "Show me B\nshiguchi1215\n\n7a/V6 Ye ee\n",
+  "lines": [
+    "Show me B",
+    "shiguchi1215",
+    "7a/V6 Ye ee"
+  ],
+  "name": "Show me B",
+  "setter": "shiguchi1215",
+  "grade_raw": "7a/V6 Ye ee",
+  "grade_v": 6,
+  "stars": 2
+}

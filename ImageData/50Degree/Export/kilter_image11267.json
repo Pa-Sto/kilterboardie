@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image11267.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 7,
+    "foot": 11
+  },
+  "raw_text": "The Banquet\nkrickgould\n\n7b/V8 Ye ee\n",
+  "lines": [
+    "The Banquet",
+    "krickgould",
+    "7b/V8 Ye ee"
+  ],
+  "name": "The Banquet",
+  "setter": "krickgould",
+  "grade_raw": "7b/V8 Ye ee",
+  "grade_v": 8,
+  "stars": 2
+}

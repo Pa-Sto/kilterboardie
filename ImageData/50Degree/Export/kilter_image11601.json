@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image11601.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 6,
+    "foot": 9
+  },
+  "raw_text": "VO-V3 Circuit #5\nGirthQuake\n\n6a/V3 Ye ee\n",
+  "lines": [
+    "VO-V3 Circuit #5",
+    "GirthQuake",
+    "6a/V3 Ye ee"
+  ],
+  "name": "VO-V3 Circuit #5",
+  "setter": "GirthQuake",
+  "grade_raw": "6a/V3 Ye ee",
+  "grade_v": 3,
+  "stars": 2
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image16236.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 2
+  },
+  "raw_text": "Date on acid\nconfortbenoit\n\n& 7c+/V10 9&9\n",
+  "lines": [
+    "Date on acid",
+    "confortbenoit",
+    "& 7c+/V10 9&9"
+  ],
+  "name": "Date on acid",
+  "setter": "confortbenoit",
+  "grade_raw": "& 7c+/V10 9&9",
+  "grade_v": 10,
+  "stars": null
+}

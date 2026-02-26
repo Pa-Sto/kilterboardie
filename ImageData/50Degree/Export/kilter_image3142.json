@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image3142.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 1
+  },
+  "raw_text": "floatin\nR3L3NTL3SS\n\n7c/V9 Ye vee\n",
+  "lines": [
+    "floatin",
+    "R3L3NTL3SS",
+    "7c/V9 Ye vee"
+  ],
+  "name": "floatin",
+  "setter": "R3L3NTL3SS",
+  "grade_raw": "7c/V9 Ye vee",
+  "grade_v": 9,
+  "stars": 3
+}

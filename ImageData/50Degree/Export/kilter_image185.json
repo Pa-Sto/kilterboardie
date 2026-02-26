@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image185.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 5
+  },
+  "raw_text": "b2\njwebxl\n\n6c+/V5 Yevroe\n",
+  "lines": [
+    "b2",
+    "jwebxl",
+    "6c+/V5 Yevroe"
+  ],
+  "name": "b2",
+  "setter": "jwebxl",
+  "grade_raw": "6c+/V5 Yevroe",
+  "grade_v": 5,
+  "stars": 4
+}

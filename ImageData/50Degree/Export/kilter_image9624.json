@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image9624.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 2
+  },
+  "raw_text": "Mr. Minko\nPaka\n\n7c+/V10 Yeo ve\n",
+  "lines": [
+    "Mr. Minko",
+    "Paka",
+    "7c+/V10 Yeo ve"
+  ],
+  "name": "Mr. Minko",
+  "setter": "Paka",
+  "grade_raw": "7c+/V10 Yeo ve",
+  "grade_v": 10,
+  "stars": 2
+}

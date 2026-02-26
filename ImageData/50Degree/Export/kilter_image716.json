@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image716.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 0
+  },
+  "raw_text": "iminate the eliminate\nconnor.kainalu\n\n& 7c+/V10 9&9\n",
+  "lines": [
+    "iminate the eliminate",
+    "connor.kainalu",
+    "& 7c+/V10 9&9"
+  ],
+  "name": "iminate the eliminate",
+  "setter": "connor.kainalu",
+  "grade_raw": "& 7c+/V10 9&9",
+  "grade_v": 10,
+  "stars": null
+}

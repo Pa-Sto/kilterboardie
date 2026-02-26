@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image24496.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 3,
+    "foot": 2
+  },
+  "raw_text": "T 1\nMichielN\n\n7c/V9 Ye vee\n",
+  "lines": [
+    "T 1",
+    "MichielN",
+    "7c/V9 Ye vee"
+  ],
+  "name": "T 1",
+  "setter": "MichielN",
+  "grade_raw": "7c/V9 Ye vee",
+  "grade_v": 9,
+  "stars": 3
+}

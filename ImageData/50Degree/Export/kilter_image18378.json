@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image18378.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 3,
+    "foot": 3
+  },
+  "raw_text": "liquid nightmare\nlloyd5270\n\n6b/V4 ye yee\n",
+  "lines": [
+    "liquid nightmare",
+    "lloyd5270",
+    "6b/V4 ye yee"
+  ],
+  "name": "liquid nightmare",
+  "setter": "lloyd5270",
+  "grade_raw": "6b/V4 ye yee",
+  "grade_v": 4,
+  "stars": 3
+}

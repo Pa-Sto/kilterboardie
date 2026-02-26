@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image17539.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 4,
+    "foot": 4
+  },
+  "raw_text": "jumping bean\nhangar18LB\n\n7a/V6 Ye ee\n",
+  "lines": [
+    "jumping bean",
+    "hangar18LB",
+    "7a/V6 Ye ee"
+  ],
+  "name": "jumping bean",
+  "setter": "hangar18LB",
+  "grade_raw": "7a/V6 Ye ee",
+  "grade_v": 6,
+  "stars": 2
+}

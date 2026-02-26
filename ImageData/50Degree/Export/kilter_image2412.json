@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image2412.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 7,
+    "foot": 8
+  },
+  "raw_text": "Fat Tire\nbordboy93\n\n7c+/V10 Yeo ve\n",
+  "lines": [
+    "Fat Tire",
+    "bordboy93",
+    "7c+/V10 Yeo ve"
+  ],
+  "name": "Fat Tire",
+  "setter": "bordboy93",
+  "grade_raw": "7c+/V10 Yeo ve",
+  "grade_v": 10,
+  "stars": 2
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image2876.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 3,
+    "foot": 3
+  },
+  "raw_text": "\u2018limat Staff Meeting\nmathlevk94\n\n6b/V4 ye yee\n",
+  "lines": [
+    "\u2018limat Staff Meeting",
+    "mathlevk94",
+    "6b/V4 ye yee"
+  ],
+  "name": "\u2018limat Staff Meeting",
+  "setter": "mathlevk94",
+  "grade_raw": "6b/V4 ye yee",
+  "grade_v": 4,
+  "stars": 3
+}

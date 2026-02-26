@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image1686.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 3,
+    "finish": 1,
+    "hand": 5,
+    "foot": 4
+  },
+  "raw_text": "Don't Know Ozec\nido.ilouz\n\n7c+/V10 ye vee\n",
+  "lines": [
+    "Don't Know Ozec",
+    "ido.ilouz",
+    "7c+/V10 ye vee"
+  ],
+  "name": "Don't Know Ozec",
+  "setter": "ido.ilouz",
+  "grade_raw": "7c+/V10 ye vee",
+  "grade_v": 10,
+  "stars": 3
+}

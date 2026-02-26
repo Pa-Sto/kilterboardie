@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image6373.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 4,
+    "foot": 3
+  },
+  "raw_text": "is it me your looking\nitsjohntan\n\n6c+/V5 Yevroe\n",
+  "lines": [
+    "is it me your looking",
+    "itsjohntan",
+    "6c+/V5 Yevroe"
+  ],
+  "name": "is it me your looking",
+  "setter": "itsjohntan",
+  "grade_raw": "6c+/V5 Yevroe",
+  "grade_v": 5,
+  "stars": 4
+}

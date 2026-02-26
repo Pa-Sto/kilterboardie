@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image11092.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 5
+  },
+  "raw_text": "ngry Birds Incoming\nc_Dog32\n\n@ 6b/V4 Heke\n",
+  "lines": [
+    "ngry Birds Incoming",
+    "c_Dog32",
+    "@ 6b/V4 Heke"
+  ],
+  "name": "ngry Birds Incoming",
+  "setter": "c_Dog32",
+  "grade_raw": "@ 6b/V4 Heke",
+  "grade_v": 4,
+  "stars": 4
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image10655.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 3,
+    "foot": 7
+  },
+  "raw_text": "\u2018*ck them shoulders\nadoyle\n\n8at/V12 Yroe ve\n",
+  "lines": [
+    "\u2018*ck them shoulders",
+    "adoyle",
+    "8at/V12 Yroe ve"
+  ],
+  "name": "\u2018*ck them shoulders",
+  "setter": "adoyle",
+  "grade_raw": "8at/V12 Yroe ve",
+  "grade_v": 12,
+  "stars": 1
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image14849.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 5
+  },
+  "raw_text": "Soft Reboot\nendz\n\n6b/V4 ye yee\n",
+  "lines": [
+    "Soft Reboot",
+    "endz",
+    "6b/V4 ye yee"
+  ],
+  "name": "Soft Reboot",
+  "setter": "endz",
+  "grade_raw": "6b/V4 ye yee",
+  "grade_v": 4,
+  "stars": 3
+}

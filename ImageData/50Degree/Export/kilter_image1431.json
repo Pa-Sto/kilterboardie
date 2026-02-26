@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image1431.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 7
+  },
+  "raw_text": "Boss the Cross\nJaeden\n\nZat/V7 Yeo.\n",
+  "lines": [
+    "Boss the Cross",
+    "Jaeden",
+    "Zat/V7 Yeo."
+  ],
+  "name": "Boss the Cross",
+  "setter": "Jaeden",
+  "grade_raw": "Zat/V7 Yeo.",
+  "grade_v": 7,
+  "stars": 3
+}

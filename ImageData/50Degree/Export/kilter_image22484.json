@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image22484.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 5
+  },
+  "raw_text": "cats n dawgs\njwebxl\n\nZat/V7 Yeo.\n",
+  "lines": [
+    "cats n dawgs",
+    "jwebxl",
+    "Zat/V7 Yeo."
+  ],
+  "name": "cats n dawgs",
+  "setter": "jwebxl",
+  "grade_raw": "Zat/V7 Yeo.",
+  "grade_v": 7,
+  "stars": 3
+}

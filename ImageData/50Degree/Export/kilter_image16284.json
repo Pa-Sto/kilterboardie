@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image16284.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 4
+  },
+  "raw_text": "Thor's Hammer\nc_Dog32\n\n& 7alV6 ke ee\n",
+  "lines": [
+    "Thor's Hammer",
+    "c_Dog32",
+    "& 7alV6 ke ee"
+  ],
+  "name": "Thor's Hammer",
+  "setter": "c_Dog32",
+  "grade_raw": "& 7alV6 ke ee",
+  "grade_v": 6,
+  "stars": 2
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image8394.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 9,
+    "foot": 9
+  },
+  "raw_text": "Nas Is Like\nvukyle\n\n6c+/V5 Yevroe\n",
+  "lines": [
+    "Nas Is Like",
+    "vukyle",
+    "6c+/V5 Yevroe"
+  ],
+  "name": "Nas Is Like",
+  "setter": "vukyle",
+  "grade_raw": "6c+/V5 Yevroe",
+  "grade_v": 5,
+  "stars": 4
+}

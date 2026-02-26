@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image15803.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 3,
+    "finish": 1,
+    "hand": 3,
+    "foot": 2
+  },
+  "raw_text": "Geez, Brad!\njwilder\n\n& 7b/V8 eke oe\n",
+  "lines": [
+    "Geez, Brad!",
+    "jwilder",
+    "& 7b/V8 eke oe"
+  ],
+  "name": "Geez, Brad!",
+  "setter": "jwilder",
+  "grade_raw": "& 7b/V8 eke oe",
+  "grade_v": 8,
+  "stars": 2
+}

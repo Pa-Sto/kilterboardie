@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image11453.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 3
+  },
+  "raw_text": "jularized Hamiltonia\ntobiasiding\n\n\u00ae 8a/V11 koe\n",
+  "lines": [
+    "jularized Hamiltonia",
+    "tobiasiding",
+    "\u00ae 8a/V11 koe"
+  ],
+  "name": "jularized Hamiltonia",
+  "setter": "tobiasiding",
+  "grade_raw": "\u00ae 8a/V11 koe",
+  "grade_v": 11,
+  "stars": 3
+}

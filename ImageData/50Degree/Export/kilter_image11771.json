@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image11771.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 3
+  },
+  "raw_text": "Air bud\njwebxl\n\n6a/V3 Ye ee\n",
+  "lines": [
+    "Air bud",
+    "jwebxl",
+    "6a/V3 Ye ee"
+  ],
+  "name": "Air bud",
+  "setter": "jwebxl",
+  "grade_raw": "6a/V3 Ye ee",
+  "grade_v": 3,
+  "stars": 2
+}

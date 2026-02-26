@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image5009.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 2,
+    "foot": 3
+  },
+  "raw_text": "ded end 2\ncliff_shredder\n\n7c+/V10 ye vee\n",
+  "lines": [
+    "ded end 2",
+    "cliff_shredder",
+    "7c+/V10 ye vee"
+  ],
+  "name": "ded end 2",
+  "setter": "cliff_shredder",
+  "grade_raw": "7c+/V10 ye vee",
+  "grade_v": 10,
+  "stars": 3
+}

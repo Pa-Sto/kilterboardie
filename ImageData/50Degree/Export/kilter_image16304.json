@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image16304.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 3,
+    "finish": 1,
+    "hand": 6,
+    "foot": 6
+  },
+  "raw_text": "bone saw\nKilterStudio\n\n6b+/V4 Yeo.\n",
+  "lines": [
+    "bone saw",
+    "KilterStudio",
+    "6b+/V4 Yeo."
+  ],
+  "name": "bone saw",
+  "setter": "KilterStudio",
+  "grade_raw": "6b+/V4 Yeo.",
+  "grade_v": 4,
+  "stars": 3
+}

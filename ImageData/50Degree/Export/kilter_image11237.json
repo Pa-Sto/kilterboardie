@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image11237.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 6,
+    "foot": 3
+  },
+  "raw_text": "ID\njwebxl\n\n6b/V4 ye yee\n",
+  "lines": [
+    "ID",
+    "jwebxl",
+    "6b/V4 ye yee"
+  ],
+  "name": "ID",
+  "setter": "jwebxl",
+  "grade_raw": "6b/V4 ye yee",
+  "grade_v": 4,
+  "stars": 3
+}

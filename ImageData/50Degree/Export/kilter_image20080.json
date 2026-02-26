@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image20080.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 6,
+    "foot": 6
+  },
+  "raw_text": "Ni Nine Nine De\nT3ddy\n\nZat/V7 Yeo.\n",
+  "lines": [
+    "Ni Nine Nine De",
+    "T3ddy",
+    "Zat/V7 Yeo."
+  ],
+  "name": "Ni Nine Nine De",
+  "setter": "T3ddy",
+  "grade_raw": "Zat/V7 Yeo.",
+  "grade_v": 7,
+  "stars": 3
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image21576.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 6,
+    "foot": 4
+  },
+  "raw_text": "mes Used to Have (\nSenatorWiggles\n\n7b/V8 Ye ee\n",
+  "lines": [
+    "mes Used to Have (",
+    "SenatorWiggles",
+    "7b/V8 Ye ee"
+  ],
+  "name": "mes Used to Have (",
+  "setter": "SenatorWiggles",
+  "grade_raw": "7b/V8 Ye ee",
+  "grade_v": 8,
+  "stars": 2
+}

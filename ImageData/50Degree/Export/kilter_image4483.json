@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image4483.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 7
+  },
+  "raw_text": "Bad Girls Club Top\ndannyrobertson\n\n7a/V6 Ye ee\n",
+  "lines": [
+    "Bad Girls Club Top",
+    "dannyrobertson",
+    "7a/V6 Ye ee"
+  ],
+  "name": "Bad Girls Club Top",
+  "setter": "dannyrobertson",
+  "grade_raw": "7a/V6 Ye ee",
+  "grade_v": 6,
+  "stars": 2
+}

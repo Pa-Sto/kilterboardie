@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image24543.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 3
+  },
+  "raw_text": "skip on the beat\nsamuelguerrero\n\n7c+/V10 ye vee\n",
+  "lines": [
+    "skip on the beat",
+    "samuelguerrero",
+    "7c+/V10 ye vee"
+  ],
+  "name": "skip on the beat",
+  "setter": "samuelguerrero",
+  "grade_raw": "7c+/V10 ye vee",
+  "grade_v": 10,
+  "stars": 3
+}

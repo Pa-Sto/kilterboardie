@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image20667.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 9,
+    "foot": 8
+  },
+  "raw_text": "Saving Grace\nmac.casey\n\n6c/V5 eee\n",
+  "lines": [
+    "Saving Grace",
+    "mac.casey",
+    "6c/V5 eee"
+  ],
+  "name": "Saving Grace",
+  "setter": "mac.casey",
+  "grade_raw": "6c/V5 eee",
+  "grade_v": 5,
+  "stars": 3
+}

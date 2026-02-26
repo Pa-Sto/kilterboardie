@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image23281.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 4
+  },
+  "raw_text": "piff paff\njanktp\n\n7c+/V10 Yeo ve\n",
+  "lines": [
+    "piff paff",
+    "janktp",
+    "7c+/V10 Yeo ve"
+  ],
+  "name": "piff paff",
+  "setter": "janktp",
+  "grade_raw": "7c+/V10 Yeo ve",
+  "grade_v": 10,
+  "stars": 2
+}

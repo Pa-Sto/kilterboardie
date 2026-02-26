@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image18388.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 3
+  },
+  "raw_text": "lron Chef\nkrimdogbillionaire\n\n7c/V9 Ye vee\n",
+  "lines": [
+    "lron Chef",
+    "krimdogbillionaire",
+    "7c/V9 Ye vee"
+  ],
+  "name": "lron Chef",
+  "setter": "krimdogbillionaire",
+  "grade_raw": "7c/V9 Ye vee",
+  "grade_v": 9,
+  "stars": 3
+}

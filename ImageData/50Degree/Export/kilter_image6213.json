@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image6213.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 4,
+    "foot": 4
+  },
+  "raw_text": "Pimp Fin\nBLpat\n\n7c/V9 Ye vee\n",
+  "lines": [
+    "Pimp Fin",
+    "BLpat",
+    "7c/V9 Ye vee"
+  ],
+  "name": "Pimp Fin",
+  "setter": "BLpat",
+  "grade_raw": "7c/V9 Ye vee",
+  "grade_v": 9,
+  "stars": 3
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image9454.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 2
+  },
+  "raw_text": "tip toe throw\nkylerowe\n\nS TalV6 eee\n",
+  "lines": [
+    "tip toe throw",
+    "kylerowe",
+    "S TalV6 eee"
+  ],
+  "name": "tip toe throw",
+  "setter": "kylerowe",
+  "grade_raw": "S TalV6 eee",
+  "grade_v": 6,
+  "stars": 3
+}

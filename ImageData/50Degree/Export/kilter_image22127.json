@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image22127.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 6
+  },
+  "raw_text": "V4-V6 Circuit #28\nGirthQuake\n\n6c+/V5 Yevroe\n",
+  "lines": [
+    "V4-V6 Circuit #28",
+    "GirthQuake",
+    "6c+/V5 Yevroe"
+  ],
+  "name": "V4-V6 Circuit #28",
+  "setter": "GirthQuake",
+  "grade_raw": "6c+/V5 Yevroe",
+  "grade_v": 5,
+  "stars": 4
+}

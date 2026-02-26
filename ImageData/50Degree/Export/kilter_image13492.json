@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image13492.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 7,
+    "foot": 4
+  },
+  "raw_text": "okey dokey yo <#\nleedongeun87\n\n& 7a/V6 Ke ee\n",
+  "lines": [
+    "okey dokey yo <#",
+    "leedongeun87",
+    "& 7a/V6 Ke ee"
+  ],
+  "name": "okey dokey yo <#",
+  "setter": "leedongeun87",
+  "grade_raw": "& 7a/V6 Ke ee",
+  "grade_v": 6,
+  "stars": 2
+}

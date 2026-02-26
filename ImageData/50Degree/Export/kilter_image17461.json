@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image17461.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 4,
+    "foot": 5
+  },
+  "raw_text": "Tall Boy Reach\nbsebaz\n\n6ct/V5 Yee\n",
+  "lines": [
+    "Tall Boy Reach",
+    "bsebaz",
+    "6ct/V5 Yee"
+  ],
+  "name": "Tall Boy Reach",
+  "setter": "bsebaz",
+  "grade_raw": "6ct/V5 Yee",
+  "grade_v": 5,
+  "stars": 3
+}

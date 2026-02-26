@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image26116.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 4
+  },
+  "raw_text": "Ur-hei-nus\nmitch_newman4\n\n7c/V9 Ye vee\n",
+  "lines": [
+    "Ur-hei-nus",
+    "mitch_newman4",
+    "7c/V9 Ye vee"
+  ],
+  "name": "Ur-hei-nus",
+  "setter": "mitch_newman4",
+  "grade_raw": "7c/V9 Ye vee",
+  "grade_v": 9,
+  "stars": 3
+}

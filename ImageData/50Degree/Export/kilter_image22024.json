@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image22024.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 3,
+    "foot": 5
+  },
+  "raw_text": "Cult Sacrifice\nRiverTulloss\n\nZat/V7 Yeo.\n",
+  "lines": [
+    "Cult Sacrifice",
+    "RiverTulloss",
+    "Zat/V7 Yeo."
+  ],
+  "name": "Cult Sacrifice",
+  "setter": "RiverTulloss",
+  "grade_raw": "Zat/V7 Yeo.",
+  "grade_v": 7,
+  "stars": 3
+}

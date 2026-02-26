@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image12854.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 7,
+    "foot": 13
+  },
+  "raw_text": "Tap Tap Tap\nwill_avelar\n\n6a/V3 Ye ee\n",
+  "lines": [
+    "Tap Tap Tap",
+    "will_avelar",
+    "6a/V3 Ye ee"
+  ],
+  "name": "Tap Tap Tap",
+  "setter": "will_avelar",
+  "grade_raw": "6a/V3 Ye ee",
+  "grade_v": 3,
+  "stars": 2
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image3502.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 2,
+    "foot": 5
+  },
+  "raw_text": "Raisinette\nmikey. light\n\n7a/V6 Ye ee\n",
+  "lines": [
+    "Raisinette",
+    "mikey. light",
+    "7a/V6 Ye ee"
+  ],
+  "name": "Raisinette",
+  "setter": "mikey. light",
+  "grade_raw": "7a/V6 Ye ee",
+  "grade_v": 6,
+  "stars": 2
+}

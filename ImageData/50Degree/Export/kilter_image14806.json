@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image14806.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 5
+  },
+  "raw_text": "Joint efforts\ndfried\n\n6c/V5 eee\n",
+  "lines": [
+    "Joint efforts",
+    "dfried",
+    "6c/V5 eee"
+  ],
+  "name": "Joint efforts",
+  "setter": "dfried",
+  "grade_raw": "6c/V5 eee",
+  "grade_v": 5,
+  "stars": 3
+}

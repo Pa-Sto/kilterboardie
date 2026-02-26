@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image13829.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 3
+  },
+  "raw_text": "Pam Balam\nkilterjackie\n\n7a/V6 Ye ee\n",
+  "lines": [
+    "Pam Balam",
+    "kilterjackie",
+    "7a/V6 Ye ee"
+  ],
+  "name": "Pam Balam",
+  "setter": "kilterjackie",
+  "grade_raw": "7a/V6 Ye ee",
+  "grade_v": 6,
+  "stars": 2
+}

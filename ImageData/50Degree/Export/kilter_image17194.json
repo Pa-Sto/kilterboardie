@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image17194.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 4,
+    "finish": 1,
+    "hand": 6,
+    "foot": 14
+  },
+  "raw_text": "C6\njuligris\n\n6c+/V5 Yevroe\n",
+  "lines": [
+    "C6",
+    "juligris",
+    "6c+/V5 Yevroe"
+  ],
+  "name": "C6",
+  "setter": "juligris",
+  "grade_raw": "6c+/V5 Yevroe",
+  "grade_v": 5,
+  "stars": 4
+}

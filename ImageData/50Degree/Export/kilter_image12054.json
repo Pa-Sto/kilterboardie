@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image12054.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 3
+  },
+  "raw_text": "Project Brother\ntimboslice\n\nZat/V7 Yeo.\n",
+  "lines": [
+    "Project Brother",
+    "timboslice",
+    "Zat/V7 Yeo."
+  ],
+  "name": "Project Brother",
+  "setter": "timboslice",
+  "grade_raw": "Zat/V7 Yeo.",
+  "grade_v": 7,
+  "stars": 3
+}

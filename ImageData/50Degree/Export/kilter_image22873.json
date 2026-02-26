@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image22873.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 3,
+    "foot": 5
+  },
+  "raw_text": "Mand M\nryanneedles\n\n6c/V5 eee\n",
+  "lines": [
+    "Mand M",
+    "ryanneedles",
+    "6c/V5 eee"
+  ],
+  "name": "Mand M",
+  "setter": "ryanneedles",
+  "grade_raw": "6c/V5 eee",
+  "grade_v": 5,
+  "stars": 3
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image21915.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 4,
+    "foot": 5
+  },
+  "raw_text": "Richard Dugless\nKilterStudio\n\n7b/V8 Ye ee\n",
+  "lines": [
+    "Richard Dugless",
+    "KilterStudio",
+    "7b/V8 Ye ee"
+  ],
+  "name": "Richard Dugless",
+  "setter": "KilterStudio",
+  "grade_raw": "7b/V8 Ye ee",
+  "grade_v": 8,
+  "stars": 2
+}

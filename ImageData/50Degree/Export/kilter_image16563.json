@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image16563.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 8
+  },
+  "raw_text": "Varm Up Options 03\nagrphoto\n\n6a/V3 Ye ee\n",
+  "lines": [
+    "Varm Up Options 03",
+    "agrphoto",
+    "6a/V3 Ye ee"
+  ],
+  "name": "Varm Up Options 03",
+  "setter": "agrphoto",
+  "grade_raw": "6a/V3 Ye ee",
+  "grade_v": 3,
+  "stars": 2
+}

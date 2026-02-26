@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image20076.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 8,
+    "foot": 4
+  },
+  "raw_text": "J.A. speciale\nPaw\n\n6c+/V5 Yevroe\n",
+  "lines": [
+    "J.A. speciale",
+    "Paw",
+    "6c+/V5 Yevroe"
+  ],
+  "name": "J.A. speciale",
+  "setter": "Paw",
+  "grade_raw": "6c+/V5 Yevroe",
+  "grade_v": 5,
+  "stars": 4
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image3824.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 4
+  },
+  "raw_text": "Umi Sake\nc_Dog32\n\n\u00ae 6c+/V5 Yeo oe\n",
+  "lines": [
+    "Umi Sake",
+    "c_Dog32",
+    "\u00ae 6c+/V5 Yeo oe"
+  ],
+  "name": "Umi Sake",
+  "setter": "c_Dog32",
+  "grade_raw": "\u00ae 6c+/V5 Yeo oe",
+  "grade_v": 5,
+  "stars": 2
+}

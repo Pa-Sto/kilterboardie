@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image6984.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 8,
+    "foot": 4
+  },
+  "raw_text": "Rosy Tips-a-fiction\nKilterStudio\n\n6c/V5 eee\n",
+  "lines": [
+    "Rosy Tips-a-fiction",
+    "KilterStudio",
+    "6c/V5 eee"
+  ],
+  "name": "Rosy Tips-a-fiction",
+  "setter": "KilterStudio",
+  "grade_raw": "6c/V5 eee",
+  "grade_v": 5,
+  "stars": 3
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image28812.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 7,
+    "foot": 3
+  },
+  "raw_text": "Say Sike\nFluffytheCat\n\n\u00ae 7a+/V7 vee\n",
+  "lines": [
+    "Say Sike",
+    "FluffytheCat",
+    "\u00ae 7a+/V7 vee"
+  ],
+  "name": "Say Sike",
+  "setter": "FluffytheCat",
+  "grade_raw": "\u00ae 7a+/V7 vee",
+  "grade_v": 7,
+  "stars": 3
+}

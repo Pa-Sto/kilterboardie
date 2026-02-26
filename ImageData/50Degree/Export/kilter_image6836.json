@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image6836.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 2,
+    "hand": 5,
+    "foot": 6
+  },
+  "raw_text": "20kg bench press\nxlgreen85\n\n7c/V9 Ye vee\n",
+  "lines": [
+    "20kg bench press",
+    "xlgreen85",
+    "7c/V9 Ye vee"
+  ],
+  "name": "20kg bench press",
+  "setter": "xlgreen85",
+  "grade_raw": "7c/V9 Ye vee",
+  "grade_v": 9,
+  "stars": 3
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image11895.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 7,
+    "foot": 9
+  },
+  "raw_text": "Mary me Jane\njwebxl\n\n6b+/V4 Yeo.\n",
+  "lines": [
+    "Mary me Jane",
+    "jwebxl",
+    "6b+/V4 Yeo."
+  ],
+  "name": "Mary me Jane",
+  "setter": "jwebxl",
+  "grade_raw": "6b+/V4 Yeo.",
+  "grade_v": 4,
+  "stars": 3
+}

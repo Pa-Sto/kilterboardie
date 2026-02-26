@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image22254.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 3,
+    "foot": 1
+  },
+  "raw_text": "Oatmilk Drunk\nendz\n\n6at/V3 Ye oroe\n",
+  "lines": [
+    "Oatmilk Drunk",
+    "endz",
+    "6at/V3 Ye oroe"
+  ],
+  "name": "Oatmilk Drunk",
+  "setter": "endz",
+  "grade_raw": "6at/V3 Ye oroe",
+  "grade_v": 3,
+  "stars": 4
+}

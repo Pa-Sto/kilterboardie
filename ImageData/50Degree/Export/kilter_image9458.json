@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image9458.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 7,
+    "foot": 5
+  },
+  "raw_text": "1en Drink in der Han\nArne\n\n6b/V4 ye yee\n",
+  "lines": [
+    "1en Drink in der Han",
+    "Arne",
+    "6b/V4 ye yee"
+  ],
+  "name": "1en Drink in der Han",
+  "setter": "Arne",
+  "grade_raw": "6b/V4 ye yee",
+  "grade_v": 4,
+  "stars": 3
+}

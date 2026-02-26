@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image15047.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 6,
+    "foot": 7
+  },
+  "raw_text": "Biceptual\nameenh\n\n8a/V11 eee\n",
+  "lines": [
+    "Biceptual",
+    "ameenh",
+    "8a/V11 eee"
+  ],
+  "name": "Biceptual",
+  "setter": "ameenh",
+  "grade_raw": "8a/V11 eee",
+  "grade_v": 11,
+  "stars": 3
+}

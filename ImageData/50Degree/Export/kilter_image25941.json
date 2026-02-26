@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image25941.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 6,
+    "foot": 2
+  },
+  "raw_text": "Super Cereal\njwilder\n\n7a/V6 Ye ee\n",
+  "lines": [
+    "Super Cereal",
+    "jwilder",
+    "7a/V6 Ye ee"
+  ],
+  "name": "Super Cereal",
+  "setter": "jwilder",
+  "grade_raw": "7a/V6 Ye ee",
+  "grade_v": 6,
+  "stars": 2
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image6923.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 3
+  },
+  "raw_text": "Idren Under the Stai\nCuckovich\n\n7a/V6 Ye ee\n",
+  "lines": [
+    "Idren Under the Stai",
+    "Cuckovich",
+    "7a/V6 Ye ee"
+  ],
+  "name": "Idren Under the Stai",
+  "setter": "Cuckovich",
+  "grade_raw": "7a/V6 Ye ee",
+  "grade_v": 6,
+  "stars": 2
+}

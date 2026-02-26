@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image27798.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 3
+  },
+  "raw_text": "Chanos 7\nchanos123\n\n7b+/V8 Yee.\n",
+  "lines": [
+    "Chanos 7",
+    "chanos123",
+    "7b+/V8 Yee."
+  ],
+  "name": "Chanos 7",
+  "setter": "chanos123",
+  "grade_raw": "7b+/V8 Yee.",
+  "grade_v": 8,
+  "stars": 3
+}

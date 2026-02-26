@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image22565.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 3
+  },
+  "raw_text": "No Biceps\nGW_kKilter\n\n6b+/V4 Yeo.\n",
+  "lines": [
+    "No Biceps",
+    "GW_kKilter",
+    "6b+/V4 Yeo."
+  ],
+  "name": "No Biceps",
+  "setter": "GW_kKilter",
+  "grade_raw": "6b+/V4 Yeo.",
+  "grade_v": 4,
+  "stars": 3
+}

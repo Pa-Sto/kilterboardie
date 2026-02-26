@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image7917.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 3
+  },
+  "raw_text": "uncast shadow\nmondragon\n\nS TatilV7 Yeo\n",
+  "lines": [
+    "uncast shadow",
+    "mondragon",
+    "S TatilV7 Yeo"
+  ],
+  "name": "uncast shadow",
+  "setter": "mondragon",
+  "grade_raw": "S TatilV7 Yeo",
+  "grade_v": 7,
+  "stars": 3
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image13489.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 4,
+    "foot": 1
+  },
+  "raw_text": "3eyond the Number\nwalterfury\n\n7b/V8 Ye ee\n",
+  "lines": [
+    "3eyond the Number",
+    "walterfury",
+    "7b/V8 Ye ee"
+  ],
+  "name": "3eyond the Number",
+  "setter": "walterfury",
+  "grade_raw": "7b/V8 Ye ee",
+  "grade_v": 8,
+  "stars": 2
+}

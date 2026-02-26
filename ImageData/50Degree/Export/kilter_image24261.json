@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image24261.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 5
+  },
+  "raw_text": "Gettin Loose\ngrockim\n\n6a/V3 Ye ee\n",
+  "lines": [
+    "Gettin Loose",
+    "grockim",
+    "6a/V3 Ye ee"
+  ],
+  "name": "Gettin Loose",
+  "setter": "grockim",
+  "grade_raw": "6a/V3 Ye ee",
+  "grade_v": 3,
+  "stars": 2
+}

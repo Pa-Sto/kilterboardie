@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image7117.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 6
+  },
+  "raw_text": "Slender5\nRileyHancock\n\n6b/V4 ye yee\n",
+  "lines": [
+    "Slender5",
+    "RileyHancock",
+    "6b/V4 ye yee"
+  ],
+  "name": "Slender5",
+  "setter": "RileyHancock",
+  "grade_raw": "6b/V4 ye yee",
+  "grade_v": 4,
+  "stars": 3
+}

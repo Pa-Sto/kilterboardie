@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image5036.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 6
+  },
+  "raw_text": "Very beery\ndevilsphilosopher\n\n7a/V6 Ye ee\n",
+  "lines": [
+    "Very beery",
+    "devilsphilosopher",
+    "7a/V6 Ye ee"
+  ],
+  "name": "Very beery",
+  "setter": "devilsphilosopher",
+  "grade_raw": "7a/V6 Ye ee",
+  "grade_v": 6,
+  "stars": 2
+}

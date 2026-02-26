@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image24359.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 5,
+    "foot": 6
+  },
+  "raw_text": "Rura Mae\neddiehills\n\n7c+/V10 Yeo ve\n",
+  "lines": [
+    "Rura Mae",
+    "eddiehills",
+    "7c+/V10 Yeo ve"
+  ],
+  "name": "Rura Mae",
+  "setter": "eddiehills",
+  "grade_raw": "7c+/V10 Yeo ve",
+  "grade_v": 10,
+  "stars": 2
+}

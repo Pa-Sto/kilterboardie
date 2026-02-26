@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image3356.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 4,
+    "foot": 2
+  },
+  "raw_text": "Writer's Bloc\nKilterStudio\n\n7b+/V8 Yee.\n",
+  "lines": [
+    "Writer's Bloc",
+    "KilterStudio",
+    "7b+/V8 Yee."
+  ],
+  "name": "Writer's Bloc",
+  "setter": "KilterStudio",
+  "grade_raw": "7b+/V8 Yee.",
+  "grade_v": 8,
+  "stars": 3
+}

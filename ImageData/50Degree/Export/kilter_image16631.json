@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image16631.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 7
+  },
+  "raw_text": "ice Battleship Tirami\nK5eags\n\n7b+/V8 Yee.\n",
+  "lines": [
+    "ice Battleship Tirami",
+    "K5eags",
+    "7b+/V8 Yee."
+  ],
+  "name": "ice Battleship Tirami",
+  "setter": "K5eags",
+  "grade_raw": "7b+/V8 Yee.",
+  "grade_v": 8,
+  "stars": 3
+}

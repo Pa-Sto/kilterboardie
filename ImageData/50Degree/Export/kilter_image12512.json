@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image12512.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 2
+  },
+  "raw_text": "Apocalypse Meow\nkrimdogbillionaire\n\n7c+/V10 ye vee\n",
+  "lines": [
+    "Apocalypse Meow",
+    "krimdogbillionaire",
+    "7c+/V10 ye vee"
+  ],
+  "name": "Apocalypse Meow",
+  "setter": "krimdogbillionaire",
+  "grade_raw": "7c+/V10 ye vee",
+  "grade_v": 10,
+  "stars": 3
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image3691.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 4
+  },
+  "raw_text": "stacking paper\nkiel\n\n6c/V5 eee\n",
+  "lines": [
+    "stacking paper",
+    "kiel",
+    "6c/V5 eee"
+  ],
+  "name": "stacking paper",
+  "setter": "kiel",
+  "grade_raw": "6c/V5 eee",
+  "grade_v": 5,
+  "stars": 3
+}

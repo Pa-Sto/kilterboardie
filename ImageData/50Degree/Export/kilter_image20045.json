@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image20045.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 6,
+    "foot": 11
+  },
+  "raw_text": "Back in the Saddle\nSandro\n\n6a/V3 Ye ee\n",
+  "lines": [
+    "Back in the Saddle",
+    "Sandro",
+    "6a/V3 Ye ee"
+  ],
+  "name": "Back in the Saddle",
+  "setter": "Sandro",
+  "grade_raw": "6a/V3 Ye ee",
+  "grade_v": 3,
+  "stars": 2
+}

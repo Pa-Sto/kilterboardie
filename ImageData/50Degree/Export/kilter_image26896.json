@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image26896.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 5,
+    "foot": 2
+  },
+  "raw_text": "evin and his tension\nKilterStudio\n\n6b+/V4 Yeo.\n",
+  "lines": [
+    "evin and his tension",
+    "KilterStudio",
+    "6b+/V4 Yeo."
+  ],
+  "name": "evin and his tension",
+  "setter": "KilterStudio",
+  "grade_raw": "6b+/V4 Yeo.",
+  "grade_v": 4,
+  "stars": 3
+}

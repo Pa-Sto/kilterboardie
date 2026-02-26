@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image17516.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 2
+  },
+  "raw_text": "icy Hot Cross Bun \u00a2\nCodyRatterman\n\n7c/V9 Ye vee\n",
+  "lines": [
+    "icy Hot Cross Bun \u00a2",
+    "CodyRatterman",
+    "7c/V9 Ye vee"
+  ],
+  "name": "icy Hot Cross Bun \u00a2",
+  "setter": "CodyRatterman",
+  "grade_raw": "7c/V9 Ye vee",
+  "grade_v": 9,
+  "stars": 3
+}

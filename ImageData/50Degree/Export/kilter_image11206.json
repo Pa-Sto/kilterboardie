@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image11206.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 3,
+    "foot": 6
+  },
+  "raw_text": "nycelial connection\nflo_brailsford\n\n7a/V6 Ye ee\n",
+  "lines": [
+    "nycelial connection",
+    "flo_brailsford",
+    "7a/V6 Ye ee"
+  ],
+  "name": "nycelial connection",
+  "setter": "flo_brailsford",
+  "grade_raw": "7a/V6 Ye ee",
+  "grade_v": 6,
+  "stars": 2
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image6787.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 2
+  },
+  "raw_text": "sgusted Housewive:\nkrai3060\n6c+/V5 Ye ee\n",
+  "lines": [
+    "sgusted Housewive:",
+    "krai3060",
+    "6c+/V5 Ye ee"
+  ],
+  "name": "sgusted Housewive:",
+  "setter": "krai3060",
+  "grade_raw": "6c+/V5 Ye ee",
+  "grade_v": 5,
+  "stars": 2
+}

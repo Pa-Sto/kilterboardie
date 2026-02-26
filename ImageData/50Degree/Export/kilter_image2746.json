@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image2746.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 6,
+    "foot": 4
+  },
+  "raw_text": "aenerys warm-born\nkiel\n\n6b/V4 ye yee\n",
+  "lines": [
+    "aenerys warm-born",
+    "kiel",
+    "6b/V4 ye yee"
+  ],
+  "name": "aenerys warm-born",
+  "setter": "kiel",
+  "grade_raw": "6b/V4 ye yee",
+  "grade_v": 4,
+  "stars": 3
+}

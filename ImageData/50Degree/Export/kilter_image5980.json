@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image5980.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 3
+  },
+  "raw_text": "Lack of Faith\nKilterStudio\n\n6c+/V5 Yevroe\n",
+  "lines": [
+    "Lack of Faith",
+    "KilterStudio",
+    "6c+/V5 Yevroe"
+  ],
+  "name": "Lack of Faith",
+  "setter": "KilterStudio",
+  "grade_raw": "6c+/V5 Yevroe",
+  "grade_v": 5,
+  "stars": 4
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image10990.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 8,
+    "foot": 3
+  },
+  "raw_text": "Drawing the Priest\ngriffinwhiteside\n\nS TalV6 eee\n",
+  "lines": [
+    "Drawing the Priest",
+    "griffinwhiteside",
+    "S TalV6 eee"
+  ],
+  "name": "Drawing the Priest",
+  "setter": "griffinwhiteside",
+  "grade_raw": "S TalV6 eee",
+  "grade_v": 6,
+  "stars": 3
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image14119.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 3
+  },
+  "raw_text": "Proj braj extension\nJamieBarendrecht\n\n7b/V8 Ye ee\n",
+  "lines": [
+    "Proj braj extension",
+    "JamieBarendrecht",
+    "7b/V8 Ye ee"
+  ],
+  "name": "Proj braj extension",
+  "setter": "JamieBarendrecht",
+  "grade_raw": "7b/V8 Ye ee",
+  "grade_v": 8,
+  "stars": 2
+}

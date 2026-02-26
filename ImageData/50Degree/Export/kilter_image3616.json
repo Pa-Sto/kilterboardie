@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image3616.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 6,
+    "foot": 4
+  },
+  "raw_text": "Worlds away\nDepresto\n\n& 7c/V9 Ye vee\n",
+  "lines": [
+    "Worlds away",
+    "Depresto",
+    "& 7c/V9 Ye vee"
+  ],
+  "name": "Worlds away",
+  "setter": "Depresto",
+  "grade_raw": "& 7c/V9 Ye vee",
+  "grade_v": 9,
+  "stars": 3
+}

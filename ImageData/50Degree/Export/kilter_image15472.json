@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image15472.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 5
+  },
+  "raw_text": "Cruise crimps\nsteil_boulderhalle\n\n7c+/V10 Yeo ve\n",
+  "lines": [
+    "Cruise crimps",
+    "steil_boulderhalle",
+    "7c+/V10 Yeo ve"
+  ],
+  "name": "Cruise crimps",
+  "setter": "steil_boulderhalle",
+  "grade_raw": "7c+/V10 Yeo ve",
+  "grade_v": 10,
+  "stars": 2
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image29641.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 0
+  },
+  "raw_text": "vic finale f1\nwillyjoe\n\n7c/V9 Ye vee\n",
+  "lines": [
+    "vic finale f1",
+    "willyjoe",
+    "7c/V9 Ye vee"
+  ],
+  "name": "vic finale f1",
+  "setter": "willyjoe",
+  "grade_raw": "7c/V9 Ye vee",
+  "grade_v": 9,
+  "stars": 3
+}

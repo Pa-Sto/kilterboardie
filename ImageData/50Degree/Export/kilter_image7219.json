@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image7219.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 4,
+    "foot": 2
+  },
+  "raw_text": "lean and bop\nnathanphillipsclimbing\n\n7c+/V10 Yeo ve\n",
+  "lines": [
+    "lean and bop",
+    "nathanphillipsclimbing",
+    "7c+/V10 Yeo ve"
+  ],
+  "name": "lean and bop",
+  "setter": "nathanphillipsclimbing",
+  "grade_raw": "7c+/V10 Yeo ve",
+  "grade_v": 10,
+  "stars": 2
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image3665.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 3,
+    "foot": 1
+  },
+  "raw_text": "Happy Enough\nKilterStudio\n\n6b/V4 ye yee\n",
+  "lines": [
+    "Happy Enough",
+    "KilterStudio",
+    "6b/V4 ye yee"
+  ],
+  "name": "Happy Enough",
+  "setter": "KilterStudio",
+  "grade_raw": "6b/V4 ye yee",
+  "grade_v": 4,
+  "stars": 3
+}

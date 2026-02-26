@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image16149.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 2,
+    "foot": 0
+  },
+  "raw_text": "spicy campus #1\nJustCampus\n\n7b/V8 Ye ee\n",
+  "lines": [
+    "spicy campus #1",
+    "JustCampus",
+    "7b/V8 Ye ee"
+  ],
+  "name": "spicy campus #1",
+  "setter": "JustCampus",
+  "grade_raw": "7b/V8 Ye ee",
+  "grade_v": 8,
+  "stars": 2
+}

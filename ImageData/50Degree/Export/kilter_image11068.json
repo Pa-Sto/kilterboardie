@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image11068.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 3,
+    "foot": 3
+  },
+  "raw_text": "GameOLife\nmyleswamsley\n\n7b/V8 Ye ee\n",
+  "lines": [
+    "GameOLife",
+    "myleswamsley",
+    "7b/V8 Ye ee"
+  ],
+  "name": "GameOLife",
+  "setter": "myleswamsley",
+  "grade_raw": "7b/V8 Ye ee",
+  "grade_v": 8,
+  "stars": 2
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image17921.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 8,
+    "foot": 4
+  },
+  "raw_text": "sk and go to the blue\nMatadorlee\n\n6a/V3 Ye ee\n",
+  "lines": [
+    "sk and go to the blue",
+    "Matadorlee",
+    "6a/V3 Ye ee"
+  ],
+  "name": "sk and go to the blue",
+  "setter": "Matadorlee",
+  "grade_raw": "6a/V3 Ye ee",
+  "grade_v": 3,
+  "stars": 2
+}

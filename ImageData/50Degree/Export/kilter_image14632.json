@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image14632.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 2
+  },
+  "raw_text": "step Two Step Red \u00a2\nbkbskilterboard\n\n6at/V3 Yer e\n",
+  "lines": [
+    "step Two Step Red \u00a2",
+    "bkbskilterboard",
+    "6at/V3 Yer e"
+  ],
+  "name": "step Two Step Red \u00a2",
+  "setter": "bkbskilterboard",
+  "grade_raw": "6at/V3 Yer e",
+  "grade_v": 3,
+  "stars": 1
+}

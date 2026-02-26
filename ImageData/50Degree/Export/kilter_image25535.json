@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image25535.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 5,
+    "foot": 4
+  },
+  "raw_text": "Eug's Jugs\nGW_Kilter\n\n6b+/V4 Yeo.\n",
+  "lines": [
+    "Eug's Jugs",
+    "GW_Kilter",
+    "6b+/V4 Yeo."
+  ],
+  "name": "Eug's Jugs",
+  "setter": "GW_Kilter",
+  "grade_raw": "6b+/V4 Yeo.",
+  "grade_v": 4,
+  "stars": 3
+}

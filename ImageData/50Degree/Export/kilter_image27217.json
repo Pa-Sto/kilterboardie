@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image27217.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 3
+  },
+  "raw_text": "dyno!\npfs\n\n6c/V5 eee\n",
+  "lines": [
+    "dyno!",
+    "pfs",
+    "6c/V5 eee"
+  ],
+  "name": "dyno!",
+  "setter": "pfs",
+  "grade_raw": "6c/V5 eee",
+  "grade_v": 5,
+  "stars": 3
+}

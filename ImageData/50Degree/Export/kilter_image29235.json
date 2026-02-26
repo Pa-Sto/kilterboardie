@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image29235.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 3,
+    "foot": 3
+  },
+  "raw_text": "tzzzagh\nBKBChicago\n\n6b+/V4 Yeo.\n",
+  "lines": [
+    "tzzzagh",
+    "BKBChicago",
+    "6b+/V4 Yeo."
+  ],
+  "name": "tzzzagh",
+  "setter": "BKBChicago",
+  "grade_raw": "6b+/V4 Yeo.",
+  "grade_v": 4,
+  "stars": 3
+}

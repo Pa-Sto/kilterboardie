@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image26365.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 5,
+    "foot": 5
+  },
+  "raw_text": "Take?\njwebxl\n\n8at/V12 Yroe ve\n",
+  "lines": [
+    "Take?",
+    "jwebxl",
+    "8at/V12 Yroe ve"
+  ],
+  "name": "Take?",
+  "setter": "jwebxl",
+  "grade_raw": "8at/V12 Yroe ve",
+  "grade_v": 12,
+  "stars": 2
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image8845.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 3,
+    "foot": 5
+  },
+  "raw_text": "CUT IT.\njoejoonkim\n\n& 7c+/V10 9&9\n",
+  "lines": [
+    "CUT IT.",
+    "joejoonkim",
+    "& 7c+/V10 9&9"
+  ],
+  "name": "CUT IT.",
+  "setter": "joejoonkim",
+  "grade_raw": "& 7c+/V10 9&9",
+  "grade_v": 10,
+  "stars": null
+}

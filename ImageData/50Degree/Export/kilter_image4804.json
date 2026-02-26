@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image4804.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 3
+  },
+  "raw_text": "nna Got Me Clickin'\nHamiter\n\n7a/V6 Ye ee\n",
+  "lines": [
+    "nna Got Me Clickin'",
+    "Hamiter",
+    "7a/V6 Ye ee"
+  ],
+  "name": "nna Got Me Clickin'",
+  "setter": "Hamiter",
+  "grade_raw": "7a/V6 Ye ee",
+  "grade_v": 6,
+  "stars": 2
+}

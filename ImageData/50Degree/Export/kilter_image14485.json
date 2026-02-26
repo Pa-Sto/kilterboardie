@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image14485.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 3,
+    "foot": 0
+  },
+  "raw_text": "Jug Fest (campus)\ncbeniaris\n\n7a/V6 Ye ee\n",
+  "lines": [
+    "Jug Fest (campus)",
+    "cbeniaris",
+    "7a/V6 Ye ee"
+  ],
+  "name": "Jug Fest (campus)",
+  "setter": "cbeniaris",
+  "grade_raw": "7a/V6 Ye ee",
+  "grade_v": 6,
+  "stars": 2
+}

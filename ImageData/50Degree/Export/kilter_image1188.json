@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image1188.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 5,
+    "foot": 7
+  },
+  "raw_text": "Tamago Gohan\naqueousplanet\n\n7c/V9 Ye vee\n",
+  "lines": [
+    "Tamago Gohan",
+    "aqueousplanet",
+    "7c/V9 Ye vee"
+  ],
+  "name": "Tamago Gohan",
+  "setter": "aqueousplanet",
+  "grade_raw": "7c/V9 Ye vee",
+  "grade_v": 9,
+  "stars": 3
+}

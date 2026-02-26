@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image18649.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 6,
+    "foot": 4
+  },
+  "raw_text": "Joe's Resort\nJarodSuxLemons\n\n7b/V8 Ye ee\n",
+  "lines": [
+    "Joe's Resort",
+    "JarodSuxLemons",
+    "7b/V8 Ye ee"
+  ],
+  "name": "Joe's Resort",
+  "setter": "JarodSuxLemons",
+  "grade_raw": "7b/V8 Ye ee",
+  "grade_v": 8,
+  "stars": 2
+}

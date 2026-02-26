@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image13592.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 3,
+    "foot": 4
+  },
+  "raw_text": "Ahmad Kabiri\nAdrenaline.Factory\n\nZat/V7 Yeo.\n",
+  "lines": [
+    "Ahmad Kabiri",
+    "Adrenaline.Factory",
+    "Zat/V7 Yeo."
+  ],
+  "name": "Ahmad Kabiri",
+  "setter": "Adrenaline.Factory",
+  "grade_raw": "Zat/V7 Yeo.",
+  "grade_v": 7,
+  "stars": 3
+}

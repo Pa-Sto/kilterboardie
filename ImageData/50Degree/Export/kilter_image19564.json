@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image19564.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 2,
+    "foot": 2
+  },
+  "raw_text": "Bigger Texas\npfs\n@\u00ae 7c/V9 kok\n",
+  "lines": [
+    "Bigger Texas",
+    "pfs",
+    "@\u00ae 7c/V9 kok"
+  ],
+  "name": "Bigger Texas",
+  "setter": "pfs",
+  "grade_raw": "@\u00ae 7c/V9 kok",
+  "grade_v": 9,
+  "stars": 3
+}

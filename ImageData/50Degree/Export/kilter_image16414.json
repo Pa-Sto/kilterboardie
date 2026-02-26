@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image16414.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 1,
+    "foot": 2
+  },
+  "raw_text": "ng Juul and hucking\nDSpence\n\n7a/V6 Ye ee\n",
+  "lines": [
+    "ng Juul and hucking",
+    "DSpence",
+    "7a/V6 Ye ee"
+  ],
+  "name": "ng Juul and hucking",
+  "setter": "DSpence",
+  "grade_raw": "7a/V6 Ye ee",
+  "grade_v": 6,
+  "stars": 2
+}

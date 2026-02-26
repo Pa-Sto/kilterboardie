@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image27508.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 3
+  },
+  "raw_text": "sleeper agent\nmikkelsommer\n\n7b/V8 Ye ee\n",
+  "lines": [
+    "sleeper agent",
+    "mikkelsommer",
+    "7b/V8 Ye ee"
+  ],
+  "name": "sleeper agent",
+  "setter": "mikkelsommer",
+  "grade_raw": "7b/V8 Ye ee",
+  "grade_v": 8,
+  "stars": 2
+}

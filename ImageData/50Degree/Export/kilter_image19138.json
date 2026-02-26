@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image19138.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 5,
+    "foot": 5
+  },
+  "raw_text": "<in\u2019' up the Brinks Trt\ndbarks\n\n8a/V11 eee\n",
+  "lines": [
+    "<in\u2019' up the Brinks Trt",
+    "dbarks",
+    "8a/V11 eee"
+  ],
+  "name": "<in\u2019' up the Brinks Trt",
+  "setter": "dbarks",
+  "grade_raw": "8a/V11 eee",
+  "grade_v": 11,
+  "stars": 3
+}

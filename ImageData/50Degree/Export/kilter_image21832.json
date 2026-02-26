@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image21832.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 7,
+    "foot": 8
+  },
+  "raw_text": "Dylan Thomas\nKilterStudio\n\n6b+/V4 Yeo.\n",
+  "lines": [
+    "Dylan Thomas",
+    "KilterStudio",
+    "6b+/V4 Yeo."
+  ],
+  "name": "Dylan Thomas",
+  "setter": "KilterStudio",
+  "grade_raw": "6b+/V4 Yeo.",
+  "grade_v": 4,
+  "stars": 3
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image23677.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 4,
+    "foot": 3
+  },
+  "raw_text": "Scroopy Noopers\njwilder\n\n@ 6c/V5 ek oe\n",
+  "lines": [
+    "Scroopy Noopers",
+    "jwilder",
+    "@ 6c/V5 ek oe"
+  ],
+  "name": "Scroopy Noopers",
+  "setter": "jwilder",
+  "grade_raw": "@ 6c/V5 ek oe",
+  "grade_v": 5,
+  "stars": 2
+}

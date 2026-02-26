@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image842.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 3
+  },
+  "raw_text": "Jump truck warm up\njwebxl\n\n6c/V5 eee\n",
+  "lines": [
+    "Jump truck warm up",
+    "jwebxl",
+    "6c/V5 eee"
+  ],
+  "name": "Jump truck warm up",
+  "setter": "jwebxl",
+  "grade_raw": "6c/V5 eee",
+  "grade_v": 5,
+  "stars": 3
+}

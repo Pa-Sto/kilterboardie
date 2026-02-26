@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image10139.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 2
+  },
+  "raw_text": "kackboulder 3 start\ntomtoell\n\n& 7c/V9 Ye vee\n",
+  "lines": [
+    "kackboulder 3 start",
+    "tomtoell",
+    "& 7c/V9 Ye vee"
+  ],
+  "name": "kackboulder 3 start",
+  "setter": "tomtoell",
+  "grade_raw": "& 7c/V9 Ye vee",
+  "grade_v": 9,
+  "stars": 3
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image23315.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 5,
+    "foot": 5
+  },
+  "raw_text": "close to none\nmondragon\n\n7b/V8 Ye ee\n",
+  "lines": [
+    "close to none",
+    "mondragon",
+    "7b/V8 Ye ee"
+  ],
+  "name": "close to none",
+  "setter": "mondragon",
+  "grade_raw": "7b/V8 Ye ee",
+  "grade_v": 8,
+  "stars": 2
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image9332.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 4
+  },
+  "raw_text": "<B_Legend BLOC 8\nKilter_Contest_Bastille\n\n7a/V6 Ye ee\n",
+  "lines": [
+    "<B_Legend BLOC 8",
+    "Kilter_Contest_Bastille",
+    "7a/V6 Ye ee"
+  ],
+  "name": "<B_Legend BLOC 8",
+  "setter": "Kilter_Contest_Bastille",
+  "grade_raw": "7a/V6 Ye ee",
+  "grade_v": 6,
+  "stars": 2
+}

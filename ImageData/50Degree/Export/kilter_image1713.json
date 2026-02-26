@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image1713.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 6,
+    "foot": 4
+  },
+  "raw_text": "trumpsgrundle\nCoastalClimbing\n\n7c/V9 Ye vee\n",
+  "lines": [
+    "trumpsgrundle",
+    "CoastalClimbing",
+    "7c/V9 Ye vee"
+  ],
+  "name": "trumpsgrundle",
+  "setter": "CoastalClimbing",
+  "grade_raw": "7c/V9 Ye vee",
+  "grade_v": 9,
+  "stars": 3
+}

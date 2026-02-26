@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image22192.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 4
+  },
+  "raw_text": "emian Rhapsody GW\nDrPlim\n\nZat/V7 Yeo.\n",
+  "lines": [
+    "emian Rhapsody GW",
+    "DrPlim",
+    "Zat/V7 Yeo."
+  ],
+  "name": "emian Rhapsody GW",
+  "setter": "DrPlim",
+  "grade_raw": "Zat/V7 Yeo.",
+  "grade_v": 7,
+  "stars": 3
+}

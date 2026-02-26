@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image13987.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 3,
+    "foot": 3
+  },
+  "raw_text": "A Few Fun Moves\nKilterStudio\n\n6at/V3 Ye oroe\n",
+  "lines": [
+    "A Few Fun Moves",
+    "KilterStudio",
+    "6at/V3 Ye oroe"
+  ],
+  "name": "A Few Fun Moves",
+  "setter": "KilterStudio",
+  "grade_raw": "6at/V3 Ye oroe",
+  "grade_v": 3,
+  "stars": 4
+}

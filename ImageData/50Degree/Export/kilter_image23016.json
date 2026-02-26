@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image23016.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 3
+  },
+  "raw_text": "360X360\nRavioliTriceps\n\n\u00ae& 8at+/V12 ye oe oe\n",
+  "lines": [
+    "360X360",
+    "RavioliTriceps",
+    "\u00ae& 8at+/V12 ye oe oe"
+  ],
+  "name": "360X360",
+  "setter": "RavioliTriceps",
+  "grade_raw": "\u00ae& 8at+/V12 ye oe oe",
+  "grade_v": 12,
+  "stars": 2
+}

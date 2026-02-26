@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image20050.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 4
+  },
+  "raw_text": "Me Down To The Co\nsakahiet\n\n6c/V5 eee\n",
+  "lines": [
+    "Me Down To The Co",
+    "sakahiet",
+    "6c/V5 eee"
+  ],
+  "name": "Me Down To The Co",
+  "setter": "sakahiet",
+  "grade_raw": "6c/V5 eee",
+  "grade_v": 5,
+  "stars": 3
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image11480.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 2,
+    "hand": 6,
+    "foot": 5
+  },
+  "raw_text": "Ethan tha killers\nBKBChicago\n\n6at/V3 Ye oroe\n",
+  "lines": [
+    "Ethan tha killers",
+    "BKBChicago",
+    "6at/V3 Ye oroe"
+  ],
+  "name": "Ethan tha killers",
+  "setter": "BKBChicago",
+  "grade_raw": "6at/V3 Ye oroe",
+  "grade_v": 3,
+  "stars": 4
+}

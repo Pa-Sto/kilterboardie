@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image11523.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 2,
+    "hand": 8,
+    "foot": 9
+  },
+  "raw_text": "Earwax\nkilterjackie\n\n6c+/V5 Yevroe\n",
+  "lines": [
+    "Earwax",
+    "kilterjackie",
+    "6c+/V5 Yevroe"
+  ],
+  "name": "Earwax",
+  "setter": "kilterjackie",
+  "grade_raw": "6c+/V5 Yevroe",
+  "grade_v": 5,
+  "stars": 4
+}

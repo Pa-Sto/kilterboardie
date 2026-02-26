@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image4538.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 3,
+    "finish": 1,
+    "hand": 6,
+    "foot": 5
+  },
+  "raw_text": "f the wagon simplifie\nAlexis123Lepine\n\n7b/V8 Ye ee\n",
+  "lines": [
+    "f the wagon simplifie",
+    "Alexis123Lepine",
+    "7b/V8 Ye ee"
+  ],
+  "name": "f the wagon simplifie",
+  "setter": "Alexis123Lepine",
+  "grade_raw": "7b/V8 Ye ee",
+  "grade_v": 8,
+  "stars": 2
+}

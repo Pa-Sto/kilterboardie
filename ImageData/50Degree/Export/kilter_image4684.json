@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image4684.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 8,
+    "foot": 7
+  },
+  "raw_text": "Low Burner\nKilterStudio\n\n6at/V3 Ye oroe\n",
+  "lines": [
+    "Low Burner",
+    "KilterStudio",
+    "6at/V3 Ye oroe"
+  ],
+  "name": "Low Burner",
+  "setter": "KilterStudio",
+  "grade_raw": "6at/V3 Ye oroe",
+  "grade_v": 3,
+  "stars": 4
+}

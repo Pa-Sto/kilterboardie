@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image18657.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 6
+  },
+  "raw_text": "unknown #115\nspalermo\n\n7b/V8 Ye ee\n",
+  "lines": [
+    "unknown #115",
+    "spalermo",
+    "7b/V8 Ye ee"
+  ],
+  "name": "unknown #115",
+  "setter": "spalermo",
+  "grade_raw": "7b/V8 Ye ee",
+  "grade_v": 8,
+  "stars": 2
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image2514.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 6,
+    "foot": 1
+  },
+  "raw_text": "#900\nrockclimbthis\n\n& 7c/V9 Ye vee\n",
+  "lines": [
+    "#900",
+    "rockclimbthis",
+    "& 7c/V9 Ye vee"
+  ],
+  "name": "#900",
+  "setter": "rockclimbthis",
+  "grade_raw": "& 7c/V9 Ye vee",
+  "grade_v": 9,
+  "stars": 3
+}

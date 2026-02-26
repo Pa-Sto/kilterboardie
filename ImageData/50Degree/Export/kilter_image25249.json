@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image25249.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 8,
+    "foot": 3
+  },
+  "raw_text": "Otis Nixon\ntortesla\n\n6c/V5 eee\n",
+  "lines": [
+    "Otis Nixon",
+    "tortesla",
+    "6c/V5 eee"
+  ],
+  "name": "Otis Nixon",
+  "setter": "tortesla",
+  "grade_raw": "6c/V5 eee",
+  "grade_v": 5,
+  "stars": 3
+}

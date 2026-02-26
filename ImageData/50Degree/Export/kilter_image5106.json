@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image5106.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 2,
+    "hand": 6,
+    "foot": 3
+  },
+  "raw_text": "Picasso problem-\nsamuelguerrero\n\n7b+/V8 Yee.\n",
+  "lines": [
+    "Picasso problem-",
+    "samuelguerrero",
+    "7b+/V8 Yee."
+  ],
+  "name": "Picasso problem-",
+  "setter": "samuelguerrero",
+  "grade_raw": "7b+/V8 Yee.",
+  "grade_v": 8,
+  "stars": 3
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image23993.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 6
+  },
+  "raw_text": "nds of Letterkenny (\njwilder\n\nSY @ 7alvV6 ee\n",
+  "lines": [
+    "nds of Letterkenny (",
+    "jwilder",
+    "SY @ 7alvV6 ee"
+  ],
+  "name": "nds of Letterkenny (",
+  "setter": "jwilder",
+  "grade_raw": "SY @ 7alvV6 ee",
+  "grade_v": 6,
+  "stars": 2
+}

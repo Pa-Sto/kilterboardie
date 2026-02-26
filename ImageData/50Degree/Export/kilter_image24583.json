@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image24583.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 5
+  },
+  "raw_text": "to the right-ish\nalexisgarvin\n\n6b/V4 ye yee\n",
+  "lines": [
+    "to the right-ish",
+    "alexisgarvin",
+    "6b/V4 ye yee"
+  ],
+  "name": "to the right-ish",
+  "setter": "alexisgarvin",
+  "grade_raw": "6b/V4 ye yee",
+  "grade_v": 4,
+  "stars": 3
+}

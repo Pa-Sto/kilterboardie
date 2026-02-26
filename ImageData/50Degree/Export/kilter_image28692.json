@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image28692.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 3
+  },
+  "raw_text": "guilty \u201ce\nleedongeun87\n\n6at/V3 Ye oroe\n",
+  "lines": [
+    "guilty \u201ce",
+    "leedongeun87",
+    "6at/V3 Ye oroe"
+  ],
+  "name": "guilty \u201ce",
+  "setter": "leedongeun87",
+  "grade_raw": "6at/V3 Ye oroe",
+  "grade_v": 3,
+  "stars": 4
+}

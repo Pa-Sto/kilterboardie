@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image19674.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 2,
+    "foot": 4
+  },
+  "raw_text": "Linus #1\nlinus\n\nZat/V7 Yeo.\n",
+  "lines": [
+    "Linus #1",
+    "linus",
+    "Zat/V7 Yeo."
+  ],
+  "name": "Linus #1",
+  "setter": "linus",
+  "grade_raw": "Zat/V7 Yeo.",
+  "grade_v": 7,
+  "stars": 3
+}

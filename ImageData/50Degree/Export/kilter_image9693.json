@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image9693.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 10,
+    "foot": 9
+  },
+  "raw_text": "Lame 5\nryanholmer\n\n7c+/V10 Yeo ve\n",
+  "lines": [
+    "Lame 5",
+    "ryanholmer",
+    "7c+/V10 Yeo ve"
+  ],
+  "name": "Lame 5",
+  "setter": "ryanholmer",
+  "grade_raw": "7c+/V10 Yeo ve",
+  "grade_v": 10,
+  "stars": 2
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image6031.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 5,
+    "foot": 6
+  },
+  "raw_text": "6, 4.11.19\ngriffinwhiteside\n\n8at/V12 Yroe ve\n",
+  "lines": [
+    "6, 4.11.19",
+    "griffinwhiteside",
+    "8at/V12 Yroe ve"
+  ],
+  "name": "6, 4.11.19",
+  "setter": "griffinwhiteside",
+  "grade_raw": "8at/V12 Yroe ve",
+  "grade_v": 12,
+  "stars": 2
+}

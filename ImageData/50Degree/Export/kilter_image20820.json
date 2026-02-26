@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image20820.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 7,
+    "foot": 6
+  },
+  "raw_text": "Find a Way\nvukyle\n\n7a/V6 Ye ee\n",
+  "lines": [
+    "Find a Way",
+    "vukyle",
+    "7a/V6 Ye ee"
+  ],
+  "name": "Find a Way",
+  "setter": "vukyle",
+  "grade_raw": "7a/V6 Ye ee",
+  "grade_v": 6,
+  "stars": 2
+}

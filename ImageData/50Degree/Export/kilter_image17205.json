@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image17205.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 3,
+    "foot": 3
+  },
+  "raw_text": "Get Warm #2\nGirthQuake\n\n6b/V4 ye yee\n",
+  "lines": [
+    "Get Warm #2",
+    "GirthQuake",
+    "6b/V4 ye yee"
+  ],
+  "name": "Get Warm #2",
+  "setter": "GirthQuake",
+  "grade_raw": "6b/V4 ye yee",
+  "grade_v": 4,
+  "stars": 3
+}

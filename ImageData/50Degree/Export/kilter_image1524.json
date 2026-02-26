@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image1524.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 4
+  },
+  "raw_text": "Pinch Patrol\nphil_geisler\n\n7c/V9 Ye vee\n",
+  "lines": [
+    "Pinch Patrol",
+    "phil_geisler",
+    "7c/V9 Ye vee"
+  ],
+  "name": "Pinch Patrol",
+  "setter": "phil_geisler",
+  "grade_raw": "7c/V9 Ye vee",
+  "grade_v": 9,
+  "stars": 3
+}

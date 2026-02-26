@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image8510.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 6,
+    "foot": 3
+  },
+  "raw_text": "OlsorS\nhappyclimbing\n\nZat/V7 Yeo.\n",
+  "lines": [
+    "OlsorS",
+    "happyclimbing",
+    "Zat/V7 Yeo."
+  ],
+  "name": "OlsorS",
+  "setter": "happyclimbing",
+  "grade_raw": "Zat/V7 Yeo.",
+  "grade_v": 7,
+  "stars": 3
+}

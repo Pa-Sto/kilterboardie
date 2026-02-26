@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image8974.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 4
+  },
+  "raw_text": "Undercooked\nCuckovich\n\n6a/V3 Ye ee\n",
+  "lines": [
+    "Undercooked",
+    "Cuckovich",
+    "6a/V3 Ye ee"
+  ],
+  "name": "Undercooked",
+  "setter": "Cuckovich",
+  "grade_raw": "6a/V3 Ye ee",
+  "grade_v": 3,
+  "stars": 2
+}

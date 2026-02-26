@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image23888.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 4
+  },
+  "raw_text": "Cross Body\nkilterjackie\n\n7b/V8 Ye ee\n",
+  "lines": [
+    "Cross Body",
+    "kilterjackie",
+    "7b/V8 Ye ee"
+  ],
+  "name": "Cross Body",
+  "setter": "kilterjackie",
+  "grade_raw": "7b/V8 Ye ee",
+  "grade_v": 8,
+  "stars": 2
+}

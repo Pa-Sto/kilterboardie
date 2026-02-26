@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image16464.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 4
+  },
+  "raw_text": "That One's Good\n\nbrennanroa\n\nS TalV6 eee\n",
+  "lines": [
+    "That One's Good",
+    "brennanroa",
+    "S TalV6 eee"
+  ],
+  "name": "That One's Good",
+  "setter": "brennanroa",
+  "grade_raw": "S TalV6 eee",
+  "grade_v": 6,
+  "stars": 3
+}

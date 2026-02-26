@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image23073.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 8
+  },
+  "raw_text": "compresss\nDaan_vo\n\n7b+/V8 Yee.\n",
+  "lines": [
+    "compresss",
+    "Daan_vo",
+    "7b+/V8 Yee."
+  ],
+  "name": "compresss",
+  "setter": "Daan_vo",
+  "grade_raw": "7b+/V8 Yee.",
+  "grade_v": 8,
+  "stars": 3
+}

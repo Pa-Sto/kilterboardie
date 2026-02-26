@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image1486.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 2,
+    "hand": 4,
+    "foot": 0
+  },
+  "raw_text": "Iss over king campu\nninjanatho\n\n@ 6c/V5 eke oe\n",
+  "lines": [
+    "Iss over king campu",
+    "ninjanatho",
+    "@ 6c/V5 eke oe"
+  ],
+  "name": "Iss over king campu",
+  "setter": "ninjanatho",
+  "grade_raw": "@ 6c/V5 eke oe",
+  "grade_v": 5,
+  "stars": 2
+}

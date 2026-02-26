@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image27179.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 4
+  },
+  "raw_text": "Team-2\nenglewoodipad\n\n6c+/V5 Yevroe\n",
+  "lines": [
+    "Team-2",
+    "englewoodipad",
+    "6c+/V5 Yevroe"
+  ],
+  "name": "Team-2",
+  "setter": "englewoodipad",
+  "grade_raw": "6c+/V5 Yevroe",
+  "grade_v": 5,
+  "stars": 4
+}

@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image20705.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 4
+  },
+  "raw_text": "hard hard\nGW_Kilter\n\n6c+/V5 Yevroe\n",
+  "lines": [
+    "hard hard",
+    "GW_Kilter",
+    "6c+/V5 Yevroe"
+  ],
+  "name": "hard hard",
+  "setter": "GW_Kilter",
+  "grade_raw": "6c+/V5 Yevroe",
+  "grade_v": 5,
+  "stars": 4
+}

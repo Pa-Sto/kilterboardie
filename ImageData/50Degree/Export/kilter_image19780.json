@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image19780.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 3
+  },
+  "raw_text": "Great Good Best\nRavioliTriceps\n\n7c/V9 Ye vee\n",
+  "lines": [
+    "Great Good Best",
+    "RavioliTriceps",
+    "7c/V9 Ye vee"
+  ],
+  "name": "Great Good Best",
+  "setter": "RavioliTriceps",
+  "grade_raw": "7c/V9 Ye vee",
+  "grade_v": 9,
+  "stars": 3
+}

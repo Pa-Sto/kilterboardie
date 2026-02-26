@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image21722.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 9
+  },
+  "raw_text": "Extra Egg\nbordboy93\n\n7b/V8 Ye ee\n",
+  "lines": [
+    "Extra Egg",
+    "bordboy93",
+    "7b/V8 Ye ee"
+  ],
+  "name": "Extra Egg",
+  "setter": "bordboy93",
+  "grade_raw": "7b/V8 Ye ee",
+  "grade_v": 8,
+  "stars": 2
+}

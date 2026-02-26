@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image21299.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 7,
+    "foot": 3
+  },
+  "raw_text": "Spin Like This 2\u00bb\nLimSeungWon98\n\n& 7b/V8 keke oe\n",
+  "lines": [
+    "Spin Like This 2\u00bb",
+    "LimSeungWon98",
+    "& 7b/V8 keke oe"
+  ],
+  "name": "Spin Like This 2\u00bb",
+  "setter": "LimSeungWon98",
+  "grade_raw": "& 7b/V8 keke oe",
+  "grade_v": 8,
+  "stars": 2
+}

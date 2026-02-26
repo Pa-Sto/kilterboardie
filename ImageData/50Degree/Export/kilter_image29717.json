@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image29717.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 6,
+    "foot": 3
+  },
+  "raw_text": "Ben's Fav Prob\nKletterbagger3\n\n6b+/V4 Yeo.\n",
+  "lines": [
+    "Ben's Fav Prob",
+    "Kletterbagger3",
+    "6b+/V4 Yeo."
+  ],
+  "name": "Ben's Fav Prob",
+  "setter": "Kletterbagger3",
+  "grade_raw": "6b+/V4 Yeo.",
+  "grade_v": 4,
+  "stars": 3
+}

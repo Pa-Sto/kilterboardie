@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image3245.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 7,
+    "foot": 3
+  },
+  "raw_text": "RO45643\nHugoChan\n\n6b+/V4 Yeo.\n",
+  "lines": [
+    "RO45643",
+    "HugoChan",
+    "6b+/V4 Yeo."
+  ],
+  "name": "RO45643",
+  "setter": "HugoChan",
+  "grade_raw": "6b+/V4 Yeo.",
+  "grade_v": 4,
+  "stars": 3
+}

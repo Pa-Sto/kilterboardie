@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image15184.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 5,
+    "foot": 4
+  },
+  "raw_text": "Jan\u2018s broken leg\nMathiasposch\n\n8at/V12 Yroe ve\n",
+  "lines": [
+    "Jan\u2018s broken leg",
+    "Mathiasposch",
+    "8at/V12 Yroe ve"
+  ],
+  "name": "Jan\u2018s broken leg",
+  "setter": "Mathiasposch",
+  "grade_raw": "8at/V12 Yroe ve",
+  "grade_v": 12,
+  "stars": 2
+}

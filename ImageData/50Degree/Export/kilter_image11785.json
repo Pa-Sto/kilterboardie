@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image11785.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 9,
+    "foot": 5
+  },
+  "raw_text": "\u2018Tis lit\nkiel\n\n6at/V3 Ye oroe\n",
+  "lines": [
+    "\u2018Tis lit",
+    "kiel",
+    "6at/V3 Ye oroe"
+  ],
+  "name": "\u2018Tis lit",
+  "setter": "kiel",
+  "grade_raw": "6at/V3 Ye oroe",
+  "grade_v": 3,
+  "stars": 4
+}

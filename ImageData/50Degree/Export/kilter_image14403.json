@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image14403.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 3
+  },
+  "raw_text": "and shoulders for y\nFrancisGroleau\n\n7a/V6 Ye ee\n",
+  "lines": [
+    "and shoulders for y",
+    "FrancisGroleau",
+    "7a/V6 Ye ee"
+  ],
+  "name": "and shoulders for y",
+  "setter": "FrancisGroleau",
+  "grade_raw": "7a/V6 Ye ee",
+  "grade_v": 6,
+  "stars": 2
+}

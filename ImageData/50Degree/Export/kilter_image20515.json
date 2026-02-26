@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image20515.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 3,
+    "foot": 4
+  },
+  "raw_text": "oombastic, Pulling C\nalexRT\n\n6at/V3 Yer e\n",
+  "lines": [
+    "oombastic, Pulling C",
+    "alexRT",
+    "6at/V3 Yer e"
+  ],
+  "name": "oombastic, Pulling C",
+  "setter": "alexRT",
+  "grade_raw": "6at/V3 Yer e",
+  "grade_v": 3,
+  "stars": 1
+}

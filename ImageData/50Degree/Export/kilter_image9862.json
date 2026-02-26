@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image9862.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 4
+  },
+  "raw_text": "Hot Cross Bun\nbrodhi1234\n\n7b+/V8 Yee.\n",
+  "lines": [
+    "Hot Cross Bun",
+    "brodhi1234",
+    "7b+/V8 Yee."
+  ],
+  "name": "Hot Cross Bun",
+  "setter": "brodhi1234",
+  "grade_raw": "7b+/V8 Yee.",
+  "grade_v": 8,
+  "stars": 3
+}

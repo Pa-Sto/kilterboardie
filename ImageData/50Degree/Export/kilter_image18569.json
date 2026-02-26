@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image18569.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 3
+  },
+  "raw_text": "Crossfaded\n\nnickwlr\n\n\u00ae& 7b+/V8 yk ke oe\n",
+  "lines": [
+    "Crossfaded",
+    "nickwlr",
+    "\u00ae& 7b+/V8 yk ke oe"
+  ],
+  "name": "Crossfaded",
+  "setter": "nickwlr",
+  "grade_raw": "\u00ae& 7b+/V8 yk ke oe",
+  "grade_v": 8,
+  "stars": 2
+}

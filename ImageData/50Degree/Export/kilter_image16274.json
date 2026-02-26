@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image16274.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 4,
+    "foot": 3
+  },
+  "raw_text": "np, Tai Chi, and a bi\nMatthew_C\n\n\u00ae 8a/V11 eke\n",
+  "lines": [
+    "np, Tai Chi, and a bi",
+    "Matthew_C",
+    "\u00ae 8a/V11 eke"
+  ],
+  "name": "np, Tai Chi, and a bi",
+  "setter": "Matthew_C",
+  "grade_raw": "\u00ae 8a/V11 eke",
+  "grade_v": 11,
+  "stars": 3
+}

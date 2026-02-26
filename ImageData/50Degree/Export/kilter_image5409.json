@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image5409.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 3,
+    "finish": 1,
+    "hand": 6,
+    "foot": 7
+  },
+  "raw_text": "Screwdriver\njukeboxjoe\n\n6a/V3 Ye ee\n",
+  "lines": [
+    "Screwdriver",
+    "jukeboxjoe",
+    "6a/V3 Ye ee"
+  ],
+  "name": "Screwdriver",
+  "setter": "jukeboxjoe",
+  "grade_raw": "6a/V3 Ye ee",
+  "grade_v": 3,
+  "stars": 2
+}

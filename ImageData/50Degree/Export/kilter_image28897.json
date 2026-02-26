@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image28897.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 7,
+    "foot": 9
+  },
+  "raw_text": "ome to good burger,\nbrettstephen\n\n6b/V4 ye yee\n",
+  "lines": [
+    "ome to good burger,",
+    "brettstephen",
+    "6b/V4 ye yee"
+  ],
+  "name": "ome to good burger,",
+  "setter": "brettstephen",
+  "grade_raw": "6b/V4 ye yee",
+  "grade_v": 4,
+  "stars": 3
+}

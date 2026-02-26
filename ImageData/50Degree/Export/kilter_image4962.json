@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image4962.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 13
+  },
+  "raw_text": "Frohe Ostern!\nArne\n\n6b/V4 ye yee\n",
+  "lines": [
+    "Frohe Ostern!",
+    "Arne",
+    "6b/V4 ye yee"
+  ],
+  "name": "Frohe Ostern!",
+  "setter": "Arne",
+  "grade_raw": "6b/V4 ye yee",
+  "grade_v": 4,
+  "stars": 3
+}

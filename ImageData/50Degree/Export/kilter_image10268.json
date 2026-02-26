@@ -1,0 +1,30 @@
+{
+  "filename": "kilter_image10268.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 6
+  },
+  "raw_text": "Honda Civic\nsamgtmeyer\n\nZat/V7 Yeo.\n",
+  "lines": [
+    "Honda Civic",
+    "samgtmeyer",
+    "Zat/V7 Yeo."
+  ],
+  "name": "Honda Civic",
+  "setter": "samgtmeyer",
+  "grade_raw": "Zat/V7 Yeo.",
+  "grade_v": 7,
+  "stars": 3
+}
