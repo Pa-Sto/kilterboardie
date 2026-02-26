@@ -72,7 +72,10 @@
         <section class="panel output" aria-labelledby="output-title">
           <div class="output-header">
             <h2 id="output-title">Generated Climbs</h2>
-            <span id="outputStatus" class="status">Ready</span>
+            <div class="status-group">
+              <span id="outputStatus" class="status">Ready</span>
+              <span id="outputSpinner" class="spinner" aria-hidden="true"></span>
+            </div>
           </div>
           <div id="generatedList" class="generated-list" role="list"></div>
         </section>

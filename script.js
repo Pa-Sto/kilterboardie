@@ -4,6 +4,7 @@ const modelSelect = document.getElementById("modelSelect");
 const generateBtn = document.getElementById("generateBtn");
 const generatedList = document.getElementById("generatedList");
 const outputStatus = document.getElementById("outputStatus");
+const outputSpinner = document.getElementById("outputSpinner");
 
 const API_BASE = window.KILTERBOARDIE_API || "";
 const SITE_BASE = window.KILTERBOARDIE_SITE_BASE || "";
@@ -52,6 +53,13 @@ function createGridPreview(matrix) {
     grid.appendChild(createCell(matrix[i]));
   }
   return grid;
+}
+
+function setSpinner(isActive) {
+  if (!outputSpinner) {
+    return;
+  }
+  outputSpinner.classList.toggle("is-active", isActive);
 }
 
 function createImagePreview(url) {
@@ -199,6 +207,7 @@ function renderLocal() {
   for (let i = 0; i < climbCount; i += 1) {
     generatedList.appendChild(buildCard(i));
   }
+  setSpinner(false);
   outputStatus.textContent = "Updated";
 }
 
@@ -217,6 +226,7 @@ async function pollForResult(requestId) {
             meta,
           })
         );
+        setSpinner(false);
         outputStatus.textContent = "Updated";
         return;
       }
@@ -235,6 +245,7 @@ async function requestGeneration() {
   }
 
   outputStatus.textContent = "Queued...";
+  setSpinner(true);
   try {
     const res = await fetch(`${API_BASE}/generate`, {
       method: "POST",
@@ -256,6 +267,7 @@ async function requestGeneration() {
     pollForResult(currentRequestId);
   } catch (error) {
     outputStatus.textContent = "Generation failed.";
+    setSpinner(false);
     renderLocal();
   }
 }
@@ -263,6 +275,7 @@ async function requestGeneration() {
 function renderClimbs() {
   generatedList.innerHTML = "";
   outputStatus.textContent = "Generating...";
+  setSpinner(true);
   latestMeta = null;
   currentRequestId = null;
   requestGeneration();
