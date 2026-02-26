@@ -1,0 +1,15 @@
+{
+  "grade_v": 6,
+  "threshold": 0.5,
+  "start_min": 1,
+  "start_max": 2,
+  "finish_min": 1,
+  "finish_max": 2,
+  "start_max_dist": 8.0,
+  "finish_max_dist": 8.0,
+  "seed": 42,
+  "request_id": "manual-test-2",
+  "created_at": "2026-02-26T23:20:06.815267Z",
+  "matrix_path": "generated/latest.npy",
+  "image_path": "generated/latest.png"
+}
