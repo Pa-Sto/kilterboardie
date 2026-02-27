@@ -82,7 +82,7 @@ function createImagePreview(url) {
 function buildCard(index, data) {
   const matrix = data?.matrix ?? Array.from({ length: cellCount }, () => Math.random() > 0.72);
   const imageUrl = data?.imageUrl;
-  const meta = data?.meta;
+  const metaInfo = data?.meta;
 
   const card = document.createElement("div");
   card.className = "climb-card";
@@ -100,13 +100,13 @@ function buildCard(index, data) {
   metaModel.textContent = `Model: ${modelSelect.value}`;
 
   const metaId = document.createElement("span");
-  metaId.textContent = meta?.request_id ? `Run ${meta.request_id}` : `Sample ${index + 1}`;
+  metaId.textContent = metaInfo?.request_id ? `Run ${metaInfo.request_id}` : `Sample ${index + 1}`;
 
   meta.append(metaGrade, metaAngle, metaModel, metaId);
 
   const detail = document.createElement("p");
-  detail.textContent = meta?.created_at
-    ? `Generated on ${new Date(meta.created_at).toLocaleString()}.`
+  detail.textContent = metaInfo?.created_at
+    ? `Generated on ${new Date(metaInfo.created_at).toLocaleString()}.`
     : "Generated layout preview (synthetic placeholder).";
 
   const feedback = document.createElement("div");
@@ -153,7 +153,7 @@ function buildCard(index, data) {
     const suggestedGrade = suggestedInput.value.trim();
     const userFeedback = feedbackInput.value.trim();
 
-    if (API_BASE && meta?.request_id) {
+    if (API_BASE && metaInfo?.request_id) {
       sendButton.disabled = true;
       feedbackStatus.textContent = "Sending...";
 
@@ -161,15 +161,15 @@ function buildCard(index, data) {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
-          requestId: meta.request_id,
+          requestId: metaInfo.request_id,
           grade: gradeSelect.value,
           angle: angleSelect.value,
           model: modelSelect.value,
           suggestedGrade,
           userFeedback,
-          matrixPath: meta.matrix_path,
-          imagePath: meta.image_path,
-          createdAt: meta.created_at,
+          matrixPath: metaInfo.matrix_path,
+          imagePath: metaInfo.image_path,
+          createdAt: metaInfo.created_at,
         }),
       })
         .then((res) => {
