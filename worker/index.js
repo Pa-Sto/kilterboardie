@@ -1,12 +1,14 @@
-const JSON_HEADERS = {
-  "Content-Type": "application/json",
-  "Access-Control-Allow-Origin": "*",
-  "Access-Control-Allow-Headers": "Content-Type",
-  "Access-Control-Allow-Methods": "POST,OPTIONS",
-};
+function buildHeaders(origin = "*") {
+  return {
+    "Content-Type": "application/json",
+    "Access-Control-Allow-Origin": origin,
+    "Access-Control-Allow-Headers": "Content-Type",
+    "Access-Control-Allow-Methods": "POST,OPTIONS",
+  };
+}
 
-function jsonResponse(body, status = 200) {
-  return new Response(JSON.stringify(body), { status, headers: JSON_HEADERS });
+function jsonResponse(body, status = 200, origin = "*") {
+  return new Response(JSON.stringify(body), { status, headers: buildHeaders(origin) });
 }
 
 function parseGrade(value) {
@@ -161,22 +163,28 @@ async function handleFeedback(request, env) {
 
 export default {
   async fetch(request, env) {
+    const origin = request.headers.get("Origin") || "*";
     if (request.method === "OPTIONS") {
-      return new Response("", { headers: JSON_HEADERS });
+      return new Response("", { headers: buildHeaders(origin) });
     }
 
-    const url = new URL(request.url);
-    if (request.method !== "POST") {
-      return new Response("Method Not Allowed", { status: 405, headers: JSON_HEADERS });
-    }
+    try {
+      const url = new URL(request.url);
+      if (request.method !== "POST") {
+        return new Response("Method Not Allowed", { status: 405, headers: buildHeaders(origin) });
+      }
 
-    if (url.pathname === "/generate") {
-      return handleGenerate(request, env);
-    }
-    if (url.pathname === "/feedback") {
-      return handleFeedback(request, env);
-    }
+      if (url.pathname === "/generate") {
+        return await handleGenerate(request, env);
+      }
+      if (url.pathname === "/feedback") {
+        return await handleFeedback(request, env);
+      }
 
-    return new Response("Not Found", { status: 404, headers: JSON_HEADERS });
+      return new Response("Not Found", { status: 404, headers: buildHeaders(origin) });
+    } catch (error) {
+      const message = error instanceof Error ? error.message : "Unknown error";
+      return jsonResponse({ ok: false, error: message }, 500, origin);
+    }
   },
 };
