@@ -24,6 +24,8 @@ COLORS = {
     "foot": (255, 126, 30, 200),
 }
 
+RING_RADIUS = 16
+
 
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description="Generate a route and render it on the board image.")
@@ -159,7 +161,7 @@ def render_overlay(board_image: Path, hold_map: Dict, route: np.ndarray, out_pat
         x = float(hold["x"])
         y = float(hold["y"])
 
-        radius = 12
+        radius = RING_RADIUS
         for name, color in COLORS.items():
             if not active[name][r, c]:
                 continue

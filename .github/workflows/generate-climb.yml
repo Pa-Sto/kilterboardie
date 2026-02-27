@@ -41,15 +41,16 @@ jobs:
         run: |
           GRADE=${INPUT_GRADE:-${PAYLOAD_GRADE:-6}}
           REQUEST_ID=${PAYLOAD_REQUEST_ID:-${GITHUB_RUN_ID}}
-          python tools/generate_overlay.py \
-            --checkpoint models/best.pt \
-            --grade "$GRADE" \
-            --holds-json ImageData/References/holds.json \
-            --board-image ImageData/References/empty_board.png \
-            --out-image generated/latest.png \
-            --out-matrix generated/latest.npy \
-            --out-meta generated/latest.json \
-            --request-id "$REQUEST_ID"
+        python tools/generate_overlay.py \
+          --checkpoint models/best.pt \
+          --grade "$GRADE" \
+          --holds-json ImageData/References/holds.json \
+          --board-image ImageData/References/empty_board.png \
+          --out-image generated/latest.png \
+          --out-matrix generated/latest.npy \
+          --out-meta generated/latest.json \
+          --request-id "$REQUEST_ID" \
+          --seed "$GITHUB_RUN_ID"
 
       - name: Commit generated assets
         run: |
