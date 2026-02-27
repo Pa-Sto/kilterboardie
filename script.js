@@ -265,7 +265,19 @@ async function requestGeneration() {
       }),
     });
     if (!res.ok) {
-      throw new Error("Generation failed");
+      let message = "Generation failed.";
+      try {
+        const err = await res.json();
+        message = err?.error ? `Generation failed: ${err.error}` : message;
+      } catch (error) {
+        const text = await res.text();
+        if (text) {
+          message = `Generation failed: ${text}`;
+        }
+      }
+      outputStatus.textContent = message;
+      setSpinner(false);
+      return;
     }
     const data = await res.json();
     currentRequestId = data.requestId;
