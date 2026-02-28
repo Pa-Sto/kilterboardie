@@ -8,7 +8,11 @@
     "hand",
     "foot",
     "hold_presence",
-    "hold_size"
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
   ],
   "ring_counts": {
     "start": 5,

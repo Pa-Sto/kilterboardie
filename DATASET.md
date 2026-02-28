@@ -8,7 +8,7 @@ Each route is encoded as a tensor with shape `rows x cols x channels`.
 
 - `rows`: 34
 - `cols`: 35
-- `channels`: 6
+- `channels`: 10
 
 ## Channel Labels
 
@@ -20,8 +20,12 @@ Channel order (axis 2) is:
 - `foot` (binary)
 - `hold_presence` (binary, 1 if a hold exists at that grid cell)
 - `hold_size` (float in [0, 1], normalized hold area)
+- `orient_sin1` (float, `sin(theta1)` for primary orientation)
+- `orient_cos1` (float, `cos(theta1)` for primary orientation)
+- `orient_sin2` (float, `sin(theta2)` for secondary orientation)
+- `orient_cos2` (float, `cos(theta2)` for secondary orientation)
 
-Orientation angles are stored separately (per hold) in `ImageData/References/holds.json` and are not part of the matrix channels.
+Orientation angles are stored per hold in `ImageData/References/holds.json` and are also encoded per grid cell as `sin/cos` channels. The exported matrices are `34 x 35 x 10` with the channel list above.
 
 ## Overlay (Hold Grid + Labeled Rings)
 
@@ -60,7 +64,7 @@ Legend:
 
 ## Hold Orientations
 
-Each hold can have up to two orientation angles (in radians) stored in `ImageData/References/holds.json` under `holds[*].orientations`. Angles are measured using `atan2(dy, dx)` in image coordinates, so values are in `[-pi, pi]` relative to the +x axis.
+Each hold can have up to two orientation angles (in radians) stored in `ImageData/References/holds.json` under `holds[*].orientations`. Angles are measured using `atan2(dy, dx)` in image coordinates, so values are in `[-pi, pi]` relative to the +x axis. These are encoded into the matrix as `orient_sin1/cos1` and `orient_sin2/cos2`.
 
 ### Orientation Input (Annotated Board)
 
