@@ -131,6 +131,7 @@ def main() -> None:
         num_grades=config.get("num_grades", dataset.num_grades),
         emb_dim=config.get("emb_dim", 16),
         latent_dim=config.get("latent_dim", 64),
+        static_channels=dataset.static_channels,
     ).to(args.device)
     model.load_state_dict(ckpt["model_state"])
     model.eval()

@@ -65,6 +65,7 @@ def main() -> None:
         num_grades=dataset.num_grades,
         emb_dim=args.emb_dim,
         latent_dim=args.latent_dim,
+        static_channels=dataset.static_channels,
     ).to(args.device)
 
     optimizer = torch.optim.Adam(model.parameters(), lr=args.lr)
