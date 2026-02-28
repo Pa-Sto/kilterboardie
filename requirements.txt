@@ -1,3 +1,6 @@
 numpy
 pillow
 torch
+fastapi
+uvicorn
+pydantic

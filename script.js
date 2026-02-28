@@ -6,8 +6,18 @@ const generatedList = document.getElementById("generatedList");
 const outputStatus = document.getElementById("outputStatus");
 const outputSpinner = document.getElementById("outputSpinner");
 
-const API_BASE = window.KILTERBOARDIE_API || "";
-const SITE_BASE = window.KILTERBOARDIE_SITE_BASE || "";
+const urlParams = new URLSearchParams(window.location.search);
+const apiOverride = urlParams.get("api");
+const siteOverride = urlParams.get("site");
+const isLocalContext =
+  window.location.protocol === "file:" ||
+  window.location.hostname === "localhost" ||
+  window.location.hostname === "127.0.0.1";
+const defaultLocalApi = isLocalContext ? "http://127.0.0.1:8000" : "";
+const API_BASE = normalizeBase(apiOverride || window.KILTERBOARDIE_API || defaultLocalApi);
+const API_FALLBACK = normalizeBase(window.KILTERBOARDIE_API_FALLBACK || "");
+const API_HEALTH_PATH = window.KILTERBOARDIE_API_HEALTH || "/health";
+const SITE_BASE = normalizeBase(siteOverride || window.KILTERBOARDIE_SITE_BASE || "");
 const cellCount = 36;
 const climbCount = 1;
 const STORAGE_KEY = "kilterboardieFeedback";
@@ -15,6 +25,8 @@ const datasetEntries = loadDataset();
 let latestMeta = null;
 let currentRequestId = null;
 let pollTimer = null;
+let activeApi = API_BASE;
+let apiReadyPromise = null;
 
 function loadDataset() {
   try {
@@ -44,8 +56,46 @@ function assetUrl(path) {
   if (!SITE_BASE) {
     return path;
   }
-  const base = normalizeBase(SITE_BASE);
-  return `${base}/${path}`;
+  return `${SITE_BASE}/${path}`;
+}
+
+async function checkApiHealth(base) {
+  if (!base) {
+    return false;
+  }
+  const controller = new AbortController();
+  const timeout = window.setTimeout(() => controller.abort(), 1500);
+  try {
+    const res = await fetch(`${base}${API_HEALTH_PATH}`, {
+      cache: "no-store",
+      signal: controller.signal,
+    });
+    return res.ok;
+  } catch (error) {
+    return false;
+  } finally {
+    window.clearTimeout(timeout);
+  }
+}
+
+async function ensureApi() {
+  if (apiReadyPromise) {
+    return apiReadyPromise;
+  }
+  apiReadyPromise = (async () => {
+    if (await checkApiHealth(API_BASE)) {
+      activeApi = API_BASE;
+      return activeApi;
+    }
+    if (API_FALLBACK && (await checkApiHealth(API_FALLBACK))) {
+      activeApi = API_FALLBACK;
+      outputStatus.textContent = "Primary API offline, using fallback (slow).";
+      return activeApi;
+    }
+    activeApi = "";
+    return "";
+  })();
+  return apiReadyPromise;
 }
 
 function createCell(active) {
@@ -247,7 +297,8 @@ async function pollForResult(requestId) {
 }
 
 async function requestGeneration() {
-  if (!API_BASE) {
+  const apiBase = await ensureApi();
+  if (!apiBase) {
     renderLocal();
     return;
   }
@@ -255,7 +306,7 @@ async function requestGeneration() {
   outputStatus.textContent = "Queued...";
   setSpinner(true);
   try {
-    const res = await fetch(`${API_BASE}/generate`, {
+    const res = await fetch(`${apiBase}/generate`, {
       method: "POST",
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({
@@ -280,6 +331,20 @@ async function requestGeneration() {
       return;
     }
     const data = await res.json();
+    if (data?.imageDataUrl) {
+      latestMeta = data.meta || null;
+      generatedList.innerHTML = "";
+      generatedList.appendChild(
+        buildCard(0, {
+          imageUrl: data.imageDataUrl,
+          meta: data.meta,
+        })
+      );
+      setSpinner(false);
+      outputStatus.textContent = "Updated";
+      return;
+    }
+
     currentRequestId = data.requestId;
     if (pollTimer) {
       window.clearTimeout(pollTimer);

@@ -3,6 +3,7 @@ __pycache__/
 *.pyc
 .idea/
 runs/
+LOCAL_SERVER.md
 
 # Keep only the exported dataset (50Degree/Export) and references
 ImageData/50Degree/*

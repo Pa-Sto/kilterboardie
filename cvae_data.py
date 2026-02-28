@@ -38,12 +38,20 @@ class KilterRouteDataset(Dataset):
 
         self.samples: List[KilterSample] = []
         self._static_cache: Optional[torch.Tensor] = None
+        self._static_channels: Optional[int] = None
 
         self._index_samples()
+        self._init_channel_counts()
 
     @property
     def num_grades(self) -> int:
         return self.grade_max - self.grade_min + 1
+
+    @property
+    def static_channels(self) -> int:
+        if self._static_channels is None:
+            self._init_channel_counts()
+        return int(self._static_channels or 0)
 
     def _index_samples(self) -> None:
         json_files = [f for f in os.listdir(self.data_dir) if f.endswith('.json')]
@@ -72,6 +80,12 @@ class KilterRouteDataset(Dataset):
         if len(self.samples) == 0:
             raise RuntimeError(f"No samples found in {self.data_dir} with grade_v in [{self.grade_min}, {self.grade_max}].")
 
+    def _init_channel_counts(self) -> None:
+        sample = self.samples[0]
+        arr = np.load(sample.npy_path)
+        total_channels = arr.shape[2]
+        self._static_channels = max(total_channels - 4, 0)
+
     def __len__(self) -> int:
         return len(self.samples)
 
@@ -81,7 +95,7 @@ class KilterRouteDataset(Dataset):
         arr = np.transpose(arr, (2, 0, 1))  # C x H x W
 
         route = torch.from_numpy(arr[0:4]).float()
-        static = torch.from_numpy(arr[4:6]).float()
+        static = torch.from_numpy(arr[4:]).float()
         grade = torch.tensor(sample.grade_v - self.grade_min, dtype=torch.int64)
         return route, static, grade
 
