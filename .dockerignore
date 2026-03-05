@@ -1,0 +1,16 @@
+*
+
+!.dockerignore
+!Dockerfile
+!requirements.txt
+!server.py
+!cvae_model.py
+!cvae_generate.py
+
+!models/
+!models/best.pt
+
+!ImageData/
+!ImageData/References/
+!ImageData/References/holds.json
+!ImageData/References/empty_board.png
