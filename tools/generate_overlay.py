@@ -24,7 +24,7 @@ COLORS = {
     "foot": (255, 126, 30, 200),
 }
 
-RING_RADIUS = 16
+MARKER_HALF_SIZE = 22
 
 
 def parse_args() -> argparse.Namespace:
@@ -161,14 +161,13 @@ def render_overlay(board_image: Path, hold_map: Dict, route: np.ndarray, out_pat
         x = float(hold["x"])
         y = float(hold["y"])
 
-        radius = RING_RADIUS
         for name, color in COLORS.items():
             if not active[name][r, c]:
                 continue
-            offset = 2 if name in ("start", "finish") else 0
-            r_inner = radius + offset
-            bbox = (x - r_inner, y - r_inner, x + r_inner, y + r_inner)
-            draw.ellipse(bbox, outline=color, width=3)
+            offset = 3 if name in ("start", "finish") else 0
+            half = MARKER_HALF_SIZE + offset
+            bbox = (x - half, y - half, x + half, y + half)
+            draw.rectangle(bbox, outline=color, width=4)
 
     out_path.parent.mkdir(parents=True, exist_ok=True)
     img.save(out_path)
