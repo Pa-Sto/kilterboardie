@@ -8,12 +8,14 @@ const outputSpinner = document.getElementById("outputSpinner");
 
 const urlParams = new URLSearchParams(window.location.search);
 const apiOverride = urlParams.get("api");
+const feedbackApiOverride = urlParams.get("feedbackApi");
 const isLocalContext =
   window.location.protocol === "file:" ||
   window.location.hostname === "localhost" ||
   window.location.hostname === "127.0.0.1";
 const defaultLocalApi = isLocalContext ? "http://127.0.0.1:8000" : "";
 const API_BASE = normalizeBase(apiOverride || window.KILTERBOARDIE_API || defaultLocalApi);
+const FEEDBACK_API = normalizeBase(feedbackApiOverride || window.KILTERBOARDIE_FEEDBACK_API || API_BASE);
 const API_HEALTH_PATH = window.KILTERBOARDIE_API_HEALTH || "/health";
 const cellCount = 36;
 const climbCount = 1;
@@ -45,6 +47,13 @@ function normalizeBase(base) {
     return "";
   }
   return base.endsWith("/") ? base.slice(0, -1) : base;
+}
+
+function isPublishedArtifactPath(path) {
+  if (!path || typeof path !== "string") {
+    return false;
+  }
+  return path.startsWith("generated/") || path.startsWith("http://") || path.startsWith("https://");
 }
 
 async function checkApiHealth(base) {
@@ -186,11 +195,16 @@ function buildCard(index, data) {
     const suggestedGrade = suggestedInput.value.trim();
     const userFeedback = feedbackInput.value.trim();
 
-    if (activeApi && metaInfo?.request_id) {
+    const feedbackBase = FEEDBACK_API || activeApi;
+
+    if (feedbackBase && metaInfo?.request_id) {
       sendButton.disabled = true;
       feedbackStatus.textContent = "Sending...";
 
-      fetch(`${activeApi}/feedback`, {
+      const matrixPath = isPublishedArtifactPath(metaInfo.matrix_path) ? metaInfo.matrix_path : undefined;
+      const imagePath = isPublishedArtifactPath(metaInfo.image_path) ? metaInfo.image_path : undefined;
+
+      fetch(`${feedbackBase}/feedback`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -200,8 +214,8 @@ function buildCard(index, data) {
           model: modelSelect.value,
           suggestedGrade,
           userFeedback,
-          matrixPath: metaInfo.matrix_path,
-          imagePath: metaInfo.image_path,
+          matrixPath,
+          imagePath,
           createdAt: metaInfo.created_at,
         }),
       })

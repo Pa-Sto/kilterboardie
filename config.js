@@ -1,5 +1,6 @@
 (() => {
   const PROD_API = "https://kilterboardie-api.fly.dev";
+  const PROD_FEEDBACK_API = "https://kilterboardie-api.hybjf5nrbd.workers.dev";
 
   const isLocal =
     window.location.protocol === "file:" ||
@@ -9,5 +10,8 @@
   window.KILTERBOARDIE_API = isLocal
     ? "http://127.0.0.1:8000"
     : PROD_API;
+  window.KILTERBOARDIE_FEEDBACK_API = isLocal
+    ? "http://127.0.0.1:8000"
+    : PROD_FEEDBACK_API;
   window.KILTERBOARDIE_API_HEALTH = "/health";
 })();
