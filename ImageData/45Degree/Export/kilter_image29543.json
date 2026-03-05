@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image29543.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 5
+  },
+  "raw_text": "Second One\nJularni\n\n7b/V8 Ye ee\n",
+  "lines": [
+    "Second One",
+    "Jularni",
+    "7b/V8 Ye ee"
+  ],
+  "name": "Second One",
+  "setter": "Jularni",
+  "grade_raw": "7b/V8 Ye ee",
+  "grade_v": 8,
+  "stars": 2
+}

@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image32307.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 8,
+    "foot": 5
+  },
+  "raw_text": "Kaa-Blam\nJarinsayz\n\n7a/V6 Ye ee\n",
+  "lines": [
+    "Kaa-Blam",
+    "Jarinsayz",
+    "7a/V6 Ye ee"
+  ],
+  "name": "Kaa-Blam",
+  "setter": "Jarinsayz",
+  "grade_raw": "7a/V6 Ye ee",
+  "grade_v": 6,
+  "stars": 2
+}

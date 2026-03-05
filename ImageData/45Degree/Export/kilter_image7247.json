@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image7247.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 5
+  },
+  "raw_text": "y like Sunday Morni\nwill_avelar\n\n6at/V3 Keke\n",
+  "lines": [
+    "y like Sunday Morni",
+    "will_avelar",
+    "6at/V3 Keke"
+  ],
+  "name": "y like Sunday Morni",
+  "setter": "will_avelar",
+  "grade_raw": "6at/V3 Keke",
+  "grade_v": 3,
+  "stars": 4
+}

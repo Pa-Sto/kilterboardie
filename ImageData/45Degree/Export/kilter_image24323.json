@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image24323.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 6,
+    "foot": 10
+  },
+  "raw_text": "Project 31\nAustin_hoyt\n\n\u00ae& 7b+/V8 yk ke oe\n",
+  "lines": [
+    "Project 31",
+    "Austin_hoyt",
+    "\u00ae& 7b+/V8 yk ke oe"
+  ],
+  "name": "Project 31",
+  "setter": "Austin_hoyt",
+  "grade_raw": "\u00ae& 7b+/V8 yk ke oe",
+  "grade_v": 8,
+  "stars": 2
+}

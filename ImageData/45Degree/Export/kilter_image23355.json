@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image23355.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 6,
+    "foot": 7
+  },
+  "raw_text": "Biceptual\nameenh\n\n7c+/V10 Yeo ve\n",
+  "lines": [
+    "Biceptual",
+    "ameenh",
+    "7c+/V10 Yeo ve"
+  ],
+  "name": "Biceptual",
+  "setter": "ameenh",
+  "grade_raw": "7c+/V10 Yeo ve",
+  "grade_v": 10,
+  "stars": 2
+}

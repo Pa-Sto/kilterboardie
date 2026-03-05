@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image11405.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 7,
+    "foot": 4
+  },
+  "raw_text": "Red Bean Bun\nmikey. light\n\nZat/V7 Yeo.\n",
+  "lines": [
+    "Red Bean Bun",
+    "mikey. light",
+    "Zat/V7 Yeo."
+  ],
+  "name": "Red Bean Bun",
+  "setter": "mikey. light",
+  "grade_raw": "Zat/V7 Yeo.",
+  "grade_v": 7,
+  "stars": 3
+}

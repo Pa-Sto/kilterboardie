@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image16168.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 4
+  },
+  "raw_text": "integral\nSaxonCasi\n\nZat/V7 Yeo.\n",
+  "lines": [
+    "integral",
+    "SaxonCasi",
+    "Zat/V7 Yeo."
+  ],
+  "name": "integral",
+  "setter": "SaxonCasi",
+  "grade_raw": "Zat/V7 Yeo.",
+  "grade_v": 7,
+  "stars": 3
+}

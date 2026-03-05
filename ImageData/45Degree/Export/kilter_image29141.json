@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image29141.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 5,
+    "foot": 5
+  },
+  "raw_text": "SUNDAZE\nkaroOoO\n7b/V8 Ye yee\n",
+  "lines": [
+    "SUNDAZE",
+    "karoOoO",
+    "7b/V8 Ye yee"
+  ],
+  "name": "SUNDAZE",
+  "setter": "karoOoO",
+  "grade_raw": "7b/V8 Ye yee",
+  "grade_v": 8,
+  "stars": 3
+}

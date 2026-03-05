@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image14253.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 10
+  },
+  "raw_text": "EKB challenge 1\nVolvo322\n\n@ 6b/V4 Heke oe\n",
+  "lines": [
+    "EKB challenge 1",
+    "Volvo322",
+    "@ 6b/V4 Heke oe"
+  ],
+  "name": "EKB challenge 1",
+  "setter": "Volvo322",
+  "grade_raw": "@ 6b/V4 Heke oe",
+  "grade_v": 4,
+  "stars": 2
+}

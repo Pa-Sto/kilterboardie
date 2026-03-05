@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image30135.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 4
+  },
+  "raw_text": "don\u2019t eat my cat\n\n\u2014KC_\n7c+/V10 Yeo ve\n",
+  "lines": [
+    "don\u2019t eat my cat",
+    "\u2014KC_",
+    "7c+/V10 Yeo ve"
+  ],
+  "name": "don\u2019t eat my cat",
+  "setter": "\u2014KC_",
+  "grade_raw": "7c+/V10 Yeo ve",
+  "grade_v": 10,
+  "stars": 2
+}

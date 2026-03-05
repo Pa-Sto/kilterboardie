@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image30094.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 14,
+    "foot": 1
+  },
+  "raw_text": ">onda Don't Want Ne\nTomJim\n\nZat/V7 Yeo.\n",
+  "lines": [
+    ">onda Don't Want Ne",
+    "TomJim",
+    "Zat/V7 Yeo."
+  ],
+  "name": ">onda Don't Want Ne",
+  "setter": "TomJim",
+  "grade_raw": "Zat/V7 Yeo.",
+  "grade_v": 7,
+  "stars": 3
+}

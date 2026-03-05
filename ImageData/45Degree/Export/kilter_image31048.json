@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image31048.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 2,
+    "foot": 2
+  },
+  "raw_text": "heard you like dynos\nmaximophone\n\n6c/V5 eee\n",
+  "lines": [
+    "heard you like dynos",
+    "maximophone",
+    "6c/V5 eee"
+  ],
+  "name": "heard you like dynos",
+  "setter": "maximophone",
+  "grade_raw": "6c/V5 eee",
+  "grade_v": 5,
+  "stars": 3
+}

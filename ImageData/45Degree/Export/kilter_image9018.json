@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image9018.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 3,
+    "foot": 3
+  },
+  "raw_text": "Heavy Lefter &\nClimberist\n\n7bIVE Ye yee\n",
+  "lines": [
+    "Heavy Lefter &",
+    "Climberist",
+    "7bIVE Ye yee"
+  ],
+  "name": "Heavy Lefter &",
+  "setter": "Climberist",
+  "grade_raw": "7bIVE Ye yee",
+  "grade_v": null,
+  "stars": 3
+}

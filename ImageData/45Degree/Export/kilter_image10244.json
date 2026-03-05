@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image10244.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 4
+  },
+  "raw_text": "mama tambien tamk\nDrPlim\n\n6c+/V5 Yevroe\n",
+  "lines": [
+    "mama tambien tamk",
+    "DrPlim",
+    "6c+/V5 Yevroe"
+  ],
+  "name": "mama tambien tamk",
+  "setter": "DrPlim",
+  "grade_raw": "6c+/V5 Yevroe",
+  "grade_v": 5,
+  "stars": 4
+}

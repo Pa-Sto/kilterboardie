@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image1185.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 2
+  },
+  "raw_text": "Damenbecken\njorx\n\n\u00ae 8a/V11 eke\n",
+  "lines": [
+    "Damenbecken",
+    "jorx",
+    "\u00ae 8a/V11 eke"
+  ],
+  "name": "Damenbecken",
+  "setter": "jorx",
+  "grade_raw": "\u00ae 8a/V11 eke",
+  "grade_v": 11,
+  "stars": 3
+}

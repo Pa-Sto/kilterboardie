@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image10071.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 6,
+    "foot": 4
+  },
+  "raw_text": "Rein in die Bucher\nnikclimb\n\n7a/V6 Ye ee\n",
+  "lines": [
+    "Rein in die Bucher",
+    "nikclimb",
+    "7a/V6 Ye ee"
+  ],
+  "name": "Rein in die Bucher",
+  "setter": "nikclimb",
+  "grade_raw": "7a/V6 Ye ee",
+  "grade_v": 6,
+  "stars": 2
+}

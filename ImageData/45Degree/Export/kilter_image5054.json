@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image5054.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 4
+  },
+  "raw_text": "bruh moment #1\nbencarn\n\n7a/V6 Ye ee\n",
+  "lines": [
+    "bruh moment #1",
+    "bencarn",
+    "7a/V6 Ye ee"
+  ],
+  "name": "bruh moment #1",
+  "setter": "bencarn",
+  "grade_raw": "7a/V6 Ye ee",
+  "grade_v": 6,
+  "stars": 2
+}

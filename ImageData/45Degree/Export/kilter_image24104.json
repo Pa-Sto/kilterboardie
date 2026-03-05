@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image24104.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 4
+  },
+  "raw_text": "Umi Sake\nc_Dog32\n\n@ 6c/V5 eke He\n",
+  "lines": [
+    "Umi Sake",
+    "c_Dog32",
+    "@ 6c/V5 eke He"
+  ],
+  "name": "Umi Sake",
+  "setter": "c_Dog32",
+  "grade_raw": "@ 6c/V5 eke He",
+  "grade_v": 5,
+  "stars": 2
+}

@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image4491.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 2
+  },
+  "raw_text": "Permafrost 2\nEli_Climbs\n\n7b+/V8 Yee.\n",
+  "lines": [
+    "Permafrost 2",
+    "Eli_Climbs",
+    "7b+/V8 Yee."
+  ],
+  "name": "Permafrost 2",
+  "setter": "Eli_Climbs",
+  "grade_raw": "7b+/V8 Yee.",
+  "grade_v": 8,
+  "stars": 3
+}

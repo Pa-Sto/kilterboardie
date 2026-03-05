@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image32147.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 3,
+    "foot": 5
+  },
+  "raw_text": "istover the Headclin:\nameenh\n\n7b+/V8 Yee.\n",
+  "lines": [
+    "istover the Headclin:",
+    "ameenh",
+    "7b+/V8 Yee."
+  ],
+  "name": "istover the Headclin:",
+  "setter": "ameenh",
+  "grade_raw": "7b+/V8 Yee.",
+  "grade_v": 8,
+  "stars": 3
+}

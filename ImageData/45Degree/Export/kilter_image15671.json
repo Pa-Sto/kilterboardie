@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image15671.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 5,
+    "foot": 6
+  },
+  "raw_text": "hogwarts express\nkchavez909\n6b/V4 Yee\n",
+  "lines": [
+    "hogwarts express",
+    "kchavez909",
+    "6b/V4 Yee"
+  ],
+  "name": "hogwarts express",
+  "setter": "kchavez909",
+  "grade_raw": "6b/V4 Yee",
+  "grade_v": 4,
+  "stars": 3
+}

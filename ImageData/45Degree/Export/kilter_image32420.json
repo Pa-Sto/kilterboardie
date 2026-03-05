@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image32420.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 2,
+    "foot": 4
+  },
+  "raw_text": "\u2018azy boulder by geve\ngeva.levin\n\n7c/V9 Ye vee\n",
+  "lines": [
+    "\u2018azy boulder by geve",
+    "geva.levin",
+    "7c/V9 Ye vee"
+  ],
+  "name": "\u2018azy boulder by geve",
+  "setter": "geva.levin",
+  "grade_raw": "7c/V9 Ye vee",
+  "grade_v": 9,
+  "stars": 3
+}

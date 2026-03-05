@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image23437.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 1
+  },
+  "raw_text": "ve Unicorn Manifest\u00ab\njp.laroche\n\n6c/V5 eee\n",
+  "lines": [
+    "ve Unicorn Manifest\u00ab",
+    "jp.laroche",
+    "6c/V5 eee"
+  ],
+  "name": "ve Unicorn Manifest\u00ab",
+  "setter": "jp.laroche",
+  "grade_raw": "6c/V5 eee",
+  "grade_v": 5,
+  "stars": 3
+}

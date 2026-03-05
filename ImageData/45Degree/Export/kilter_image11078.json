@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image11078.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 4,
+    "foot": 4
+  },
+  "raw_text": "Weakness x 2\nlenaaaa\n\n7c/V9 Ye vee\n",
+  "lines": [
+    "Weakness x 2",
+    "lenaaaa",
+    "7c/V9 Ye vee"
+  ],
+  "name": "Weakness x 2",
+  "setter": "lenaaaa",
+  "grade_raw": "7c/V9 Ye vee",
+  "grade_v": 9,
+  "stars": 3
+}
