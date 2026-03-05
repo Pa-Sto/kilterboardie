@@ -6,11 +6,14 @@
 !server.py
 !cvae_model.py
 !cvae_generate.py
+!cvae_data.py
 
 !models/
 !models/best.pt
 
 !ImageData/
+ImageData/*
 !ImageData/References/
+ImageData/References/*
 !ImageData/References/holds.json
 !ImageData/References/empty_board.png
