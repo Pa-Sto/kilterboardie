@@ -33,7 +33,7 @@ COLORS = {
     "hand": (0, 172, 199, 200),
     "foot": (255, 126, 30, 200),
 }
-RING_RADIUS = 16
+MARKER_HALF_SIZE = 22
 
 
 class GenerateRequest(BaseModel):
@@ -261,10 +261,10 @@ def render_overlay(hold_map: dict, route: np.ndarray) -> Image.Image:
         for name, color in COLORS.items():
             if not active[name][r, c]:
                 continue
-            offset = 2 if name in ("start", "finish") else 0
-            radius = RING_RADIUS + offset
-            bbox = (x - radius, y - radius, x + radius, y + radius)
-            draw.ellipse(bbox, outline=color, width=3)
+            offset = 3 if name in ("start", "finish") else 0
+            half = MARKER_HALF_SIZE + offset
+            bbox = (x - half, y - half, x + half, y + half)
+            draw.rectangle(bbox, outline=color, width=4)
     return img
 
 
