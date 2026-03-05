@@ -210,8 +210,8 @@ def generate(req: GenerateRequest):
         "request_id": request_id,
         "created_at": created_at,
         "grade_v": grade_v,
-        "matrix_path": str(matrix_path),
-        "image_path": str(image_path),
+        "matrix_path": matrix_path.name,
+        "image_path": image_path.name,
     }
     with meta_path.open("w") as f:
         json.dump(meta, f, indent=2)

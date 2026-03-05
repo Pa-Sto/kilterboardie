@@ -8,23 +8,18 @@ const outputSpinner = document.getElementById("outputSpinner");
 
 const urlParams = new URLSearchParams(window.location.search);
 const apiOverride = urlParams.get("api");
-const siteOverride = urlParams.get("site");
 const isLocalContext =
   window.location.protocol === "file:" ||
   window.location.hostname === "localhost" ||
   window.location.hostname === "127.0.0.1";
 const defaultLocalApi = isLocalContext ? "http://127.0.0.1:8000" : "";
 const API_BASE = normalizeBase(apiOverride || window.KILTERBOARDIE_API || defaultLocalApi);
-const API_FALLBACK = normalizeBase(window.KILTERBOARDIE_API_FALLBACK || "");
 const API_HEALTH_PATH = window.KILTERBOARDIE_API_HEALTH || "/health";
-const SITE_BASE = normalizeBase(siteOverride || window.KILTERBOARDIE_SITE_BASE || "");
 const cellCount = 36;
 const climbCount = 1;
 const STORAGE_KEY = "kilterboardieFeedback";
 const datasetEntries = loadDataset();
 let latestMeta = null;
-let currentRequestId = null;
-let pollTimer = null;
 let activeApi = API_BASE;
 let apiReadyPromise = null;
 
@@ -50,13 +45,6 @@ function normalizeBase(base) {
     return "";
   }
   return base.endsWith("/") ? base.slice(0, -1) : base;
-}
-
-function assetUrl(path) {
-  if (!SITE_BASE) {
-    return path;
-  }
-  return `${SITE_BASE}/${path}`;
 }
 
 async function checkApiHealth(base) {
@@ -85,11 +73,6 @@ async function ensureApi() {
   apiReadyPromise = (async () => {
     if (await checkApiHealth(API_BASE)) {
       activeApi = API_BASE;
-      return activeApi;
-    }
-    if (API_FALLBACK && (await checkApiHealth(API_FALLBACK))) {
-      activeApi = API_FALLBACK;
-      outputStatus.textContent = "Primary API offline, using fallback (slow).";
       return activeApi;
     }
     activeApi = "";
@@ -203,11 +186,11 @@ function buildCard(index, data) {
     const suggestedGrade = suggestedInput.value.trim();
     const userFeedback = feedbackInput.value.trim();
 
-    if (API_BASE && metaInfo?.request_id) {
+    if (activeApi && metaInfo?.request_id) {
       sendButton.disabled = true;
       feedbackStatus.textContent = "Sending...";
 
-      fetch(`${API_BASE}/feedback`, {
+      fetch(`${activeApi}/feedback`, {
         method: "POST",
         headers: { "Content-Type": "application/json" },
         body: JSON.stringify({
@@ -269,33 +252,6 @@ function renderLocal() {
   outputStatus.textContent = "Updated";
 }
 
-async function pollForResult(requestId) {
-  const metaUrl = assetUrl(`generated/latest.json?ts=${Date.now()}`);
-  try {
-    const res = await fetch(metaUrl, { cache: "no-store" });
-    if (res.ok) {
-      const meta = await res.json();
-      if (meta.request_id === requestId) {
-        latestMeta = meta;
-        generatedList.innerHTML = "";
-        generatedList.appendChild(
-          buildCard(0, {
-            imageUrl: assetUrl(`generated/latest.png?ts=${Date.now()}`),
-            meta,
-          })
-        );
-        setSpinner(false);
-        outputStatus.textContent = "Updated";
-        return;
-      }
-    }
-  } catch (error) {
-    // Ignore polling errors and retry.
-  }
-
-  pollTimer = window.setTimeout(() => pollForResult(requestId), 2500);
-}
-
 async function requestGeneration() {
   const apiBase = await ensureApi();
   if (!apiBase) {
@@ -344,12 +300,9 @@ async function requestGeneration() {
       outputStatus.textContent = "Updated";
       return;
     }
-
-    currentRequestId = data.requestId;
-    if (pollTimer) {
-      window.clearTimeout(pollTimer);
-    }
-    pollForResult(currentRequestId);
+    outputStatus.textContent = "Generation failed: API did not return an image.";
+    setSpinner(false);
+    renderLocal();
   } catch (error) {
     outputStatus.textContent = "Generation failed.";
     setSpinner(false);
@@ -362,7 +315,6 @@ function renderClimbs() {
   outputStatus.textContent = "Generating...";
   setSpinner(true);
   latestMeta = null;
-  currentRequestId = null;
   requestGeneration();
 }
 

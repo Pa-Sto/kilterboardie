@@ -4,6 +4,9 @@ __pycache__/
 .idea/
 runs/
 LOCAL_SERVER.md
+local_generated/
+local_feedback/
+worker/.wrangler/
 
 # Keep only the exported dataset (50Degree/Export) and references
 ImageData/50Degree/*
