@@ -2,12 +2,15 @@ import base64
 import io
 import json
 import os
+import time
+from collections import deque
 from datetime import datetime
 from pathlib import Path
+from threading import Lock
 from typing import Optional
 
 import numpy as np
-from fastapi import FastAPI, HTTPException
+from fastapi import FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
 from pydantic import BaseModel
 from PIL import Image, ImageDraw
@@ -70,6 +73,87 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
+
+def _env_int(name: str, default: int, min_value: int = 1) -> int:
+    raw = os.getenv(name, "").strip()
+    if not raw:
+        return default
+    try:
+        value = int(raw)
+    except ValueError:
+        return default
+    return max(min_value, value)
+
+
+def _is_generation_enabled() -> bool:
+    value = os.getenv("API_GENERATION_ENABLED", "true").strip().lower()
+    return value not in {"0", "false", "no", "off"}
+
+
+class GenerateGuard:
+    def __init__(self) -> None:
+        self.per_ip_limit = _env_int("RATE_LIMIT_PER_IP", 30)
+        self.per_ip_window_seconds = _env_int("RATE_LIMIT_WINDOW_SECONDS", 60)
+        self.daily_limit = _env_int("DAILY_GENERATE_LIMIT", 20000)
+        self.max_tracked_ips = _env_int("MAX_TRACKED_IPS", 10000)
+        self._lock = Lock()
+        self._window_by_ip: dict[str, deque[float]] = {}
+        self._daily_key = datetime.utcnow().strftime("%Y-%m-%d")
+        self._daily_count = 0
+
+    def _rollover_day_if_needed(self) -> None:
+        key = datetime.utcnow().strftime("%Y-%m-%d")
+        if key != self._daily_key:
+            self._daily_key = key
+            self._daily_count = 0
+            self._window_by_ip.clear()
+
+    def _evict_stale_ips(self, cutoff: float) -> None:
+        stale = []
+        for ip, window in self._window_by_ip.items():
+            while window and window[0] <= cutoff:
+                window.popleft()
+            if not window:
+                stale.append(ip)
+        for ip in stale:
+            self._window_by_ip.pop(ip, None)
+
+    def consume_generate(self, ip: str) -> None:
+        now = time.time()
+        cutoff = now - self.per_ip_window_seconds
+        with self._lock:
+            self._rollover_day_if_needed()
+            if self._daily_count >= self.daily_limit:
+                raise HTTPException(status_code=429, detail="Daily generation quota reached")
+
+            if len(self._window_by_ip) > self.max_tracked_ips:
+                self._evict_stale_ips(cutoff)
+            if len(self._window_by_ip) > self.max_tracked_ips and ip not in self._window_by_ip:
+                raise HTTPException(status_code=429, detail="Rate limit is busy, try again shortly")
+
+            window = self._window_by_ip.setdefault(ip, deque())
+            while window and window[0] <= cutoff:
+                window.popleft()
+            if len(window) >= self.per_ip_limit:
+                raise HTTPException(status_code=429, detail="Too many requests, slow down")
+
+            window.append(now)
+            self._daily_count += 1
+
+
+def _client_ip(request: Request) -> str:
+    forwarded = request.headers.get("x-forwarded-for")
+    if forwarded:
+        first = forwarded.split(",")[0].strip()
+        if first:
+            return first
+    if request.client and request.client.host:
+        return request.client.host
+    return "unknown"
+
+
+GENERATE_GUARD = GenerateGuard()
 
 
 class ModelState:
@@ -185,7 +269,12 @@ def render_overlay(hold_map: dict, route: np.ndarray) -> Image.Image:
 
 
 @app.post("/generate")
-def generate(req: GenerateRequest):
+def generate(req: GenerateRequest, request: Request):
+    if not _is_generation_enabled():
+        raise HTTPException(status_code=503, detail="Generation is temporarily disabled")
+
+    GENERATE_GUARD.consume_generate(_client_ip(request))
+
     state = get_state()
     grade_v = parse_grade(req.grade)
     request_id = req.requestId or f"local-{int(datetime.utcnow().timestamp())}"
