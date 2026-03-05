@@ -5,6 +5,7 @@ const generateBtn = document.getElementById("generateBtn");
 const generatedList = document.getElementById("generatedList");
 const outputStatus = document.getElementById("outputStatus");
 const outputSpinner = document.getElementById("outputSpinner");
+const themeToggle = document.getElementById("themeToggle");
 
 const urlParams = new URLSearchParams(window.location.search);
 const apiOverride = urlParams.get("api");
@@ -20,10 +21,44 @@ const API_HEALTH_PATH = window.KILTERBOARDIE_API_HEALTH || "/health";
 const cellCount = 36;
 const climbCount = 1;
 const STORAGE_KEY = "kilterboardieFeedback";
+const THEME_STORAGE_KEY = "kilterboardieTheme";
 const datasetEntries = loadDataset();
 let latestMeta = null;
 let activeApi = API_BASE;
 let apiReadyPromise = null;
+
+function getInitialTheme() {
+  try {
+    const saved = localStorage.getItem(THEME_STORAGE_KEY);
+    if (saved === "dark" || saved === "light") {
+      return saved;
+    }
+  } catch (error) {
+    // Ignore storage failures and use system preference.
+  }
+  return window.matchMedia && window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+}
+
+function applyTheme(theme) {
+  document.documentElement.setAttribute("data-theme", theme);
+  if (themeToggle) {
+    themeToggle.checked = theme === "dark";
+  }
+}
+
+applyTheme(getInitialTheme());
+
+if (themeToggle) {
+  themeToggle.addEventListener("change", () => {
+    const theme = themeToggle.checked ? "dark" : "light";
+    applyTheme(theme);
+    try {
+      localStorage.setItem(THEME_STORAGE_KEY, theme);
+    } catch (error) {
+      // Ignore storage failures (private browsing, quota limits).
+    }
+  });
+}
 
 function loadDataset() {
   try {
