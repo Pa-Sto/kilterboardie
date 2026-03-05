@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image25915.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 7,
+    "foot": 9
+  },
+  "raw_text": "Party Bill\ntheamykins\n\n6a/V3 Ye ee\n",
+  "lines": [
+    "Party Bill",
+    "theamykins",
+    "6a/V3 Ye ee"
+  ],
+  "name": "Party Bill",
+  "setter": "theamykins",
+  "grade_raw": "6a/V3 Ye ee",
+  "grade_v": 3,
+  "stars": 2
+}

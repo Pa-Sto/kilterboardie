@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image5201.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 3,
+    "foot": 2
+  },
+  "raw_text": "why not ?\ndylan__le\n\nZat/V7 Yeo.\n",
+  "lines": [
+    "why not ?",
+    "dylan__le",
+    "Zat/V7 Yeo."
+  ],
+  "name": "why not ?",
+  "setter": "dylan__le",
+  "grade_raw": "Zat/V7 Yeo.",
+  "grade_v": 7,
+  "stars": 3
+}

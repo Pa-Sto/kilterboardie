@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image6710.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 8,
+    "foot": 8
+  },
+  "raw_text": "y are you always rig\njamesliaw\n\n7a/V6 Ye ee\n",
+  "lines": [
+    "y are you always rig",
+    "jamesliaw",
+    "7a/V6 Ye ee"
+  ],
+  "name": "y are you always rig",
+  "setter": "jamesliaw",
+  "grade_raw": "7a/V6 Ye ee",
+  "grade_v": 6,
+  "stars": 2
+}

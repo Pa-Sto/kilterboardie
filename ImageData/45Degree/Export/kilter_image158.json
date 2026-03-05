@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image158.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 2
+  },
+  "raw_text": "scientist\nSaxonCasi\n\n7bIVE Ye yee\n",
+  "lines": [
+    "scientist",
+    "SaxonCasi",
+    "7bIVE Ye yee"
+  ],
+  "name": "scientist",
+  "setter": "SaxonCasi",
+  "grade_raw": "7bIVE Ye yee",
+  "grade_v": null,
+  "stars": 3
+}

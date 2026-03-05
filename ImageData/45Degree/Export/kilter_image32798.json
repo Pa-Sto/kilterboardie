@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image32798.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 3,
+    "finish": 1,
+    "hand": 4,
+    "foot": 3
+  },
+  "raw_text": "ne Prophesy of Isaac\nDylanSchmidt\n\n7c+/V10 ye vee\n",
+  "lines": [
+    "ne Prophesy of Isaac",
+    "DylanSchmidt",
+    "7c+/V10 ye vee"
+  ],
+  "name": "ne Prophesy of Isaac",
+  "setter": "DylanSchmidt",
+  "grade_raw": "7c+/V10 ye vee",
+  "grade_v": 10,
+  "stars": 3
+}

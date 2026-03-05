@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image2270.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 5,
+    "foot": 5
+  },
+  "raw_text": "WORLD STOPPED\nSeaOfCzars\n7c/V9 Ye Vee\n",
+  "lines": [
+    "WORLD STOPPED",
+    "SeaOfCzars",
+    "7c/V9 Ye Vee"
+  ],
+  "name": "WORLD STOPPED",
+  "setter": "SeaOfCzars",
+  "grade_raw": "7c/V9 Ye Vee",
+  "grade_v": 9,
+  "stars": 3
+}

@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image31254.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 7
+  },
+  "raw_text": "little warm-up\nBenny9595\n\n7a/V6 Ye ee\n",
+  "lines": [
+    "little warm-up",
+    "Benny9595",
+    "7a/V6 Ye ee"
+  ],
+  "name": "little warm-up",
+  "setter": "Benny9595",
+  "grade_raw": "7a/V6 Ye ee",
+  "grade_v": 6,
+  "stars": 2
+}

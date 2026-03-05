@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image27615.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 6,
+    "foot": 4
+  },
+  "raw_text": "wizard of odd\nminivanstew\n\n6b/V4 ye yee\n",
+  "lines": [
+    "wizard of odd",
+    "minivanstew",
+    "6b/V4 ye yee"
+  ],
+  "name": "wizard of odd",
+  "setter": "minivanstew",
+  "grade_raw": "6b/V4 ye yee",
+  "grade_v": 4,
+  "stars": 3
+}

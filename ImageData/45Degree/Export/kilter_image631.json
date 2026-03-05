@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image631.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 3,
+    "foot": 2
+  },
+  "raw_text": "Lock her off\nGW_Kilter\n\nZat/V7 Yeo.\n",
+  "lines": [
+    "Lock her off",
+    "GW_Kilter",
+    "Zat/V7 Yeo."
+  ],
+  "name": "Lock her off",
+  "setter": "GW_Kilter",
+  "grade_raw": "Zat/V7 Yeo.",
+  "grade_v": 7,
+  "stars": 3
+}

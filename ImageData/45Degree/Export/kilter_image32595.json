@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image32595.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 9,
+    "foot": 3
+  },
+  "raw_text": "heartilation\nmondragon\n\n7a/V6 Ye ee\n",
+  "lines": [
+    "heartilation",
+    "mondragon",
+    "7a/V6 Ye ee"
+  ],
+  "name": "heartilation",
+  "setter": "mondragon",
+  "grade_raw": "7a/V6 Ye ee",
+  "grade_v": 6,
+  "stars": 2
+}

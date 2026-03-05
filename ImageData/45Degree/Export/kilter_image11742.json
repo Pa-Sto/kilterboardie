@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image11742.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 2,
+    "foot": 1
+  },
+  "raw_text": "J101\nJamie\n\n\u00ae& 8a/V11 9k ke oe\n",
+  "lines": [
+    "J101",
+    "Jamie",
+    "\u00ae& 8a/V11 9k ke oe"
+  ],
+  "name": "J101",
+  "setter": "Jamie",
+  "grade_raw": "\u00ae& 8a/V11 9k ke oe",
+  "grade_v": 11,
+  "stars": 2
+}

@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image30537.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 5,
+    "foot": 3
+  },
+  "raw_text": "Count Basie\nbkbskilterboard\n\n6b/V4 ye yee\n",
+  "lines": [
+    "Count Basie",
+    "bkbskilterboard",
+    "6b/V4 ye yee"
+  ],
+  "name": "Count Basie",
+  "setter": "bkbskilterboard",
+  "grade_raw": "6b/V4 ye yee",
+  "grade_v": 4,
+  "stars": 3
+}

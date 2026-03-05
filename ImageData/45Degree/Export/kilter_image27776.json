@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image27776.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 7,
+    "foot": 3
+  },
+  "raw_text": "Potato Psychosis\nkilterjackie\n\n7b/V8 Ye ee\n",
+  "lines": [
+    "Potato Psychosis",
+    "kilterjackie",
+    "7b/V8 Ye ee"
+  ],
+  "name": "Potato Psychosis",
+  "setter": "kilterjackie",
+  "grade_raw": "7b/V8 Ye ee",
+  "grade_v": 8,
+  "stars": 2
+}

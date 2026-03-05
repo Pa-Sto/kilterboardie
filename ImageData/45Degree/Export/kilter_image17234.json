@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image17234.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 8,
+    "foot": 6
+  },
+  "raw_text": "opening bell\nminivanstew\n\n6b/V4 ye yee\n",
+  "lines": [
+    "opening bell",
+    "minivanstew",
+    "6b/V4 ye yee"
+  ],
+  "name": "opening bell",
+  "setter": "minivanstew",
+  "grade_raw": "6b/V4 ye yee",
+  "grade_v": 4,
+  "stars": 3
+}

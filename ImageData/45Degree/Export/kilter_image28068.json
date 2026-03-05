@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image28068.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 3,
+    "finish": 1,
+    "hand": 5,
+    "foot": 11
+  },
+  "raw_text": "2r really named one |\nDrPlim\n\n6c/V5 eee\n",
+  "lines": [
+    "2r really named one |",
+    "DrPlim",
+    "6c/V5 eee"
+  ],
+  "name": "2r really named one |",
+  "setter": "DrPlim",
+  "grade_raw": "6c/V5 eee",
+  "grade_v": 5,
+  "stars": 3
+}

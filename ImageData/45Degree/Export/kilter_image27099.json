@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image27099.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 6
+  },
+  "raw_text": "38 FH Lotte2 H Ge 4\nLotte1000\n\n7a/V6 Ye ee\n",
+  "lines": [
+    "38 FH Lotte2 H Ge 4",
+    "Lotte1000",
+    "7a/V6 Ye ee"
+  ],
+  "name": "38 FH Lotte2 H Ge 4",
+  "setter": "Lotte1000",
+  "grade_raw": "7a/V6 Ye ee",
+  "grade_v": 6,
+  "stars": 2
+}

@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image28986.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 3
+  },
+  "raw_text": "Nathaniel navarro\nGW_Kilter\n\n6b/V4 ye yee\n",
+  "lines": [
+    "Nathaniel navarro",
+    "GW_Kilter",
+    "6b/V4 ye yee"
+  ],
+  "name": "Nathaniel navarro",
+  "setter": "GW_Kilter",
+  "grade_raw": "6b/V4 ye yee",
+  "grade_v": 4,
+  "stars": 3
+}

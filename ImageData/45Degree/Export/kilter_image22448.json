@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image22448.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 2,
+    "foot": 3
+  },
+  "raw_text": "Step it up\ndanngonz3\n\n7b/V8 Ye ee\n",
+  "lines": [
+    "Step it up",
+    "danngonz3",
+    "7b/V8 Ye ee"
+  ],
+  "name": "Step it up",
+  "setter": "danngonz3",
+  "grade_raw": "7b/V8 Ye ee",
+  "grade_v": 8,
+  "stars": 2
+}

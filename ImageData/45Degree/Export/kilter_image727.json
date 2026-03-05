@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image727.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 2
+  },
+  "raw_text": "dddd89\nddddunkin\n\nZat/V7 Yeo.\n",
+  "lines": [
+    "dddd89",
+    "ddddunkin",
+    "Zat/V7 Yeo."
+  ],
+  "name": "dddd89",
+  "setter": "ddddunkin",
+  "grade_raw": "Zat/V7 Yeo.",
+  "grade_v": 7,
+  "stars": 3
+}

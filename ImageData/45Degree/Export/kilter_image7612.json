@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image7612.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 3,
+    "foot": 4
+  },
+  "raw_text": "Vinny\u2019 Warmup\nimportedbean\n\n6at/V3 Ye oroe\n",
+  "lines": [
+    "Vinny\u2019 Warmup",
+    "importedbean",
+    "6at/V3 Ye oroe"
+  ],
+  "name": "Vinny\u2019 Warmup",
+  "setter": "importedbean",
+  "grade_raw": "6at/V3 Ye oroe",
+  "grade_v": 3,
+  "stars": 4
+}

@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image5150.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 4
+  },
+  "raw_text": "For tiny Philip Il\nlokevs\n\n6a/V3 Ye ee\n",
+  "lines": [
+    "For tiny Philip Il",
+    "lokevs",
+    "6a/V3 Ye ee"
+  ],
+  "name": "For tiny Philip Il",
+  "setter": "lokevs",
+  "grade_raw": "6a/V3 Ye ee",
+  "grade_v": 3,
+  "stars": 2
+}

@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image7459.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 5,
+    "foot": 4
+  },
+  "raw_text": "Aauricio easy(ish@)\ntytaft\n\n7bIVE Ye yee\n",
+  "lines": [
+    "Aauricio easy(ish@)",
+    "tytaft",
+    "7bIVE Ye yee"
+  ],
+  "name": "Aauricio easy(ish@)",
+  "setter": "tytaft",
+  "grade_raw": "7bIVE Ye yee",
+  "grade_v": null,
+  "stars": 3
+}

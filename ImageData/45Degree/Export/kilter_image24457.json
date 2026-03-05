@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image24457.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 3,
+    "foot": 14
+  },
+  "raw_text": "Le Castor 2\nAntoineBern\n\n7c+/V10 ye vee\n",
+  "lines": [
+    "Le Castor 2",
+    "AntoineBern",
+    "7c+/V10 ye vee"
+  ],
+  "name": "Le Castor 2",
+  "setter": "AntoineBern",
+  "grade_raw": "7c+/V10 ye vee",
+  "grade_v": 10,
+  "stars": 3
+}

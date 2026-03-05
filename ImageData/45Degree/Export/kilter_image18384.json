@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image18384.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 7,
+    "foot": 8
+  },
+  "raw_text": "ZILLA 12.0\nrikischwark\n\n7c/V9 Ye vee\n",
+  "lines": [
+    "ZILLA 12.0",
+    "rikischwark",
+    "7c/V9 Ye vee"
+  ],
+  "name": "ZILLA 12.0",
+  "setter": "rikischwark",
+  "grade_raw": "7c/V9 Ye vee",
+  "grade_v": 9,
+  "stars": 3
+}

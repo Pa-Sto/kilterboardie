@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image4522.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 7,
+    "foot": 6
+  },
+  "raw_text": "Monkey Bread\nwill_avelar\n\n6at/V3 Ye oroe\n",
+  "lines": [
+    "Monkey Bread",
+    "will_avelar",
+    "6at/V3 Ye oroe"
+  ],
+  "name": "Monkey Bread",
+  "setter": "will_avelar",
+  "grade_raw": "6at/V3 Ye oroe",
+  "grade_v": 3,
+  "stars": 4
+}

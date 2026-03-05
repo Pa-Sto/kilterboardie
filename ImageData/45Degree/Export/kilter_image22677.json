@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image22677.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 6,
+    "foot": 8
+  },
+  "raw_text": "o cool for school du\nmattosgary\n\n6b/V4 ye yee\n",
+  "lines": [
+    "o cool for school du",
+    "mattosgary",
+    "6b/V4 ye yee"
+  ],
+  "name": "o cool for school du",
+  "setter": "mattosgary",
+  "grade_raw": "6b/V4 ye yee",
+  "grade_v": 4,
+  "stars": 3
+}

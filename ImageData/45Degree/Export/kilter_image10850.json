@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image10850.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 3,
+    "foot": 1
+  },
+  "raw_text": "icotine is Cancerous\nBKBChicago\n\n7b/V8 Ye ee\n",
+  "lines": [
+    "icotine is Cancerous",
+    "BKBChicago",
+    "7b/V8 Ye ee"
+  ],
+  "name": "icotine is Cancerous",
+  "setter": "BKBChicago",
+  "grade_raw": "7b/V8 Ye ee",
+  "grade_v": 8,
+  "stars": 2
+}

@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image18492.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 3
+  },
+  "raw_text": "Junglist Massif\nkrimdogbillionaire\n\n8a/V11 eee\n",
+  "lines": [
+    "Junglist Massif",
+    "krimdogbillionaire",
+    "8a/V11 eee"
+  ],
+  "name": "Junglist Massif",
+  "setter": "krimdogbillionaire",
+  "grade_raw": "8a/V11 eee",
+  "grade_v": 11,
+  "stars": 3
+}

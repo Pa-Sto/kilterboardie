@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image13887.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 7
+  },
+  "raw_text": "bumpy boy\npaul_brouard\n\n6at/V3 Ye oroe\n",
+  "lines": [
+    "bumpy boy",
+    "paul_brouard",
+    "6at/V3 Ye oroe"
+  ],
+  "name": "bumpy boy",
+  "setter": "paul_brouard",
+  "grade_raw": "6at/V3 Ye oroe",
+  "grade_v": 3,
+  "stars": 4
+}

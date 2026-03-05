@@ -138,7 +138,45 @@ python cvae_generate.py \
   --out generated_route.npy
 ```
 
-The output is a full `H x W x 6` matrix (route + static channels) plus a JSON sidecar.
+The output is a full `H x W x (4 + static_channels)` matrix (route + static channels) plus a JSON sidecar.
+
+## Diffusion Model (Conditional DDPM)
+
+Alternative generator implemented in:
+- `diffusion_model.py`
+- `diffusion_train.py`
+- `diffusion_generate.py`
+
+This model denoises the 4 dynamic route channels (`start`, `finish`, `hand`, `foot`) conditioned on:
+- static channels (`hold_presence`, `hold_size`, plus orientation channels if present in the dataset tensor)
+- grade embedding
+
+Training losses:
+- masked diffusion denoising loss (over hold positions)
+- masked reconstruction BCE
+- optional count/path/upward structure losses (same idea as CVAE constraints)
+
+Train:
+
+```bash
+python diffusion_train.py \
+  --data-dir ImageData/50Degree/Export \
+  --epochs 40 \
+  --batch-size 64
+```
+
+Generate:
+
+```bash
+python diffusion_generate.py \
+  --checkpoint runs/diffusion/<run>/best.pt \
+  --data-dir ImageData/50Degree/Export \
+  --grade 6 \
+  --n 4 \
+  --out generated_route.npy
+```
+
+The output format matches the CVAE generator: full `H x W x (4 + static_channels)` tensor(s) and a JSON sidecar.
 
 ## Project Layout
 
@@ -149,3 +187,29 @@ The output is a full `H x W x 6` matrix (route + static channels) plus a JSON si
 - `cvae_model.py`: CVAE model + loss
 - `cvae_train.py`: training loop
 - `cvae_generate.py`: sampling/generation
+- `diffusion_model.py`: diffusion denoiser + scheduler + losses
+- `diffusion_train.py`: diffusion training loop
+- `diffusion_generate.py`: diffusion sampling/generation
+
+## Grade Distribution Statistics
+
+Source: `ImageData/grade_distribution_45_50.csv`
+
+Format: `V grade/French grade` (example: `V3/6a`).
+
+Total routes: **45° = 32813**, **50° = 30000**
+
+| Grade | 45° Count | 45° Percent | 50° Count | 50° Percent |
+|---|---:|---:|---:|---:|
+| V3/6a | 4655 | 14.19% | 3210 | 10.7% |
+| V4/6b | 4654 | 14.18% | 3570 | 11.9% |
+| V5/6c | 5314 | 16.19% | 3870 | 12.9% |
+| V6/7a | 4883 | 14.88% | 3840 | 12.8% |
+| V7/7a+ | 3676 | 11.2% | 2970 | 9.9% |
+| V8/7b | 4396 | 13.4% | 4890 | 16.3% |
+| V9/7c | 2403 | 7.32% | 3000 | 10.0% |
+| V10/7c+ | 1547 | 4.71% | 2160 | 7.2% |
+| V11/8a | 627 | 1.91% | 1470 | 4.9% |
+| V12/8a+ | 99 | 0.3% | 690 | 2.3% |
+| V13/8b | 0 | 0% | 90 | 0.3% |
+| Unknown | 559 | 1.7% | 240 | 0.8% |

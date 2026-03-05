@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image14525.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 4,
+    "foot": 3
+  },
+  "raw_text": "areening into Chaos\nSpencerShore\n\n& 7c/V9 Ye ve He\n",
+  "lines": [
+    "areening into Chaos",
+    "SpencerShore",
+    "& 7c/V9 Ye ve He"
+  ],
+  "name": "areening into Chaos",
+  "setter": "SpencerShore",
+  "grade_raw": "& 7c/V9 Ye ve He",
+  "grade_v": 9,
+  "stars": 2
+}

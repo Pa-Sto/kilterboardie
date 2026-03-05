@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image12610.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 5,
+    "foot": 4
+  },
+  "raw_text": "IRON CHOSS\nxlgreen85\n\n7c/V9 Ye vee\n",
+  "lines": [
+    "IRON CHOSS",
+    "xlgreen85",
+    "7c/V9 Ye vee"
+  ],
+  "name": "IRON CHOSS",
+  "setter": "xlgreen85",
+  "grade_raw": "7c/V9 Ye vee",
+  "grade_v": 9,
+  "stars": 3
+}

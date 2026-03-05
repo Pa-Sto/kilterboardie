@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image4209.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 5,
+    "foot": 3
+  },
+  "raw_text": "dimension 9\nsamuelguerrero\n\n& 7c/V9 Ye ve oe\n",
+  "lines": [
+    "dimension 9",
+    "samuelguerrero",
+    "& 7c/V9 Ye ve oe"
+  ],
+  "name": "dimension 9",
+  "setter": "samuelguerrero",
+  "grade_raw": "& 7c/V9 Ye ve oe",
+  "grade_v": 9,
+  "stars": 2
+}

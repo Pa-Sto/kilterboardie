@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image4971.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 7,
+    "foot": 6
+  },
+  "raw_text": "ford focus\nsamgtmeyer\n\n& 7a/V6 ke ee\n",
+  "lines": [
+    "ford focus",
+    "samgtmeyer",
+    "& 7a/V6 ke ee"
+  ],
+  "name": "ford focus",
+  "setter": "samgtmeyer",
+  "grade_raw": "& 7a/V6 ke ee",
+  "grade_v": 6,
+  "stars": 2
+}

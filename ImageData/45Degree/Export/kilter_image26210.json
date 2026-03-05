@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image26210.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 3,
+    "foot": 4
+  },
+  "raw_text": "Dyno Pitstop\nbrianr3697\n\n6c+/V5 Yevroe\n",
+  "lines": [
+    "Dyno Pitstop",
+    "brianr3697",
+    "6c+/V5 Yevroe"
+  ],
+  "name": "Dyno Pitstop",
+  "setter": "brianr3697",
+  "grade_raw": "6c+/V5 Yevroe",
+  "grade_v": 5,
+  "stars": 4
+}

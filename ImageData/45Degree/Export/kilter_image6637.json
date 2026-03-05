@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image6637.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 3,
+    "foot": 8
+  },
+  "raw_text": "1st the worst\nsam262003\n6b/V4 yeoroke\n",
+  "lines": [
+    "1st the worst",
+    "sam262003",
+    "6b/V4 yeoroke"
+  ],
+  "name": "1st the worst",
+  "setter": "sam262003",
+  "grade_raw": "6b/V4 yeoroke",
+  "grade_v": 4,
+  "stars": 4
+}

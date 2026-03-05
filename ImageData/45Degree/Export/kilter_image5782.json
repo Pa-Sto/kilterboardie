@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image5782.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 6,
+    "foot": 3
+  },
+  "raw_text": "Deblateable\nimportedbean\n\nZat/V7 Yeo.\n",
+  "lines": [
+    "Deblateable",
+    "importedbean",
+    "Zat/V7 Yeo."
+  ],
+  "name": "Deblateable",
+  "setter": "importedbean",
+  "grade_raw": "Zat/V7 Yeo.",
+  "grade_v": 7,
+  "stars": 3
+}

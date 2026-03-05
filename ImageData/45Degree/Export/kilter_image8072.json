@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image8072.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 4
+  },
+  "raw_text": "Z.X-1/39-0!\nSaxonCasi\n\n7c+/V10 Yeo ve\n",
+  "lines": [
+    "Z.X-1/39-0!",
+    "SaxonCasi",
+    "7c+/V10 Yeo ve"
+  ],
+  "name": "Z.X-1/39-0!",
+  "setter": "SaxonCasi",
+  "grade_raw": "7c+/V10 Yeo ve",
+  "grade_v": 10,
+  "stars": 2
+}

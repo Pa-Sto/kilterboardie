@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image14299.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 4
+  },
+  "raw_text": "jk-47 special\nclimbey_mcclimbface\n\nZat/V7 Yeo.\n",
+  "lines": [
+    "jk-47 special",
+    "climbey_mcclimbface",
+    "Zat/V7 Yeo."
+  ],
+  "name": "jk-47 special",
+  "setter": "climbey_mcclimbface",
+  "grade_raw": "Zat/V7 Yeo.",
+  "grade_v": 7,
+  "stars": 3
+}

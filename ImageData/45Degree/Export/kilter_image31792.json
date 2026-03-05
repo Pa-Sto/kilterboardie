@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image31792.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 5
+  },
+  "raw_text": "stant Dissassembly\nmondragon\n\n7b+/V8 Yee.\n",
+  "lines": [
+    "stant Dissassembly",
+    "mondragon",
+    "7b+/V8 Yee."
+  ],
+  "name": "stant Dissassembly",
+  "setter": "mondragon",
+  "grade_raw": "7b+/V8 Yee.",
+  "grade_v": 8,
+  "stars": 3
+}

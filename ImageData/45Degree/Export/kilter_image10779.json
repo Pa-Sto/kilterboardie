@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image10779.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 2,
+    "hand": 5,
+    "foot": 5
+  },
+  "raw_text": "squantch\nwillfusa\n\n& 7c+/V10 9&9\n",
+  "lines": [
+    "squantch",
+    "willfusa",
+    "& 7c+/V10 9&9"
+  ],
+  "name": "squantch",
+  "setter": "willfusa",
+  "grade_raw": "& 7c+/V10 9&9",
+  "grade_v": 10,
+  "stars": null
+}

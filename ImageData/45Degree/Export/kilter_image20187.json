@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image20187.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 3,
+    "foot": 5
+  },
+  "raw_text": "ower Circuit 5 Final\nDrPlim\n\n6b/V4 ye yee\n",
+  "lines": [
+    "ower Circuit 5 Final",
+    "DrPlim",
+    "6b/V4 ye yee"
+  ],
+  "name": "ower Circuit 5 Final",
+  "setter": "DrPlim",
+  "grade_raw": "6b/V4 ye yee",
+  "grade_v": 4,
+  "stars": 3
+}

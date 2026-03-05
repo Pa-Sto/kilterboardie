@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image19304.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 2
+  },
+  "raw_text": "Total crakkage\nPLANET\n\n7b/V8 Ye ee\n",
+  "lines": [
+    "Total crakkage",
+    "PLANET",
+    "7b/V8 Ye ee"
+  ],
+  "name": "Total crakkage",
+  "setter": "PLANET",
+  "grade_raw": "7b/V8 Ye ee",
+  "grade_v": 8,
+  "stars": 2
+}

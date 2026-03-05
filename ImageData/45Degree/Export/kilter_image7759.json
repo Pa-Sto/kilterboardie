@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image7759.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 4
+  },
+  "raw_text": "gradient\nzdordai\n\n7b/V8 Ye ee\n",
+  "lines": [
+    "gradient",
+    "zdordai",
+    "7b/V8 Ye ee"
+  ],
+  "name": "gradient",
+  "setter": "zdordai",
+  "grade_raw": "7b/V8 Ye ee",
+  "grade_v": 8,
+  "stars": 2
+}

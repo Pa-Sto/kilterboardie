@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image10300.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 3
+  },
+  "raw_text": "elete.Delete.Repeat.\nNoDallas\n\n& 7a/V6 ke ee\n",
+  "lines": [
+    "elete.Delete.Repeat.",
+    "NoDallas",
+    "& 7a/V6 ke ee"
+  ],
+  "name": "elete.Delete.Repeat.",
+  "setter": "NoDallas",
+  "grade_raw": "& 7a/V6 ke ee",
+  "grade_v": 6,
+  "stars": 2
+}

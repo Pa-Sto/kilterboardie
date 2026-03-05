@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image19082.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 1
+  },
+  "raw_text": "Han 1\njwebxl\n\nZat/V7 Yeo.\n",
+  "lines": [
+    "Han 1",
+    "jwebxl",
+    "Zat/V7 Yeo."
+  ],
+  "name": "Han 1",
+  "setter": "jwebxl",
+  "grade_raw": "Zat/V7 Yeo.",
+  "grade_v": 7,
+  "stars": 3
+}

@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image15560.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 3,
+    "foot": 3
+  },
+  "raw_text": "Hard Work\nstefan\n\n7c/V9 Ye vee\n",
+  "lines": [
+    "Hard Work",
+    "stefan",
+    "7c/V9 Ye vee"
+  ],
+  "name": "Hard Work",
+  "setter": "stefan",
+  "grade_raw": "7c/V9 Ye vee",
+  "grade_v": 9,
+  "stars": 3
+}

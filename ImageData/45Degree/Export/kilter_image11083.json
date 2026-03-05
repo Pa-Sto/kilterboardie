@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image11083.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 6,
+    "foot": 1
+  },
+  "raw_text": "Kiel training 1:1\nKilterStudio\n\n6c+/V5 Yevroe\n",
+  "lines": [
+    "Kiel training 1:1",
+    "KilterStudio",
+    "6c+/V5 Yevroe"
+  ],
+  "name": "Kiel training 1:1",
+  "setter": "KilterStudio",
+  "grade_raw": "6c+/V5 Yevroe",
+  "grade_v": 5,
+  "stars": 4
+}

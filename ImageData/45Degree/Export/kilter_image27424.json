@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image27424.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 4,
+    "foot": 3
+  },
+  "raw_text": "Alfa Romeo\nBKBChicago\n\n6c+/V5 Yevroe\n",
+  "lines": [
+    "Alfa Romeo",
+    "BKBChicago",
+    "6c+/V5 Yevroe"
+  ],
+  "name": "Alfa Romeo",
+  "setter": "BKBChicago",
+  "grade_raw": "6c+/V5 Yevroe",
+  "grade_v": 5,
+  "stars": 4
+}

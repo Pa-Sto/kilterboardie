@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image13178.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 3,
+    "foot": 2
+  },
+  "raw_text": "Easy Living ish\ncknight09\n6c/V5 yee ye\n",
+  "lines": [
+    "Easy Living ish",
+    "cknight09",
+    "6c/V5 yee ye"
+  ],
+  "name": "Easy Living ish",
+  "setter": "cknight09",
+  "grade_raw": "6c/V5 yee ye",
+  "grade_v": 5,
+  "stars": 2
+}

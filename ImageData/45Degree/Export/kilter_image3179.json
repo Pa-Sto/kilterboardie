@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image3179.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 2,
+    "hand": 6,
+    "foot": 0
+  },
+  "raw_text": "side campus fun\nninjanatho\n\n6b/V4 ye yee\n",
+  "lines": [
+    "side campus fun",
+    "ninjanatho",
+    "6b/V4 ye yee"
+  ],
+  "name": "side campus fun",
+  "setter": "ninjanatho",
+  "grade_raw": "6b/V4 ye yee",
+  "grade_v": 4,
+  "stars": 3
+}

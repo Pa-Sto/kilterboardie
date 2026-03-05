@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image10527.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 2,
+    "hand": 6,
+    "foot": 3
+  },
+  "raw_text": "i pooped my pants\nMacroderp\n\n& 6a/V3 ok oe\n",
+  "lines": [
+    "i pooped my pants",
+    "Macroderp",
+    "& 6a/V3 ok oe"
+  ],
+  "name": "i pooped my pants",
+  "setter": "Macroderp",
+  "grade_raw": "& 6a/V3 ok oe",
+  "grade_v": 3,
+  "stars": 2
+}

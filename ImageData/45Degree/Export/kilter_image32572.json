@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image32572.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 2,
+    "hand": 5,
+    "foot": 6
+  },
+  "raw_text": "The Little Squeeze\nbkbskilterboard\n\n6c/V5 eee\n",
+  "lines": [
+    "The Little Squeeze",
+    "bkbskilterboard",
+    "6c/V5 eee"
+  ],
+  "name": "The Little Squeeze",
+  "setter": "bkbskilterboard",
+  "grade_raw": "6c/V5 eee",
+  "grade_v": 5,
+  "stars": 3
+}

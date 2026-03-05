@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image16228.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 3,
+    "foot": 2
+  },
+  "raw_text": "ohh yaa\npabves266\n\n7bIVE Ye yee\n",
+  "lines": [
+    "ohh yaa",
+    "pabves266",
+    "7bIVE Ye yee"
+  ],
+  "name": "ohh yaa",
+  "setter": "pabves266",
+  "grade_raw": "7bIVE Ye yee",
+  "grade_v": null,
+  "stars": 3
+}

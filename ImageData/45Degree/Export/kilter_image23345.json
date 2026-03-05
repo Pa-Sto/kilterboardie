@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image23345.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 3
+  },
+  "raw_text": "Smile n Wave boys\nfrankystamour\n\n& 7a/V6 He ee\n",
+  "lines": [
+    "Smile n Wave boys",
+    "frankystamour",
+    "& 7a/V6 He ee"
+  ],
+  "name": "Smile n Wave boys",
+  "setter": "frankystamour",
+  "grade_raw": "& 7a/V6 He ee",
+  "grade_v": 6,
+  "stars": 2
+}

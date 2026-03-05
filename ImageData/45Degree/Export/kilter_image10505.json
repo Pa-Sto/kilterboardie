@@ -1,0 +1,34 @@
+{
+  "filename": "kilter_image10505.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 4
+  },
+  "raw_text": "Scrumptious\njwebxl\n\n7c+/V10 ye vee\n",
+  "lines": [
+    "Scrumptious",
+    "jwebxl",
+    "7c+/V10 ye vee"
+  ],
+  "name": "Scrumptious",
+  "setter": "jwebxl",
+  "grade_raw": "7c+/V10 ye vee",
+  "grade_v": 10,
+  "stars": 3
+}
