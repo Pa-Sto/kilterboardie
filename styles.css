@@ -358,8 +358,6 @@ h1 {
 .climb-image {
   width: 100%;
   max-width: 420px;
-  border: 2px solid var(--frame);
-  background: #fff;
 }
 
 .grid-cell {
