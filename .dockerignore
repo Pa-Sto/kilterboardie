@@ -7,9 +7,16 @@
 !cvae_model.py
 !cvae_generate.py
 !cvae_data.py
+!diffusion_model.py
 
 !models/
 !models/best.pt
+!models/diffusion_best.pt
+
+!inference_bundle/
+!inference_bundle/static.npy
+!inference_bundle/count_histograms.json
+!inference_bundle/config.json
 
 !ImageData/
 ImageData/*

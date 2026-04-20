@@ -1,6 +1,6 @@
 # Kilterboardie
 
-Kilterboard dataset export and a conditional VAE for generating Kilterboard routes.
+Kilterboard dataset export and two conditional generative models for new route synthesis: a CVAE and a diffusion model.
 
 ## Dataset Overview
 
@@ -87,25 +87,32 @@ Legend:
 - `hold_size` is normalized by the maximum hold area in the board so values are in `[0, 1]`.
 - The dataset currently contains only 50° climbs (grade `V3` and higher).
 
+## Channel Split Used By Models
+
+The exported tensor has 10 channels, but both model families split it into:
+
+- `route`: 4 dynamic channels (`start`, `finish`, `hand`, `foot`)
+- `static`: 6 conditioning channels (`hold_presence`, `hold_size`, `orient_sin1`, `orient_cos1`, `orient_sin2`, `orient_cos2`)
+
 ## Model (Conditional VAE)
 
 The model is defined in `cvae_model.py` as `KilterCVAE`.
 
 **Inputs**
 - `route`: `(B, 4, H, W)` for the 4 dynamic channels (`start`, `finish`, `hand`, `foot`)
-- `static`: `(B, 2, H, W)` for `hold_presence` and `hold_size`
+- `static`: `(B, 6, H, W)` for hold presence, hold size, and both orientation sin/cos pairs
 - `grade`: `(B,)` int64 in `[0, num_grades-1]`
 
 **Output**
 - `logits`: `(B, 4, H, W)` for the 4 dynamic channels
-
-Note: the current data loader (`cvae_data.py`) slices only the first 6 channels (route + static). The orientation channels are present in the dataset but are not used by the model as written.
 
 **Loss**
 - Reconstruction: BCEWithLogitsLoss over hold positions
 - KL divergence (beta-scaled)
 - Optional count loss to encourage realistic counts for `start` and `finish`
 - Optional focal loss
+- Optional path loss to encourage reachable sequences from start to finish
+- Optional upward loss to discourage implausible hand placements below starts or above finishes
 
 ## Training
 
@@ -121,7 +128,8 @@ Key options:
 - `--beta`: KL weight
 - `--count-weight`: start/finish count regularizer
 - `--focal-gamma`: focal loss gamma
-- `--grade-min`, `--grade-max`: controlled in `KilterRouteDataset` (defaults V3–V13)
+- `--path-weight`, `--path-reach`, `--path-steps`: path connectivity regularization
+- `--upward-weight`: vertical hand-placement regularization
 
 Artifacts are saved under `runs/cvae/<timestamp>/`.
 
@@ -147,14 +155,20 @@ Alternative generator implemented in:
 - `diffusion_train.py`
 - `diffusion_generate.py`
 
+The diffusion model is implemented as a grade-conditioned U-Net denoiser with a Gaussian DDPM scheduler.
+
 This model denoises the 4 dynamic route channels (`start`, `finish`, `hand`, `foot`) conditioned on:
-- static channels (`hold_presence`, `hold_size`, plus orientation channels if present in the dataset tensor)
+- static channels (`hold_presence`, `hold_size`, `orient_sin1`, `orient_cos1`, `orient_sin2`, `orient_cos2`)
 - grade embedding
+- timestep embedding
 
 Training losses:
-- masked diffusion denoising loss (over hold positions)
-- masked reconstruction BCE
-- optional count/path/upward structure losses (same idea as CVAE constraints)
+- masked denoising MSE over valid hold cells
+- masked reconstruction BCE on reconstructed route probabilities
+- count loss for realistic start/finish counts
+- path loss for start-to-finish reachability
+- upward loss for vertical plausibility
+- hand-density and foot-density losses to control occupancy
 
 Train:
 
@@ -163,6 +177,22 @@ python diffusion_train.py \
   --data-dir ImageData/50Degree/Export \
   --epochs 40 \
   --batch-size 64
+```
+
+Useful options:
+
+- `--timesteps`, `--beta-start`, `--beta-end`: diffusion schedule
+- `--base-channels`, `--grade-emb-dim`, `--time-emb-dim`: model capacity
+- `--eps-weight`, `--recon-weight`: denoising vs reconstruction balance
+- `--count-weight`, `--path-weight`, `--upward-weight`: structure regularizers
+- `--hand-density-weight`, `--foot-density-weight`: occupancy regularizers
+
+Run visualization:
+
+```bash
+python diffusion_visualize.py \
+  --run-dir runs/diffusion/<run> \
+  --data-dir ImageData/50Degree/Export
 ```
 
 Generate:
@@ -176,7 +206,7 @@ python diffusion_generate.py \
   --out generated_route.npy
 ```
 
-The output format matches the CVAE generator: full `H x W x (4 + static_channels)` tensor(s) and a JSON sidecar.
+The output format matches the CVAE generator: full `H x W x (4 + static_channels)` tensor(s) and a JSON sidecar. Sampling is then decoded with empirical per-grade count priors for start, finish, hand, and foot placements.
 
 ## Project Layout
 
@@ -187,9 +217,43 @@ The output format matches the CVAE generator: full `H x W x (4 + static_channels
 - `cvae_model.py`: CVAE model + loss
 - `cvae_train.py`: training loop
 - `cvae_generate.py`: sampling/generation
+- `cvae_predict.py`: lightweight CVAE inference bundle loader
 - `diffusion_model.py`: diffusion denoiser + scheduler + losses
 - `diffusion_train.py`: diffusion training loop
 - `diffusion_generate.py`: diffusion sampling/generation
+- `diffusion_visualize.py`: training-curve and sample-grid rendering
+
+## Web App + Fly.io Deployment
+
+The website uses the FastAPI server in `server.py` for generation.
+In the current UI configuration, diffusion is the default and first model choice.
+
+### Runtime Assets
+
+The deployed server no longer needs the full exported training dataset at runtime.
+Instead it serves from a slim inference bundle:
+
+- `models/best.pt`: CVAE checkpoint
+- `models/diffusion_best.pt`: deployed diffusion checkpoint
+- `inference_bundle/static.npy`: full `34 x 35 x 6` static conditioning tensor
+- `inference_bundle/count_histograms.json`: per-grade route-count priors used during decoding
+- `ImageData/References/holds.json`: hold coordinates and orientations for board rendering
+- `ImageData/References/empty_board.png`: reference board image for overlays
+
+This keeps Fly.io deploys much smaller while preserving the same generation logic.
+
+### Fly.io
+
+Deployment config lives in `fly.toml` and the container image is built from `Dockerfile`.
+
+Useful commands:
+
+```bash
+./.fly/bin/flyctl status
+./.fly/bin/flyctl deploy
+```
+
+The Docker context is reduced with `.dockerignore` so Fly only uploads the API code, inference assets, reference board assets, and the selected checkpoints.
 
 ## Grade Distribution Statistics
 

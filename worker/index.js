@@ -3,7 +3,7 @@ function buildHeaders(origin = "*") {
     "Content-Type": "application/json",
     "Access-Control-Allow-Origin": origin,
     "Access-Control-Allow-Headers": "Content-Type",
-    "Access-Control-Allow-Methods": "POST,OPTIONS",
+    "Access-Control-Allow-Methods": "GET,POST,OPTIONS",
   };
 }
 
@@ -170,6 +170,10 @@ export default {
 
     try {
       const url = new URL(request.url);
+      if (request.method === "GET" && url.pathname === "/health") {
+        return jsonResponse({ ok: true }, 200, origin);
+      }
+
       if (request.method !== "POST") {
         return new Response("Method Not Allowed", { status: 405, headers: buildHeaders(origin) });
       }

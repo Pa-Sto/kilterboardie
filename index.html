@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>Kilterboardie - Generate New Climbs</title>
+    <title>Kilterboardie - CVAE and Diffusion Kilterboard Generation</title>
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
@@ -25,7 +25,7 @@
               </div>
               <div>
                 <h1>Kilterboardie</h1>
-                <p class="subtitle">Predict and prototype new Kilterboard climbs with our trained models.</p>
+                <p class="subtitle">Generate new Kilterboard climbs from a 34 x 35 x 10 board tensor using our CVAE and diffusion models.</p>
               </div>
             </div>
             <label class="theme-toggle" for="themeToggle">
@@ -37,7 +37,7 @@
 
           <section class="panel controls" aria-labelledby="controls-title">
             <h2 id="controls-title">Generate a Climb</h2>
-            <p class="panel-hint">Pick grade, angle, and model. Then generate a new climb.</p>
+            <p class="panel-hint">Pick grade, angle, and model. Both generators predict the 4 route channels while conditioning on hold presence, size, and orientation features.</p>
 
             <label class="field">
               <span class="field-label">Grade (V / French)</span>
@@ -67,12 +67,22 @@
             <label class="field">
               <span class="field-label">Model</span>
               <select id="modelSelect" class="field-control" aria-label="Select model">
-                <option value="KilterCVAE">KilterCVAE (current)</option>
-                <option value="Diffusion">Diffusion model (planned)</option>
+                <option value="Diffusion" selected>Diffusion (U-Net DDPM)</option>
+                <option value="KilterCVAE">KilterCVAE (latent generator)</option>
               </select>
             </label>
 
             <button id="generateBtn" class="primary">Generate Climbs</button>
+          </section>
+
+          <section class="panel" aria-labelledby="model-details-title">
+            <h2 id="model-details-title">Dataset and Model Details</h2>
+            <p class="panel-hint">
+              Dataset exports live as <code>34 x 35 x 10</code> tensors. Dynamic channels are <code>start</code>, <code>finish</code>, <code>hand</code>, and <code>foot</code>. Static conditioning channels are <code>hold_presence</code>, <code>hold_size</code>, <code>orient_sin1</code>, <code>orient_cos1</code>, <code>orient_sin2</code>, and <code>orient_cos2</code>.
+            </p>
+            <p class="panel-hint">
+              The CVAE is a compact grade-conditioned latent model. The diffusion model is a grade- and timestep-conditioned U-Net trained with denoising, reconstruction, count, path, upward, and density losses for more structured samples.
+            </p>
           </section>
         </div>
 
@@ -105,8 +115,8 @@
         <div class="footer-block">
           <h3>Available Models</h3>
           <ul class="footer-list">
-            <li>KilterCVAE for grade-conditional generation</li>
-            <li>Diffusion model for future high-fidelity sampling</li>
+            <li>KilterCVAE with structural count, path, and upward regularization</li>
+            <li>Diffusion U-Net with DDPM sampling and density-aware structure losses</li>
           </ul>
         </div>
       </footer>
