@@ -1,6 +1,6 @@
 # Kilterboard Dataset
 
-This dataset represents Kilterboard routes as fixed-size matrices derived from a detected hold grid and ring labels.
+This dataset represents Kilterboard routes as fixed-size matrices derived from a detected hold grid, ring labels, and per-hold orientation annotations.
 
 ## Matrix Dimensions
 
@@ -26,6 +26,24 @@ Channel order (axis 2) is:
 - `orient_cos2` (float, `cos(theta2)` for secondary orientation)
 
 Orientation angles are stored per hold in `ImageData/References/holds.json` and are also encoded per grid cell as `sin/cos` channels. The exported matrices are `34 x 35 x 10` with the channel list above.
+
+## Route vs Static Channels
+
+The first 4 channels are dynamic route labels:
+
+- `start`
+- `finish`
+- `hand`
+- `foot`
+
+The remaining 6 channels are static board context shared by all climbs on the same board setup:
+
+- `hold_presence`
+- `hold_size`
+- `orient_sin1`
+- `orient_cos1`
+- `orient_sin2`
+- `orient_cos2`
 
 ## Overlay (Hold Grid + Labeled Rings)
 
@@ -82,7 +100,15 @@ Legend:
 - The grid is derived from the detected hold centers stored in `ImageData/References/holds.json`.
 - `hold_size` is normalized by the maximum hold area in the board so values are in `[0, 1]`.
 - The sample metadata in `ImageData/50Degree/ExportPreview/*.json` reflects the same `rows`, `cols`, and `channels` used for export.
-- Dataset for now consists only of 50° climbs, which are established and 6a/V3 or higher
+- The exported dataset lives in `ImageData/50Degree/Export/` as paired `.npy` and `.json` files.
+- Dataset for now consists only of 50° climbs, which are established and `6a / V3` or higher.
+
+## Model Usage
+
+Current training scripts use this split:
+
+- CVAE and diffusion models predict only the 4 dynamic route channels.
+- Both models consume all 6 static channels as conditioning context.
 
 ## Grade Distribution Statistics
 
