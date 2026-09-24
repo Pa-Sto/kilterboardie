@@ -1,5 +1,5 @@
 (() => {
-  const PROD_API = "https://kilterboardie-api.fly.dev";
+  const PROD_API = "https://kilterboardie.paul-stoewer.de";
   const PROD_FEEDBACK_API = "https://kilterboardie-api.hybjf5nrbd.workers.dev";
 
   const isLocal =

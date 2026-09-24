@@ -1,0 +1,36 @@
+services:
+  api:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: kilterboardie-api
+    restart: unless-stopped
+    init: true
+    user: "1000:1000"
+    ports:
+      - "127.0.0.1:8000:8000"
+    environment:
+      API_GENERATION_ENABLED: "true"
+      CORS_ORIGINS: "https://pa-sto.github.io"
+      RATE_LIMIT_PER_IP: "10"
+      RATE_LIMIT_WINDOW_SECONDS: "60"
+      DAILY_GENERATE_LIMIT: "1000"
+    volumes:
+      - /home/paul/.local/share/kilterboardie/generated:/app/local_generated
+      - /home/paul/.local/share/kilterboardie/feedback:/app/local_feedback
+    healthcheck:
+      test:
+        - CMD
+        - python
+        - -c
+        - "import urllib.request; urllib.request.urlopen('http://127.0.0.1:8000/health', timeout=5)"
+      interval: 30s
+      timeout: 10s
+      retries: 3
+      start_period: 60s
+    logging:
+      driver: json-file
+      options:
+        max-size: "10m"
+        max-file: "3"
+    stop_grace_period: 30s
