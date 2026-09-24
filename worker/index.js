@@ -1,38 +1,34 @@
-function buildHeaders(origin = "*") {
+const DEFAULT_ALLOWED_ORIGINS = ["https://pa-sto.github.io"];
+const MAX_BODY_BYTES = 16 * 1024;
+const UUID_PATTERN = /^[0-9a-f]{8}-[0-9a-f]{4}-[1-5][0-9a-f]{3}-[89ab][0-9a-f]{3}-[0-9a-f]{12}$/i;
+
+function allowedOrigins(env) {
+  const configured = String(env.ALLOWED_ORIGINS || "")
+    .split(",")
+    .map((origin) => origin.trim().replace(/\/$/, ""))
+    .filter(Boolean);
+  return configured.length ? configured : DEFAULT_ALLOWED_ORIGINS;
+}
+
+function isAllowedOrigin(origin, env) {
+  return Boolean(origin) && allowedOrigins(env).includes(origin.replace(/\/$/, ""));
+}
+
+function buildHeaders(origin) {
   return {
     "Content-Type": "application/json",
     "Access-Control-Allow-Origin": origin,
     "Access-Control-Allow-Headers": "Content-Type",
     "Access-Control-Allow-Methods": "GET,POST,OPTIONS",
+    "Access-Control-Max-Age": "86400",
+    "Cache-Control": "no-store",
+    "Vary": "Origin",
+    "X-Content-Type-Options": "nosniff",
   };
 }
 
-function jsonResponse(body, status = 200, origin = "*") {
+function jsonResponse(body, status, origin) {
   return new Response(JSON.stringify(body), { status, headers: buildHeaders(origin) });
-}
-
-function parseGrade(value) {
-  if (!value) return 6;
-  const match = String(value).match(/V(\d+)/i);
-  if (match) return Number(match[1]);
-  const num = Number(value);
-  return Number.isNaN(num) ? 6 : num;
-}
-
-async function githubRequest(url, token, body) {
-  const res = await fetch(url, {
-    method: "POST",
-    headers: {
-      "Authorization": `token ${token}`,
-      "Accept": "application/vnd.github+json",
-      "User-Agent": "kilterboardie-worker",
-    },
-    body: JSON.stringify(body),
-  });
-  if (!res.ok) {
-    const text = await res.text();
-    throw new Error(`GitHub API error ${res.status}: ${text}`);
-  }
 }
 
 async function githubPutFile({ owner, repo, branch, token, path, contentBase64, message }) {
@@ -52,7 +48,8 @@ async function githubPutFile({ owner, repo, branch, token, path, contentBase64, 
   });
   if (!res.ok) {
     const text = await res.text();
-    throw new Error(`GitHub API error ${res.status}: ${text}`);
+    console.error(`GitHub API error ${res.status}: ${text.slice(0, 500)}`);
+    throw new Error("Dataset storage failed");
   }
 }
 
@@ -65,55 +62,44 @@ function encodeBase64Utf8(value) {
   return btoa(binary);
 }
 
-async function fetchAsBase64(url) {
-  const res = await fetch(url, { method: "GET" });
-  if (!res.ok) {
-    throw new Error(`Failed to fetch ${url}: ${res.status}`);
+async function readJson(request) {
+  const contentLength = Number(request.headers.get("Content-Length") || 0);
+  if (contentLength > MAX_BODY_BYTES) {
+    throw new Error("PAYLOAD_TOO_LARGE");
   }
-  const arrayBuffer = await res.arrayBuffer();
-  const bytes = new Uint8Array(arrayBuffer);
-  let binary = "";
-  for (let i = 0; i < bytes.length; i += 1) {
-    binary += String.fromCharCode(bytes[i]);
+  const text = await request.text();
+  if (new TextEncoder().encode(text).byteLength > MAX_BODY_BYTES) {
+    throw new Error("PAYLOAD_TOO_LARGE");
   }
-  return btoa(binary);
-}
-
-async function handleGenerate(request, env) {
-  const payload = await request.json();
-  const requestId = crypto.randomUUID();
-  const grade = parseGrade(payload.grade);
-
-  await githubRequest(
-    `https://api.github.com/repos/${env.PUBLIC_REPO_OWNER}/${env.PUBLIC_REPO_NAME}/dispatches`,
-    env.PUBLIC_GITHUB_TOKEN,
-    {
-      event_type: "generate-climb",
-      client_payload: {
-        grade,
-        request_id: requestId,
-      },
-    }
-  );
-
-  return jsonResponse({ requestId });
+  try {
+    return JSON.parse(text);
+  } catch (_) {
+    throw new Error("INVALID_JSON");
+  }
 }
 
 async function handleFeedback(request, env) {
-  const payload = await request.json();
-  const requestId = payload.requestId || crypto.randomUUID();
+  const payload = await readJson(request);
+  const requestId = String(payload.requestId || "");
+  if (!UUID_PATTERN.test(requestId)) {
+    return { error: "Invalid request ID", status: 400 };
+  }
+
+  const userFeedback = String(payload.userFeedback || "").trim().slice(0, 2000);
+  const suggestedGrade = String(payload.suggestedGrade || "").trim().slice(0, 32);
+  if (!userFeedback && !suggestedGrade) {
+    return { error: "Feedback is empty", status: 400 };
+  }
   const now = new Date().toISOString();
 
   const entry = {
     request_id: requestId,
-    grade: payload.grade,
-    angle: payload.angle,
-    model: payload.model,
-    suggested_grade: payload.suggestedGrade,
-    user_feedback: payload.userFeedback,
-    matrix_path: payload.matrixPath,
-    image_path: payload.imagePath,
-    created_at: payload.createdAt,
+    grade: String(payload.grade || "").slice(0, 16),
+    angle: String(payload.angle || "").slice(0, 16),
+    model: String(payload.model || "").slice(0, 32),
+    suggested_grade: suggestedGrade,
+    user_feedback: userFeedback,
+    created_at: String(payload.createdAt || "").slice(0, 64),
     received_at: now,
   };
 
@@ -130,65 +116,48 @@ async function handleFeedback(request, env) {
     message,
   });
 
-  if (payload.matrixPath && env.PUBLIC_SITE_BASE) {
-    const matrixUrl = `${env.PUBLIC_SITE_BASE.replace(/\/$/, "")}/${payload.matrixPath}`;
-    const matrixBase64 = await fetchAsBase64(matrixUrl);
-    await githubPutFile({
-      owner: env.DATA_REPO_OWNER,
-      repo: env.DATA_REPO_NAME,
-      branch: env.DATA_REPO_BRANCH,
-      token: env.DATA_GITHUB_TOKEN,
-      path: `${basePath}/matrix.npy`,
-      contentBase64: matrixBase64,
-      message,
-    });
-  }
-
-  if (payload.imagePath && env.PUBLIC_SITE_BASE) {
-    const imageUrl = `${env.PUBLIC_SITE_BASE.replace(/\/$/, "")}/${payload.imagePath}`;
-    const imageBase64 = await fetchAsBase64(imageUrl);
-    await githubPutFile({
-      owner: env.DATA_REPO_OWNER,
-      repo: env.DATA_REPO_NAME,
-      branch: env.DATA_REPO_BRANCH,
-      token: env.DATA_GITHUB_TOKEN,
-      path: `${basePath}/overlay.png`,
-      contentBase64: imageBase64,
-      message,
-    });
-  }
-
-  return jsonResponse({ ok: true });
+  return { body: { ok: true }, status: 200 };
 }
 
 export default {
   async fetch(request, env) {
-    const origin = request.headers.get("Origin") || "*";
+    const origin = request.headers.get("Origin") || "";
+    const url = new URL(request.url);
+
+    if (request.method === "GET" && url.pathname === "/health") {
+      return jsonResponse({ ok: true }, 200, origin || DEFAULT_ALLOWED_ORIGINS[0]);
+    }
+
+    if (!isAllowedOrigin(origin, env)) {
+      return jsonResponse({ ok: false, error: "Origin not allowed" }, 403, DEFAULT_ALLOWED_ORIGINS[0]);
+    }
     if (request.method === "OPTIONS") {
       return new Response("", { headers: buildHeaders(origin) });
     }
 
     try {
-      const url = new URL(request.url);
-      if (request.method === "GET" && url.pathname === "/health") {
-        return jsonResponse({ ok: true }, 200, origin);
-      }
-
       if (request.method !== "POST") {
         return new Response("Method Not Allowed", { status: 405, headers: buildHeaders(origin) });
       }
 
-      if (url.pathname === "/generate") {
-        return await handleGenerate(request, env);
-      }
       if (url.pathname === "/feedback") {
-        return await handleFeedback(request, env);
+        const result = await handleFeedback(request, env);
+        if (result.error) {
+          return jsonResponse({ ok: false, error: result.error }, result.status, origin);
+        }
+        return jsonResponse(result.body, result.status, origin);
       }
 
       return new Response("Not Found", { status: 404, headers: buildHeaders(origin) });
     } catch (error) {
-      const message = error instanceof Error ? error.message : "Unknown error";
-      return jsonResponse({ ok: false, error: message }, 500, origin);
+      if (error instanceof Error && error.message === "PAYLOAD_TOO_LARGE") {
+        return jsonResponse({ ok: false, error: "Payload too large" }, 413, origin);
+      }
+      if (error instanceof Error && error.message === "INVALID_JSON") {
+        return jsonResponse({ ok: false, error: "Invalid JSON" }, 400, origin);
+      }
+      console.error(error);
+      return jsonResponse({ ok: false, error: "Feedback could not be stored" }, 500, origin);
     }
   },
 };

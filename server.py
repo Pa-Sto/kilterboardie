@@ -2,7 +2,9 @@ import base64
 import io
 import json
 import os
+import shutil
 import time
+import uuid
 from collections import deque
 from dataclasses import dataclass
 from datetime import datetime
@@ -13,7 +15,7 @@ from typing import Optional
 import numpy as np
 from fastapi import FastAPI, HTTPException, Request
 from fastapi.middleware.cors import CORSMiddleware
-from pydantic import BaseModel
+from pydantic import BaseModel, Field, UUID4
 from PIL import Image, ImageDraw
 import torch
 
@@ -43,24 +45,28 @@ MARKER_HALF_SIZE = 22
 
 
 class GenerateRequest(BaseModel):
-    grade: Optional[str] = None
-    angle: Optional[str] = None
-    model: Optional[str] = None
+    grade: Optional[str] = Field(default=None, max_length=16)
+    angle: Optional[str] = Field(default=None, max_length=16)
+    model: Optional[str] = Field(default=None, max_length=32)
     seed: Optional[int] = None
-    requestId: Optional[str] = None
 
 
 class FeedbackRequest(BaseModel):
-    requestId: str
-    grade: Optional[str] = None
-    angle: Optional[str] = None
-    model: Optional[str] = None
-    suggestedGrade: Optional[str] = None
-    userFeedback: Optional[str] = None
-    createdAt: Optional[str] = None
+    requestId: UUID4
+    grade: Optional[str] = Field(default=None, max_length=16)
+    angle: Optional[str] = Field(default=None, max_length=16)
+    model: Optional[str] = Field(default=None, max_length=32)
+    suggestedGrade: Optional[str] = Field(default=None, max_length=32)
+    userFeedback: Optional[str] = Field(default=None, max_length=2000)
+    createdAt: Optional[str] = Field(default=None, max_length=64)
 
 
-app = FastAPI()
+_production = os.getenv("ENVIRONMENT", "development").strip().lower() == "production"
+app = FastAPI(
+    docs_url=None if _production else "/docs",
+    redoc_url=None if _production else "/redoc",
+    openapi_url=None if _production else "/openapi.json",
+)
 
 
 def _cors_origins() -> list[str]:
@@ -76,8 +82,8 @@ def _cors_origins() -> list[str]:
 app.add_middleware(
     CORSMiddleware,
     allow_origins=_cors_origins(),
-    allow_methods=["*"],
-    allow_headers=["*"],
+    allow_methods=["GET", "POST"],
+    allow_headers=["Content-Type"],
 )
 
 
@@ -160,6 +166,16 @@ def _client_ip(request: Request) -> str:
 
 
 GENERATE_GUARD = GenerateGuard()
+
+
+def _remove_expired_generations() -> None:
+    ttl_hours = _env_int("GENERATED_TTL_HOURS", 24)
+    cutoff = time.time() - (ttl_hours * 60 * 60)
+    if not OUTPUT_DIR.exists():
+        return
+    for path in OUTPUT_DIR.iterdir():
+        if path.is_file() and path.suffix in {".npy", ".png", ".json"} and path.stat().st_mtime < cutoff:
+            path.unlink(missing_ok=True)
 
 
 def _candidate_existing_path(paths: list[Path]) -> Optional[Path]:
@@ -540,7 +556,8 @@ def generate(req: GenerateRequest, request: Request):
     state = get_state()
     grade_v = parse_grade(req.grade)
     model_key = _normalize_model_name(req.model)
-    request_id = req.requestId or f"local-{int(datetime.utcnow().timestamp())}"
+    # File names are always server-generated; browser input never becomes a path.
+    request_id = str(uuid.uuid4())
     seed = req.seed if req.seed is not None else int(time.time() * 1000) % (2**31 - 1)
     started_at = time.perf_counter()
 
@@ -553,6 +570,7 @@ def generate(req: GenerateRequest, request: Request):
         raise HTTPException(status_code=400, detail=str(exc)) from exc
 
     OUTPUT_DIR.mkdir(parents=True, exist_ok=True)
+    _remove_expired_generations()
     matrix_path = OUTPUT_DIR / f"{request_id}.npy"
     image_path = OUTPUT_DIR / f"{request_id}.png"
     meta_path = OUTPUT_DIR / f"{request_id}.json"
@@ -590,12 +608,13 @@ def generate(req: GenerateRequest, request: Request):
 
 @app.post("/feedback")
 def feedback(req: FeedbackRequest):
+    request_id = str(req.requestId)
     FEEDBACK_DIR.mkdir(parents=True, exist_ok=True)
-    entry_dir = FEEDBACK_DIR / req.requestId
+    entry_dir = FEEDBACK_DIR / request_id
     entry_dir.mkdir(parents=True, exist_ok=True)
 
     payload = {
-        "request_id": req.requestId,
+        "request_id": request_id,
         "grade": req.grade,
         "angle": req.angle,
         "model": req.model,
@@ -607,6 +626,11 @@ def feedback(req: FeedbackRequest):
     with (entry_dir / "feedback.json").open("w") as f:
         json.dump(payload, f, indent=2)
 
+    for suffix in (".npy", ".png", ".json"):
+        source = OUTPUT_DIR / f"{request_id}{suffix}"
+        if source.is_file():
+            shutil.copy2(source, entry_dir / source.name)
+
     return {"ok": True}
 
 
@@ -614,26 +638,16 @@ def feedback(req: FeedbackRequest):
 def health():
     status = {"ok": True, "generation_enabled": _is_generation_enabled()}
     try:
-        state = get_state()
-        status["data_dir"] = _display_path(state.data_dir) if state.data_dir is not None else None
-        status["static_bundle"] = _display_path(_resolve_static_bundle())
-        status["available_models"] = {
-            "cvae": _display_path(
-                _resolve_checkpoint(
-                    "CVAE_CHECKPOINT_PATH",
-                    [ROOT / "models" / "best.pt"],
-                    ["runs/cvae/*/best.pt"],
-                )
-            ),
-            "diffusion": _display_path(
-                _resolve_checkpoint(
-                    "DIFFUSION_CHECKPOINT_PATH",
-                    [ROOT / "models" / "diffusion_best.pt"],
-                    ["runs/diffusion*/**/best.pt"],
-                )
-            ),
-        }
-    except FileNotFoundError as exc:
+        get_state()
+        _resolve_static_bundle()
+        _resolve_checkpoint("CVAE_CHECKPOINT_PATH", [ROOT / "models" / "best.pt"], ["runs/cvae/*/best.pt"])
+        _resolve_checkpoint(
+            "DIFFUSION_CHECKPOINT_PATH",
+            [ROOT / "models" / "diffusion_best.pt"],
+            ["runs/diffusion*/**/best.pt"],
+        )
+        status["available_models"] = ["cvae", "diffusion"]
+    except FileNotFoundError:
         status["ok"] = False
-        status["detail"] = str(exc)
+        status["detail"] = "Required model assets are unavailable"
     return status

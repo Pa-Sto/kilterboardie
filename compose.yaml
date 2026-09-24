@@ -7,14 +7,23 @@ services:
     restart: unless-stopped
     init: true
     user: "1000:1000"
+    read_only: true
+    cap_drop:
+      - ALL
+    security_opt:
+      - no-new-privileges:true
+    tmpfs:
+      - /tmp:size=256m,mode=1777
     ports:
       - "127.0.0.1:8000:8000"
     environment:
+      ENVIRONMENT: "production"
       API_GENERATION_ENABLED: "true"
       CORS_ORIGINS: "https://pa-sto.github.io"
       RATE_LIMIT_PER_IP: "10"
       RATE_LIMIT_WINDOW_SECONDS: "60"
       DAILY_GENERATE_LIMIT: "1000"
+      GENERATED_TTL_HOURS: "24"
     volumes:
       - /home/paul/.local/share/kilterboardie/generated:/app/local_generated
       - /home/paul/.local/share/kilterboardie/feedback:/app/local_feedback
