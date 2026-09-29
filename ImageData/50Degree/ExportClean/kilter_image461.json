@@ -1,0 +1,109 @@
+{
+  "filename": "kilter_image461.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 4,
+    "foot": 5
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 31,
+        "role": "foot",
+        "coverage": 0.705,
+        "margin": 0.705
+      },
+      {
+        "hold_id": 33,
+        "role": "foot",
+        "coverage": 0.704,
+        "margin": 0.704
+      },
+      {
+        "hold_id": 120,
+        "role": "start",
+        "coverage": 0.5643,
+        "margin": 0.5643
+      },
+      {
+        "hold_id": 134,
+        "role": "foot",
+        "coverage": 0.6302,
+        "margin": 0.6302
+      },
+      {
+        "hold_id": 182,
+        "role": "foot",
+        "coverage": 0.6935,
+        "margin": 0.6935
+      },
+      {
+        "hold_id": 253,
+        "role": "hand",
+        "coverage": 0.6543,
+        "margin": 0.6543
+      },
+      {
+        "hold_id": 256,
+        "role": "hand",
+        "coverage": 0.6349,
+        "margin": 0.6349
+      },
+      {
+        "hold_id": 319,
+        "role": "foot",
+        "coverage": 0.7155,
+        "margin": 0.7155
+      },
+      {
+        "hold_id": 356,
+        "role": "hand",
+        "coverage": 0.6532,
+        "margin": 0.6532
+      },
+      {
+        "hold_id": 438,
+        "role": "hand",
+        "coverage": 0.624,
+        "margin": 0.624
+      },
+      {
+        "hold_id": 466,
+        "role": "finish",
+        "coverage": 0.6961,
+        "margin": 0.6961
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Tall Boy Reach\nbsebaz\n\n6ct/V5 Yee\n",
+  "lines": [
+    "Tall Boy Reach",
+    "bsebaz",
+    "6ct/V5 Yee"
+  ],
+  "name": "Tall Boy Reach",
+  "setter": "bsebaz",
+  "grade_raw": "6ct/V5 Yee",
+  "grade_v": 5,
+  "stars": 3
+}

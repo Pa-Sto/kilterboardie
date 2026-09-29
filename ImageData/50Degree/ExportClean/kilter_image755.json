@@ -1,0 +1,127 @@
+{
+  "filename": "kilter_image755.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 5
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 4,
+        "role": "foot",
+        "coverage": 0.6119,
+        "margin": 0.6119
+      },
+      {
+        "hold_id": 43,
+        "role": "foot",
+        "coverage": 0.7029,
+        "margin": 0.7029
+      },
+      {
+        "hold_id": 52,
+        "role": "foot",
+        "coverage": 0.4838,
+        "margin": 0.4838
+      },
+      {
+        "hold_id": 59,
+        "role": "foot",
+        "coverage": 0.6334,
+        "margin": 0.6334
+      },
+      {
+        "hold_id": 89,
+        "role": "start",
+        "coverage": 0.6527,
+        "margin": 0.6527
+      },
+      {
+        "hold_id": 150,
+        "role": "start",
+        "coverage": 0.6156,
+        "margin": 0.6156
+      },
+      {
+        "hold_id": 156,
+        "role": "foot",
+        "coverage": 0.4854,
+        "margin": 0.4854
+      },
+      {
+        "hold_id": 166,
+        "role": "hand",
+        "coverage": 0.5983,
+        "margin": 0.5983
+      },
+      {
+        "hold_id": 251,
+        "role": "hand",
+        "coverage": 0.6213,
+        "margin": 0.6213
+      },
+      {
+        "hold_id": 295,
+        "role": "hand",
+        "coverage": 0.636,
+        "margin": 0.636
+      },
+      {
+        "hold_id": 308,
+        "role": "hand",
+        "coverage": 0.6213,
+        "margin": 0.6213
+      },
+      {
+        "hold_id": 348,
+        "role": "hand",
+        "coverage": 0.6506,
+        "margin": 0.6506
+      },
+      {
+        "hold_id": 447,
+        "role": "hand",
+        "coverage": 0.6417,
+        "margin": 0.6417
+      },
+      {
+        "hold_id": 459,
+        "role": "finish",
+        "coverage": 0.7139,
+        "margin": 0.7139
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "stant Dissassembly\nmondragon\n\n7c/V9 Ye vee\n",
+  "lines": [
+    "stant Dissassembly",
+    "mondragon",
+    "7c/V9 Ye vee"
+  ],
+  "name": "stant Dissassembly",
+  "setter": "mondragon",
+  "grade_raw": "7c/V9 Ye vee",
+  "grade_v": 9,
+  "stars": 3
+}

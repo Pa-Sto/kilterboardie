@@ -1,0 +1,127 @@
+{
+  "filename": "kilter_image759.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 5
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 19,
+        "role": "foot",
+        "coverage": 0.7087,
+        "margin": 0.7087
+      },
+      {
+        "hold_id": 30,
+        "role": "foot",
+        "coverage": 0.7019,
+        "margin": 0.7019
+      },
+      {
+        "hold_id": 99,
+        "role": "foot",
+        "coverage": 0.5947,
+        "margin": 0.5947
+      },
+      {
+        "hold_id": 113,
+        "role": "start",
+        "coverage": 0.6532,
+        "margin": 0.6532
+      },
+      {
+        "hold_id": 118,
+        "role": "start",
+        "coverage": 0.7097,
+        "margin": 0.7097
+      },
+      {
+        "hold_id": 177,
+        "role": "foot",
+        "coverage": 0.6077,
+        "margin": 0.6077
+      },
+      {
+        "hold_id": 205,
+        "role": "hand",
+        "coverage": 0.6444,
+        "margin": 0.6444
+      },
+      {
+        "hold_id": 244,
+        "role": "foot",
+        "coverage": 0.7014,
+        "margin": 0.7014
+      },
+      {
+        "hold_id": 253,
+        "role": "hand",
+        "coverage": 0.6192,
+        "margin": 0.6192
+      },
+      {
+        "hold_id": 336,
+        "role": "hand",
+        "coverage": 0.6266,
+        "margin": 0.6266
+      },
+      {
+        "hold_id": 356,
+        "role": "hand",
+        "coverage": 0.6532,
+        "margin": 0.6532
+      },
+      {
+        "hold_id": 408,
+        "role": "hand",
+        "coverage": 0.6485,
+        "margin": 0.6485
+      },
+      {
+        "hold_id": 450,
+        "role": "hand",
+        "coverage": 0.6428,
+        "margin": 0.6428
+      },
+      {
+        "hold_id": 472,
+        "role": "finish",
+        "coverage": 0.6867,
+        "margin": 0.6867
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "swingy\nBKBChicago\n\n7a/V6 Ye ee\n",
+  "lines": [
+    "swingy",
+    "BKBChicago",
+    "7a/V6 Ye ee"
+  ],
+  "name": "swingy",
+  "setter": "BKBChicago",
+  "grade_raw": "7a/V6 Ye ee",
+  "grade_v": 6,
+  "stars": 2
+}

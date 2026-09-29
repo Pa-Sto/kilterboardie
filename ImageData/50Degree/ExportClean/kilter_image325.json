@@ -1,0 +1,103 @@
+{
+  "filename": "kilter_image325.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 6,
+    "foot": 2
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 23,
+        "role": "foot",
+        "coverage": 0.7066,
+        "margin": 0.7066
+      },
+      {
+        "hold_id": 118,
+        "role": "start",
+        "coverage": 0.6752,
+        "margin": 0.6752
+      },
+      {
+        "hold_id": 161,
+        "role": "foot",
+        "coverage": 0.5021,
+        "margin": 0.5021
+      },
+      {
+        "hold_id": 176,
+        "role": "hand",
+        "coverage": 0.626,
+        "margin": 0.626
+      },
+      {
+        "hold_id": 254,
+        "role": "hand",
+        "coverage": 0.6156,
+        "margin": 0.6156
+      },
+      {
+        "hold_id": 305,
+        "role": "hand",
+        "coverage": 0.6344,
+        "margin": 0.6344
+      },
+      {
+        "hold_id": 359,
+        "role": "hand",
+        "coverage": 0.6512,
+        "margin": 0.6512
+      },
+      {
+        "hold_id": 399,
+        "role": "hand",
+        "coverage": 0.6438,
+        "margin": 0.6438
+      },
+      {
+        "hold_id": 459,
+        "role": "finish",
+        "coverage": 0.6271,
+        "margin": 0.5429
+      },
+      {
+        "hold_id": 471,
+        "role": "hand",
+        "coverage": 0.6475,
+        "margin": 0.6459
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Cascaded\nFokkeW\n\n7b+/V8 Yee.\n",
+  "lines": [
+    "Cascaded",
+    "FokkeW",
+    "7b+/V8 Yee."
+  ],
+  "name": "Cascaded",
+  "setter": "FokkeW",
+  "grade_raw": "7b+/V8 Yee.",
+  "grade_v": 8,
+  "stars": 3
+}

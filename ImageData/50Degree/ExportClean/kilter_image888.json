@@ -1,0 +1,121 @@
+{
+  "filename": "kilter_image888.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 4
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 0,
+        "role": "foot",
+        "coverage": 0.5071,
+        "margin": 0.5071
+      },
+      {
+        "hold_id": 93,
+        "role": "start",
+        "coverage": 0.6841,
+        "margin": 0.6841
+      },
+      {
+        "hold_id": 119,
+        "role": "start",
+        "coverage": 0.6177,
+        "margin": 0.6177
+      },
+      {
+        "hold_id": 151,
+        "role": "foot",
+        "coverage": 0.6851,
+        "margin": 0.6851
+      },
+      {
+        "hold_id": 213,
+        "role": "foot",
+        "coverage": 0.7301,
+        "margin": 0.7301
+      },
+      {
+        "hold_id": 218,
+        "role": "hand",
+        "coverage": 0.6381,
+        "margin": 0.6381
+      },
+      {
+        "hold_id": 255,
+        "role": "hand",
+        "coverage": 0.6438,
+        "margin": 0.6438
+      },
+      {
+        "hold_id": 290,
+        "role": "foot",
+        "coverage": 0.5429,
+        "margin": 0.5429
+      },
+      {
+        "hold_id": 297,
+        "role": "hand",
+        "coverage": 0.6506,
+        "margin": 0.6506
+      },
+      {
+        "hold_id": 305,
+        "role": "hand",
+        "coverage": 0.6344,
+        "margin": 0.6344
+      },
+      {
+        "hold_id": 386,
+        "role": "hand",
+        "coverage": 0.6454,
+        "margin": 0.6454
+      },
+      {
+        "hold_id": 454,
+        "role": "hand",
+        "coverage": 0.6313,
+        "margin": 0.6313
+      },
+      {
+        "hold_id": 472,
+        "role": "finish",
+        "coverage": 0.6867,
+        "margin": 0.6867
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Cross Body\nkilterjackie\n\n7b/V8 Ye ee\n",
+  "lines": [
+    "Cross Body",
+    "kilterjackie",
+    "7b/V8 Ye ee"
+  ],
+  "name": "Cross Body",
+  "setter": "kilterjackie",
+  "grade_raw": "7b/V8 Ye ee",
+  "grade_v": 8,
+  "stars": 2
+}

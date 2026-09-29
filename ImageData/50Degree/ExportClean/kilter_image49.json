@@ -1,0 +1,103 @@
+{
+  "filename": "kilter_image49.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 3,
+    "foot": 4
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 27,
+        "role": "foot",
+        "coverage": 0.7045,
+        "margin": 0.7045
+      },
+      {
+        "hold_id": 88,
+        "role": "foot",
+        "coverage": 0.6339,
+        "margin": 0.6339
+      },
+      {
+        "hold_id": 115,
+        "role": "start",
+        "coverage": 0.5983,
+        "margin": 0.5983
+      },
+      {
+        "hold_id": 143,
+        "role": "foot",
+        "coverage": 0.5288,
+        "margin": 0.4582
+      },
+      {
+        "hold_id": 148,
+        "role": "start",
+        "coverage": 0.5507,
+        "margin": 0.522
+      },
+      {
+        "hold_id": 154,
+        "role": "foot",
+        "coverage": 0.6831,
+        "margin": 0.6831
+      },
+      {
+        "hold_id": 255,
+        "role": "hand",
+        "coverage": 0.6438,
+        "margin": 0.6438
+      },
+      {
+        "hold_id": 300,
+        "role": "hand",
+        "coverage": 0.6522,
+        "margin": 0.6522
+      },
+      {
+        "hold_id": 441,
+        "role": "hand",
+        "coverage": 0.6501,
+        "margin": 0.6501
+      },
+      {
+        "hold_id": 475,
+        "role": "finish",
+        "coverage": 0.7097,
+        "margin": 0.7097
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Appa yip yip\nContagiousZ\n\n7a/V6 Ye ee\n",
+  "lines": [
+    "Appa yip yip",
+    "ContagiousZ",
+    "7a/V6 Ye ee"
+  ],
+  "name": "Appa yip yip",
+  "setter": "ContagiousZ",
+  "grade_raw": "7a/V6 Ye ee",
+  "grade_v": 6,
+  "stars": 2
+}

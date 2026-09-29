@@ -1,0 +1,91 @@
+{
+  "filename": "kilter_image877.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 3,
+    "foot": 2
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 87,
+        "role": "foot",
+        "coverage": 0.6208,
+        "margin": 0.6208
+      },
+      {
+        "hold_id": 171,
+        "role": "start",
+        "coverage": 0.613,
+        "margin": 0.613
+      },
+      {
+        "hold_id": 175,
+        "role": "start",
+        "coverage": 0.625,
+        "margin": 0.625
+      },
+      {
+        "hold_id": 211,
+        "role": "foot",
+        "coverage": 0.6987,
+        "margin": 0.6987
+      },
+      {
+        "hold_id": 272,
+        "role": "hand",
+        "coverage": 0.6119,
+        "margin": 0.6119
+      },
+      {
+        "hold_id": 336,
+        "role": "hand",
+        "coverage": 0.6266,
+        "margin": 0.6266
+      },
+      {
+        "hold_id": 427,
+        "role": "hand",
+        "coverage": 0.637,
+        "margin": 0.637
+      },
+      {
+        "hold_id": 469,
+        "role": "finish",
+        "coverage": 0.6987,
+        "margin": 0.6987
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Roll tide\njwebxl\n\nZat/V7 Yeo.\n",
+  "lines": [
+    "Roll tide",
+    "jwebxl",
+    "Zat/V7 Yeo."
+  ],
+  "name": "Roll tide",
+  "setter": "jwebxl",
+  "grade_raw": "Zat/V7 Yeo.",
+  "grade_v": 7,
+  "stars": 3
+}

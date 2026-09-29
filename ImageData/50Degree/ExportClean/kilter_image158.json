@@ -1,0 +1,103 @@
+{
+  "filename": "kilter_image158.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 3,
+    "foot": 4
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 5,
+        "role": "foot",
+        "coverage": 0.5805,
+        "margin": 0.5805
+      },
+      {
+        "hold_id": 53,
+        "role": "foot",
+        "coverage": 0.6804,
+        "margin": 0.6804
+      },
+      {
+        "hold_id": 81,
+        "role": "foot",
+        "coverage": 0.7238,
+        "margin": 0.7238
+      },
+      {
+        "hold_id": 94,
+        "role": "start",
+        "coverage": 0.6412,
+        "margin": 0.6412
+      },
+      {
+        "hold_id": 154,
+        "role": "start",
+        "coverage": 0.6632,
+        "margin": 0.6632
+      },
+      {
+        "hold_id": 215,
+        "role": "foot",
+        "coverage": 0.7505,
+        "margin": 0.7505
+      },
+      {
+        "hold_id": 218,
+        "role": "hand",
+        "coverage": 0.6381,
+        "margin": 0.6381
+      },
+      {
+        "hold_id": 298,
+        "role": "hand",
+        "coverage": 0.6491,
+        "margin": 0.6491
+      },
+      {
+        "hold_id": 413,
+        "role": "hand",
+        "coverage": 0.6538,
+        "margin": 0.6538
+      },
+      {
+        "hold_id": 469,
+        "role": "finish",
+        "coverage": 0.6987,
+        "margin": 0.6987
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Down to the waist\njoejoonkim\n\n\u00ae& 7b+/V8 yk ke oe\n",
+  "lines": [
+    "Down to the waist",
+    "joejoonkim",
+    "\u00ae& 7b+/V8 yk ke oe"
+  ],
+  "name": "Down to the waist",
+  "setter": "joejoonkim",
+  "grade_raw": "\u00ae& 7b+/V8 yk ke oe",
+  "grade_v": 8,
+  "stars": 2
+}

@@ -1,0 +1,103 @@
+{
+  "filename": "kilter_image782.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 2
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 28,
+        "role": "foot",
+        "coverage": 0.7008,
+        "margin": 0.7008
+      },
+      {
+        "hold_id": 47,
+        "role": "start",
+        "coverage": 0.6804,
+        "margin": 0.6804
+      },
+      {
+        "hold_id": 181,
+        "role": "start",
+        "coverage": 0.6888,
+        "margin": 0.6888
+      },
+      {
+        "hold_id": 231,
+        "role": "hand",
+        "coverage": 0.6512,
+        "margin": 0.6512
+      },
+      {
+        "hold_id": 264,
+        "role": "foot",
+        "coverage": 0.5158,
+        "margin": 0.5158
+      },
+      {
+        "hold_id": 270,
+        "role": "hand",
+        "coverage": 0.6407,
+        "margin": 0.6407
+      },
+      {
+        "hold_id": 307,
+        "role": "hand",
+        "coverage": 0.6527,
+        "margin": 0.6527
+      },
+      {
+        "hold_id": 336,
+        "role": "hand",
+        "coverage": 0.6266,
+        "margin": 0.6266
+      },
+      {
+        "hold_id": 399,
+        "role": "hand",
+        "coverage": 0.6438,
+        "margin": 0.6438
+      },
+      {
+        "hold_id": 471,
+        "role": "finish",
+        "coverage": 0.7139,
+        "margin": 0.7139
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Levitation\nAustin_hoyt\n\n7c+/V10 Yeo ve\n",
+  "lines": [
+    "Levitation",
+    "Austin_hoyt",
+    "7c+/V10 Yeo ve"
+  ],
+  "name": "Levitation",
+  "setter": "Austin_hoyt",
+  "grade_raw": "7c+/V10 Yeo ve",
+  "grade_v": 10,
+  "stars": 2
+}

@@ -1,0 +1,121 @@
+{
+  "filename": "kilter_image839.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 4
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 8,
+        "role": "foot",
+        "coverage": 0.7202,
+        "margin": 0.7202
+      },
+      {
+        "hold_id": 62,
+        "role": "foot",
+        "coverage": 0.7055,
+        "margin": 0.7055
+      },
+      {
+        "hold_id": 142,
+        "role": "foot",
+        "coverage": 0.5947,
+        "margin": 0.5947
+      },
+      {
+        "hold_id": 154,
+        "role": "start",
+        "coverage": 0.6637,
+        "margin": 0.6637
+      },
+      {
+        "hold_id": 180,
+        "role": "start",
+        "coverage": 0.7181,
+        "margin": 0.7181
+      },
+      {
+        "hold_id": 225,
+        "role": "hand",
+        "coverage": 0.6308,
+        "margin": 0.6308
+      },
+      {
+        "hold_id": 284,
+        "role": "hand",
+        "coverage": 0.6595,
+        "margin": 0.6595
+      },
+      {
+        "hold_id": 286,
+        "role": "foot",
+        "coverage": 0.5016,
+        "margin": 0.5016
+      },
+      {
+        "hold_id": 296,
+        "role": "hand",
+        "coverage": 0.6993,
+        "margin": 0.6993
+      },
+      {
+        "hold_id": 348,
+        "role": "hand",
+        "coverage": 0.6506,
+        "margin": 0.6506
+      },
+      {
+        "hold_id": 427,
+        "role": "hand",
+        "coverage": 0.6721,
+        "margin": 0.6721
+      },
+      {
+        "hold_id": 438,
+        "role": "hand",
+        "coverage": 0.6287,
+        "margin": 0.6287
+      },
+      {
+        "hold_id": 462,
+        "role": "finish",
+        "coverage": 0.6878,
+        "margin": 0.6878
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Left hand dim sum\nvukyle\n\n& 7b/V8 eke oe\n",
+  "lines": [
+    "Left hand dim sum",
+    "vukyle",
+    "& 7b/V8 eke oe"
+  ],
+  "name": "Left hand dim sum",
+  "setter": "vukyle",
+  "grade_raw": "& 7b/V8 eke oe",
+  "grade_v": 8,
+  "stars": 2
+}

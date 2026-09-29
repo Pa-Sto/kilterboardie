@@ -1,0 +1,157 @@
+{
+  "filename": "kilter_image45.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 6,
+    "foot": 11
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 4,
+        "role": "foot",
+        "coverage": 0.6119,
+        "margin": 0.6119
+      },
+      {
+        "hold_id": 7,
+        "role": "foot",
+        "coverage": 0.6287,
+        "margin": 0.6287
+      },
+      {
+        "hold_id": 11,
+        "role": "foot",
+        "coverage": 0.7139,
+        "margin": 0.7139
+      },
+      {
+        "hold_id": 61,
+        "role": "foot",
+        "coverage": 0.6825,
+        "margin": 0.6825
+      },
+      {
+        "hold_id": 96,
+        "role": "foot",
+        "coverage": 0.7045,
+        "margin": 0.7045
+      },
+      {
+        "hold_id": 120,
+        "role": "start",
+        "coverage": 0.5643,
+        "margin": 0.5643
+      },
+      {
+        "hold_id": 128,
+        "role": "foot",
+        "coverage": 0.5816,
+        "margin": 0.5816
+      },
+      {
+        "hold_id": 154,
+        "role": "foot",
+        "coverage": 0.6831,
+        "margin": 0.6831
+      },
+      {
+        "hold_id": 172,
+        "role": "hand",
+        "coverage": 0.5654,
+        "margin": 0.5654
+      },
+      {
+        "hold_id": 201,
+        "role": "foot",
+        "coverage": 0.7097,
+        "margin": 0.7097
+      },
+      {
+        "hold_id": 205,
+        "role": "hand",
+        "coverage": 0.6444,
+        "margin": 0.6444
+      },
+      {
+        "hold_id": 218,
+        "role": "foot",
+        "coverage": 0.6789,
+        "margin": 0.6789
+      },
+      {
+        "hold_id": 253,
+        "role": "hand",
+        "coverage": 0.6192,
+        "margin": 0.6192
+      },
+      {
+        "hold_id": 273,
+        "role": "foot",
+        "coverage": 0.6899,
+        "margin": 0.6899
+      },
+      {
+        "hold_id": 298,
+        "role": "foot",
+        "coverage": 0.7071,
+        "margin": 0.7071
+      },
+      {
+        "hold_id": 300,
+        "role": "hand",
+        "coverage": 0.6522,
+        "margin": 0.6522
+      },
+      {
+        "hold_id": 355,
+        "role": "hand",
+        "coverage": 0.6532,
+        "margin": 0.6532
+      },
+      {
+        "hold_id": 441,
+        "role": "hand",
+        "coverage": 0.6501,
+        "margin": 0.6501
+      },
+      {
+        "hold_id": 466,
+        "role": "finish",
+        "coverage": 0.6961,
+        "margin": 0.6961
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Back in the Saddle\nSandro\n\n6a/V3 Ye ee\n",
+  "lines": [
+    "Back in the Saddle",
+    "Sandro",
+    "6a/V3 Ye ee"
+  ],
+  "name": "Back in the Saddle",
+  "setter": "Sandro",
+  "grade_raw": "6a/V3 Ye ee",
+  "grade_v": 3,
+  "stars": 2
+}

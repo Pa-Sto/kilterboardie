@@ -1,0 +1,115 @@
+{
+  "filename": "kilter_image958.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 3
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 17,
+        "role": "foot",
+        "coverage": 0.7008,
+        "margin": 0.7008
+      },
+      {
+        "hold_id": 70,
+        "role": "foot",
+        "coverage": 0.7108,
+        "margin": 0.7108
+      },
+      {
+        "hold_id": 122,
+        "role": "start",
+        "coverage": 0.7197,
+        "margin": 0.7197
+      },
+      {
+        "hold_id": 123,
+        "role": "start",
+        "coverage": 0.7008,
+        "margin": 0.7008
+      },
+      {
+        "hold_id": 201,
+        "role": "foot",
+        "coverage": 0.7097,
+        "margin": 0.7097
+      },
+      {
+        "hold_id": 204,
+        "role": "hand",
+        "coverage": 0.6627,
+        "margin": 0.6627
+      },
+      {
+        "hold_id": 278,
+        "role": "hand",
+        "coverage": 0.6736,
+        "margin": 0.6736
+      },
+      {
+        "hold_id": 283,
+        "role": "hand",
+        "coverage": 0.6747,
+        "margin": 0.6747
+      },
+      {
+        "hold_id": 356,
+        "role": "hand",
+        "coverage": 0.6532,
+        "margin": 0.6532
+      },
+      {
+        "hold_id": 386,
+        "role": "hand",
+        "coverage": 0.6454,
+        "margin": 0.6454
+      },
+      {
+        "hold_id": 441,
+        "role": "hand",
+        "coverage": 0.6501,
+        "margin": 0.6501
+      },
+      {
+        "hold_id": 468,
+        "role": "finish",
+        "coverage": 0.7035,
+        "margin": 0.7035
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Jug Skin\nKilterStudio\n\n6b+/V4 Yeo.\n",
+  "lines": [
+    "Jug Skin",
+    "KilterStudio",
+    "6b+/V4 Yeo."
+  ],
+  "name": "Jug Skin",
+  "setter": "KilterStudio",
+  "grade_raw": "6b+/V4 Yeo.",
+  "grade_v": 4,
+  "stars": 3
+}

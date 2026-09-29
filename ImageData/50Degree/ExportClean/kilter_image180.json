@@ -1,0 +1,109 @@
+{
+  "filename": "kilter_image180.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 3,
+    "foot": 5
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 52,
+        "role": "foot",
+        "coverage": 0.4838,
+        "margin": 0.4838
+      },
+      {
+        "hold_id": 106,
+        "role": "foot",
+        "coverage": 0.4477,
+        "margin": 0.4477
+      },
+      {
+        "hold_id": 137,
+        "role": "foot",
+        "coverage": 0.7029,
+        "margin": 0.7029
+      },
+      {
+        "hold_id": 143,
+        "role": "start",
+        "coverage": 0.5816,
+        "margin": 0.5816
+      },
+      {
+        "hold_id": 162,
+        "role": "foot",
+        "coverage": 0.6747,
+        "margin": 0.6747
+      },
+      {
+        "hold_id": 177,
+        "role": "start",
+        "coverage": 0.5973,
+        "margin": 0.5973
+      },
+      {
+        "hold_id": 215,
+        "role": "foot",
+        "coverage": 0.7505,
+        "margin": 0.7505
+      },
+      {
+        "hold_id": 273,
+        "role": "hand",
+        "coverage": 0.6417,
+        "margin": 0.6417
+      },
+      {
+        "hold_id": 298,
+        "role": "hand",
+        "coverage": 0.6491,
+        "margin": 0.6491
+      },
+      {
+        "hold_id": 361,
+        "role": "hand",
+        "coverage": 0.6512,
+        "margin": 0.6512
+      },
+      {
+        "hold_id": 452,
+        "role": "finish",
+        "coverage": 0.6935,
+        "margin": 0.6935
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Shoulder Shaver\njwebxl\n\n8a/V11 eee\n",
+  "lines": [
+    "Shoulder Shaver",
+    "jwebxl",
+    "8a/V11 eee"
+  ],
+  "name": "Shoulder Shaver",
+  "setter": "jwebxl",
+  "grade_raw": "8a/V11 eee",
+  "grade_v": 11,
+  "stars": 3
+}

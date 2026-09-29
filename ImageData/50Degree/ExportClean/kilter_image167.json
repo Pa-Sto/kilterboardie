@@ -1,0 +1,121 @@
+{
+  "filename": "kilter_image167.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 5,
+    "foot": 6
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 6,
+        "role": "foot",
+        "coverage": 0.659,
+        "margin": 0.659
+      },
+      {
+        "hold_id": 11,
+        "role": "foot",
+        "coverage": 0.6689,
+        "margin": 0.6689
+      },
+      {
+        "hold_id": 54,
+        "role": "foot",
+        "coverage": 0.7547,
+        "margin": 0.7547
+      },
+      {
+        "hold_id": 84,
+        "role": "foot",
+        "coverage": 0.7123,
+        "margin": 0.7123
+      },
+      {
+        "hold_id": 120,
+        "role": "start",
+        "coverage": 0.5643,
+        "margin": 0.5643
+      },
+      {
+        "hold_id": 163,
+        "role": "foot",
+        "coverage": 0.5983,
+        "margin": 0.5983
+      },
+      {
+        "hold_id": 225,
+        "role": "hand",
+        "coverage": 0.6308,
+        "margin": 0.6308
+      },
+      {
+        "hold_id": 255,
+        "role": "foot",
+        "coverage": 0.6899,
+        "margin": 0.6899
+      },
+      {
+        "hold_id": 297,
+        "role": "hand",
+        "coverage": 0.6506,
+        "margin": 0.6506
+      },
+      {
+        "hold_id": 357,
+        "role": "hand",
+        "coverage": 0.6543,
+        "margin": 0.6543
+      },
+      {
+        "hold_id": 411,
+        "role": "hand",
+        "coverage": 0.6569,
+        "margin": 0.6569
+      },
+      {
+        "hold_id": 427,
+        "role": "hand",
+        "coverage": 0.6799,
+        "margin": 0.6799
+      },
+      {
+        "hold_id": 459,
+        "role": "finish",
+        "coverage": 0.7139,
+        "margin": 0.7139
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Miley Skybus\nmikey.rocks\n\n6c/V5 eee\n",
+  "lines": [
+    "Miley Skybus",
+    "mikey.rocks",
+    "6c/V5 eee"
+  ],
+  "name": "Miley Skybus",
+  "setter": "mikey.rocks",
+  "grade_raw": "6c/V5 eee",
+  "grade_v": 5,
+  "stars": 3
+}

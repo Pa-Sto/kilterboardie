@@ -1,0 +1,139 @@
+{
+  "filename": "kilter_image550.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 9,
+    "foot": 4
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 41,
+        "role": "foot",
+        "coverage": 0.7144,
+        "margin": 0.7144
+      },
+      {
+        "hold_id": 90,
+        "role": "foot",
+        "coverage": 0.67,
+        "margin": 0.67
+      },
+      {
+        "hold_id": 144,
+        "role": "start",
+        "coverage": 0.6825,
+        "margin": 0.6825
+      },
+      {
+        "hold_id": 154,
+        "role": "start",
+        "coverage": 0.6632,
+        "margin": 0.6632
+      },
+      {
+        "hold_id": 165,
+        "role": "foot",
+        "coverage": 0.6585,
+        "margin": 0.6585
+      },
+      {
+        "hold_id": 223,
+        "role": "hand",
+        "coverage": 0.6705,
+        "margin": 0.6705
+      },
+      {
+        "hold_id": 248,
+        "role": "hand",
+        "coverage": 0.6715,
+        "margin": 0.6715
+      },
+      {
+        "hold_id": 256,
+        "role": "foot",
+        "coverage": 0.6564,
+        "margin": 0.6564
+      },
+      {
+        "hold_id": 273,
+        "role": "hand",
+        "coverage": 0.6417,
+        "margin": 0.6417
+      },
+      {
+        "hold_id": 297,
+        "role": "hand",
+        "coverage": 0.6752,
+        "margin": 0.6752
+      },
+      {
+        "hold_id": 336,
+        "role": "hand",
+        "coverage": 0.6334,
+        "margin": 0.6334
+      },
+      {
+        "hold_id": 355,
+        "role": "hand",
+        "coverage": 0.6532,
+        "margin": 0.6532
+      },
+      {
+        "hold_id": 405,
+        "role": "hand",
+        "coverage": 0.6773,
+        "margin": 0.6773
+      },
+      {
+        "hold_id": 413,
+        "role": "hand",
+        "coverage": 0.6778,
+        "margin": 0.6778
+      },
+      {
+        "hold_id": 439,
+        "role": "hand",
+        "coverage": 0.647,
+        "margin": 0.647
+      },
+      {
+        "hold_id": 464,
+        "role": "finish",
+        "coverage": 0.7155,
+        "margin": 0.7155
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Gotta Poop\nGirthQuake\n\n6b/V4 ye yee\n",
+  "lines": [
+    "Gotta Poop",
+    "GirthQuake",
+    "6b/V4 ye yee"
+  ],
+  "name": "Gotta Poop",
+  "setter": "GirthQuake",
+  "grade_raw": "6b/V4 ye yee",
+  "grade_v": 4,
+  "stars": 3
+}

@@ -1,0 +1,115 @@
+{
+  "filename": "kilter_image334.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 4
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 0,
+        "role": "foot",
+        "coverage": 0.5071,
+        "margin": 0.5071
+      },
+      {
+        "hold_id": 57,
+        "role": "foot",
+        "coverage": 0.4404,
+        "margin": 0.4404
+      },
+      {
+        "hold_id": 95,
+        "role": "start",
+        "coverage": 0.6297,
+        "margin": 0.6297
+      },
+      {
+        "hold_id": 98,
+        "role": "start",
+        "coverage": 0.5622,
+        "margin": 0.5622
+      },
+      {
+        "hold_id": 158,
+        "role": "foot",
+        "coverage": 0.5241,
+        "margin": 0.5241
+      },
+      {
+        "hold_id": 250,
+        "role": "hand",
+        "coverage": 0.648,
+        "margin": 0.648
+      },
+      {
+        "hold_id": 289,
+        "role": "foot",
+        "coverage": 0.6736,
+        "margin": 0.6736
+      },
+      {
+        "hold_id": 308,
+        "role": "hand",
+        "coverage": 0.6213,
+        "margin": 0.6213
+      },
+      {
+        "hold_id": 383,
+        "role": "hand",
+        "coverage": 0.6485,
+        "margin": 0.6485
+      },
+      {
+        "hold_id": 429,
+        "role": "hand",
+        "coverage": 0.6449,
+        "margin": 0.6449
+      },
+      {
+        "hold_id": 452,
+        "role": "hand",
+        "coverage": 0.6736,
+        "margin": 0.6736
+      },
+      {
+        "hold_id": 464,
+        "role": "finish",
+        "coverage": 0.7155,
+        "margin": 0.7155
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Lat Rat\nlillben\n\n\u00ae& 8a/V11 9k ke oe\n",
+  "lines": [
+    "Lat Rat",
+    "lillben",
+    "\u00ae& 8a/V11 9k ke oe"
+  ],
+  "name": "Lat Rat",
+  "setter": "lillben",
+  "grade_raw": "\u00ae& 8a/V11 9k ke oe",
+  "grade_v": 11,
+  "stars": 2
+}

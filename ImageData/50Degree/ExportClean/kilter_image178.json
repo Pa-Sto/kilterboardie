@@ -1,0 +1,79 @@
+{
+  "filename": "kilter_image178.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 2,
+    "hand": 2,
+    "foot": 0
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 273,
+        "role": "start",
+        "coverage": 0.6695,
+        "margin": 0.6695
+      },
+      {
+        "hold_id": 301,
+        "role": "start",
+        "coverage": 0.6831,
+        "margin": 0.6831
+      },
+      {
+        "hold_id": 378,
+        "role": "hand",
+        "coverage": 0.6517,
+        "margin": 0.6517
+      },
+      {
+        "hold_id": 439,
+        "role": "hand",
+        "coverage": 0.647,
+        "margin": 0.647
+      },
+      {
+        "hold_id": 460,
+        "role": "finish",
+        "coverage": 0.7265,
+        "margin": 0.7265
+      },
+      {
+        "hold_id": 469,
+        "role": "finish",
+        "coverage": 0.7008,
+        "margin": 0.7008
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Ben campus\nthe_Daneinator\n\n6c+/V5 Yevroe\n",
+  "lines": [
+    "Ben campus",
+    "the_Daneinator",
+    "6c+/V5 Yevroe"
+  ],
+  "name": "Ben campus",
+  "setter": "the_Daneinator",
+  "grade_raw": "6c+/V5 Yevroe",
+  "grade_v": 5,
+  "stars": 4
+}

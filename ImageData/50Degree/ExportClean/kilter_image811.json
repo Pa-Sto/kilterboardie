@@ -1,0 +1,115 @@
+{
+  "filename": "kilter_image811.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 5
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 26,
+        "role": "foot",
+        "coverage": 0.704,
+        "margin": 0.704
+      },
+      {
+        "hold_id": 111,
+        "role": "foot",
+        "coverage": 0.6611,
+        "margin": 0.6611
+      },
+      {
+        "hold_id": 126,
+        "role": "start",
+        "coverage": 0.5256,
+        "margin": 0.5256
+      },
+      {
+        "hold_id": 134,
+        "role": "foot",
+        "coverage": 0.6302,
+        "margin": 0.6302
+      },
+      {
+        "hold_id": 159,
+        "role": "foot",
+        "coverage": 0.6198,
+        "margin": 0.6198
+      },
+      {
+        "hold_id": 177,
+        "role": "start",
+        "coverage": 0.5973,
+        "margin": 0.5973
+      },
+      {
+        "hold_id": 236,
+        "role": "foot",
+        "coverage": 0.5319,
+        "margin": 0.5319
+      },
+      {
+        "hold_id": 284,
+        "role": "hand",
+        "coverage": 0.6532,
+        "margin": 0.6532
+      },
+      {
+        "hold_id": 332,
+        "role": "hand",
+        "coverage": 0.6522,
+        "margin": 0.6522
+      },
+      {
+        "hold_id": 333,
+        "role": "hand",
+        "coverage": 0.6475,
+        "margin": 0.6475
+      },
+      {
+        "hold_id": 414,
+        "role": "hand",
+        "coverage": 0.6527,
+        "margin": 0.6527
+      },
+      {
+        "hold_id": 460,
+        "role": "finish",
+        "coverage": 0.6804,
+        "margin": 0.6804
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "G.0.A.T\nWangbang\n\n7c+/V10 Yeo ve\n",
+  "lines": [
+    "G.0.A.T",
+    "Wangbang",
+    "7c+/V10 Yeo ve"
+  ],
+  "name": "G.0.A.T",
+  "setter": "Wangbang",
+  "grade_raw": "7c+/V10 Yeo ve",
+  "grade_v": 10,
+  "stars": 2
+}

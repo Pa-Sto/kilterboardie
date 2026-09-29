@@ -1,0 +1,127 @@
+{
+  "filename": "kilter_image40.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 5
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 61,
+        "role": "foot",
+        "coverage": 0.6825,
+        "margin": 0.6825
+      },
+      {
+        "hold_id": 68,
+        "role": "foot",
+        "coverage": 0.5936,
+        "margin": 0.5936
+      },
+      {
+        "hold_id": 176,
+        "role": "start",
+        "coverage": 0.6512,
+        "margin": 0.6512
+      },
+      {
+        "hold_id": 180,
+        "role": "start",
+        "coverage": 0.6831,
+        "margin": 0.6831
+      },
+      {
+        "hold_id": 195,
+        "role": "foot",
+        "coverage": 0.6899,
+        "margin": 0.6899
+      },
+      {
+        "hold_id": 248,
+        "role": "hand",
+        "coverage": 0.6271,
+        "margin": 0.6271
+      },
+      {
+        "hold_id": 256,
+        "role": "foot",
+        "coverage": 0.6564,
+        "margin": 0.6564
+      },
+      {
+        "hold_id": 296,
+        "role": "foot",
+        "coverage": 0.716,
+        "margin": 0.716
+      },
+      {
+        "hold_id": 306,
+        "role": "hand",
+        "coverage": 0.6433,
+        "margin": 0.6433
+      },
+      {
+        "hold_id": 337,
+        "role": "hand",
+        "coverage": 0.6501,
+        "margin": 0.6501
+      },
+      {
+        "hold_id": 412,
+        "role": "hand",
+        "coverage": 0.6506,
+        "margin": 0.6506
+      },
+      {
+        "hold_id": 432,
+        "role": "hand",
+        "coverage": 0.602,
+        "margin": 0.602
+      },
+      {
+        "hold_id": 445,
+        "role": "hand",
+        "coverage": 0.6234,
+        "margin": 0.6234
+      },
+      {
+        "hold_id": 471,
+        "role": "finish",
+        "coverage": 0.7139,
+        "margin": 0.7139
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Country Western\ngriffinwhiteside\n\n6c+/V5 Yevroe\n",
+  "lines": [
+    "Country Western",
+    "griffinwhiteside",
+    "6c+/V5 Yevroe"
+  ],
+  "name": "Country Western",
+  "setter": "griffinwhiteside",
+  "grade_raw": "6c+/V5 Yevroe",
+  "grade_v": 5,
+  "stars": 4
+}

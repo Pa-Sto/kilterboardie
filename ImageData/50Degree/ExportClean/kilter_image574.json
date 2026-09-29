@@ -1,0 +1,97 @@
+{
+  "filename": "kilter_image574.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 2
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 2,
+        "role": "foot",
+        "coverage": 0.6454,
+        "margin": 0.6454
+      },
+      {
+        "hold_id": 87,
+        "role": "start",
+        "coverage": 0.6098,
+        "margin": 0.6098
+      },
+      {
+        "hold_id": 148,
+        "role": "start",
+        "coverage": 0.5465,
+        "margin": 0.5465
+      },
+      {
+        "hold_id": 219,
+        "role": "hand",
+        "coverage": 0.6344,
+        "margin": 0.6344
+      },
+      {
+        "hold_id": 226,
+        "role": "hand",
+        "coverage": 0.6763,
+        "margin": 0.6763
+      },
+      {
+        "hold_id": 345,
+        "role": "foot",
+        "coverage": 0.6234,
+        "margin": 0.6234
+      },
+      {
+        "hold_id": 354,
+        "role": "hand",
+        "coverage": 0.6485,
+        "margin": 0.6485
+      },
+      {
+        "hold_id": 355,
+        "role": "hand",
+        "coverage": 0.6532,
+        "margin": 0.6532
+      },
+      {
+        "hold_id": 469,
+        "role": "finish",
+        "coverage": 0.6987,
+        "margin": 0.6987
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "pogo to the left\nclimberlongboi\n\n7b/V8 Ye ee\n",
+  "lines": [
+    "pogo to the left",
+    "climberlongboi",
+    "7b/V8 Ye ee"
+  ],
+  "name": "pogo to the left",
+  "setter": "climberlongboi",
+  "grade_raw": "7b/V8 Ye ee",
+  "grade_v": 8,
+  "stars": 2
+}

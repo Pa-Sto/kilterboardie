@@ -1,0 +1,115 @@
+{
+  "filename": "kilter_image472.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 5,
+    "foot": 5
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 24,
+        "role": "foot",
+        "coverage": 0.6998,
+        "margin": 0.6998
+      },
+      {
+        "hold_id": 58,
+        "role": "foot",
+        "coverage": 0.7441,
+        "margin": 0.7441
+      },
+      {
+        "hold_id": 108,
+        "role": "foot",
+        "coverage": 0.6281,
+        "margin": 0.6281
+      },
+      {
+        "hold_id": 122,
+        "role": "start",
+        "coverage": 0.6344,
+        "margin": 0.5654
+      },
+      {
+        "hold_id": 138,
+        "role": "foot",
+        "coverage": 0.7108,
+        "margin": 0.6888
+      },
+      {
+        "hold_id": 215,
+        "role": "foot",
+        "coverage": 0.7505,
+        "margin": 0.7505
+      },
+      {
+        "hold_id": 252,
+        "role": "hand",
+        "coverage": 0.6496,
+        "margin": 0.6496
+      },
+      {
+        "hold_id": 270,
+        "role": "hand",
+        "coverage": 0.6407,
+        "margin": 0.6407
+      },
+      {
+        "hold_id": 387,
+        "role": "hand",
+        "coverage": 0.6454,
+        "margin": 0.6454
+      },
+      {
+        "hold_id": 445,
+        "role": "hand",
+        "coverage": 0.6234,
+        "margin": 0.6234
+      },
+      {
+        "hold_id": 458,
+        "role": "hand",
+        "coverage": 0.6323,
+        "margin": 0.6323
+      },
+      {
+        "hold_id": 459,
+        "role": "finish",
+        "coverage": 0.7139,
+        "margin": 0.7139
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Cruise crimps\nsteil_boulderhalle\n\n7c+/V10 Yeo ve\n",
+  "lines": [
+    "Cruise crimps",
+    "steil_boulderhalle",
+    "7c+/V10 Yeo ve"
+  ],
+  "name": "Cruise crimps",
+  "setter": "steil_boulderhalle",
+  "grade_raw": "7c+/V10 Yeo ve",
+  "grade_v": 10,
+  "stars": 2
+}

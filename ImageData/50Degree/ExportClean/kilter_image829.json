@@ -1,0 +1,103 @@
+{
+  "filename": "kilter_image829.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 3
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 8,
+        "role": "foot",
+        "coverage": 0.7202,
+        "margin": 0.7202
+      },
+      {
+        "hold_id": 101,
+        "role": "start",
+        "coverage": 0.6569,
+        "margin": 0.6569
+      },
+      {
+        "hold_id": 105,
+        "role": "foot",
+        "coverage": 0.6365,
+        "margin": 0.6365
+      },
+      {
+        "hold_id": 167,
+        "role": "start",
+        "coverage": 0.6512,
+        "margin": 0.6512
+      },
+      {
+        "hold_id": 243,
+        "role": "hand",
+        "coverage": 0.6255,
+        "margin": 0.6255
+      },
+      {
+        "hold_id": 313,
+        "role": "foot",
+        "coverage": 0.5601,
+        "margin": 0.5601
+      },
+      {
+        "hold_id": 332,
+        "role": "hand",
+        "coverage": 0.6522,
+        "margin": 0.6522
+      },
+      {
+        "hold_id": 386,
+        "role": "hand",
+        "coverage": 0.6454,
+        "margin": 0.6454
+      },
+      {
+        "hold_id": 438,
+        "role": "hand",
+        "coverage": 0.624,
+        "margin": 0.624
+      },
+      {
+        "hold_id": 469,
+        "role": "finish",
+        "coverage": 0.6987,
+        "margin": 0.6987
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Pam Balam\nkilterjackie\n\n7a/V6 Ye ee\n",
+  "lines": [
+    "Pam Balam",
+    "kilterjackie",
+    "7a/V6 Ye ee"
+  ],
+  "name": "Pam Balam",
+  "setter": "kilterjackie",
+  "grade_raw": "7a/V6 Ye ee",
+  "grade_v": 6,
+  "stars": 2
+}

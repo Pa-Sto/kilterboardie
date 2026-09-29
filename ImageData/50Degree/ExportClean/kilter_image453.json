@@ -1,0 +1,97 @@
+{
+  "filename": "kilter_image453.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 3,
+    "foot": 3
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 24,
+        "role": "foot",
+        "coverage": 0.6998,
+        "margin": 0.6998
+      },
+      {
+        "hold_id": 110,
+        "role": "foot",
+        "coverage": 0.7212,
+        "margin": 0.7212
+      },
+      {
+        "hold_id": 127,
+        "role": "start",
+        "coverage": 0.5785,
+        "margin": 0.5785
+      },
+      {
+        "hold_id": 181,
+        "role": "start",
+        "coverage": 0.6888,
+        "margin": 0.6888
+      },
+      {
+        "hold_id": 211,
+        "role": "foot",
+        "coverage": 0.6391,
+        "margin": 0.5706
+      },
+      {
+        "hold_id": 218,
+        "role": "hand",
+        "coverage": 0.6365,
+        "margin": 0.6177
+      },
+      {
+        "hold_id": 324,
+        "role": "hand",
+        "coverage": 0.648,
+        "margin": 0.648
+      },
+      {
+        "hold_id": 383,
+        "role": "hand",
+        "coverage": 0.6485,
+        "margin": 0.6485
+      },
+      {
+        "hold_id": 459,
+        "role": "finish",
+        "coverage": 0.7139,
+        "margin": 0.7139
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "jularized Hamiltonia\ntobiasiding\n\n\u00ae 8a/V11 koe\n",
+  "lines": [
+    "jularized Hamiltonia",
+    "tobiasiding",
+    "\u00ae 8a/V11 koe"
+  ],
+  "name": "jularized Hamiltonia",
+  "setter": "tobiasiding",
+  "grade_raw": "\u00ae 8a/V11 koe",
+  "grade_v": 11,
+  "stars": 3
+}

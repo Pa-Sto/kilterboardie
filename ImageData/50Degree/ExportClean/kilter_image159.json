@@ -1,0 +1,127 @@
+{
+  "filename": "kilter_image159.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 5
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 7,
+        "role": "foot",
+        "coverage": 0.6287,
+        "margin": 0.6287
+      },
+      {
+        "hold_id": 11,
+        "role": "foot",
+        "coverage": 0.6689,
+        "margin": 0.6689
+      },
+      {
+        "hold_id": 100,
+        "role": "start",
+        "coverage": 0.6464,
+        "margin": 0.6464
+      },
+      {
+        "hold_id": 114,
+        "role": "foot",
+        "coverage": 0.7024,
+        "margin": 0.7024
+      },
+      {
+        "hold_id": 120,
+        "role": "start",
+        "coverage": 0.5643,
+        "margin": 0.5643
+      },
+      {
+        "hold_id": 249,
+        "role": "hand",
+        "coverage": 0.6182,
+        "margin": 0.6182
+      },
+      {
+        "hold_id": 281,
+        "role": "hand",
+        "coverage": 0.6313,
+        "margin": 0.6313
+      },
+      {
+        "hold_id": 302,
+        "role": "foot",
+        "coverage": 0.6532,
+        "margin": 0.6532
+      },
+      {
+        "hold_id": 321,
+        "role": "hand",
+        "coverage": 0.6109,
+        "margin": 0.6109
+      },
+      {
+        "hold_id": 367,
+        "role": "foot",
+        "coverage": 0.5701,
+        "margin": 0.5701
+      },
+      {
+        "hold_id": 428,
+        "role": "hand",
+        "coverage": 0.6496,
+        "margin": 0.6496
+      },
+      {
+        "hold_id": 458,
+        "role": "hand",
+        "coverage": 0.6323,
+        "margin": 0.6323
+      },
+      {
+        "hold_id": 460,
+        "role": "hand",
+        "coverage": 0.6355,
+        "margin": 0.6355
+      },
+      {
+        "hold_id": 467,
+        "role": "finish",
+        "coverage": 0.7019,
+        "margin": 0.7019
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "tigger\u2019s bounce\nBlakeMaclure\n\n& 7a/V6 ke ee\n",
+  "lines": [
+    "tigger\u2019s bounce",
+    "BlakeMaclure",
+    "& 7a/V6 ke ee"
+  ],
+  "name": "tigger\u2019s bounce",
+  "setter": "BlakeMaclure",
+  "grade_raw": "& 7a/V6 ke ee",
+  "grade_v": 6,
+  "stars": 2
+}

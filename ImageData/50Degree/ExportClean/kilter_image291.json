@@ -1,0 +1,109 @@
+{
+  "filename": "kilter_image291.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 4
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 5,
+        "role": "foot",
+        "coverage": 0.5805,
+        "margin": 0.5805
+      },
+      {
+        "hold_id": 129,
+        "role": "start",
+        "coverage": 0.6355,
+        "margin": 0.6355
+      },
+      {
+        "hold_id": 137,
+        "role": "foot",
+        "coverage": 0.7029,
+        "margin": 0.7029
+      },
+      {
+        "hold_id": 148,
+        "role": "foot",
+        "coverage": 0.5659,
+        "margin": 0.5659
+      },
+      {
+        "hold_id": 149,
+        "role": "start",
+        "coverage": 0.6124,
+        "margin": 0.6124
+      },
+      {
+        "hold_id": 214,
+        "role": "foot",
+        "coverage": 0.6766,
+        "margin": 0.6766
+      },
+      {
+        "hold_id": 270,
+        "role": "hand",
+        "coverage": 0.6407,
+        "margin": 0.6407
+      },
+      {
+        "hold_id": 301,
+        "role": "hand",
+        "coverage": 0.6449,
+        "margin": 0.6449
+      },
+      {
+        "hold_id": 387,
+        "role": "hand",
+        "coverage": 0.6454,
+        "margin": 0.6454
+      },
+      {
+        "hold_id": 406,
+        "role": "hand",
+        "coverage": 0.6344,
+        "margin": 0.6344
+      },
+      {
+        "hold_id": 462,
+        "role": "finish",
+        "coverage": 0.6878,
+        "margin": 0.6878
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "1-800-blowfex\njohn.polo4\n\n7c/V9 Ye vee\n",
+  "lines": [
+    "1-800-blowfex",
+    "john.polo4",
+    "7c/V9 Ye vee"
+  ],
+  "name": "1-800-blowfex",
+  "setter": "john.polo4",
+  "grade_raw": "7c/V9 Ye vee",
+  "grade_v": 9,
+  "stars": 3
+}

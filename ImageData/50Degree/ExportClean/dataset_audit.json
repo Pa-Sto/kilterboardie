@@ -1,0 +1,82 @@
+{
+  "image_dir": "ImageData/50Degree",
+  "hold_map": "ImageData/References/holds.json",
+  "method": "fixed-centers",
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "total_routes": 1000,
+  "valid_routes": 1000,
+  "flagged_routes": [],
+  "grade_counts": {
+    "5": 129,
+    "7": 99,
+    "4": 119,
+    "6": 128,
+    "9": 100,
+    "8": 163,
+    "10": 72,
+    "3": 107,
+    "12": 23,
+    "11": 49,
+    "null": 8,
+    "13": 3
+  },
+  "ring_count_histograms": {
+    "start": {
+      "1": 251,
+      "2": 749
+    },
+    "finish": {
+      "1": 949,
+      "2": 51
+    },
+    "hand": {
+      "7": 83,
+      "5": 302,
+      "4": 231,
+      "2": 25,
+      "3": 104,
+      "8": 23,
+      "6": 222,
+      "9": 8,
+      "1": 1,
+      "10": 1
+    },
+    "foot": {
+      "5": 135,
+      "2": 132,
+      "6": 120,
+      "4": 202,
+      "8": 28,
+      "3": 224,
+      "7": 59,
+      "9": 15,
+      "1": 49,
+      "11": 5,
+      "0": 20,
+      "10": 4,
+      "12": 1,
+      "14": 1,
+      "18": 1,
+      "16": 1,
+      "15": 1,
+      "13": 2
+    }
+  },
+  "unique_route_matrices": 998,
+  "fixed_center_config": {
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3
+  }
+}

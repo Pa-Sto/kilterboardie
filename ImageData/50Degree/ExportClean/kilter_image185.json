@@ -1,0 +1,127 @@
+{
+  "filename": "kilter_image185.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 5
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 72,
+        "role": "foot",
+        "coverage": 0.715,
+        "margin": 0.715
+      },
+      {
+        "hold_id": 110,
+        "role": "foot",
+        "coverage": 0.7212,
+        "margin": 0.7212
+      },
+      {
+        "hold_id": 144,
+        "role": "start",
+        "coverage": 0.6825,
+        "margin": 0.6825
+      },
+      {
+        "hold_id": 148,
+        "role": "foot",
+        "coverage": 0.5659,
+        "margin": 0.5659
+      },
+      {
+        "hold_id": 154,
+        "role": "start",
+        "coverage": 0.6632,
+        "margin": 0.6632
+      },
+      {
+        "hold_id": 164,
+        "role": "foot",
+        "coverage": 0.6355,
+        "margin": 0.6355
+      },
+      {
+        "hold_id": 248,
+        "role": "hand",
+        "coverage": 0.6271,
+        "margin": 0.6271
+      },
+      {
+        "hold_id": 280,
+        "role": "foot",
+        "coverage": 0.7082,
+        "margin": 0.7082
+      },
+      {
+        "hold_id": 281,
+        "role": "hand",
+        "coverage": 0.6313,
+        "margin": 0.6313
+      },
+      {
+        "hold_id": 297,
+        "role": "hand",
+        "coverage": 0.6506,
+        "margin": 0.6506
+      },
+      {
+        "hold_id": 308,
+        "role": "hand",
+        "coverage": 0.6213,
+        "margin": 0.6213
+      },
+      {
+        "hold_id": 375,
+        "role": "hand",
+        "coverage": 0.6454,
+        "margin": 0.6454
+      },
+      {
+        "hold_id": 432,
+        "role": "hand",
+        "coverage": 0.602,
+        "margin": 0.602
+      },
+      {
+        "hold_id": 474,
+        "role": "finish",
+        "coverage": 0.7207,
+        "margin": 0.7207
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "b2\njwebxl\n\n6c+/V5 Yevroe\n",
+  "lines": [
+    "b2",
+    "jwebxl",
+    "6c+/V5 Yevroe"
+  ],
+  "name": "b2",
+  "setter": "jwebxl",
+  "grade_raw": "6c+/V5 Yevroe",
+  "grade_v": 5,
+  "stars": 4
+}

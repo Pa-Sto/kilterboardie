@@ -1,0 +1,97 @@
+{
+  "filename": "kilter_image242.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 2
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 83,
+        "role": "foot",
+        "coverage": 0.6077,
+        "margin": 0.6077
+      },
+      {
+        "hold_id": 133,
+        "role": "foot",
+        "coverage": 0.6768,
+        "margin": 0.6768
+      },
+      {
+        "hold_id": 143,
+        "role": "start",
+        "coverage": 0.5816,
+        "margin": 0.5816
+      },
+      {
+        "hold_id": 165,
+        "role": "start",
+        "coverage": 0.6464,
+        "margin": 0.6464
+      },
+      {
+        "hold_id": 300,
+        "role": "hand",
+        "coverage": 0.6522,
+        "margin": 0.6522
+      },
+      {
+        "hold_id": 334,
+        "role": "hand",
+        "coverage": 0.591,
+        "margin": 0.591
+      },
+      {
+        "hold_id": 385,
+        "role": "hand",
+        "coverage": 0.6454,
+        "margin": 0.6454
+      },
+      {
+        "hold_id": 404,
+        "role": "hand",
+        "coverage": 0.6548,
+        "margin": 0.6548
+      },
+      {
+        "hold_id": 473,
+        "role": "finish",
+        "coverage": 0.7024,
+        "margin": 0.7024
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Errrproyect\nSputnik\n\n8at/V12 Yroe ve\n",
+  "lines": [
+    "Errrproyect",
+    "Sputnik",
+    "8at/V12 Yroe ve"
+  ],
+  "name": "Errrproyect",
+  "setter": "Sputnik",
+  "grade_raw": "8at/V12 Yroe ve",
+  "grade_v": 12,
+  "stars": 2
+}

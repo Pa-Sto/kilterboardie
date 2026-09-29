@@ -1,0 +1,121 @@
+{
+  "filename": "kilter_image988.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 5
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 40,
+        "role": "foot",
+        "coverage": 0.6998,
+        "margin": 0.6998
+      },
+      {
+        "hold_id": 61,
+        "role": "foot",
+        "coverage": 0.6825,
+        "margin": 0.6825
+      },
+      {
+        "hold_id": 121,
+        "role": "start",
+        "coverage": 0.6799,
+        "margin": 0.6799
+      },
+      {
+        "hold_id": 128,
+        "role": "foot",
+        "coverage": 0.5816,
+        "margin": 0.5816
+      },
+      {
+        "hold_id": 154,
+        "role": "start",
+        "coverage": 0.6632,
+        "margin": 0.6632
+      },
+      {
+        "hold_id": 217,
+        "role": "foot",
+        "coverage": 0.6778,
+        "margin": 0.6778
+      },
+      {
+        "hold_id": 225,
+        "role": "hand",
+        "coverage": 0.6308,
+        "margin": 0.6308
+      },
+      {
+        "hold_id": 253,
+        "role": "hand",
+        "coverage": 0.6192,
+        "margin": 0.6192
+      },
+      {
+        "hold_id": 302,
+        "role": "foot",
+        "coverage": 0.6532,
+        "margin": 0.6532
+      },
+      {
+        "hold_id": 308,
+        "role": "hand",
+        "coverage": 0.6213,
+        "margin": 0.6213
+      },
+      {
+        "hold_id": 352,
+        "role": "hand",
+        "coverage": 0.6579,
+        "margin": 0.6579
+      },
+      {
+        "hold_id": 432,
+        "role": "hand",
+        "coverage": 0.602,
+        "margin": 0.602
+      },
+      {
+        "hold_id": 470,
+        "role": "finish",
+        "coverage": 0.7113,
+        "margin": 0.7113
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "SAD\nCuckovich\n\n6b+/V4 Yeo.\n",
+  "lines": [
+    "SAD",
+    "Cuckovich",
+    "6b+/V4 Yeo."
+  ],
+  "name": "SAD",
+  "setter": "Cuckovich",
+  "grade_raw": "6b+/V4 Yeo.",
+  "grade_v": 4,
+  "stars": 3
+}

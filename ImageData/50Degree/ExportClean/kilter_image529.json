@@ -1,0 +1,109 @@
+{
+  "filename": "kilter_image529.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 4
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 40,
+        "role": "foot",
+        "coverage": 0.6998,
+        "margin": 0.6998
+      },
+      {
+        "hold_id": 90,
+        "role": "foot",
+        "coverage": 0.67,
+        "margin": 0.67
+      },
+      {
+        "hold_id": 167,
+        "role": "start",
+        "coverage": 0.6512,
+        "margin": 0.6512
+      },
+      {
+        "hold_id": 170,
+        "role": "start",
+        "coverage": 0.6878,
+        "margin": 0.6878
+      },
+      {
+        "hold_id": 243,
+        "role": "hand",
+        "coverage": 0.6255,
+        "margin": 0.6255
+      },
+      {
+        "hold_id": 255,
+        "role": "foot",
+        "coverage": 0.6899,
+        "margin": 0.6899
+      },
+      {
+        "hold_id": 292,
+        "role": "foot",
+        "coverage": 0.6804,
+        "margin": 0.6804
+      },
+      {
+        "hold_id": 305,
+        "role": "hand",
+        "coverage": 0.6344,
+        "margin": 0.6344
+      },
+      {
+        "hold_id": 349,
+        "role": "hand",
+        "coverage": 0.6459,
+        "margin": 0.6459
+      },
+      {
+        "hold_id": 438,
+        "role": "hand",
+        "coverage": 0.624,
+        "margin": 0.624
+      },
+      {
+        "hold_id": 469,
+        "role": "finish",
+        "coverage": 0.6987,
+        "margin": 0.6987
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Hard rock life\njwebxl\n\n6b/V4 ye yee\n",
+  "lines": [
+    "Hard rock life",
+    "jwebxl",
+    "6b/V4 ye yee"
+  ],
+  "name": "Hard rock life",
+  "setter": "jwebxl",
+  "grade_raw": "6b/V4 ye yee",
+  "grade_v": 4,
+  "stars": 3
+}

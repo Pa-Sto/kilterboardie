@@ -1,0 +1,91 @@
+{
+  "filename": "kilter_image460.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 2,
+    "foot": 3
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 88,
+        "role": "foot",
+        "coverage": 0.6339,
+        "margin": 0.6339
+      },
+      {
+        "hold_id": 202,
+        "role": "foot",
+        "coverage": 0.6946,
+        "margin": 0.6946
+      },
+      {
+        "hold_id": 224,
+        "role": "start",
+        "coverage": 0.648,
+        "margin": 0.648
+      },
+      {
+        "hold_id": 247,
+        "role": "start",
+        "coverage": 0.6334,
+        "margin": 0.6334
+      },
+      {
+        "hold_id": 286,
+        "role": "foot",
+        "coverage": 0.5016,
+        "margin": 0.5016
+      },
+      {
+        "hold_id": 359,
+        "role": "hand",
+        "coverage": 0.6512,
+        "margin": 0.6512
+      },
+      {
+        "hold_id": 429,
+        "role": "hand",
+        "coverage": 0.6402,
+        "margin": 0.6402
+      },
+      {
+        "hold_id": 462,
+        "role": "finish",
+        "coverage": 0.6878,
+        "margin": 0.6878
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Disconnect\nHamiter\n\nZat/V7 Yeo.\n",
+  "lines": [
+    "Disconnect",
+    "Hamiter",
+    "Zat/V7 Yeo."
+  ],
+  "name": "Disconnect",
+  "setter": "Hamiter",
+  "grade_raw": "Zat/V7 Yeo.",
+  "grade_v": 7,
+  "stars": 3
+}

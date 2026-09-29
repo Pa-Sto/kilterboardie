@@ -1,0 +1,97 @@
+{
+  "filename": "kilter_image775.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 3,
+    "foot": 3
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 16,
+        "role": "foot",
+        "coverage": 0.6142,
+        "margin": 0.6142
+      },
+      {
+        "hold_id": 97,
+        "role": "start",
+        "coverage": 0.6878,
+        "margin": 0.6878
+      },
+      {
+        "hold_id": 136,
+        "role": "foot",
+        "coverage": 0.7442,
+        "margin": 0.7442
+      },
+      {
+        "hold_id": 154,
+        "role": "start",
+        "coverage": 0.6632,
+        "margin": 0.6632
+      },
+      {
+        "hold_id": 158,
+        "role": "foot",
+        "coverage": 0.5241,
+        "margin": 0.5241
+      },
+      {
+        "hold_id": 225,
+        "role": "hand",
+        "coverage": 0.6308,
+        "margin": 0.6308
+      },
+      {
+        "hold_id": 270,
+        "role": "hand",
+        "coverage": 0.6407,
+        "margin": 0.6407
+      },
+      {
+        "hold_id": 355,
+        "role": "hand",
+        "coverage": 0.6532,
+        "margin": 0.6532
+      },
+      {
+        "hold_id": 469,
+        "role": "finish",
+        "coverage": 0.6987,
+        "margin": 0.6987
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Power Circuit 5\nDrPlim\n\n7a/V6 Ye ee\n",
+  "lines": [
+    "Power Circuit 5",
+    "DrPlim",
+    "7a/V6 Ye ee"
+  ],
+  "name": "Power Circuit 5",
+  "setter": "DrPlim",
+  "grade_raw": "7a/V6 Ye ee",
+  "grade_v": 6,
+  "stars": 2
+}

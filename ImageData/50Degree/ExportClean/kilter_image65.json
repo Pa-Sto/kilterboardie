@@ -1,0 +1,115 @@
+{
+  "filename": "kilter_image65.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 6,
+    "foot": 4
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 4,
+        "role": "foot",
+        "coverage": 0.6119,
+        "margin": 0.6119
+      },
+      {
+        "hold_id": 120,
+        "role": "start",
+        "coverage": 0.5188,
+        "margin": 0.4472
+      },
+      {
+        "hold_id": 132,
+        "role": "foot",
+        "coverage": 0.7249,
+        "margin": 0.7029
+      },
+      {
+        "hold_id": 208,
+        "role": "foot",
+        "coverage": 0.5884,
+        "margin": 0.5884
+      },
+      {
+        "hold_id": 214,
+        "role": "foot",
+        "coverage": 0.6766,
+        "margin": 0.6766
+      },
+      {
+        "hold_id": 249,
+        "role": "hand",
+        "coverage": 0.6182,
+        "margin": 0.6182
+      },
+      {
+        "hold_id": 309,
+        "role": "hand",
+        "coverage": 0.637,
+        "margin": 0.637
+      },
+      {
+        "hold_id": 329,
+        "role": "hand",
+        "coverage": 0.6517,
+        "margin": 0.6517
+      },
+      {
+        "hold_id": 377,
+        "role": "hand",
+        "coverage": 0.6444,
+        "margin": 0.6444
+      },
+      {
+        "hold_id": 401,
+        "role": "hand",
+        "coverage": 0.6464,
+        "margin": 0.6464
+      },
+      {
+        "hold_id": 403,
+        "role": "hand",
+        "coverage": 0.6093,
+        "margin": 0.6093
+      },
+      {
+        "hold_id": 463,
+        "role": "finish",
+        "coverage": 0.6998,
+        "margin": 0.6998
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Set in Stone\ndanieljordan\n\n6c/V5 eee\n",
+  "lines": [
+    "Set in Stone",
+    "danieljordan",
+    "6c/V5 eee"
+  ],
+  "name": "Set in Stone",
+  "setter": "danieljordan",
+  "grade_raw": "6c/V5 eee",
+  "grade_v": 5,
+  "stars": 3
+}

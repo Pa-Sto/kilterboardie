@@ -1,0 +1,121 @@
+{
+  "filename": "kilter_image109.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 7,
+    "foot": 3
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 88,
+        "role": "foot",
+        "coverage": 0.6339,
+        "margin": 0.6339
+      },
+      {
+        "hold_id": 150,
+        "role": "foot",
+        "coverage": 0.6349,
+        "margin": 0.6349
+      },
+      {
+        "hold_id": 195,
+        "role": "start",
+        "coverage": 0.6857,
+        "margin": 0.6857
+      },
+      {
+        "hold_id": 198,
+        "role": "start",
+        "coverage": 0.716,
+        "margin": 0.716
+      },
+      {
+        "hold_id": 218,
+        "role": "foot",
+        "coverage": 0.6789,
+        "margin": 0.6789
+      },
+      {
+        "hold_id": 249,
+        "role": "hand",
+        "coverage": 0.6182,
+        "margin": 0.6182
+      },
+      {
+        "hold_id": 269,
+        "role": "hand",
+        "coverage": 0.6292,
+        "margin": 0.6292
+      },
+      {
+        "hold_id": 297,
+        "role": "hand",
+        "coverage": 0.6506,
+        "margin": 0.6506
+      },
+      {
+        "hold_id": 355,
+        "role": "hand",
+        "coverage": 0.6532,
+        "margin": 0.6532
+      },
+      {
+        "hold_id": 377,
+        "role": "hand",
+        "coverage": 0.6444,
+        "margin": 0.6444
+      },
+      {
+        "hold_id": 400,
+        "role": "hand",
+        "coverage": 0.6532,
+        "margin": 0.6532
+      },
+      {
+        "hold_id": 445,
+        "role": "hand",
+        "coverage": 0.6234,
+        "margin": 0.6234
+      },
+      {
+        "hold_id": 468,
+        "role": "finish",
+        "coverage": 0.7035,
+        "margin": 0.7035
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Easier than this?\nAdrenaline.Factory\n\n6a/V3 Ye ee\n",
+  "lines": [
+    "Easier than this?",
+    "Adrenaline.Factory",
+    "6a/V3 Ye ee"
+  ],
+  "name": "Easier than this?",
+  "setter": "Adrenaline.Factory",
+  "grade_raw": "6a/V3 Ye ee",
+  "grade_v": 3,
+  "stars": 2
+}

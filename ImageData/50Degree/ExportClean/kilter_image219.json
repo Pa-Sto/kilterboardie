@@ -1,0 +1,91 @@
+{
+  "filename": "kilter_image219.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 4,
+    "foot": 2
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 112,
+        "role": "foot",
+        "coverage": 0.7297,
+        "margin": 0.7297
+      },
+      {
+        "hold_id": 170,
+        "role": "start",
+        "coverage": 0.6878,
+        "margin": 0.6878
+      },
+      {
+        "hold_id": 214,
+        "role": "foot",
+        "coverage": 0.6766,
+        "margin": 0.6766
+      },
+      {
+        "hold_id": 276,
+        "role": "hand",
+        "coverage": 0.6496,
+        "margin": 0.6496
+      },
+      {
+        "hold_id": 333,
+        "role": "hand",
+        "coverage": 0.6475,
+        "margin": 0.6475
+      },
+      {
+        "hold_id": 380,
+        "role": "hand",
+        "coverage": 0.648,
+        "margin": 0.648
+      },
+      {
+        "hold_id": 458,
+        "role": "hand",
+        "coverage": 0.6323,
+        "margin": 0.6323
+      },
+      {
+        "hold_id": 474,
+        "role": "finish",
+        "coverage": 0.7207,
+        "margin": 0.7207
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "lean and bop\nnathanphillipsclimbing\n\n7c+/V10 Yeo ve\n",
+  "lines": [
+    "lean and bop",
+    "nathanphillipsclimbing",
+    "7c+/V10 Yeo ve"
+  ],
+  "name": "lean and bop",
+  "setter": "nathanphillipsclimbing",
+  "grade_raw": "7c+/V10 Yeo ve",
+  "grade_v": 10,
+  "stars": 2
+}

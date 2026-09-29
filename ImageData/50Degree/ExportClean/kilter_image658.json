@@ -1,0 +1,115 @@
+{
+  "filename": "kilter_image658.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 6,
+    "foot": 4
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 141,
+        "role": "start",
+        "coverage": 0.6051,
+        "margin": 0.6051
+      },
+      {
+        "hold_id": 184,
+        "role": "foot",
+        "coverage": 0.602,
+        "margin": 0.602
+      },
+      {
+        "hold_id": 202,
+        "role": "foot",
+        "coverage": 0.6946,
+        "margin": 0.6946
+      },
+      {
+        "hold_id": 217,
+        "role": "hand",
+        "coverage": 0.6276,
+        "margin": 0.6046
+      },
+      {
+        "hold_id": 227,
+        "role": "foot",
+        "coverage": 0.5821,
+        "margin": 0.511
+      },
+      {
+        "hold_id": 271,
+        "role": "hand",
+        "coverage": 0.6428,
+        "margin": 0.6428
+      },
+      {
+        "hold_id": 287,
+        "role": "foot",
+        "coverage": 0.5256,
+        "margin": 0.5256
+      },
+      {
+        "hold_id": 324,
+        "role": "hand",
+        "coverage": 0.648,
+        "margin": 0.648
+      },
+      {
+        "hold_id": 354,
+        "role": "hand",
+        "coverage": 0.6485,
+        "margin": 0.6485
+      },
+      {
+        "hold_id": 413,
+        "role": "hand",
+        "coverage": 0.6538,
+        "margin": 0.6538
+      },
+      {
+        "hold_id": 452,
+        "role": "hand",
+        "coverage": 0.6328,
+        "margin": 0.6328
+      },
+      {
+        "hold_id": 462,
+        "role": "finish",
+        "coverage": 0.6878,
+        "margin": 0.6878
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Crouching Tiger V8\naustinsivo\n\nZat/V7 Yeo.\n",
+  "lines": [
+    "Crouching Tiger V8",
+    "austinsivo",
+    "Zat/V7 Yeo."
+  ],
+  "name": "Crouching Tiger V8",
+  "setter": "austinsivo",
+  "grade_raw": "Zat/V7 Yeo.",
+  "grade_v": 7,
+  "stars": 3
+}

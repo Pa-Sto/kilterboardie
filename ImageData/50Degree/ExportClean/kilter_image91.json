@@ -1,0 +1,115 @@
+{
+  "filename": "kilter_image91.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 3
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 14,
+        "role": "foot",
+        "coverage": 0.6266,
+        "margin": 0.6266
+      },
+      {
+        "hold_id": 24,
+        "role": "foot",
+        "coverage": 0.6998,
+        "margin": 0.6998
+      },
+      {
+        "hold_id": 118,
+        "role": "start",
+        "coverage": 0.6752,
+        "margin": 0.6752
+      },
+      {
+        "hold_id": 150,
+        "role": "start",
+        "coverage": 0.6156,
+        "margin": 0.6156
+      },
+      {
+        "hold_id": 205,
+        "role": "hand",
+        "coverage": 0.6444,
+        "margin": 0.6444
+      },
+      {
+        "hold_id": 212,
+        "role": "foot",
+        "coverage": 0.6517,
+        "margin": 0.6517
+      },
+      {
+        "hold_id": 249,
+        "role": "hand",
+        "coverage": 0.6182,
+        "margin": 0.6182
+      },
+      {
+        "hold_id": 253,
+        "role": "hand",
+        "coverage": 0.6192,
+        "margin": 0.6192
+      },
+      {
+        "hold_id": 328,
+        "role": "hand",
+        "coverage": 0.6412,
+        "margin": 0.6412
+      },
+      {
+        "hold_id": 377,
+        "role": "hand",
+        "coverage": 0.6444,
+        "margin": 0.6444
+      },
+      {
+        "hold_id": 441,
+        "role": "hand",
+        "coverage": 0.6501,
+        "margin": 0.6501
+      },
+      {
+        "hold_id": 455,
+        "role": "finish",
+        "coverage": 0.7024,
+        "margin": 0.7024
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "BYO beans\nMrTolley1\n\n6c/V5 eee\n",
+  "lines": [
+    "BYO beans",
+    "MrTolley1",
+    "6c/V5 eee"
+  ],
+  "name": "BYO beans",
+  "setter": "MrTolley1",
+  "grade_raw": "6c/V5 eee",
+  "grade_v": 5,
+  "stars": 3
+}

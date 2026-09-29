@@ -1,0 +1,115 @@
+{
+  "filename": "kilter_image686.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 4
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 11,
+        "role": "foot",
+        "coverage": 0.6689,
+        "margin": 0.6689
+      },
+      {
+        "hold_id": 61,
+        "role": "foot",
+        "coverage": 0.6825,
+        "margin": 0.6825
+      },
+      {
+        "hold_id": 80,
+        "role": "foot",
+        "coverage": 0.5994,
+        "margin": 0.5664
+      },
+      {
+        "hold_id": 94,
+        "role": "start",
+        "coverage": 0.5894,
+        "margin": 0.5209
+      },
+      {
+        "hold_id": 217,
+        "role": "start",
+        "coverage": 0.659,
+        "margin": 0.659
+      },
+      {
+        "hold_id": 272,
+        "role": "hand",
+        "coverage": 0.6119,
+        "margin": 0.6119
+      },
+      {
+        "hold_id": 343,
+        "role": "foot",
+        "coverage": 0.6953,
+        "margin": 0.6953
+      },
+      {
+        "hold_id": 374,
+        "role": "hand",
+        "coverage": 0.6857,
+        "margin": 0.6857
+      },
+      {
+        "hold_id": 375,
+        "role": "hand",
+        "coverage": 0.66,
+        "margin": 0.66
+      },
+      {
+        "hold_id": 428,
+        "role": "hand",
+        "coverage": 0.6496,
+        "margin": 0.6496
+      },
+      {
+        "hold_id": 452,
+        "role": "hand",
+        "coverage": 0.6328,
+        "margin": 0.6328
+      },
+      {
+        "hold_id": 462,
+        "role": "finish",
+        "coverage": 0.6878,
+        "margin": 0.6878
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Don't Know Ozec\nido.ilouz\n\n7c+/V10 ye vee\n",
+  "lines": [
+    "Don't Know Ozec",
+    "ido.ilouz",
+    "7c+/V10 ye vee"
+  ],
+  "name": "Don't Know Ozec",
+  "setter": "ido.ilouz",
+  "grade_raw": "7c+/V10 ye vee",
+  "grade_v": 10,
+  "stars": 3
+}

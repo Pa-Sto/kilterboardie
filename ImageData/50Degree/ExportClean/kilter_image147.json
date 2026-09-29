@@ -1,0 +1,127 @@
+{
+  "filename": "kilter_image147.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 5
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 2,
+        "role": "foot",
+        "coverage": 0.6454,
+        "margin": 0.6454
+      },
+      {
+        "hold_id": 4,
+        "role": "foot",
+        "coverage": 0.6119,
+        "margin": 0.6119
+      },
+      {
+        "hold_id": 78,
+        "role": "foot",
+        "coverage": 0.5481,
+        "margin": 0.5481
+      },
+      {
+        "hold_id": 88,
+        "role": "foot",
+        "coverage": 0.6339,
+        "margin": 0.6339
+      },
+      {
+        "hold_id": 106,
+        "role": "foot",
+        "coverage": 0.4477,
+        "margin": 0.4477
+      },
+      {
+        "hold_id": 143,
+        "role": "start",
+        "coverage": 0.5816,
+        "margin": 0.5816
+      },
+      {
+        "hold_id": 165,
+        "role": "start",
+        "coverage": 0.6464,
+        "margin": 0.6464
+      },
+      {
+        "hold_id": 219,
+        "role": "hand",
+        "coverage": 0.6266,
+        "margin": 0.6266
+      },
+      {
+        "hold_id": 281,
+        "role": "hand",
+        "coverage": 0.6313,
+        "margin": 0.6313
+      },
+      {
+        "hold_id": 308,
+        "role": "hand",
+        "coverage": 0.6213,
+        "margin": 0.6213
+      },
+      {
+        "hold_id": 352,
+        "role": "hand",
+        "coverage": 0.6579,
+        "margin": 0.6579
+      },
+      {
+        "hold_id": 383,
+        "role": "hand",
+        "coverage": 0.6485,
+        "margin": 0.6485
+      },
+      {
+        "hold_id": 432,
+        "role": "hand",
+        "coverage": 0.602,
+        "margin": 0.602
+      },
+      {
+        "hold_id": 475,
+        "role": "finish",
+        "coverage": 0.7097,
+        "margin": 0.7097
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Testpilot\nkany77\n\n6at/V3 Ye oroe\n",
+  "lines": [
+    "Testpilot",
+    "kany77",
+    "6at/V3 Ye oroe"
+  ],
+  "name": "Testpilot",
+  "setter": "kany77",
+  "grade_raw": "6at/V3 Ye oroe",
+  "grade_v": 3,
+  "stars": 4
+}

@@ -1,0 +1,109 @@
+{
+  "filename": "kilter_image313.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 3
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 55,
+        "role": "foot",
+        "coverage": 0.6412,
+        "margin": 0.6412
+      },
+      {
+        "hold_id": 120,
+        "role": "start",
+        "coverage": 0.5643,
+        "margin": 0.5643
+      },
+      {
+        "hold_id": 145,
+        "role": "start",
+        "coverage": 0.6653,
+        "margin": 0.6459
+      },
+      {
+        "hold_id": 159,
+        "role": "foot",
+        "coverage": 0.569,
+        "margin": 0.4932
+      },
+      {
+        "hold_id": 208,
+        "role": "foot",
+        "coverage": 0.5884,
+        "margin": 0.5884
+      },
+      {
+        "hold_id": 256,
+        "role": "hand",
+        "coverage": 0.6187,
+        "margin": 0.6187
+      },
+      {
+        "hold_id": 308,
+        "role": "hand",
+        "coverage": 0.6213,
+        "margin": 0.6213
+      },
+      {
+        "hold_id": 309,
+        "role": "hand",
+        "coverage": 0.637,
+        "margin": 0.637
+      },
+      {
+        "hold_id": 413,
+        "role": "hand",
+        "coverage": 0.6538,
+        "margin": 0.6538
+      },
+      {
+        "hold_id": 433,
+        "role": "hand",
+        "coverage": 0.6475,
+        "margin": 0.6475
+      },
+      {
+        "hold_id": 467,
+        "role": "finish",
+        "coverage": 0.7019,
+        "margin": 0.7019
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "fruit punch\njwebxl\n\n6c+/V5 Yevroe\n",
+  "lines": [
+    "fruit punch",
+    "jwebxl",
+    "6c+/V5 Yevroe"
+  ],
+  "name": "fruit punch",
+  "setter": "jwebxl",
+  "grade_raw": "6c+/V5 Yevroe",
+  "grade_v": 5,
+  "stars": 4
+}

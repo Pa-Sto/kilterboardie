@@ -1,0 +1,121 @@
+{
+  "filename": "kilter_image919.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 4
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 87,
+        "role": "foot",
+        "coverage": 0.6208,
+        "margin": 0.6208
+      },
+      {
+        "hold_id": 126,
+        "role": "start",
+        "coverage": 0.5256,
+        "margin": 0.5256
+      },
+      {
+        "hold_id": 142,
+        "role": "foot",
+        "coverage": 0.5947,
+        "margin": 0.5947
+      },
+      {
+        "hold_id": 148,
+        "role": "start",
+        "coverage": 0.5465,
+        "margin": 0.5465
+      },
+      {
+        "hold_id": 183,
+        "role": "foot",
+        "coverage": 0.6423,
+        "margin": 0.6423
+      },
+      {
+        "hold_id": 195,
+        "role": "foot",
+        "coverage": 0.6899,
+        "margin": 0.6899
+      },
+      {
+        "hold_id": 245,
+        "role": "hand",
+        "coverage": 0.6559,
+        "margin": 0.6559
+      },
+      {
+        "hold_id": 303,
+        "role": "hand",
+        "coverage": 0.6093,
+        "margin": 0.6093
+      },
+      {
+        "hold_id": 321,
+        "role": "hand",
+        "coverage": 0.6281,
+        "margin": 0.6281
+      },
+      {
+        "hold_id": 349,
+        "role": "hand",
+        "coverage": 0.6721,
+        "margin": 0.6721
+      },
+      {
+        "hold_id": 354,
+        "role": "hand",
+        "coverage": 0.6747,
+        "margin": 0.6747
+      },
+      {
+        "hold_id": 441,
+        "role": "hand",
+        "coverage": 0.6501,
+        "margin": 0.6501
+      },
+      {
+        "hold_id": 465,
+        "role": "finish",
+        "coverage": 0.7082,
+        "margin": 0.7082
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Minor Involvement\nCuckovich\n\n6c/V5 eee\n",
+  "lines": [
+    "Minor Involvement",
+    "Cuckovich",
+    "6c/V5 eee"
+  ],
+  "name": "Minor Involvement",
+  "setter": "Cuckovich",
+  "grade_raw": "6c/V5 eee",
+  "grade_v": 5,
+  "stars": 3
+}

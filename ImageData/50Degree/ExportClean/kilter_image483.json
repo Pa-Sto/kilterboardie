@@ -1,0 +1,133 @@
+{
+  "filename": "kilter_image483.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 7
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 1,
+        "role": "foot",
+        "coverage": 0.7029,
+        "margin": 0.7029
+      },
+      {
+        "hold_id": 5,
+        "role": "foot",
+        "coverage": 0.5805,
+        "margin": 0.5805
+      },
+      {
+        "hold_id": 87,
+        "role": "start",
+        "coverage": 0.6098,
+        "margin": 0.6098
+      },
+      {
+        "hold_id": 105,
+        "role": "foot",
+        "coverage": 0.6365,
+        "margin": 0.6365
+      },
+      {
+        "hold_id": 134,
+        "role": "foot",
+        "coverage": 0.6302,
+        "margin": 0.6302
+      },
+      {
+        "hold_id": 159,
+        "role": "foot",
+        "coverage": 0.6198,
+        "margin": 0.6198
+      },
+      {
+        "hold_id": 175,
+        "role": "start",
+        "coverage": 0.625,
+        "margin": 0.625
+      },
+      {
+        "hold_id": 227,
+        "role": "hand",
+        "coverage": 0.6271,
+        "margin": 0.6271
+      },
+      {
+        "hold_id": 229,
+        "role": "hand",
+        "coverage": 0.6459,
+        "margin": 0.6459
+      },
+      {
+        "hold_id": 284,
+        "role": "hand",
+        "coverage": 0.6532,
+        "margin": 0.6532
+      },
+      {
+        "hold_id": 287,
+        "role": "foot",
+        "coverage": 0.5256,
+        "margin": 0.5256
+      },
+      {
+        "hold_id": 359,
+        "role": "hand",
+        "coverage": 0.6512,
+        "margin": 0.6512
+      },
+      {
+        "hold_id": 363,
+        "role": "hand",
+        "coverage": 0.6559,
+        "margin": 0.6559
+      },
+      {
+        "hold_id": 391,
+        "role": "foot",
+        "coverage": 0.5005,
+        "margin": 0.5005
+      },
+      {
+        "hold_id": 469,
+        "role": "finish",
+        "coverage": 0.6987,
+        "margin": 0.6987
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Bad Girls Club Top\ndannyrobertson\n\n7a/V6 Ye ee\n",
+  "lines": [
+    "Bad Girls Club Top",
+    "dannyrobertson",
+    "7a/V6 Ye ee"
+  ],
+  "name": "Bad Girls Club Top",
+  "setter": "dannyrobertson",
+  "grade_raw": "7a/V6 Ye ee",
+  "grade_v": 6,
+  "stars": 2
+}

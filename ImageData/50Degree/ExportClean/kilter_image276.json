@@ -1,0 +1,145 @@
+{
+  "filename": "kilter_image276.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 7,
+    "foot": 8
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 1,
+        "role": "foot",
+        "coverage": 0.7029,
+        "margin": 0.7029
+      },
+      {
+        "hold_id": 5,
+        "role": "foot",
+        "coverage": 0.5805,
+        "margin": 0.5805
+      },
+      {
+        "hold_id": 8,
+        "role": "foot",
+        "coverage": 0.7202,
+        "margin": 0.7202
+      },
+      {
+        "hold_id": 13,
+        "role": "foot",
+        "coverage": 0.7055,
+        "margin": 0.7055
+      },
+      {
+        "hold_id": 124,
+        "role": "start",
+        "coverage": 0.6799,
+        "margin": 0.6799
+      },
+      {
+        "hold_id": 126,
+        "role": "hand",
+        "coverage": 0.5058,
+        "margin": 0.5058
+      },
+      {
+        "hold_id": 130,
+        "role": "foot",
+        "coverage": 0.5504,
+        "margin": 0.5504
+      },
+      {
+        "hold_id": 132,
+        "role": "foot",
+        "coverage": 0.7338,
+        "margin": 0.7338
+      },
+      {
+        "hold_id": 180,
+        "role": "hand",
+        "coverage": 0.6621,
+        "margin": 0.6621
+      },
+      {
+        "hold_id": 182,
+        "role": "foot",
+        "coverage": 0.6935,
+        "margin": 0.6935
+      },
+      {
+        "hold_id": 187,
+        "role": "foot",
+        "coverage": 0.6863,
+        "margin": 0.6863
+      },
+      {
+        "hold_id": 202,
+        "role": "hand",
+        "coverage": 0.6935,
+        "margin": 0.6935
+      },
+      {
+        "hold_id": 255,
+        "role": "hand",
+        "coverage": 0.6438,
+        "margin": 0.6438
+      },
+      {
+        "hold_id": 334,
+        "role": "hand",
+        "coverage": 0.591,
+        "margin": 0.591
+      },
+      {
+        "hold_id": 383,
+        "role": "hand",
+        "coverage": 0.6485,
+        "margin": 0.6485
+      },
+      {
+        "hold_id": 411,
+        "role": "hand",
+        "coverage": 0.6485,
+        "margin": 0.6485
+      },
+      {
+        "hold_id": 469,
+        "role": "finish",
+        "coverage": 0.6987,
+        "margin": 0.6987
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "ZILLA 12.0\nrikischwark\n\n7c+/V10 Yeo ve\n",
+  "lines": [
+    "ZILLA 12.0",
+    "rikischwark",
+    "7c+/V10 Yeo ve"
+  ],
+  "name": "ZILLA 12.0",
+  "setter": "rikischwark",
+  "grade_raw": "7c+/V10 Yeo ve",
+  "grade_v": 10,
+  "stars": 2
+}

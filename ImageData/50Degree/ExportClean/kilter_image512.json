@@ -1,0 +1,103 @@
+{
+  "filename": "kilter_image512.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 2
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 80,
+        "role": "foot",
+        "coverage": 0.6051,
+        "margin": 0.6051
+      },
+      {
+        "hold_id": 116,
+        "role": "start",
+        "coverage": 0.546,
+        "margin": 0.546
+      },
+      {
+        "hold_id": 142,
+        "role": "start",
+        "coverage": 0.5758,
+        "margin": 0.5758
+      },
+      {
+        "hold_id": 215,
+        "role": "foot",
+        "coverage": 0.7505,
+        "margin": 0.7505
+      },
+      {
+        "hold_id": 255,
+        "role": "hand",
+        "coverage": 0.6438,
+        "margin": 0.6438
+      },
+      {
+        "hold_id": 273,
+        "role": "hand",
+        "coverage": 0.6417,
+        "margin": 0.6417
+      },
+      {
+        "hold_id": 296,
+        "role": "hand",
+        "coverage": 0.659,
+        "margin": 0.659
+      },
+      {
+        "hold_id": 306,
+        "role": "hand",
+        "coverage": 0.6433,
+        "margin": 0.6433
+      },
+      {
+        "hold_id": 361,
+        "role": "hand",
+        "coverage": 0.6512,
+        "margin": 0.6512
+      },
+      {
+        "hold_id": 464,
+        "role": "finish",
+        "coverage": 0.7155,
+        "margin": 0.7155
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Apocalypse Meow\nkrimdogbillionaire\n\n7c+/V10 ye vee\n",
+  "lines": [
+    "Apocalypse Meow",
+    "krimdogbillionaire",
+    "7c+/V10 ye vee"
+  ],
+  "name": "Apocalypse Meow",
+  "setter": "krimdogbillionaire",
+  "grade_raw": "7c+/V10 ye vee",
+  "grade_v": 10,
+  "stars": 3
+}

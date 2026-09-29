@@ -1,0 +1,121 @@
+{
+  "filename": "kilter_image129.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 5
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 24,
+        "role": "foot",
+        "coverage": 0.6998,
+        "margin": 0.6998
+      },
+      {
+        "hold_id": 41,
+        "role": "foot",
+        "coverage": 0.7144,
+        "margin": 0.7144
+      },
+      {
+        "hold_id": 89,
+        "role": "foot",
+        "coverage": 0.6663,
+        "margin": 0.6663
+      },
+      {
+        "hold_id": 139,
+        "role": "start",
+        "coverage": 0.6804,
+        "margin": 0.6804
+      },
+      {
+        "hold_id": 154,
+        "role": "start",
+        "coverage": 0.6632,
+        "margin": 0.6632
+      },
+      {
+        "hold_id": 195,
+        "role": "foot",
+        "coverage": 0.6899,
+        "margin": 0.6899
+      },
+      {
+        "hold_id": 223,
+        "role": "hand",
+        "coverage": 0.6559,
+        "margin": 0.6559
+      },
+      {
+        "hold_id": 278,
+        "role": "hand",
+        "coverage": 0.6475,
+        "margin": 0.6475
+      },
+      {
+        "hold_id": 279,
+        "role": "foot",
+        "coverage": 0.7076,
+        "margin": 0.7076
+      },
+      {
+        "hold_id": 356,
+        "role": "hand",
+        "coverage": 0.6532,
+        "margin": 0.6532
+      },
+      {
+        "hold_id": 408,
+        "role": "hand",
+        "coverage": 0.6485,
+        "margin": 0.6485
+      },
+      {
+        "hold_id": 453,
+        "role": "hand",
+        "coverage": 0.6224,
+        "margin": 0.6224
+      },
+      {
+        "hold_id": 464,
+        "role": "finish",
+        "coverage": 0.7155,
+        "margin": 0.7155
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "G2 Sed Gea\n\nBKBChicago\n\n6at/V3 Yer e\n",
+  "lines": [
+    "G2 Sed Gea",
+    "BKBChicago",
+    "6at/V3 Yer e"
+  ],
+  "name": "G2 Sed Gea",
+  "setter": "BKBChicago",
+  "grade_raw": "6at/V3 Yer e",
+  "grade_v": 3,
+  "stars": 1
+}

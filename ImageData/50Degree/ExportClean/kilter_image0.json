@@ -1,0 +1,127 @@
+{
+  "filename": "kilter_image0.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 7,
+    "foot": 5
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 0,
+        "role": "foot",
+        "coverage": 0.5071,
+        "margin": 0.5071
+      },
+      {
+        "hold_id": 1,
+        "role": "foot",
+        "coverage": 0.7029,
+        "margin": 0.7029
+      },
+      {
+        "hold_id": 117,
+        "role": "foot",
+        "coverage": 0.5978,
+        "margin": 0.5978
+      },
+      {
+        "hold_id": 125,
+        "role": "start",
+        "coverage": 0.6815,
+        "margin": 0.6815
+      },
+      {
+        "hold_id": 200,
+        "role": "hand",
+        "coverage": 0.6255,
+        "margin": 0.6255
+      },
+      {
+        "hold_id": 210,
+        "role": "foot",
+        "coverage": 0.7275,
+        "margin": 0.7275
+      },
+      {
+        "hold_id": 233,
+        "role": "hand",
+        "coverage": 0.6506,
+        "margin": 0.6506
+      },
+      {
+        "hold_id": 267,
+        "role": "foot",
+        "coverage": 0.7181,
+        "margin": 0.7181
+      },
+      {
+        "hold_id": 296,
+        "role": "hand",
+        "coverage": 0.659,
+        "margin": 0.659
+      },
+      {
+        "hold_id": 321,
+        "role": "hand",
+        "coverage": 0.6109,
+        "margin": 0.6109
+      },
+      {
+        "hold_id": 349,
+        "role": "hand",
+        "coverage": 0.671,
+        "margin": 0.671
+      },
+      {
+        "hold_id": 355,
+        "role": "hand",
+        "coverage": 0.6757,
+        "margin": 0.6757
+      },
+      {
+        "hold_id": 441,
+        "role": "hand",
+        "coverage": 0.6501,
+        "margin": 0.6501
+      },
+      {
+        "hold_id": 475,
+        "role": "finish",
+        "coverage": 0.7097,
+        "margin": 0.7097
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Boot Spur\ns14rob\n\n6c/V5 eee\n",
+  "lines": [
+    "Boot Spur",
+    "s14rob",
+    "6c/V5 eee"
+  ],
+  "name": "Boot Spur",
+  "setter": "s14rob",
+  "grade_raw": "6c/V5 eee",
+  "grade_v": 5,
+  "stars": 3
+}

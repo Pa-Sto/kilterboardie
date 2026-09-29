@@ -1,0 +1,91 @@
+{
+  "filename": "kilter_image82.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 2,
+    "hand": 4,
+    "foot": 0
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 191,
+        "role": "start",
+        "coverage": 0.6747,
+        "margin": 0.6747
+      },
+      {
+        "hold_id": 249,
+        "role": "start",
+        "coverage": 0.6396,
+        "margin": 0.6396
+      },
+      {
+        "hold_id": 305,
+        "role": "hand",
+        "coverage": 0.6344,
+        "margin": 0.6344
+      },
+      {
+        "hold_id": 358,
+        "role": "hand",
+        "coverage": 0.6632,
+        "margin": 0.6632
+      },
+      {
+        "hold_id": 404,
+        "role": "hand",
+        "coverage": 0.6548,
+        "margin": 0.6548
+      },
+      {
+        "hold_id": 443,
+        "role": "hand",
+        "coverage": 0.6234,
+        "margin": 0.6234
+      },
+      {
+        "hold_id": 466,
+        "role": "finish",
+        "coverage": 0.6977,
+        "margin": 0.6977
+      },
+      {
+        "hold_id": 475,
+        "role": "finish",
+        "coverage": 0.7453,
+        "margin": 0.7453
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "vic finale f2\nwillyjoe\n\n7c/V9 Ye vee\n",
+  "lines": [
+    "vic finale f2",
+    "willyjoe",
+    "7c/V9 Ye vee"
+  ],
+  "name": "vic finale f2",
+  "setter": "willyjoe",
+  "grade_raw": "7c/V9 Ye vee",
+  "grade_v": 9,
+  "stars": 3
+}

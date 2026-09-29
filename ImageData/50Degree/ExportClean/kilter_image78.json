@@ -1,0 +1,151 @@
+{
+  "filename": "kilter_image78.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 7,
+    "foot": 9
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 2,
+        "role": "foot",
+        "coverage": 0.6454,
+        "margin": 0.6454
+      },
+      {
+        "hold_id": 5,
+        "role": "foot",
+        "coverage": 0.5805,
+        "margin": 0.5805
+      },
+      {
+        "hold_id": 42,
+        "role": "foot",
+        "coverage": 0.7092,
+        "margin": 0.7092
+      },
+      {
+        "hold_id": 62,
+        "role": "foot",
+        "coverage": 0.7055,
+        "margin": 0.7055
+      },
+      {
+        "hold_id": 121,
+        "role": "foot",
+        "coverage": 0.7024,
+        "margin": 0.7024
+      },
+      {
+        "hold_id": 141,
+        "role": "start",
+        "coverage": 0.6051,
+        "margin": 0.6051
+      },
+      {
+        "hold_id": 205,
+        "role": "hand",
+        "coverage": 0.6491,
+        "margin": 0.6491
+      },
+      {
+        "hold_id": 219,
+        "role": "foot",
+        "coverage": 0.7076,
+        "margin": 0.7076
+      },
+      {
+        "hold_id": 224,
+        "role": "foot",
+        "coverage": 0.6789,
+        "margin": 0.6789
+      },
+      {
+        "hold_id": 225,
+        "role": "hand",
+        "coverage": 0.6768,
+        "margin": 0.6768
+      },
+      {
+        "hold_id": 255,
+        "role": "foot",
+        "coverage": 0.6899,
+        "margin": 0.6899
+      },
+      {
+        "hold_id": 271,
+        "role": "foot",
+        "coverage": 0.6888,
+        "margin": 0.6888
+      },
+      {
+        "hold_id": 278,
+        "role": "hand",
+        "coverage": 0.6475,
+        "margin": 0.6475
+      },
+      {
+        "hold_id": 354,
+        "role": "hand",
+        "coverage": 0.6485,
+        "margin": 0.6485
+      },
+      {
+        "hold_id": 356,
+        "role": "hand",
+        "coverage": 0.6789,
+        "margin": 0.6789
+      },
+      {
+        "hold_id": 359,
+        "role": "hand",
+        "coverage": 0.6773,
+        "margin": 0.6773
+      },
+      {
+        "hold_id": 427,
+        "role": "hand",
+        "coverage": 0.637,
+        "margin": 0.637
+      },
+      {
+        "hold_id": 465,
+        "role": "finish",
+        "coverage": 0.7082,
+        "margin": 0.7082
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Party Bill\ntheamykins\n\n6at/V3 Ye oroe\n",
+  "lines": [
+    "Party Bill",
+    "theamykins",
+    "6at/V3 Ye oroe"
+  ],
+  "name": "Party Bill",
+  "setter": "theamykins",
+  "grade_raw": "6at/V3 Ye oroe",
+  "grade_v": 3,
+  "stars": 4
+}

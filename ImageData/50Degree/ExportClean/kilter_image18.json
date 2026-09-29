@@ -1,0 +1,145 @@
+{
+  "filename": "kilter_image18.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 9
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 42,
+        "role": "foot",
+        "coverage": 0.7092,
+        "margin": 0.7092
+      },
+      {
+        "hold_id": 120,
+        "role": "start",
+        "coverage": 0.5643,
+        "margin": 0.5643
+      },
+      {
+        "hold_id": 133,
+        "role": "foot",
+        "coverage": 0.6768,
+        "margin": 0.6768
+      },
+      {
+        "hold_id": 159,
+        "role": "foot",
+        "coverage": 0.6198,
+        "margin": 0.6198
+      },
+      {
+        "hold_id": 163,
+        "role": "foot",
+        "coverage": 0.5983,
+        "margin": 0.5983
+      },
+      {
+        "hold_id": 205,
+        "role": "start",
+        "coverage": 0.6721,
+        "margin": 0.6721
+      },
+      {
+        "hold_id": 208,
+        "role": "foot",
+        "coverage": 0.5884,
+        "margin": 0.5884
+      },
+      {
+        "hold_id": 249,
+        "role": "hand",
+        "coverage": 0.6182,
+        "margin": 0.6182
+      },
+      {
+        "hold_id": 263,
+        "role": "foot",
+        "coverage": 0.4142,
+        "margin": 0.4142
+      },
+      {
+        "hold_id": 264,
+        "role": "foot",
+        "coverage": 0.5158,
+        "margin": 0.5158
+      },
+      {
+        "hold_id": 309,
+        "role": "hand",
+        "coverage": 0.637,
+        "margin": 0.637
+      },
+      {
+        "hold_id": 315,
+        "role": "foot",
+        "coverage": 0.5113,
+        "margin": 0.5113
+      },
+      {
+        "hold_id": 318,
+        "role": "foot",
+        "coverage": 0.6768,
+        "margin": 0.6768
+      },
+      {
+        "hold_id": 356,
+        "role": "hand",
+        "coverage": 0.6532,
+        "margin": 0.6532
+      },
+      {
+        "hold_id": 408,
+        "role": "hand",
+        "coverage": 0.6485,
+        "margin": 0.6485
+      },
+      {
+        "hold_id": 439,
+        "role": "hand",
+        "coverage": 0.647,
+        "margin": 0.647
+      },
+      {
+        "hold_id": 464,
+        "role": "finish",
+        "coverage": 0.7155,
+        "margin": 0.7155
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "makers mark\njuligris\n\n6a/V3 Ye ee\n",
+  "lines": [
+    "makers mark",
+    "juligris",
+    "6a/V3 Ye ee"
+  ],
+  "name": "makers mark",
+  "setter": "juligris",
+  "grade_raw": "6a/V3 Ye ee",
+  "grade_v": 3,
+  "stars": 2
+}

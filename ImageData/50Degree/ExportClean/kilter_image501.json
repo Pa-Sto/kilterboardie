@@ -1,0 +1,133 @@
+{
+  "filename": "kilter_image501.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 6
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 11,
+        "role": "foot",
+        "coverage": 0.7008,
+        "margin": 0.7008
+      },
+      {
+        "hold_id": 27,
+        "role": "foot",
+        "coverage": 0.7338,
+        "margin": 0.7338
+      },
+      {
+        "hold_id": 64,
+        "role": "start",
+        "coverage": 0.6658,
+        "margin": 0.6658
+      },
+      {
+        "hold_id": 87,
+        "role": "foot",
+        "coverage": 0.6224,
+        "margin": 0.6224
+      },
+      {
+        "hold_id": 115,
+        "role": "foot",
+        "coverage": 0.6647,
+        "margin": 0.6647
+      },
+      {
+        "hold_id": 150,
+        "role": "start",
+        "coverage": 0.6156,
+        "margin": 0.6156
+      },
+      {
+        "hold_id": 182,
+        "role": "foot",
+        "coverage": 0.6935,
+        "margin": 0.6935
+      },
+      {
+        "hold_id": 198,
+        "role": "hand",
+        "coverage": 0.6491,
+        "margin": 0.6491
+      },
+      {
+        "hold_id": 217,
+        "role": "hand",
+        "coverage": 0.6318,
+        "margin": 0.6318
+      },
+      {
+        "hold_id": 281,
+        "role": "hand",
+        "coverage": 0.6313,
+        "margin": 0.6313
+      },
+      {
+        "hold_id": 288,
+        "role": "foot",
+        "coverage": 0.5324,
+        "margin": 0.5324
+      },
+      {
+        "hold_id": 352,
+        "role": "hand",
+        "coverage": 0.6579,
+        "margin": 0.6579
+      },
+      {
+        "hold_id": 404,
+        "role": "hand",
+        "coverage": 0.6548,
+        "margin": 0.6548
+      },
+      {
+        "hold_id": 451,
+        "role": "hand",
+        "coverage": 0.5513,
+        "margin": 0.4932
+      },
+      {
+        "hold_id": 471,
+        "role": "finish",
+        "coverage": 0.7003,
+        "margin": 0.6946
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Exploding Cigarillo\nkilterjackie\n\n6c/V5 eee\n",
+  "lines": [
+    "Exploding Cigarillo",
+    "kilterjackie",
+    "6c/V5 eee"
+  ],
+  "name": "Exploding Cigarillo",
+  "setter": "kilterjackie",
+  "grade_raw": "6c/V5 eee",
+  "grade_v": 5,
+  "stars": 3
+}

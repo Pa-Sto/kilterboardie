@@ -1,0 +1,103 @@
+{
+  "filename": "kilter_image5.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 4,
+    "foot": 4
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 6,
+        "role": "foot",
+        "coverage": 0.659,
+        "margin": 0.659
+      },
+      {
+        "hold_id": 22,
+        "role": "foot",
+        "coverage": 0.6998,
+        "margin": 0.6998
+      },
+      {
+        "hold_id": 120,
+        "role": "start",
+        "coverage": 0.5643,
+        "margin": 0.5643
+      },
+      {
+        "hold_id": 135,
+        "role": "foot",
+        "coverage": 0.5968,
+        "margin": 0.5968
+      },
+      {
+        "hold_id": 198,
+        "role": "hand",
+        "coverage": 0.6491,
+        "margin": 0.6491
+      },
+      {
+        "hold_id": 305,
+        "role": "hand",
+        "coverage": 0.6344,
+        "margin": 0.6344
+      },
+      {
+        "hold_id": 306,
+        "role": "foot",
+        "coverage": 0.6961,
+        "margin": 0.6961
+      },
+      {
+        "hold_id": 399,
+        "role": "hand",
+        "coverage": 0.6438,
+        "margin": 0.6438
+      },
+      {
+        "hold_id": 425,
+        "role": "hand",
+        "coverage": 0.637,
+        "margin": 0.637
+      },
+      {
+        "hold_id": 469,
+        "role": "finish",
+        "coverage": 0.6987,
+        "margin": 0.6987
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Falhalla\nJamieBarendrecht\n\n7c/V9 Ye vee\n",
+  "lines": [
+    "Falhalla",
+    "JamieBarendrecht",
+    "7c/V9 Ye vee"
+  ],
+  "name": "Falhalla",
+  "setter": "JamieBarendrecht",
+  "grade_raw": "7c/V9 Ye vee",
+  "grade_v": 9,
+  "stars": 3
+}

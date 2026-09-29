@@ -1,0 +1,121 @@
+{
+  "filename": "kilter_image55.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 5,
+    "foot": 6
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 0,
+        "role": "foot",
+        "coverage": 0.5071,
+        "margin": 0.5071
+      },
+      {
+        "hold_id": 85,
+        "role": "foot",
+        "coverage": 0.7299,
+        "margin": 0.7299
+      },
+      {
+        "hold_id": 117,
+        "role": "foot",
+        "coverage": 0.5978,
+        "margin": 0.5978
+      },
+      {
+        "hold_id": 119,
+        "role": "start",
+        "coverage": 0.6177,
+        "margin": 0.6177
+      },
+      {
+        "hold_id": 130,
+        "role": "foot",
+        "coverage": 0.5504,
+        "margin": 0.5504
+      },
+      {
+        "hold_id": 213,
+        "role": "foot",
+        "coverage": 0.7301,
+        "margin": 0.7301
+      },
+      {
+        "hold_id": 245,
+        "role": "hand",
+        "coverage": 0.6559,
+        "margin": 0.6559
+      },
+      {
+        "hold_id": 256,
+        "role": "hand",
+        "coverage": 0.6187,
+        "margin": 0.6187
+      },
+      {
+        "hold_id": 264,
+        "role": "foot",
+        "coverage": 0.5158,
+        "margin": 0.5158
+      },
+      {
+        "hold_id": 300,
+        "role": "hand",
+        "coverage": 0.6522,
+        "margin": 0.6522
+      },
+      {
+        "hold_id": 378,
+        "role": "hand",
+        "coverage": 0.6517,
+        "margin": 0.6517
+      },
+      {
+        "hold_id": 406,
+        "role": "hand",
+        "coverage": 0.6344,
+        "margin": 0.6344
+      },
+      {
+        "hold_id": 472,
+        "role": "finish",
+        "coverage": 0.6867,
+        "margin": 0.6867
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "for 60-degrees of h\nTufasBoulderLounge\n\n7b/V8 Ye ee\n",
+  "lines": [
+    "for 60-degrees of h",
+    "TufasBoulderLounge",
+    "7b/V8 Ye ee"
+  ],
+  "name": "for 60-degrees of h",
+  "setter": "TufasBoulderLounge",
+  "grade_raw": "7b/V8 Ye ee",
+  "grade_v": 8,
+  "stars": 2
+}

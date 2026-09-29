@@ -1,0 +1,46 @@
+.DS_Store
+__pycache__/
+*.pyc
+.idea/
+runs/
+LOCAL_SERVER.md
+local_generated/
+local_feedback/
+worker/.wrangler/
+
+# Keep only exported datasets and references
+ImageData/50Degree/*
+!ImageData/50Degree/Export/
+!ImageData/50Degree/Export/**
+!ImageData/50Degree/ExportClean/
+!ImageData/50Degree/ExportClean/**
+
+# Ignore editor source files
+ImageData/References/*.afphoto
+ImageData/References/*.afphoto~lock~
+
+# Private local files and deployment artifacts
+.private-local/
+.fly/
+.mplconfig/
+.env
+.env.*
+*.pem
+*.key
+/Dockerfile*
+/.dockerignore
+/compose*.yaml
+/compose*.yml
+/docker-compose*.yaml
+/docker-compose*.yml
+/fly.toml
+/server.py
+/config.js
+/index.html
+/script.js
+/styles.css
+/worker/
+/generated/
+/.github/workflows/generate-climb.yml
+ImageData/*.local-untracked-backup/
+.venv/

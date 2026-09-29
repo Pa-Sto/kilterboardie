@@ -1,0 +1,139 @@
+{
+  "filename": "kilter_image970.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 2,
+    "hand": 6,
+    "foot": 6
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 24,
+        "role": "foot",
+        "coverage": 0.6998,
+        "margin": 0.6998
+      },
+      {
+        "hold_id": 62,
+        "role": "foot",
+        "coverage": 0.7055,
+        "margin": 0.7055
+      },
+      {
+        "hold_id": 105,
+        "role": "foot",
+        "coverage": 0.6365,
+        "margin": 0.6365
+      },
+      {
+        "hold_id": 154,
+        "role": "start",
+        "coverage": 0.6637,
+        "margin": 0.6637
+      },
+      {
+        "hold_id": 180,
+        "role": "start",
+        "coverage": 0.7181,
+        "margin": 0.7181
+      },
+      {
+        "hold_id": 182,
+        "role": "foot",
+        "coverage": 0.6935,
+        "margin": 0.6935
+      },
+      {
+        "hold_id": 254,
+        "role": "hand",
+        "coverage": 0.6156,
+        "margin": 0.6156
+      },
+      {
+        "hold_id": 265,
+        "role": "foot",
+        "coverage": 0.6977,
+        "margin": 0.6977
+      },
+      {
+        "hold_id": 267,
+        "role": "foot",
+        "coverage": 0.7181,
+        "margin": 0.7181
+      },
+      {
+        "hold_id": 297,
+        "role": "hand",
+        "coverage": 0.6506,
+        "margin": 0.6506
+      },
+      {
+        "hold_id": 308,
+        "role": "hand",
+        "coverage": 0.6213,
+        "margin": 0.6213
+      },
+      {
+        "hold_id": 383,
+        "role": "hand",
+        "coverage": 0.6485,
+        "margin": 0.6485
+      },
+      {
+        "hold_id": 410,
+        "role": "hand",
+        "coverage": 0.6804,
+        "margin": 0.6804
+      },
+      {
+        "hold_id": 415,
+        "role": "hand",
+        "coverage": 0.6621,
+        "margin": 0.6621
+      },
+      {
+        "hold_id": 468,
+        "role": "finish",
+        "coverage": 0.7035,
+        "margin": 0.7035
+      },
+      {
+        "hold_id": 475,
+        "role": "finish",
+        "coverage": 0.7097,
+        "margin": 0.7097
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Shaker me awake\nAaBbCcDdEe\n\n7b/V8 Ye ee\n",
+  "lines": [
+    "Shaker me awake",
+    "AaBbCcDdEe",
+    "7b/V8 Ye ee"
+  ],
+  "name": "Shaker me awake",
+  "setter": "AaBbCcDdEe",
+  "grade_raw": "7b/V8 Ye ee",
+  "grade_v": 8,
+  "stars": 2
+}

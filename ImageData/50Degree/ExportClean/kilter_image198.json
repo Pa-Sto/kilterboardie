@@ -1,0 +1,103 @@
+{
+  "filename": "kilter_image198.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 3
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 23,
+        "role": "foot",
+        "coverage": 0.7066,
+        "margin": 0.7066
+      },
+      {
+        "hold_id": 108,
+        "role": "foot",
+        "coverage": 0.6281,
+        "margin": 0.6281
+      },
+      {
+        "hold_id": 177,
+        "role": "start",
+        "coverage": 0.5973,
+        "margin": 0.5973
+      },
+      {
+        "hold_id": 180,
+        "role": "start",
+        "coverage": 0.6831,
+        "margin": 0.6831
+      },
+      {
+        "hold_id": 270,
+        "role": "hand",
+        "coverage": 0.6407,
+        "margin": 0.6407
+      },
+      {
+        "hold_id": 357,
+        "role": "hand",
+        "coverage": 0.6543,
+        "margin": 0.6543
+      },
+      {
+        "hold_id": 384,
+        "role": "foot",
+        "coverage": 0.7061,
+        "margin": 0.7061
+      },
+      {
+        "hold_id": 386,
+        "role": "hand",
+        "coverage": 0.6454,
+        "margin": 0.6454
+      },
+      {
+        "hold_id": 425,
+        "role": "hand",
+        "coverage": 0.637,
+        "margin": 0.637
+      },
+      {
+        "hold_id": 468,
+        "role": "finish",
+        "coverage": 0.7035,
+        "margin": 0.7035
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Zak and Dan\nGW_Kilter\n\nZat/V7 Yeo.\n",
+  "lines": [
+    "Zak and Dan",
+    "GW_Kilter",
+    "Zat/V7 Yeo."
+  ],
+  "name": "Zak and Dan",
+  "setter": "GW_Kilter",
+  "grade_raw": "Zat/V7 Yeo.",
+  "grade_v": 7,
+  "stars": 3
+}

@@ -1,0 +1,121 @@
+{
+  "filename": "kilter_image316.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 6
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 12,
+        "role": "foot",
+        "coverage": 0.6297,
+        "margin": 0.6297
+      },
+      {
+        "hold_id": 20,
+        "role": "foot",
+        "coverage": 0.7035,
+        "margin": 0.7035
+      },
+      {
+        "hold_id": 68,
+        "role": "foot",
+        "coverage": 0.5936,
+        "margin": 0.5936
+      },
+      {
+        "hold_id": 84,
+        "role": "foot",
+        "coverage": 0.7123,
+        "margin": 0.7123
+      },
+      {
+        "hold_id": 90,
+        "role": "foot",
+        "coverage": 0.67,
+        "margin": 0.67
+      },
+      {
+        "hold_id": 172,
+        "role": "start",
+        "coverage": 0.5905,
+        "margin": 0.5905
+      },
+      {
+        "hold_id": 201,
+        "role": "start",
+        "coverage": 0.6862,
+        "margin": 0.6862
+      },
+      {
+        "hold_id": 253,
+        "role": "foot",
+        "coverage": 0.6559,
+        "margin": 0.6559
+      },
+      {
+        "hold_id": 254,
+        "role": "hand",
+        "coverage": 0.6156,
+        "margin": 0.6156
+      },
+      {
+        "hold_id": 278,
+        "role": "hand",
+        "coverage": 0.6475,
+        "margin": 0.6475
+      },
+      {
+        "hold_id": 356,
+        "role": "hand",
+        "coverage": 0.6532,
+        "margin": 0.6532
+      },
+      {
+        "hold_id": 434,
+        "role": "hand",
+        "coverage": 0.6491,
+        "margin": 0.6491
+      },
+      {
+        "hold_id": 468,
+        "role": "finish",
+        "coverage": 0.7035,
+        "margin": 0.7035
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "joe mamma\nNoah_Colvin\n\n6c/V5 eee\n",
+  "lines": [
+    "joe mamma",
+    "Noah_Colvin",
+    "6c/V5 eee"
+  ],
+  "name": "joe mamma",
+  "setter": "Noah_Colvin",
+  "grade_raw": "6c/V5 eee",
+  "grade_v": 5,
+  "stars": 3
+}

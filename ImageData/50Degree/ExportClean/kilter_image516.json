@@ -1,0 +1,97 @@
+{
+  "filename": "kilter_image516.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 2
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 13,
+        "role": "foot",
+        "coverage": 0.7055,
+        "margin": 0.7055
+      },
+      {
+        "hold_id": 104,
+        "role": "foot",
+        "coverage": 0.5366,
+        "margin": 0.5366
+      },
+      {
+        "hold_id": 154,
+        "role": "start",
+        "coverage": 0.6632,
+        "margin": 0.6632
+      },
+      {
+        "hold_id": 170,
+        "role": "start",
+        "coverage": 0.6878,
+        "margin": 0.6878
+      },
+      {
+        "hold_id": 195,
+        "role": "hand",
+        "coverage": 0.6428,
+        "margin": 0.6428
+      },
+      {
+        "hold_id": 229,
+        "role": "hand",
+        "coverage": 0.6459,
+        "margin": 0.6459
+      },
+      {
+        "hold_id": 308,
+        "role": "hand",
+        "coverage": 0.6213,
+        "margin": 0.6213
+      },
+      {
+        "hold_id": 399,
+        "role": "hand",
+        "coverage": 0.6438,
+        "margin": 0.6438
+      },
+      {
+        "hold_id": 460,
+        "role": "finish",
+        "coverage": 0.6804,
+        "margin": 0.6804
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "icy Hot Cross Bun \u00a2\nCodyRatterman\n\n7c/V9 Ye vee\n",
+  "lines": [
+    "icy Hot Cross Bun \u00a2",
+    "CodyRatterman",
+    "7c/V9 Ye vee"
+  ],
+  "name": "icy Hot Cross Bun \u00a2",
+  "setter": "CodyRatterman",
+  "grade_raw": "7c/V9 Ye vee",
+  "grade_v": 9,
+  "stars": 3
+}

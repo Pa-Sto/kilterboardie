@@ -1,0 +1,121 @@
+{
+  "filename": "kilter_image492.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 7,
+    "foot": 4
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 54,
+        "role": "foot",
+        "coverage": 0.7547,
+        "margin": 0.7547
+      },
+      {
+        "hold_id": 82,
+        "role": "foot",
+        "coverage": 0.6004,
+        "margin": 0.6004
+      },
+      {
+        "hold_id": 107,
+        "role": "foot",
+        "coverage": 0.5251,
+        "margin": 0.5251
+      },
+      {
+        "hold_id": 120,
+        "role": "start",
+        "coverage": 0.5643,
+        "margin": 0.5643
+      },
+      {
+        "hold_id": 199,
+        "role": "hand",
+        "coverage": 0.6804,
+        "margin": 0.6804
+      },
+      {
+        "hold_id": 205,
+        "role": "hand",
+        "coverage": 0.6606,
+        "margin": 0.6606
+      },
+      {
+        "hold_id": 230,
+        "role": "hand",
+        "coverage": 0.6715,
+        "margin": 0.6715
+      },
+      {
+        "hold_id": 284,
+        "role": "hand",
+        "coverage": 0.6532,
+        "margin": 0.6532
+      },
+      {
+        "hold_id": 337,
+        "role": "foot",
+        "coverage": 0.7008,
+        "margin": 0.7008
+      },
+      {
+        "hold_id": 359,
+        "role": "hand",
+        "coverage": 0.6512,
+        "margin": 0.6512
+      },
+      {
+        "hold_id": 400,
+        "role": "hand",
+        "coverage": 0.6532,
+        "margin": 0.6532
+      },
+      {
+        "hold_id": 452,
+        "role": "hand",
+        "coverage": 0.6328,
+        "margin": 0.6328
+      },
+      {
+        "hold_id": 465,
+        "role": "finish",
+        "coverage": 0.7082,
+        "margin": 0.7082
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "okey dokey yo <#\nleedongeun87\n\n& 7a/V6 Ke ee\n",
+  "lines": [
+    "okey dokey yo <#",
+    "leedongeun87",
+    "& 7a/V6 Ke ee"
+  ],
+  "name": "okey dokey yo <#",
+  "setter": "leedongeun87",
+  "grade_raw": "& 7a/V6 Ke ee",
+  "grade_v": 6,
+  "stars": 2
+}

@@ -1,0 +1,115 @@
+{
+  "filename": "kilter_image545.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 4
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 27,
+        "role": "foot",
+        "coverage": 0.7045,
+        "margin": 0.7045
+      },
+      {
+        "hold_id": 33,
+        "role": "foot",
+        "coverage": 0.704,
+        "margin": 0.704
+      },
+      {
+        "hold_id": 141,
+        "role": "start",
+        "coverage": 0.6454,
+        "margin": 0.6454
+      },
+      {
+        "hold_id": 150,
+        "role": "start",
+        "coverage": 0.6407,
+        "margin": 0.6407
+      },
+      {
+        "hold_id": 172,
+        "role": "hand",
+        "coverage": 0.5654,
+        "margin": 0.5654
+      },
+      {
+        "hold_id": 192,
+        "role": "foot",
+        "coverage": 0.6344,
+        "margin": 0.6344
+      },
+      {
+        "hold_id": 253,
+        "role": "hand",
+        "coverage": 0.6192,
+        "margin": 0.6192
+      },
+      {
+        "hold_id": 255,
+        "role": "hand",
+        "coverage": 0.6438,
+        "margin": 0.6438
+      },
+      {
+        "hold_id": 312,
+        "role": "foot",
+        "coverage": 0.4911,
+        "margin": 0.4911
+      },
+      {
+        "hold_id": 321,
+        "role": "hand",
+        "coverage": 0.6109,
+        "margin": 0.6109
+      },
+      {
+        "hold_id": 415,
+        "role": "hand",
+        "coverage": 0.6444,
+        "margin": 0.6444
+      },
+      {
+        "hold_id": 471,
+        "role": "finish",
+        "coverage": 0.7139,
+        "margin": 0.7139
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "N2\nPaw\n\n6c/V5 eee\n",
+  "lines": [
+    "N2",
+    "Paw",
+    "6c/V5 eee"
+  ],
+  "name": "N2",
+  "setter": "Paw",
+  "grade_raw": "6c/V5 eee",
+  "grade_v": 5,
+  "stars": 3
+}

@@ -1,0 +1,121 @@
+{
+  "filename": "kilter_image258.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 6,
+    "foot": 5
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 8,
+        "role": "foot",
+        "coverage": 0.7202,
+        "margin": 0.7202
+      },
+      {
+        "hold_id": 124,
+        "role": "start",
+        "coverage": 0.6799,
+        "margin": 0.6799
+      },
+      {
+        "hold_id": 222,
+        "role": "hand",
+        "coverage": 0.6386,
+        "margin": 0.6386
+      },
+      {
+        "hold_id": 239,
+        "role": "foot",
+        "coverage": 0.6726,
+        "margin": 0.6726
+      },
+      {
+        "hold_id": 264,
+        "role": "foot",
+        "coverage": 0.5158,
+        "margin": 0.5158
+      },
+      {
+        "hold_id": 268,
+        "role": "foot",
+        "coverage": 0.6548,
+        "margin": 0.6548
+      },
+      {
+        "hold_id": 276,
+        "role": "hand",
+        "coverage": 0.6496,
+        "margin": 0.6496
+      },
+      {
+        "hold_id": 291,
+        "role": "foot",
+        "coverage": 0.7176,
+        "margin": 0.7176
+      },
+      {
+        "hold_id": 354,
+        "role": "hand",
+        "coverage": 0.6485,
+        "margin": 0.6485
+      },
+      {
+        "hold_id": 357,
+        "role": "hand",
+        "coverage": 0.6543,
+        "margin": 0.6543
+      },
+      {
+        "hold_id": 412,
+        "role": "hand",
+        "coverage": 0.6506,
+        "margin": 0.6506
+      },
+      {
+        "hold_id": 448,
+        "role": "hand",
+        "coverage": 0.6433,
+        "margin": 0.6433
+      },
+      {
+        "hold_id": 473,
+        "role": "finish",
+        "coverage": 0.7024,
+        "margin": 0.7024
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "jenga style\nJimiHendrix\n\n& 7c+/V10 9&9\n",
+  "lines": [
+    "jenga style",
+    "JimiHendrix",
+    "& 7c+/V10 9&9"
+  ],
+  "name": "jenga style",
+  "setter": "JimiHendrix",
+  "grade_raw": "& 7c+/V10 9&9",
+  "grade_v": 10,
+  "stars": null
+}

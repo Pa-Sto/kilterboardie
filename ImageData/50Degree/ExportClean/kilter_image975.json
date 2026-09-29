@@ -1,0 +1,121 @@
+{
+  "filename": "kilter_image975.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 4
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 2,
+        "role": "foot",
+        "coverage": 0.6454,
+        "margin": 0.6454
+      },
+      {
+        "hold_id": 18,
+        "role": "foot",
+        "coverage": 0.6977,
+        "margin": 0.6977
+      },
+      {
+        "hold_id": 45,
+        "role": "start",
+        "coverage": 0.545,
+        "margin": 0.545
+      },
+      {
+        "hold_id": 137,
+        "role": "foot",
+        "coverage": 0.7029,
+        "margin": 0.7029
+      },
+      {
+        "hold_id": 148,
+        "role": "start",
+        "coverage": 0.5465,
+        "margin": 0.5465
+      },
+      {
+        "hold_id": 199,
+        "role": "hand",
+        "coverage": 0.6407,
+        "margin": 0.6407
+      },
+      {
+        "hold_id": 219,
+        "role": "hand",
+        "coverage": 0.6266,
+        "margin": 0.6266
+      },
+      {
+        "hold_id": 264,
+        "role": "foot",
+        "coverage": 0.5158,
+        "margin": 0.5158
+      },
+      {
+        "hold_id": 301,
+        "role": "hand",
+        "coverage": 0.6449,
+        "margin": 0.6449
+      },
+      {
+        "hold_id": 305,
+        "role": "hand",
+        "coverage": 0.6344,
+        "margin": 0.6344
+      },
+      {
+        "hold_id": 337,
+        "role": "hand",
+        "coverage": 0.6501,
+        "margin": 0.6501
+      },
+      {
+        "hold_id": 381,
+        "role": "hand",
+        "coverage": 0.6339,
+        "margin": 0.6339
+      },
+      {
+        "hold_id": 464,
+        "role": "finish",
+        "coverage": 0.7155,
+        "margin": 0.7155
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "far away eyes\nmondragon\n\nS TatilV7 Yeo\n",
+  "lines": [
+    "far away eyes",
+    "mondragon",
+    "S TatilV7 Yeo"
+  ],
+  "name": "far away eyes",
+  "setter": "mondragon",
+  "grade_raw": "S TatilV7 Yeo",
+  "grade_v": 7,
+  "stars": 3
+}

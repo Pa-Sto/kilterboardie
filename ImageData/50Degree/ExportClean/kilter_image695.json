@@ -1,0 +1,139 @@
+{
+  "filename": "kilter_image695.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 3,
+    "foot": 10
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 4,
+        "role": "foot",
+        "coverage": 0.7181,
+        "margin": 0.7181
+      },
+      {
+        "hold_id": 5,
+        "role": "foot",
+        "coverage": 0.6721,
+        "margin": 0.6721
+      },
+      {
+        "hold_id": 6,
+        "role": "foot",
+        "coverage": 0.704,
+        "margin": 0.704
+      },
+      {
+        "hold_id": 7,
+        "role": "foot",
+        "coverage": 0.6287,
+        "margin": 0.6287
+      },
+      {
+        "hold_id": 13,
+        "role": "foot",
+        "coverage": 0.7505,
+        "margin": 0.7505
+      },
+      {
+        "hold_id": 18,
+        "role": "foot",
+        "coverage": 0.7422,
+        "margin": 0.7422
+      },
+      {
+        "hold_id": 31,
+        "role": "foot",
+        "coverage": 0.7594,
+        "margin": 0.7594
+      },
+      {
+        "hold_id": 129,
+        "role": "start",
+        "coverage": 0.6355,
+        "margin": 0.6355
+      },
+      {
+        "hold_id": 150,
+        "role": "start",
+        "coverage": 0.6156,
+        "margin": 0.6156
+      },
+      {
+        "hold_id": 190,
+        "role": "foot",
+        "coverage": 0.6177,
+        "margin": 0.6177
+      },
+      {
+        "hold_id": 215,
+        "role": "foot",
+        "coverage": 0.7505,
+        "margin": 0.7505
+      },
+      {
+        "hold_id": 240,
+        "role": "foot",
+        "coverage": 0.603,
+        "margin": 0.603
+      },
+      {
+        "hold_id": 278,
+        "role": "hand",
+        "coverage": 0.6736,
+        "margin": 0.6736
+      },
+      {
+        "hold_id": 283,
+        "role": "hand",
+        "coverage": 0.6747,
+        "margin": 0.6747
+      },
+      {
+        "hold_id": 377,
+        "role": "hand",
+        "coverage": 0.6444,
+        "margin": 0.6444
+      },
+      {
+        "hold_id": 465,
+        "role": "finish",
+        "coverage": 0.7082,
+        "margin": 0.7082
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Maybe? &\nSean0318\n8a/V11 eee\n",
+  "lines": [
+    "Maybe? &",
+    "Sean0318",
+    "8a/V11 eee"
+  ],
+  "name": "Maybe? &",
+  "setter": "Sean0318",
+  "grade_raw": "8a/V11 eee",
+  "grade_v": 11,
+  "stars": 3
+}

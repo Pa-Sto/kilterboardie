@@ -1,0 +1,139 @@
+{
+  "filename": "kilter_image409.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 7
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 4,
+        "role": "foot",
+        "coverage": 0.6119,
+        "margin": 0.6119
+      },
+      {
+        "hold_id": 27,
+        "role": "foot",
+        "coverage": 0.7045,
+        "margin": 0.7045
+      },
+      {
+        "hold_id": 40,
+        "role": "foot",
+        "coverage": 0.6998,
+        "margin": 0.6998
+      },
+      {
+        "hold_id": 90,
+        "role": "start",
+        "coverage": 0.6025,
+        "margin": 0.5335
+      },
+      {
+        "hold_id": 105,
+        "role": "foot",
+        "coverage": 0.6349,
+        "margin": 0.6077
+      },
+      {
+        "hold_id": 154,
+        "role": "start",
+        "coverage": 0.6632,
+        "margin": 0.6632
+      },
+      {
+        "hold_id": 158,
+        "role": "foot",
+        "coverage": 0.5241,
+        "margin": 0.5241
+      },
+      {
+        "hold_id": 205,
+        "role": "hand",
+        "coverage": 0.6444,
+        "margin": 0.6444
+      },
+      {
+        "hold_id": 237,
+        "role": "foot",
+        "coverage": 0.7254,
+        "margin": 0.7254
+      },
+      {
+        "hold_id": 239,
+        "role": "foot",
+        "coverage": 0.6726,
+        "margin": 0.6726
+      },
+      {
+        "hold_id": 243,
+        "role": "hand",
+        "coverage": 0.6255,
+        "margin": 0.6255
+      },
+      {
+        "hold_id": 275,
+        "role": "hand",
+        "coverage": 0.636,
+        "margin": 0.636
+      },
+      {
+        "hold_id": 354,
+        "role": "hand",
+        "coverage": 0.6485,
+        "margin": 0.6485
+      },
+      {
+        "hold_id": 356,
+        "role": "hand",
+        "coverage": 0.6532,
+        "margin": 0.6532
+      },
+      {
+        "hold_id": 441,
+        "role": "hand",
+        "coverage": 0.6501,
+        "margin": 0.6501
+      },
+      {
+        "hold_id": 475,
+        "role": "finish",
+        "coverage": 0.7097,
+        "margin": 0.7097
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Screwdriver\njukeboxjoe\n\n6a/V3 Ye ee\n",
+  "lines": [
+    "Screwdriver",
+    "jukeboxjoe",
+    "6a/V3 Ye ee"
+  ],
+  "name": "Screwdriver",
+  "setter": "jukeboxjoe",
+  "grade_raw": "6a/V3 Ye ee",
+  "grade_v": 3,
+  "stars": 2
+}

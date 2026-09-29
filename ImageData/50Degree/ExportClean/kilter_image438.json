@@ -1,0 +1,109 @@
+{
+  "filename": "kilter_image438.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 4
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 80,
+        "role": "foot",
+        "coverage": 0.6051,
+        "margin": 0.6051
+      },
+      {
+        "hold_id": 128,
+        "role": "start",
+        "coverage": 0.5675,
+        "margin": 0.5675
+      },
+      {
+        "hold_id": 148,
+        "role": "start",
+        "coverage": 0.6056,
+        "margin": 0.6056
+      },
+      {
+        "hold_id": 154,
+        "role": "foot",
+        "coverage": 0.6831,
+        "margin": 0.6831
+      },
+      {
+        "hold_id": 208,
+        "role": "foot",
+        "coverage": 0.5884,
+        "margin": 0.5884
+      },
+      {
+        "hold_id": 292,
+        "role": "foot",
+        "coverage": 0.6773,
+        "margin": 0.6564
+      },
+      {
+        "hold_id": 296,
+        "role": "hand",
+        "coverage": 0.6004,
+        "margin": 0.5293
+      },
+      {
+        "hold_id": 306,
+        "role": "hand",
+        "coverage": 0.6433,
+        "margin": 0.6433
+      },
+      {
+        "hold_id": 324,
+        "role": "hand",
+        "coverage": 0.648,
+        "margin": 0.648
+      },
+      {
+        "hold_id": 405,
+        "role": "hand",
+        "coverage": 0.6543,
+        "margin": 0.6543
+      },
+      {
+        "hold_id": 467,
+        "role": "finish",
+        "coverage": 0.7019,
+        "margin": 0.7019
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Rattlesnake road\njwebxl\n\n7c/V9 Ye vee\n",
+  "lines": [
+    "Rattlesnake road",
+    "jwebxl",
+    "7c/V9 Ye vee"
+  ],
+  "name": "Rattlesnake road",
+  "setter": "jwebxl",
+  "grade_raw": "7c/V9 Ye vee",
+  "grade_v": 9,
+  "stars": 3
+}

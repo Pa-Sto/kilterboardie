@@ -1,0 +1,133 @@
+{
+  "filename": "kilter_image893.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 6
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 11,
+        "role": "foot",
+        "coverage": 0.6689,
+        "margin": 0.6689
+      },
+      {
+        "hold_id": 93,
+        "role": "foot",
+        "coverage": 0.7019,
+        "margin": 0.7019
+      },
+      {
+        "hold_id": 126,
+        "role": "start",
+        "coverage": 0.5277,
+        "margin": 0.4906
+      },
+      {
+        "hold_id": 127,
+        "role": "start",
+        "coverage": 0.5785,
+        "margin": 0.5785
+      },
+      {
+        "hold_id": 135,
+        "role": "foot",
+        "coverage": 0.5502,
+        "margin": 0.4759
+      },
+      {
+        "hold_id": 192,
+        "role": "hand",
+        "coverage": 0.6004,
+        "margin": 0.6004
+      },
+      {
+        "hold_id": 266,
+        "role": "foot",
+        "coverage": 0.5999,
+        "margin": 0.5748
+      },
+      {
+        "hold_id": 285,
+        "role": "hand",
+        "coverage": 0.5392,
+        "margin": 0.4012
+      },
+      {
+        "hold_id": 291,
+        "role": "foot",
+        "coverage": 0.7097,
+        "margin": 0.6946
+      },
+      {
+        "hold_id": 295,
+        "role": "hand",
+        "coverage": 0.636,
+        "margin": 0.636
+      },
+      {
+        "hold_id": 305,
+        "role": "foot",
+        "coverage": 0.6867,
+        "margin": 0.6867
+      },
+      {
+        "hold_id": 347,
+        "role": "hand",
+        "coverage": 0.6506,
+        "margin": 0.6506
+      },
+      {
+        "hold_id": 399,
+        "role": "hand",
+        "coverage": 0.6438,
+        "margin": 0.6438
+      },
+      {
+        "hold_id": 443,
+        "role": "hand",
+        "coverage": 0.6234,
+        "margin": 0.6234
+      },
+      {
+        "hold_id": 466,
+        "role": "finish",
+        "coverage": 0.6961,
+        "margin": 0.6961
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "terozygote advantac\ngregorylocker\n\nZat/V7 Yeo.\n",
+  "lines": [
+    "terozygote advantac",
+    "gregorylocker",
+    "Zat/V7 Yeo."
+  ],
+  "name": "terozygote advantac",
+  "setter": "gregorylocker",
+  "grade_raw": "Zat/V7 Yeo.",
+  "grade_v": 7,
+  "stars": 3
+}

@@ -1,0 +1,145 @@
+{
+  "filename": "kilter_image741.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 9,
+    "foot": 5
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 4,
+        "role": "foot",
+        "coverage": 0.6119,
+        "margin": 0.6119
+      },
+      {
+        "hold_id": 19,
+        "role": "foot",
+        "coverage": 0.7087,
+        "margin": 0.7087
+      },
+      {
+        "hold_id": 81,
+        "role": "foot",
+        "coverage": 0.6658,
+        "margin": 0.591
+      },
+      {
+        "hold_id": 89,
+        "role": "start",
+        "coverage": 0.6538,
+        "margin": 0.6334
+      },
+      {
+        "hold_id": 113,
+        "role": "start",
+        "coverage": 0.6308,
+        "margin": 0.6308
+      },
+      {
+        "hold_id": 202,
+        "role": "hand",
+        "coverage": 0.6512,
+        "margin": 0.6512
+      },
+      {
+        "hold_id": 223,
+        "role": "hand",
+        "coverage": 0.6559,
+        "margin": 0.6559
+      },
+      {
+        "hold_id": 239,
+        "role": "foot",
+        "coverage": 0.6726,
+        "margin": 0.6726
+      },
+      {
+        "hold_id": 265,
+        "role": "foot",
+        "coverage": 0.6977,
+        "margin": 0.6977
+      },
+      {
+        "hold_id": 273,
+        "role": "hand",
+        "coverage": 0.6464,
+        "margin": 0.6464
+      },
+      {
+        "hold_id": 308,
+        "role": "hand",
+        "coverage": 0.6213,
+        "margin": 0.6213
+      },
+      {
+        "hold_id": 309,
+        "role": "hand",
+        "coverage": 0.6778,
+        "margin": 0.6778
+      },
+      {
+        "hold_id": 349,
+        "role": "hand",
+        "coverage": 0.6459,
+        "margin": 0.6459
+      },
+      {
+        "hold_id": 352,
+        "role": "hand",
+        "coverage": 0.6579,
+        "margin": 0.6579
+      },
+      {
+        "hold_id": 415,
+        "role": "hand",
+        "coverage": 0.6444,
+        "margin": 0.6444
+      },
+      {
+        "hold_id": 448,
+        "role": "hand",
+        "coverage": 0.6433,
+        "margin": 0.6433
+      },
+      {
+        "hold_id": 468,
+        "role": "finish",
+        "coverage": 0.7035,
+        "margin": 0.7035
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "~harles Dexter Ward\nNecronomicon\n\nZat/V7 Yeo.\n",
+  "lines": [
+    "~harles Dexter Ward",
+    "Necronomicon",
+    "Zat/V7 Yeo."
+  ],
+  "name": "~harles Dexter Ward",
+  "setter": "Necronomicon",
+  "grade_raw": "Zat/V7 Yeo.",
+  "grade_v": 7,
+  "stars": 3
+}

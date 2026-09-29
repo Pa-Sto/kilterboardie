@@ -1,0 +1,121 @@
+{
+  "filename": "kilter_image999.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 5
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 34,
+        "role": "foot",
+        "coverage": 0.7008,
+        "margin": 0.7008
+      },
+      {
+        "hold_id": 78,
+        "role": "foot",
+        "coverage": 0.5481,
+        "margin": 0.5481
+      },
+      {
+        "hold_id": 119,
+        "role": "start",
+        "coverage": 0.6177,
+        "margin": 0.6177
+      },
+      {
+        "hold_id": 125,
+        "role": "start",
+        "coverage": 0.6815,
+        "margin": 0.6815
+      },
+      {
+        "hold_id": 173,
+        "role": "foot",
+        "coverage": 0.7008,
+        "margin": 0.7008
+      },
+      {
+        "hold_id": 182,
+        "role": "foot",
+        "coverage": 0.6935,
+        "margin": 0.6935
+      },
+      {
+        "hold_id": 233,
+        "role": "hand",
+        "coverage": 0.6506,
+        "margin": 0.6506
+      },
+      {
+        "hold_id": 253,
+        "role": "hand",
+        "coverage": 0.6192,
+        "margin": 0.6192
+      },
+      {
+        "hold_id": 273,
+        "role": "foot",
+        "coverage": 0.6899,
+        "margin": 0.6899
+      },
+      {
+        "hold_id": 321,
+        "role": "hand",
+        "coverage": 0.6109,
+        "margin": 0.6109
+      },
+      {
+        "hold_id": 355,
+        "role": "hand",
+        "coverage": 0.6532,
+        "margin": 0.6532
+      },
+      {
+        "hold_id": 438,
+        "role": "hand",
+        "coverage": 0.624,
+        "margin": 0.624
+      },
+      {
+        "hold_id": 461,
+        "role": "finish",
+        "coverage": 0.7061,
+        "margin": 0.7061
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Saggy Bottom Boys\nCuckovich\n\n6b/V4 ye yee\n",
+  "lines": [
+    "Saggy Bottom Boys",
+    "Cuckovich",
+    "6b/V4 ye yee"
+  ],
+  "name": "Saggy Bottom Boys",
+  "setter": "Cuckovich",
+  "grade_raw": "6b/V4 ye yee",
+  "grade_v": 4,
+  "stars": 3
+}

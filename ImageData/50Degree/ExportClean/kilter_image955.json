@@ -1,0 +1,109 @@
+{
+  "filename": "kilter_image955.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 2
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 117,
+        "role": "foot",
+        "coverage": 0.5978,
+        "margin": 0.5978
+      },
+      {
+        "hold_id": 202,
+        "role": "start",
+        "coverage": 0.6752,
+        "margin": 0.6752
+      },
+      {
+        "hold_id": 218,
+        "role": "start",
+        "coverage": 0.7014,
+        "margin": 0.7014
+      },
+      {
+        "hold_id": 237,
+        "role": "foot",
+        "coverage": 0.7254,
+        "margin": 0.7254
+      },
+      {
+        "hold_id": 273,
+        "role": "hand",
+        "coverage": 0.6417,
+        "margin": 0.6417
+      },
+      {
+        "hold_id": 305,
+        "role": "hand",
+        "coverage": 0.6381,
+        "margin": 0.6381
+      },
+      {
+        "hold_id": 308,
+        "role": "hand",
+        "coverage": 0.6642,
+        "margin": 0.6642
+      },
+      {
+        "hold_id": 353,
+        "role": "hand",
+        "coverage": 0.6579,
+        "margin": 0.6579
+      },
+      {
+        "hold_id": 411,
+        "role": "hand",
+        "coverage": 0.6485,
+        "margin": 0.6485
+      },
+      {
+        "hold_id": 458,
+        "role": "hand",
+        "coverage": 0.6323,
+        "margin": 0.6323
+      },
+      {
+        "hold_id": 468,
+        "role": "finish",
+        "coverage": 0.7035,
+        "margin": 0.7035
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "20n Indoor Dropknee\nkilterjackie\n\n7a/V6 Ye ee\n",
+  "lines": [
+    "20n Indoor Dropknee",
+    "kilterjackie",
+    "7a/V6 Ye ee"
+  ],
+  "name": "20n Indoor Dropknee",
+  "setter": "kilterjackie",
+  "grade_raw": "7a/V6 Ye ee",
+  "grade_v": 6,
+  "stars": 2
+}

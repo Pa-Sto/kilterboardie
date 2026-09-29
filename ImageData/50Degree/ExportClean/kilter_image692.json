@@ -1,0 +1,103 @@
+{
+  "filename": "kilter_image692.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 3
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 116,
+        "role": "foot",
+        "coverage": 0.5617,
+        "margin": 0.5617
+      },
+      {
+        "hold_id": 192,
+        "role": "foot",
+        "coverage": 0.6344,
+        "margin": 0.6344
+      },
+      {
+        "hold_id": 227,
+        "role": "start",
+        "coverage": 0.6454,
+        "margin": 0.6454
+      },
+      {
+        "hold_id": 253,
+        "role": "start",
+        "coverage": 0.6412,
+        "margin": 0.6412
+      },
+      {
+        "hold_id": 280,
+        "role": "foot",
+        "coverage": 0.7082,
+        "margin": 0.7082
+      },
+      {
+        "hold_id": 303,
+        "role": "hand",
+        "coverage": 0.5962,
+        "margin": 0.5962
+      },
+      {
+        "hold_id": 353,
+        "role": "hand",
+        "coverage": 0.6579,
+        "margin": 0.6579
+      },
+      {
+        "hold_id": 388,
+        "role": "hand",
+        "coverage": 0.6475,
+        "margin": 0.6475
+      },
+      {
+        "hold_id": 456,
+        "role": "hand",
+        "coverage": 0.6485,
+        "margin": 0.6485
+      },
+      {
+        "hold_id": 471,
+        "role": "finish",
+        "coverage": 0.7139,
+        "margin": 0.7139
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "guilty \u201ce\nleedongeun87\n\n6at/V3 Ye oroe\n",
+  "lines": [
+    "guilty \u201ce",
+    "leedongeun87",
+    "6at/V3 Ye oroe"
+  ],
+  "name": "guilty \u201ce",
+  "setter": "leedongeun87",
+  "grade_raw": "6at/V3 Ye oroe",
+  "grade_v": 3,
+  "stars": 4
+}

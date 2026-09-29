@@ -1,0 +1,133 @@
+{
+  "filename": "kilter_image558.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 7
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 31,
+        "role": "foot",
+        "coverage": 0.705,
+        "margin": 0.705
+      },
+      {
+        "hold_id": 83,
+        "role": "foot",
+        "coverage": 0.6077,
+        "margin": 0.6077
+      },
+      {
+        "hold_id": 116,
+        "role": "start",
+        "coverage": 0.5889,
+        "margin": 0.5889
+      },
+      {
+        "hold_id": 117,
+        "role": "start",
+        "coverage": 0.5931,
+        "margin": 0.5931
+      },
+      {
+        "hold_id": 158,
+        "role": "foot",
+        "coverage": 0.5241,
+        "margin": 0.5241
+      },
+      {
+        "hold_id": 185,
+        "role": "foot",
+        "coverage": 0.5983,
+        "margin": 0.5983
+      },
+      {
+        "hold_id": 195,
+        "role": "hand",
+        "coverage": 0.6428,
+        "margin": 0.6428
+      },
+      {
+        "hold_id": 288,
+        "role": "foot",
+        "coverage": 0.5324,
+        "margin": 0.5324
+      },
+      {
+        "hold_id": 296,
+        "role": "hand",
+        "coverage": 0.659,
+        "margin": 0.659
+      },
+      {
+        "hold_id": 349,
+        "role": "hand",
+        "coverage": 0.6135,
+        "margin": 0.5413
+      },
+      {
+        "hold_id": 355,
+        "role": "hand",
+        "coverage": 0.6715,
+        "margin": 0.6564
+      },
+      {
+        "hold_id": 368,
+        "role": "foot",
+        "coverage": 0.6344,
+        "margin": 0.5664
+      },
+      {
+        "hold_id": 371,
+        "role": "foot",
+        "coverage": 0.7186,
+        "margin": 0.7029
+      },
+      {
+        "hold_id": 441,
+        "role": "hand",
+        "coverage": 0.6501,
+        "margin": 0.6501
+      },
+      {
+        "hold_id": 468,
+        "role": "finish",
+        "coverage": 0.7035,
+        "margin": 0.7035
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "the it,s\n9degreesWaterloo\n\n7a/V6 Ye ee\n",
+  "lines": [
+    "the it,s",
+    "9degreesWaterloo",
+    "7a/V6 Ye ee"
+  ],
+  "name": "the it,s",
+  "setter": "9degreesWaterloo",
+  "grade_raw": "7a/V6 Ye ee",
+  "grade_v": 6,
+  "stars": 2
+}

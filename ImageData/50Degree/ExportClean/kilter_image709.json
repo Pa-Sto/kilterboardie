@@ -1,0 +1,97 @@
+{
+  "filename": "kilter_image709.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 5,
+    "foot": 2
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 7,
+        "role": "foot",
+        "coverage": 0.6287,
+        "margin": 0.6287
+      },
+      {
+        "hold_id": 138,
+        "role": "foot",
+        "coverage": 0.7197,
+        "margin": 0.7197
+      },
+      {
+        "hold_id": 145,
+        "role": "hand",
+        "coverage": 0.636,
+        "margin": 0.636
+      },
+      {
+        "hold_id": 148,
+        "role": "start",
+        "coverage": 0.5465,
+        "margin": 0.5465
+      },
+      {
+        "hold_id": 225,
+        "role": "hand",
+        "coverage": 0.6308,
+        "margin": 0.6308
+      },
+      {
+        "hold_id": 333,
+        "role": "hand",
+        "coverage": 0.6475,
+        "margin": 0.6475
+      },
+      {
+        "hold_id": 349,
+        "role": "hand",
+        "coverage": 0.6459,
+        "margin": 0.6459
+      },
+      {
+        "hold_id": 428,
+        "role": "hand",
+        "coverage": 0.6496,
+        "margin": 0.6496
+      },
+      {
+        "hold_id": 471,
+        "role": "finish",
+        "coverage": 0.7139,
+        "margin": 0.7139
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "lab work\ntrendyrendy\n\n7c/V9 Ye vee\n",
+  "lines": [
+    "lab work",
+    "trendyrendy",
+    "7c/V9 Ye vee"
+  ],
+  "name": "lab work",
+  "setter": "trendyrendy",
+  "grade_raw": "7c/V9 Ye vee",
+  "grade_v": 9,
+  "stars": 3
+}

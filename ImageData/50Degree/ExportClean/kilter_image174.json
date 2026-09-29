@@ -1,0 +1,115 @@
+{
+  "filename": "kilter_image174.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 5
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 20,
+        "role": "foot",
+        "coverage": 0.7035,
+        "margin": 0.7035
+      },
+      {
+        "hold_id": 88,
+        "role": "foot",
+        "coverage": 0.6339,
+        "margin": 0.6339
+      },
+      {
+        "hold_id": 161,
+        "role": "foot",
+        "coverage": 0.499,
+        "margin": 0.4603
+      },
+      {
+        "hold_id": 166,
+        "role": "start",
+        "coverage": 0.568,
+        "margin": 0.4979
+      },
+      {
+        "hold_id": 195,
+        "role": "start",
+        "coverage": 0.6689,
+        "margin": 0.6689
+      },
+      {
+        "hold_id": 208,
+        "role": "foot",
+        "coverage": 0.5884,
+        "margin": 0.5884
+      },
+      {
+        "hold_id": 287,
+        "role": "foot",
+        "coverage": 0.5256,
+        "margin": 0.5256
+      },
+      {
+        "hold_id": 308,
+        "role": "hand",
+        "coverage": 0.6355,
+        "margin": 0.6355
+      },
+      {
+        "hold_id": 328,
+        "role": "hand",
+        "coverage": 0.6585,
+        "margin": 0.6585
+      },
+      {
+        "hold_id": 357,
+        "role": "hand",
+        "coverage": 0.6543,
+        "margin": 0.6543
+      },
+      {
+        "hold_id": 413,
+        "role": "hand",
+        "coverage": 0.6538,
+        "margin": 0.6538
+      },
+      {
+        "hold_id": 469,
+        "role": "finish",
+        "coverage": 0.6987,
+        "margin": 0.6987
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Stillborn\nHamiter\n\n7a/V6 Ye ee\n",
+  "lines": [
+    "Stillborn",
+    "Hamiter",
+    "7a/V6 Ye ee"
+  ],
+  "name": "Stillborn",
+  "setter": "Hamiter",
+  "grade_raw": "7a/V6 Ye ee",
+  "grade_v": 6,
+  "stars": 2
+}

@@ -1,0 +1,91 @@
+{
+  "filename": "kilter_image595.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 3,
+    "foot": 2
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 90,
+        "role": "foot",
+        "coverage": 0.67,
+        "margin": 0.67
+      },
+      {
+        "hold_id": 191,
+        "role": "start",
+        "coverage": 0.6747,
+        "margin": 0.6747
+      },
+      {
+        "hold_id": 218,
+        "role": "start",
+        "coverage": 0.6585,
+        "margin": 0.6585
+      },
+      {
+        "hold_id": 237,
+        "role": "foot",
+        "coverage": 0.7254,
+        "margin": 0.7254
+      },
+      {
+        "hold_id": 297,
+        "role": "hand",
+        "coverage": 0.6506,
+        "margin": 0.6506
+      },
+      {
+        "hold_id": 305,
+        "role": "hand",
+        "coverage": 0.6344,
+        "margin": 0.6344
+      },
+      {
+        "hold_id": 380,
+        "role": "hand",
+        "coverage": 0.648,
+        "margin": 0.648
+      },
+      {
+        "hold_id": 446,
+        "role": "finish",
+        "coverage": 0.6674,
+        "margin": 0.6674
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "ashioned Hurgusbu!\nJaeden\n\n7b/V8 Ye ee\n",
+  "lines": [
+    "ashioned Hurgusbu!",
+    "Jaeden",
+    "7b/V8 Ye ee"
+  ],
+  "name": "ashioned Hurgusbu!",
+  "setter": "Jaeden",
+  "grade_raw": "7b/V8 Ye ee",
+  "grade_v": 8,
+  "stars": 2
+}

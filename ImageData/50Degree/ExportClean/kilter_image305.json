@@ -1,0 +1,133 @@
+{
+  "filename": "kilter_image305.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 6
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 66,
+        "role": "foot",
+        "coverage": 0.6156,
+        "margin": 0.6156
+      },
+      {
+        "hold_id": 70,
+        "role": "foot",
+        "coverage": 0.7108,
+        "margin": 0.7108
+      },
+      {
+        "hold_id": 83,
+        "role": "foot",
+        "coverage": 0.6391,
+        "margin": 0.6391
+      },
+      {
+        "hold_id": 142,
+        "role": "foot",
+        "coverage": 0.5947,
+        "margin": 0.5947
+      },
+      {
+        "hold_id": 172,
+        "role": "hand",
+        "coverage": 0.5654,
+        "margin": 0.5654
+      },
+      {
+        "hold_id": 176,
+        "role": "start",
+        "coverage": 0.6512,
+        "margin": 0.6512
+      },
+      {
+        "hold_id": 182,
+        "role": "foot",
+        "coverage": 0.6935,
+        "margin": 0.6935
+      },
+      {
+        "hold_id": 225,
+        "role": "start",
+        "coverage": 0.6595,
+        "margin": 0.6595
+      },
+      {
+        "hold_id": 272,
+        "role": "hand",
+        "coverage": 0.6119,
+        "margin": 0.6119
+      },
+      {
+        "hold_id": 286,
+        "role": "foot",
+        "coverage": 0.5016,
+        "margin": 0.5016
+      },
+      {
+        "hold_id": 323,
+        "role": "hand",
+        "coverage": 0.625,
+        "margin": 0.625
+      },
+      {
+        "hold_id": 359,
+        "role": "hand",
+        "coverage": 0.6512,
+        "margin": 0.6512
+      },
+      {
+        "hold_id": 412,
+        "role": "hand",
+        "coverage": 0.6506,
+        "margin": 0.6506
+      },
+      {
+        "hold_id": 426,
+        "role": "hand",
+        "coverage": 0.637,
+        "margin": 0.637
+      },
+      {
+        "hold_id": 462,
+        "role": "finish",
+        "coverage": 0.6878,
+        "margin": 0.6878
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "unknown #46\nspalermo\n\n7a/V6 Ye ee\n",
+  "lines": [
+    "unknown #46",
+    "spalermo",
+    "7a/V6 Ye ee"
+  ],
+  "name": "unknown #46",
+  "setter": "spalermo",
+  "grade_raw": "7a/V6 Ye ee",
+  "grade_v": 6,
+  "stars": 2
+}

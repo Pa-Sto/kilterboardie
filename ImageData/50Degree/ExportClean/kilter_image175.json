@@ -1,0 +1,133 @@
+{
+  "filename": "kilter_image175.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 6
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 9,
+        "role": "foot",
+        "coverage": 0.6449,
+        "margin": 0.6449
+      },
+      {
+        "hold_id": 71,
+        "role": "start",
+        "coverage": 0.5952,
+        "margin": 0.5952
+      },
+      {
+        "hold_id": 130,
+        "role": "foot",
+        "coverage": 0.5504,
+        "margin": 0.5504
+      },
+      {
+        "hold_id": 135,
+        "role": "foot",
+        "coverage": 0.5968,
+        "margin": 0.5968
+      },
+      {
+        "hold_id": 165,
+        "role": "start",
+        "coverage": 0.6464,
+        "margin": 0.6464
+      },
+      {
+        "hold_id": 187,
+        "role": "foot",
+        "coverage": 0.6863,
+        "margin": 0.6863
+      },
+      {
+        "hold_id": 229,
+        "role": "hand",
+        "coverage": 0.6459,
+        "margin": 0.6459
+      },
+      {
+        "hold_id": 242,
+        "role": "foot",
+        "coverage": 0.6823,
+        "margin": 0.6823
+      },
+      {
+        "hold_id": 259,
+        "role": "hand",
+        "coverage": 0.6355,
+        "margin": 0.6355
+      },
+      {
+        "hold_id": 262,
+        "role": "foot",
+        "coverage": 0.5988,
+        "margin": 0.5988
+      },
+      {
+        "hold_id": 340,
+        "role": "hand",
+        "coverage": 0.4147,
+        "margin": 0.4147
+      },
+      {
+        "hold_id": 383,
+        "role": "hand",
+        "coverage": 0.6485,
+        "margin": 0.6485
+      },
+      {
+        "hold_id": 389,
+        "role": "hand",
+        "coverage": 0.6454,
+        "margin": 0.6454
+      },
+      {
+        "hold_id": 452,
+        "role": "hand",
+        "coverage": 0.6328,
+        "margin": 0.6328
+      },
+      {
+        "hold_id": 463,
+        "role": "finish",
+        "coverage": 0.6998,
+        "margin": 0.6998
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "JW 2\njwebxl\n\n8at/V12 Yroe ve\n",
+  "lines": [
+    "JW 2",
+    "jwebxl",
+    "8at/V12 Yroe ve"
+  ],
+  "name": "JW 2",
+  "setter": "jwebxl",
+  "grade_raw": "8at/V12 Yroe ve",
+  "grade_v": 12,
+  "stars": 2
+}

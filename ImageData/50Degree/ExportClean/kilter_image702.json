@@ -1,0 +1,127 @@
+{
+  "filename": "kilter_image702.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 5
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 10,
+        "role": "foot",
+        "coverage": 0.5497,
+        "margin": 0.5497
+      },
+      {
+        "hold_id": 87,
+        "role": "start",
+        "coverage": 0.6098,
+        "margin": 0.6098
+      },
+      {
+        "hold_id": 113,
+        "role": "foot",
+        "coverage": 0.6485,
+        "margin": 0.6485
+      },
+      {
+        "hold_id": 155,
+        "role": "start",
+        "coverage": 0.6773,
+        "margin": 0.6773
+      },
+      {
+        "hold_id": 196,
+        "role": "foot",
+        "coverage": 0.7118,
+        "margin": 0.7118
+      },
+      {
+        "hold_id": 199,
+        "role": "hand",
+        "coverage": 0.6407,
+        "margin": 0.6407
+      },
+      {
+        "hold_id": 234,
+        "role": "foot",
+        "coverage": 0.5471,
+        "margin": 0.5471
+      },
+      {
+        "hold_id": 247,
+        "role": "hand",
+        "coverage": 0.6119,
+        "margin": 0.6119
+      },
+      {
+        "hold_id": 255,
+        "role": "hand",
+        "coverage": 0.6438,
+        "margin": 0.6438
+      },
+      {
+        "hold_id": 264,
+        "role": "foot",
+        "coverage": 0.5158,
+        "margin": 0.5158
+      },
+      {
+        "hold_id": 309,
+        "role": "hand",
+        "coverage": 0.637,
+        "margin": 0.637
+      },
+      {
+        "hold_id": 359,
+        "role": "hand",
+        "coverage": 0.6512,
+        "margin": 0.6512
+      },
+      {
+        "hold_id": 360,
+        "role": "hand",
+        "coverage": 0.6475,
+        "margin": 0.6475
+      },
+      {
+        "hold_id": 462,
+        "role": "finish",
+        "coverage": 0.6878,
+        "margin": 0.6878
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "coming up roses\nmondragon\n\n7a/V6 Ye ee\n",
+  "lines": [
+    "coming up roses",
+    "mondragon",
+    "7a/V6 Ye ee"
+  ],
+  "name": "coming up roses",
+  "setter": "mondragon",
+  "grade_raw": "7a/V6 Ye ee",
+  "grade_v": 6,
+  "stars": 2
+}

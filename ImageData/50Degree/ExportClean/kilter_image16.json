@@ -1,0 +1,109 @@
+{
+  "filename": "kilter_image16.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 3
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 39,
+        "role": "foot",
+        "coverage": 0.6323,
+        "margin": 0.6323
+      },
+      {
+        "hold_id": 125,
+        "role": "start",
+        "coverage": 0.6815,
+        "margin": 0.6815
+      },
+      {
+        "hold_id": 144,
+        "role": "foot",
+        "coverage": 0.7108,
+        "margin": 0.7108
+      },
+      {
+        "hold_id": 168,
+        "role": "start",
+        "coverage": 0.5968,
+        "margin": 0.5968
+      },
+      {
+        "hold_id": 195,
+        "role": "foot",
+        "coverage": 0.6899,
+        "margin": 0.6899
+      },
+      {
+        "hold_id": 224,
+        "role": "hand",
+        "coverage": 0.6229,
+        "margin": 0.6229
+      },
+      {
+        "hold_id": 276,
+        "role": "hand",
+        "coverage": 0.6496,
+        "margin": 0.6496
+      },
+      {
+        "hold_id": 386,
+        "role": "hand",
+        "coverage": 0.6454,
+        "margin": 0.6454
+      },
+      {
+        "hold_id": 445,
+        "role": "hand",
+        "coverage": 0.6234,
+        "margin": 0.6234
+      },
+      {
+        "hold_id": 471,
+        "role": "hand",
+        "coverage": 0.6522,
+        "margin": 0.6522
+      },
+      {
+        "hold_id": 473,
+        "role": "finish",
+        "coverage": 0.7024,
+        "margin": 0.7024
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "360X360\nRavioliTriceps\n\n\u00ae& 8at+/V12 ye oe oe\n",
+  "lines": [
+    "360X360",
+    "RavioliTriceps",
+    "\u00ae& 8at+/V12 ye oe oe"
+  ],
+  "name": "360X360",
+  "setter": "RavioliTriceps",
+  "grade_raw": "\u00ae& 8at+/V12 ye oe oe",
+  "grade_v": 12,
+  "stars": 2
+}

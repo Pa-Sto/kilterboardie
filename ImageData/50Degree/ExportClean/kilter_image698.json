@@ -1,0 +1,109 @@
+{
+  "filename": "kilter_image698.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 5,
+    "foot": 4
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 7,
+        "role": "foot",
+        "coverage": 0.6287,
+        "margin": 0.6287
+      },
+      {
+        "hold_id": 108,
+        "role": "foot",
+        "coverage": 0.6281,
+        "margin": 0.6281
+      },
+      {
+        "hold_id": 141,
+        "role": "start",
+        "coverage": 0.6051,
+        "margin": 0.6051
+      },
+      {
+        "hold_id": 209,
+        "role": "foot",
+        "coverage": 0.7333,
+        "margin": 0.7333
+      },
+      {
+        "hold_id": 225,
+        "role": "hand",
+        "coverage": 0.6308,
+        "margin": 0.6308
+      },
+      {
+        "hold_id": 270,
+        "role": "hand",
+        "coverage": 0.6459,
+        "margin": 0.6459
+      },
+      {
+        "hold_id": 297,
+        "role": "hand",
+        "coverage": 0.6841,
+        "margin": 0.6841
+      },
+      {
+        "hold_id": 346,
+        "role": "foot",
+        "coverage": 0.7055,
+        "margin": 0.7055
+      },
+      {
+        "hold_id": 354,
+        "role": "hand",
+        "coverage": 0.6485,
+        "margin": 0.6485
+      },
+      {
+        "hold_id": 427,
+        "role": "hand",
+        "coverage": 0.637,
+        "margin": 0.637
+      },
+      {
+        "hold_id": 474,
+        "role": "finish",
+        "coverage": 0.7207,
+        "margin": 0.7207
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Basilisk\njp.gend\n\n6c/V5 eee\n",
+  "lines": [
+    "Basilisk",
+    "jp.gend",
+    "6c/V5 eee"
+  ],
+  "name": "Basilisk",
+  "setter": "jp.gend",
+  "grade_raw": "6c/V5 eee",
+  "grade_v": 5,
+  "stars": 3
+}

@@ -1,0 +1,91 @@
+{
+  "filename": "kilter_image674.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 2,
+    "foot": 4
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 5,
+        "role": "foot",
+        "coverage": 0.5805,
+        "margin": 0.5805
+      },
+      {
+        "hold_id": 11,
+        "role": "foot",
+        "coverage": 0.6689,
+        "margin": 0.6689
+      },
+      {
+        "hold_id": 59,
+        "role": "foot",
+        "coverage": 0.6334,
+        "margin": 0.6334
+      },
+      {
+        "hold_id": 120,
+        "role": "start",
+        "coverage": 0.5643,
+        "margin": 0.5643
+      },
+      {
+        "hold_id": 210,
+        "role": "foot",
+        "coverage": 0.7275,
+        "margin": 0.7275
+      },
+      {
+        "hold_id": 243,
+        "role": "hand",
+        "coverage": 0.6255,
+        "margin": 0.6255
+      },
+      {
+        "hold_id": 355,
+        "role": "hand",
+        "coverage": 0.6532,
+        "margin": 0.6532
+      },
+      {
+        "hold_id": 461,
+        "role": "finish",
+        "coverage": 0.7061,
+        "margin": 0.7061
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Linus #1\nlinus\n\nZat/V7 Yeo.\n",
+  "lines": [
+    "Linus #1",
+    "linus",
+    "Zat/V7 Yeo."
+  ],
+  "name": "Linus #1",
+  "setter": "linus",
+  "grade_raw": "Zat/V7 Yeo.",
+  "grade_v": 7,
+  "stars": 3
+}

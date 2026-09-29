@@ -1,0 +1,157 @@
+{
+  "filename": "kilter_image126.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 10
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 13,
+        "role": "foot",
+        "coverage": 0.7055,
+        "margin": 0.7055
+      },
+      {
+        "hold_id": 31,
+        "role": "foot",
+        "coverage": 0.705,
+        "margin": 0.705
+      },
+      {
+        "hold_id": 42,
+        "role": "foot",
+        "coverage": 0.7092,
+        "margin": 0.7092
+      },
+      {
+        "hold_id": 89,
+        "role": "foot",
+        "coverage": 0.6663,
+        "margin": 0.6663
+      },
+      {
+        "hold_id": 121,
+        "role": "foot",
+        "coverage": 0.7024,
+        "margin": 0.7024
+      },
+      {
+        "hold_id": 145,
+        "role": "start",
+        "coverage": 0.5905,
+        "margin": 0.5005
+      },
+      {
+        "hold_id": 154,
+        "role": "foot",
+        "coverage": 0.6773,
+        "margin": 0.6496
+      },
+      {
+        "hold_id": 190,
+        "role": "foot",
+        "coverage": 0.6177,
+        "margin": 0.6177
+      },
+      {
+        "hold_id": 201,
+        "role": "start",
+        "coverage": 0.6862,
+        "margin": 0.6862
+      },
+      {
+        "hold_id": 215,
+        "role": "foot",
+        "coverage": 0.7505,
+        "margin": 0.7505
+      },
+      {
+        "hold_id": 249,
+        "role": "hand",
+        "coverage": 0.6182,
+        "margin": 0.6182
+      },
+      {
+        "hold_id": 264,
+        "role": "foot",
+        "coverage": 0.5158,
+        "margin": 0.5158
+      },
+      {
+        "hold_id": 276,
+        "role": "hand",
+        "coverage": 0.6475,
+        "margin": 0.6255
+      },
+      {
+        "hold_id": 277,
+        "role": "hand",
+        "coverage": 0.6527,
+        "margin": 0.6527
+      },
+      {
+        "hold_id": 278,
+        "role": "foot",
+        "coverage": 0.6135,
+        "margin": 0.5267
+      },
+      {
+        "hold_id": 356,
+        "role": "hand",
+        "coverage": 0.6532,
+        "margin": 0.6532
+      },
+      {
+        "hold_id": 408,
+        "role": "hand",
+        "coverage": 0.6485,
+        "margin": 0.6485
+      },
+      {
+        "hold_id": 439,
+        "role": "hand",
+        "coverage": 0.647,
+        "margin": 0.647
+      },
+      {
+        "hold_id": 463,
+        "role": "finish",
+        "coverage": 0.6998,
+        "margin": 0.6998
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Dad Dancing 6a+\nEpicBeast\n\n\u00ae 6at/V3 9k oe\n",
+  "lines": [
+    "Dad Dancing 6a+",
+    "EpicBeast",
+    "\u00ae 6at/V3 9k oe"
+  ],
+  "name": "Dad Dancing 6a+",
+  "setter": "EpicBeast",
+  "grade_raw": "\u00ae 6at/V3 9k oe",
+  "grade_v": 3,
+  "stars": 2
+}

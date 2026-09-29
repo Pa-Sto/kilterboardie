@@ -1,0 +1,91 @@
+{
+  "filename": "kilter_image222.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 2,
+    "foot": 3
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 55,
+        "role": "foot",
+        "coverage": 0.6412,
+        "margin": 0.6412
+      },
+      {
+        "hold_id": 66,
+        "role": "foot",
+        "coverage": 0.5805,
+        "margin": 0.5805
+      },
+      {
+        "hold_id": 145,
+        "role": "start",
+        "coverage": 0.6632,
+        "margin": 0.6632
+      },
+      {
+        "hold_id": 177,
+        "role": "start",
+        "coverage": 0.5973,
+        "margin": 0.5973
+      },
+      {
+        "hold_id": 235,
+        "role": "foot",
+        "coverage": 0.5853,
+        "margin": 0.5853
+      },
+      {
+        "hold_id": 273,
+        "role": "hand",
+        "coverage": 0.6417,
+        "margin": 0.6417
+      },
+      {
+        "hold_id": 360,
+        "role": "hand",
+        "coverage": 0.6475,
+        "margin": 0.6475
+      },
+      {
+        "hold_id": 462,
+        "role": "finish",
+        "coverage": 0.6878,
+        "margin": 0.6878
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "floundering time\npaulnagy\n\n\u00ae& 7b+/V8 yk ke oe\n",
+  "lines": [
+    "floundering time",
+    "paulnagy",
+    "\u00ae& 7b+/V8 yk ke oe"
+  ],
+  "name": "floundering time",
+  "setter": "paulnagy",
+  "grade_raw": "\u00ae& 7b+/V8 yk ke oe",
+  "grade_v": 8,
+  "stars": 2
+}

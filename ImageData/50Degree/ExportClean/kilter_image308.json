@@ -1,0 +1,97 @@
+{
+  "filename": "kilter_image308.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 1
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 141,
+        "role": "start",
+        "coverage": 0.6051,
+        "margin": 0.6051
+      },
+      {
+        "hold_id": 200,
+        "role": "foot",
+        "coverage": 0.67,
+        "margin": 0.67
+      },
+      {
+        "hold_id": 205,
+        "role": "start",
+        "coverage": 0.6721,
+        "margin": 0.6721
+      },
+      {
+        "hold_id": 275,
+        "role": "hand",
+        "coverage": 0.636,
+        "margin": 0.636
+      },
+      {
+        "hold_id": 354,
+        "role": "hand",
+        "coverage": 0.6485,
+        "margin": 0.6485
+      },
+      {
+        "hold_id": 355,
+        "role": "hand",
+        "coverage": 0.6532,
+        "margin": 0.6532
+      },
+      {
+        "hold_id": 385,
+        "role": "hand",
+        "coverage": 0.6454,
+        "margin": 0.6454
+      },
+      {
+        "hold_id": 451,
+        "role": "hand",
+        "coverage": 0.6276,
+        "margin": 0.6276
+      },
+      {
+        "hold_id": 473,
+        "role": "finish",
+        "coverage": 0.7024,
+        "margin": 0.7024
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "bph26\nbrianharrington\n\nZat/V7 Yeo.\n",
+  "lines": [
+    "bph26",
+    "brianharrington",
+    "Zat/V7 Yeo."
+  ],
+  "name": "bph26",
+  "setter": "brianharrington",
+  "grade_raw": "Zat/V7 Yeo.",
+  "grade_v": 7,
+  "stars": 3
+}

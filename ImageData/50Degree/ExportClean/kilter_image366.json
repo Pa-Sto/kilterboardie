@@ -1,0 +1,97 @@
+{
+  "filename": "kilter_image366.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 2
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 53,
+        "role": "foot",
+        "coverage": 0.6804,
+        "margin": 0.6804
+      },
+      {
+        "hold_id": 171,
+        "role": "start",
+        "coverage": 0.613,
+        "margin": 0.613
+      },
+      {
+        "hold_id": 195,
+        "role": "start",
+        "coverage": 0.6689,
+        "margin": 0.6689
+      },
+      {
+        "hold_id": 305,
+        "role": "hand",
+        "coverage": 0.6344,
+        "margin": 0.6344
+      },
+      {
+        "hold_id": 314,
+        "role": "foot",
+        "coverage": 0.5638,
+        "margin": 0.5319
+      },
+      {
+        "hold_id": 323,
+        "role": "hand",
+        "coverage": 0.625,
+        "margin": 0.625
+      },
+      {
+        "hold_id": 331,
+        "role": "hand",
+        "coverage": 0.5936,
+        "margin": 0.5267
+      },
+      {
+        "hold_id": 432,
+        "role": "hand",
+        "coverage": 0.602,
+        "margin": 0.602
+      },
+      {
+        "hold_id": 468,
+        "role": "finish",
+        "coverage": 0.7035,
+        "margin": 0.7035
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Moon pie\njwebxl\n\n6c/V5 eee\n",
+  "lines": [
+    "Moon pie",
+    "jwebxl",
+    "6c/V5 eee"
+  ],
+  "name": "Moon pie",
+  "setter": "jwebxl",
+  "grade_raw": "6c/V5 eee",
+  "grade_v": 5,
+  "stars": 3
+}

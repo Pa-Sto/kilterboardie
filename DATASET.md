@@ -99,8 +99,10 @@ Legend:
 
 - The grid is derived from the detected hold centers stored in `ImageData/References/holds.json`.
 - `hold_size` is normalized by the maximum hold area in the board so values are in `[0, 1]`.
-- The sample metadata in `ImageData/50Degree/ExportPreview/*.json` reflects the same `rows`, `cols`, and `channels` used for export.
-- The exported dataset lives in `ImageData/50Degree/Export/` as paired `.npy` and `.json` files.
+- The canonical dataset lives in `ImageData/50Degree/ExportClean/` as 1,000 paired `.npy` and `.json` files.
+- The 30,000 source screenshots contain 30 captures of the same 1,000 route slots; they are not 30,000 independent training examples.
+- Colored rings are classified at calibrated hold centers using a 25-35 pixel annulus. Argmax role assignment prevents one hold from appearing in multiple route channels.
+- `ImageData/50Degree/ExportClean/dataset_audit.json` records route-count constraints, grade counts, role-count histograms, and unique matrix counts.
 - Dataset for now consists only of 50° climbs, which are established and `6a / V3` or higher.
 
 ## Model Usage
@@ -112,11 +114,11 @@ Current training scripts use this split:
 
 ## Grade Distribution Statistics
 
-Source: `ImageData/grade_distribution_45_50.csv`
+Historical source screenshot distribution (including repeated captures).
 
 Format: `V grade/French grade` (example: `V3/6a`).
 
-Total routes: **45° = 32813**, **50° = 30000**
+Source screenshot files: **45° = 32813**, **50° = 30000**. The 50° counts below include the 30 repeated capture passes; the cleaned training set contains 1,000 canonical routes with the same percentages.
 
 | Grade | 45° Count | 45° Percent | 50° Count | 50° Percent |
 |---|---:|---:|---:|---:|

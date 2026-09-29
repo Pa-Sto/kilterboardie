@@ -1,0 +1,127 @@
+{
+  "filename": "kilter_image450.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 6
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 6,
+        "role": "foot",
+        "coverage": 0.659,
+        "margin": 0.659
+      },
+      {
+        "hold_id": 19,
+        "role": "foot",
+        "coverage": 0.7087,
+        "margin": 0.7087
+      },
+      {
+        "hold_id": 42,
+        "role": "foot",
+        "coverage": 0.7092,
+        "margin": 0.7092
+      },
+      {
+        "hold_id": 53,
+        "role": "foot",
+        "coverage": 0.6804,
+        "margin": 0.6804
+      },
+      {
+        "hold_id": 142,
+        "role": "foot",
+        "coverage": 0.5947,
+        "margin": 0.5947
+      },
+      {
+        "hold_id": 145,
+        "role": "start",
+        "coverage": 0.6904,
+        "margin": 0.6904
+      },
+      {
+        "hold_id": 150,
+        "role": "start",
+        "coverage": 0.6423,
+        "margin": 0.6423
+      },
+      {
+        "hold_id": 224,
+        "role": "hand",
+        "coverage": 0.6255,
+        "margin": 0.6255
+      },
+      {
+        "hold_id": 253,
+        "role": "hand",
+        "coverage": 0.6632,
+        "margin": 0.6632
+      },
+      {
+        "hold_id": 323,
+        "role": "hand",
+        "coverage": 0.625,
+        "margin": 0.625
+      },
+      {
+        "hold_id": 337,
+        "role": "foot",
+        "coverage": 0.7008,
+        "margin": 0.7008
+      },
+      {
+        "hold_id": 382,
+        "role": "hand",
+        "coverage": 0.6506,
+        "margin": 0.6506
+      },
+      {
+        "hold_id": 438,
+        "role": "hand",
+        "coverage": 0.624,
+        "margin": 0.624
+      },
+      {
+        "hold_id": 469,
+        "role": "finish",
+        "coverage": 0.6987,
+        "margin": 0.6987
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Ambitious Fishes\nkilterjackie\n\n6b+/V4 Yeo.\n",
+  "lines": [
+    "Ambitious Fishes",
+    "kilterjackie",
+    "6b+/V4 Yeo."
+  ],
+  "name": "Ambitious Fishes",
+  "setter": "kilterjackie",
+  "grade_raw": "6b+/V4 Yeo.",
+  "grade_v": 4,
+  "stars": 3
+}

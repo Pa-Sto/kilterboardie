@@ -1,0 +1,145 @@
+{
+  "filename": "kilter_image29.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 9
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 6,
+        "role": "foot",
+        "coverage": 0.659,
+        "margin": 0.659
+      },
+      {
+        "hold_id": 11,
+        "role": "foot",
+        "coverage": 0.6689,
+        "margin": 0.6689
+      },
+      {
+        "hold_id": 83,
+        "role": "foot",
+        "coverage": 0.6077,
+        "margin": 0.6077
+      },
+      {
+        "hold_id": 137,
+        "role": "foot",
+        "coverage": 0.7029,
+        "margin": 0.7029
+      },
+      {
+        "hold_id": 142,
+        "role": "foot",
+        "coverage": 0.5947,
+        "margin": 0.5947
+      },
+      {
+        "hold_id": 149,
+        "role": "start",
+        "coverage": 0.6124,
+        "margin": 0.6124
+      },
+      {
+        "hold_id": 163,
+        "role": "foot",
+        "coverage": 0.5983,
+        "margin": 0.5983
+      },
+      {
+        "hold_id": 195,
+        "role": "start",
+        "coverage": 0.6689,
+        "margin": 0.6689
+      },
+      {
+        "hold_id": 208,
+        "role": "foot",
+        "coverage": 0.5884,
+        "margin": 0.5884
+      },
+      {
+        "hold_id": 284,
+        "role": "hand",
+        "coverage": 0.6532,
+        "margin": 0.6532
+      },
+      {
+        "hold_id": 309,
+        "role": "hand",
+        "coverage": 0.637,
+        "margin": 0.637
+      },
+      {
+        "hold_id": 357,
+        "role": "hand",
+        "coverage": 0.5931,
+        "margin": 0.5246
+      },
+      {
+        "hold_id": 367,
+        "role": "foot",
+        "coverage": 0.5638,
+        "margin": 0.5397
+      },
+      {
+        "hold_id": 387,
+        "role": "hand",
+        "coverage": 0.6391,
+        "margin": 0.625
+      },
+      {
+        "hold_id": 391,
+        "role": "foot",
+        "coverage": 0.4566,
+        "margin": 0.3891
+      },
+      {
+        "hold_id": 453,
+        "role": "hand",
+        "coverage": 0.6224,
+        "margin": 0.6224
+      },
+      {
+        "hold_id": 460,
+        "role": "finish",
+        "coverage": 0.6804,
+        "margin": 0.6804
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Grown Up\ntrendyrendy\n\n7b/V8 Ye ee\n",
+  "lines": [
+    "Grown Up",
+    "trendyrendy",
+    "7b/V8 Ye ee"
+  ],
+  "name": "Grown Up",
+  "setter": "trendyrendy",
+  "grade_raw": "7b/V8 Ye ee",
+  "grade_v": 8,
+  "stars": 2
+}

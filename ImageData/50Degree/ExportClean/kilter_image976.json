@@ -1,0 +1,121 @@
+{
+  "filename": "kilter_image976.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 6
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 46,
+        "role": "foot",
+        "coverage": 0.6036,
+        "margin": 0.6036
+      },
+      {
+        "hold_id": 83,
+        "role": "foot",
+        "coverage": 0.6077,
+        "margin": 0.6077
+      },
+      {
+        "hold_id": 128,
+        "role": "start",
+        "coverage": 0.5675,
+        "margin": 0.5675
+      },
+      {
+        "hold_id": 130,
+        "role": "foot",
+        "coverage": 0.5504,
+        "margin": 0.5504
+      },
+      {
+        "hold_id": 131,
+        "role": "foot",
+        "coverage": 0.4869,
+        "margin": 0.4869
+      },
+      {
+        "hold_id": 148,
+        "role": "start",
+        "coverage": 0.6056,
+        "margin": 0.6056
+      },
+      {
+        "hold_id": 233,
+        "role": "hand",
+        "coverage": 0.6506,
+        "margin": 0.6506
+      },
+      {
+        "hold_id": 242,
+        "role": "foot",
+        "coverage": 0.6823,
+        "margin": 0.6823
+      },
+      {
+        "hold_id": 255,
+        "role": "hand",
+        "coverage": 0.6438,
+        "margin": 0.6438
+      },
+      {
+        "hold_id": 317,
+        "role": "foot",
+        "coverage": 0.5282,
+        "margin": 0.5282
+      },
+      {
+        "hold_id": 358,
+        "role": "hand",
+        "coverage": 0.6632,
+        "margin": 0.6632
+      },
+      {
+        "hold_id": 415,
+        "role": "hand",
+        "coverage": 0.6444,
+        "margin": 0.6444
+      },
+      {
+        "hold_id": 465,
+        "role": "finish",
+        "coverage": 0.7082,
+        "margin": 0.7082
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Lost in leri\njwebxl\n\n6b/V4 ye yee\n",
+  "lines": [
+    "Lost in leri",
+    "jwebxl",
+    "6b/V4 ye yee"
+  ],
+  "name": "Lost in leri",
+  "setter": "jwebxl",
+  "grade_raw": "6b/V4 ye yee",
+  "grade_v": 4,
+  "stars": 3
+}

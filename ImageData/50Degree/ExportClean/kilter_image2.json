@@ -1,0 +1,139 @@
+{
+  "filename": "kilter_image2.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 7,
+    "foot": 6
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 83,
+        "role": "foot",
+        "coverage": 0.6077,
+        "margin": 0.6077
+      },
+      {
+        "hold_id": 104,
+        "role": "foot",
+        "coverage": 0.5366,
+        "margin": 0.5366
+      },
+      {
+        "hold_id": 105,
+        "role": "foot",
+        "coverage": 0.6365,
+        "margin": 0.6365
+      },
+      {
+        "hold_id": 150,
+        "role": "start",
+        "coverage": 0.6156,
+        "margin": 0.6156
+      },
+      {
+        "hold_id": 176,
+        "role": "start",
+        "coverage": 0.6961,
+        "margin": 0.6961
+      },
+      {
+        "hold_id": 194,
+        "role": "foot",
+        "coverage": 0.6789,
+        "margin": 0.6789
+      },
+      {
+        "hold_id": 237,
+        "role": "foot",
+        "coverage": 0.7254,
+        "margin": 0.7254
+      },
+      {
+        "hold_id": 252,
+        "role": "hand",
+        "coverage": 0.6496,
+        "margin": 0.6496
+      },
+      {
+        "hold_id": 265,
+        "role": "foot",
+        "coverage": 0.6977,
+        "margin": 0.6977
+      },
+      {
+        "hold_id": 305,
+        "role": "hand",
+        "coverage": 0.6491,
+        "margin": 0.6491
+      },
+      {
+        "hold_id": 324,
+        "role": "hand",
+        "coverage": 0.6663,
+        "margin": 0.6663
+      },
+      {
+        "hold_id": 353,
+        "role": "hand",
+        "coverage": 0.6888,
+        "margin": 0.6888
+      },
+      {
+        "hold_id": 354,
+        "role": "hand",
+        "coverage": 0.6731,
+        "margin": 0.6731
+      },
+      {
+        "hold_id": 446,
+        "role": "hand",
+        "coverage": 0.6219,
+        "margin": 0.6219
+      },
+      {
+        "hold_id": 453,
+        "role": "hand",
+        "coverage": 0.5476,
+        "margin": 0.4895
+      },
+      {
+        "hold_id": 462,
+        "role": "finish",
+        "coverage": 0.6742,
+        "margin": 0.6595
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Check the Rhime\nvukyle\n\nZat/V7 Yeo.\n",
+  "lines": [
+    "Check the Rhime",
+    "vukyle",
+    "Zat/V7 Yeo."
+  ],
+  "name": "Check the Rhime",
+  "setter": "vukyle",
+  "grade_raw": "Zat/V7 Yeo.",
+  "grade_v": 7,
+  "stars": 3
+}

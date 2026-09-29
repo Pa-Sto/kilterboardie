@@ -1,0 +1,115 @@
+{
+  "filename": "kilter_image517.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 4,
+    "foot": 6
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 23,
+        "role": "foot",
+        "coverage": 0.7066,
+        "margin": 0.7066
+      },
+      {
+        "hold_id": 31,
+        "role": "foot",
+        "coverage": 0.705,
+        "margin": 0.705
+      },
+      {
+        "hold_id": 117,
+        "role": "foot",
+        "coverage": 0.5141,
+        "margin": 0.4079
+      },
+      {
+        "hold_id": 120,
+        "role": "start",
+        "coverage": 0.5654,
+        "margin": 0.5607
+      },
+      {
+        "hold_id": 202,
+        "role": "foot",
+        "coverage": 0.6946,
+        "margin": 0.6946
+      },
+      {
+        "hold_id": 249,
+        "role": "hand",
+        "coverage": 0.6182,
+        "margin": 0.6182
+      },
+      {
+        "hold_id": 255,
+        "role": "foot",
+        "coverage": 0.6899,
+        "margin": 0.6899
+      },
+      {
+        "hold_id": 300,
+        "role": "hand",
+        "coverage": 0.6522,
+        "margin": 0.6522
+      },
+      {
+        "hold_id": 354,
+        "role": "hand",
+        "coverage": 0.6485,
+        "margin": 0.6485
+      },
+      {
+        "hold_id": 375,
+        "role": "foot",
+        "coverage": 0.7045,
+        "margin": 0.7045
+      },
+      {
+        "hold_id": 402,
+        "role": "hand",
+        "coverage": 0.6491,
+        "margin": 0.6491
+      },
+      {
+        "hold_id": 475,
+        "role": "finish",
+        "coverage": 0.7097,
+        "margin": 0.7097
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "ouchstone Party V37\nGW_Kilter\n\n6at/V3 Ye oroe\n",
+  "lines": [
+    "ouchstone Party V37",
+    "GW_Kilter",
+    "6at/V3 Ye oroe"
+  ],
+  "name": "ouchstone Party V37",
+  "setter": "GW_Kilter",
+  "grade_raw": "6at/V3 Ye oroe",
+  "grade_v": 3,
+  "stars": 4
+}

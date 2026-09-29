@@ -1,0 +1,109 @@
+{
+  "filename": "kilter_image506.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 4
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 82,
+        "role": "foot",
+        "coverage": 0.6004,
+        "margin": 0.6004
+      },
+      {
+        "hold_id": 83,
+        "role": "foot",
+        "coverage": 0.6077,
+        "margin": 0.6077
+      },
+      {
+        "hold_id": 138,
+        "role": "foot",
+        "coverage": 0.7197,
+        "margin": 0.7197
+      },
+      {
+        "hold_id": 172,
+        "role": "start",
+        "coverage": 0.591,
+        "margin": 0.591
+      },
+      {
+        "hold_id": 198,
+        "role": "start",
+        "coverage": 0.7118,
+        "margin": 0.7118
+      },
+      {
+        "hold_id": 236,
+        "role": "foot",
+        "coverage": 0.5319,
+        "margin": 0.5319
+      },
+      {
+        "hold_id": 252,
+        "role": "hand",
+        "coverage": 0.6496,
+        "margin": 0.6496
+      },
+      {
+        "hold_id": 298,
+        "role": "hand",
+        "coverage": 0.6491,
+        "margin": 0.6491
+      },
+      {
+        "hold_id": 335,
+        "role": "hand",
+        "coverage": 0.6569,
+        "margin": 0.6569
+      },
+      {
+        "hold_id": 452,
+        "role": "hand",
+        "coverage": 0.6328,
+        "margin": 0.6328
+      },
+      {
+        "hold_id": 475,
+        "role": "finish",
+        "coverage": 0.7097,
+        "margin": 0.7097
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "beep 4\njwebxl\n\n8at/V12 Yroe ve\n",
+  "lines": [
+    "beep 4",
+    "jwebxl",
+    "8at/V12 Yroe ve"
+  ],
+  "name": "beep 4",
+  "setter": "jwebxl",
+  "grade_raw": "8at/V12 Yroe ve",
+  "grade_v": 12,
+  "stars": 2
+}

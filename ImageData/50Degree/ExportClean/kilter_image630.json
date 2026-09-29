@@ -1,0 +1,97 @@
+{
+  "filename": "kilter_image630.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 2
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 55,
+        "role": "foot",
+        "coverage": 0.6412,
+        "margin": 0.6412
+      },
+      {
+        "hold_id": 167,
+        "role": "start",
+        "coverage": 0.6517,
+        "margin": 0.6517
+      },
+      {
+        "hold_id": 205,
+        "role": "start",
+        "coverage": 0.7139,
+        "margin": 0.7139
+      },
+      {
+        "hold_id": 250,
+        "role": "foot",
+        "coverage": 0.694,
+        "margin": 0.694
+      },
+      {
+        "hold_id": 272,
+        "role": "hand",
+        "coverage": 0.6119,
+        "margin": 0.6119
+      },
+      {
+        "hold_id": 324,
+        "role": "hand",
+        "coverage": 0.648,
+        "margin": 0.648
+      },
+      {
+        "hold_id": 407,
+        "role": "hand",
+        "coverage": 0.6616,
+        "margin": 0.6616
+      },
+      {
+        "hold_id": 410,
+        "role": "hand",
+        "coverage": 0.6783,
+        "margin": 0.6783
+      },
+      {
+        "hold_id": 444,
+        "role": "finish",
+        "coverage": 0.6883,
+        "margin": 0.6883
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Das Swing Through\neddiehills\n\n& 7b/V8 kek oe\n",
+  "lines": [
+    "Das Swing Through",
+    "eddiehills",
+    "& 7b/V8 kek oe"
+  ],
+  "name": "Das Swing Through",
+  "setter": "eddiehills",
+  "grade_raw": "& 7b/V8 kek oe",
+  "grade_v": 8,
+  "stars": 2
+}

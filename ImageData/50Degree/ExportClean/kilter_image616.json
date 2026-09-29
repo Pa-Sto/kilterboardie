@@ -1,0 +1,115 @@
+{
+  "filename": "kilter_image616.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 6,
+    "foot": 4
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 72,
+        "role": "foot",
+        "coverage": 0.715,
+        "margin": 0.715
+      },
+      {
+        "hold_id": 105,
+        "role": "foot",
+        "coverage": 0.6365,
+        "margin": 0.6365
+      },
+      {
+        "hold_id": 151,
+        "role": "foot",
+        "coverage": 0.682,
+        "margin": 0.682
+      },
+      {
+        "hold_id": 169,
+        "role": "start",
+        "coverage": 0.6067,
+        "margin": 0.5105
+      },
+      {
+        "hold_id": 218,
+        "role": "hand",
+        "coverage": 0.6381,
+        "margin": 0.6381
+      },
+      {
+        "hold_id": 256,
+        "role": "hand",
+        "coverage": 0.6187,
+        "margin": 0.6187
+      },
+      {
+        "hold_id": 324,
+        "role": "hand",
+        "coverage": 0.648,
+        "margin": 0.648
+      },
+      {
+        "hold_id": 354,
+        "role": "hand",
+        "coverage": 0.6485,
+        "margin": 0.6485
+      },
+      {
+        "hold_id": 370,
+        "role": "foot",
+        "coverage": 0.6676,
+        "margin": 0.6676
+      },
+      {
+        "hold_id": 413,
+        "role": "hand",
+        "coverage": 0.6538,
+        "margin": 0.6538
+      },
+      {
+        "hold_id": 455,
+        "role": "hand",
+        "coverage": 0.6438,
+        "margin": 0.6438
+      },
+      {
+        "hold_id": 464,
+        "role": "finish",
+        "coverage": 0.7155,
+        "margin": 0.7155
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Worlds away\nDepresto\n\n& 7c/V9 Ye vee\n",
+  "lines": [
+    "Worlds away",
+    "Depresto",
+    "& 7c/V9 Ye vee"
+  ],
+  "name": "Worlds away",
+  "setter": "Depresto",
+  "grade_raw": "& 7c/V9 Ye vee",
+  "grade_v": 9,
+  "stars": 3
+}

@@ -1,0 +1,127 @@
+{
+  "filename": "kilter_image518.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 5
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 5,
+        "role": "foot",
+        "coverage": 0.5805,
+        "margin": 0.5805
+      },
+      {
+        "hold_id": 26,
+        "role": "foot",
+        "coverage": 0.704,
+        "margin": 0.704
+      },
+      {
+        "hold_id": 40,
+        "role": "foot",
+        "coverage": 0.6998,
+        "margin": 0.6998
+      },
+      {
+        "hold_id": 92,
+        "role": "start",
+        "coverage": 0.6124,
+        "margin": 0.6124
+      },
+      {
+        "hold_id": 126,
+        "role": "start",
+        "coverage": 0.5256,
+        "margin": 0.5256
+      },
+      {
+        "hold_id": 138,
+        "role": "foot",
+        "coverage": 0.7197,
+        "margin": 0.7197
+      },
+      {
+        "hold_id": 176,
+        "role": "hand",
+        "coverage": 0.626,
+        "margin": 0.626
+      },
+      {
+        "hold_id": 199,
+        "role": "hand",
+        "coverage": 0.6831,
+        "margin": 0.6831
+      },
+      {
+        "hold_id": 276,
+        "role": "hand",
+        "coverage": 0.6496,
+        "margin": 0.6496
+      },
+      {
+        "hold_id": 314,
+        "role": "foot",
+        "coverage": 0.5701,
+        "margin": 0.5701
+      },
+      {
+        "hold_id": 349,
+        "role": "hand",
+        "coverage": 0.6752,
+        "margin": 0.6752
+      },
+      {
+        "hold_id": 383,
+        "role": "hand",
+        "coverage": 0.6893,
+        "margin": 0.6893
+      },
+      {
+        "hold_id": 428,
+        "role": "hand",
+        "coverage": 0.6496,
+        "margin": 0.6496
+      },
+      {
+        "hold_id": 471,
+        "role": "finish",
+        "coverage": 0.7139,
+        "margin": 0.7139
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "The over-under\nEnlife\n\n7b+/V8 Yee.\n",
+  "lines": [
+    "The over-under",
+    "Enlife",
+    "7b+/V8 Yee."
+  ],
+  "name": "The over-under",
+  "setter": "Enlife",
+  "grade_raw": "7b+/V8 Yee.",
+  "grade_v": 8,
+  "stars": 3
+}

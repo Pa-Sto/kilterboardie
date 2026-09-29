@@ -1,0 +1,91 @@
+{
+  "filename": "kilter_image896.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 4,
+    "foot": 2
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 88,
+        "role": "foot",
+        "coverage": 0.6339,
+        "margin": 0.6339
+      },
+      {
+        "hold_id": 154,
+        "role": "start",
+        "coverage": 0.6632,
+        "margin": 0.6632
+      },
+      {
+        "hold_id": 230,
+        "role": "hand",
+        "coverage": 0.626,
+        "margin": 0.626
+      },
+      {
+        "hold_id": 278,
+        "role": "hand",
+        "coverage": 0.6412,
+        "margin": 0.6234
+      },
+      {
+        "hold_id": 289,
+        "role": "foot",
+        "coverage": 0.6166,
+        "margin": 0.5492
+      },
+      {
+        "hold_id": 355,
+        "role": "hand",
+        "coverage": 0.6532,
+        "margin": 0.6532
+      },
+      {
+        "hold_id": 458,
+        "role": "hand",
+        "coverage": 0.6323,
+        "margin": 0.6323
+      },
+      {
+        "hold_id": 475,
+        "role": "finish",
+        "coverage": 0.7097,
+        "margin": 0.7097
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "evin and his tension\nKilterStudio\n\n6b+/V4 Yeo.\n",
+  "lines": [
+    "evin and his tension",
+    "KilterStudio",
+    "6b+/V4 Yeo."
+  ],
+  "name": "evin and his tension",
+  "setter": "KilterStudio",
+  "grade_raw": "6b+/V4 Yeo.",
+  "grade_v": 4,
+  "stars": 3
+}

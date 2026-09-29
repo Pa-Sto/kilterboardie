@@ -1,0 +1,109 @@
+{
+  "filename": "kilter_image717.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 6,
+    "foot": 3
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 18,
+        "role": "foot",
+        "coverage": 0.6977,
+        "margin": 0.6977
+      },
+      {
+        "hold_id": 88,
+        "role": "foot",
+        "coverage": 0.6339,
+        "margin": 0.6339
+      },
+      {
+        "hold_id": 141,
+        "role": "start",
+        "coverage": 0.6051,
+        "margin": 0.6051
+      },
+      {
+        "hold_id": 217,
+        "role": "hand",
+        "coverage": 0.6318,
+        "margin": 0.6318
+      },
+      {
+        "hold_id": 240,
+        "role": "foot",
+        "coverage": 0.603,
+        "margin": 0.603
+      },
+      {
+        "hold_id": 270,
+        "role": "hand",
+        "coverage": 0.6407,
+        "margin": 0.6407
+      },
+      {
+        "hold_id": 349,
+        "role": "hand",
+        "coverage": 0.6459,
+        "margin": 0.6459
+      },
+      {
+        "hold_id": 357,
+        "role": "hand",
+        "coverage": 0.6946,
+        "margin": 0.6946
+      },
+      {
+        "hold_id": 378,
+        "role": "hand",
+        "coverage": 0.6831,
+        "margin": 0.6831
+      },
+      {
+        "hold_id": 379,
+        "role": "hand",
+        "coverage": 0.647,
+        "margin": 0.647
+      },
+      {
+        "hold_id": 467,
+        "role": "finish",
+        "coverage": 0.7019,
+        "margin": 0.7019
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Ben's Fav Prob\nKletterbagger3\n\n6b+/V4 Yeo.\n",
+  "lines": [
+    "Ben's Fav Prob",
+    "Kletterbagger3",
+    "6b+/V4 Yeo."
+  ],
+  "name": "Ben's Fav Prob",
+  "setter": "Kletterbagger3",
+  "grade_raw": "6b+/V4 Yeo.",
+  "grade_v": 4,
+  "stars": 3
+}

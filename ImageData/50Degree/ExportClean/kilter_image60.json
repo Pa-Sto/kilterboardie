@@ -1,0 +1,91 @@
+{
+  "filename": "kilter_image60.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 0
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 243,
+        "role": "hand",
+        "coverage": 0.6255,
+        "margin": 0.6255
+      },
+      {
+        "hold_id": 269,
+        "role": "hand",
+        "coverage": 0.6292,
+        "margin": 0.6292
+      },
+      {
+        "hold_id": 295,
+        "role": "hand",
+        "coverage": 0.636,
+        "margin": 0.636
+      },
+      {
+        "hold_id": 326,
+        "role": "start",
+        "coverage": 0.6972,
+        "margin": 0.6972
+      },
+      {
+        "hold_id": 330,
+        "role": "start",
+        "coverage": 0.7207,
+        "margin": 0.7207
+      },
+      {
+        "hold_id": 375,
+        "role": "hand",
+        "coverage": 0.6454,
+        "margin": 0.6454
+      },
+      {
+        "hold_id": 427,
+        "role": "hand",
+        "coverage": 0.637,
+        "margin": 0.637
+      },
+      {
+        "hold_id": 469,
+        "role": "finish",
+        "coverage": 0.6987,
+        "margin": 0.6987
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Rocampus\nSharma_Climbing_BCN\n\n\u00ae& 8at+/V12 ye oe oe\n",
+  "lines": [
+    "Rocampus",
+    "Sharma_Climbing_BCN",
+    "\u00ae& 8at+/V12 ye oe oe"
+  ],
+  "name": "Rocampus",
+  "setter": "Sharma_Climbing_BCN",
+  "grade_raw": "\u00ae& 8at+/V12 ye oe oe",
+  "grade_v": 12,
+  "stars": 2
+}

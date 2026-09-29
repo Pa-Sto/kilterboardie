@@ -1,0 +1,115 @@
+{
+  "filename": "kilter_image851.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 5
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 23,
+        "role": "foot",
+        "coverage": 0.7066,
+        "margin": 0.7066
+      },
+      {
+        "hold_id": 27,
+        "role": "foot",
+        "coverage": 0.7045,
+        "margin": 0.7045
+      },
+      {
+        "hold_id": 109,
+        "role": "foot",
+        "coverage": 0.7108,
+        "margin": 0.7108
+      },
+      {
+        "hold_id": 145,
+        "role": "start",
+        "coverage": 0.6632,
+        "margin": 0.6632
+      },
+      {
+        "hold_id": 149,
+        "role": "start",
+        "coverage": 0.6124,
+        "margin": 0.6124
+      },
+      {
+        "hold_id": 192,
+        "role": "foot",
+        "coverage": 0.6344,
+        "margin": 0.6344
+      },
+      {
+        "hold_id": 202,
+        "role": "foot",
+        "coverage": 0.6946,
+        "margin": 0.6946
+      },
+      {
+        "hold_id": 256,
+        "role": "hand",
+        "coverage": 0.6187,
+        "margin": 0.6187
+      },
+      {
+        "hold_id": 284,
+        "role": "hand",
+        "coverage": 0.6532,
+        "margin": 0.6532
+      },
+      {
+        "hold_id": 336,
+        "role": "hand",
+        "coverage": 0.6266,
+        "margin": 0.6266
+      },
+      {
+        "hold_id": 399,
+        "role": "hand",
+        "coverage": 0.6438,
+        "margin": 0.6438
+      },
+      {
+        "hold_id": 465,
+        "role": "finish",
+        "coverage": 0.7082,
+        "margin": 0.7082
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Skidmark\ntrendyrendy\n\n7b+/V8 Yee.\n",
+  "lines": [
+    "Skidmark",
+    "trendyrendy",
+    "7b+/V8 Yee."
+  ],
+  "name": "Skidmark",
+  "setter": "trendyrendy",
+  "grade_raw": "7b+/V8 Yee.",
+  "grade_v": 8,
+  "stars": 3
+}

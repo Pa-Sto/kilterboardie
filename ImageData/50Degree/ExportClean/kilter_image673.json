@@ -1,0 +1,109 @@
+{
+  "filename": "kilter_image673.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 5,
+    "foot": 4
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 9,
+        "role": "foot",
+        "coverage": 0.6449,
+        "margin": 0.6449
+      },
+      {
+        "hold_id": 119,
+        "role": "start",
+        "coverage": 0.6177,
+        "margin": 0.6177
+      },
+      {
+        "hold_id": 125,
+        "role": "foot",
+        "coverage": 0.7008,
+        "margin": 0.7008
+      },
+      {
+        "hold_id": 238,
+        "role": "foot",
+        "coverage": 0.6773,
+        "margin": 0.6773
+      },
+      {
+        "hold_id": 241,
+        "role": "foot",
+        "coverage": 0.7359,
+        "margin": 0.7359
+      },
+      {
+        "hold_id": 259,
+        "role": "hand",
+        "coverage": 0.6355,
+        "margin": 0.6355
+      },
+      {
+        "hold_id": 281,
+        "role": "hand",
+        "coverage": 0.6313,
+        "margin": 0.6313
+      },
+      {
+        "hold_id": 324,
+        "role": "hand",
+        "coverage": 0.648,
+        "margin": 0.648
+      },
+      {
+        "hold_id": 411,
+        "role": "hand",
+        "coverage": 0.6485,
+        "margin": 0.6485
+      },
+      {
+        "hold_id": 457,
+        "role": "hand",
+        "coverage": 0.6444,
+        "margin": 0.6444
+      },
+      {
+        "hold_id": 459,
+        "role": "finish",
+        "coverage": 0.7139,
+        "margin": 0.7139
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Pleiotropic\nkilterjackie\n\n7b+/V8 Yee.\n",
+  "lines": [
+    "Pleiotropic",
+    "kilterjackie",
+    "7b+/V8 Yee."
+  ],
+  "name": "Pleiotropic",
+  "setter": "kilterjackie",
+  "grade_raw": "7b+/V8 Yee.",
+  "grade_v": 8,
+  "stars": 3
+}

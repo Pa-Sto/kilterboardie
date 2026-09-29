@@ -1,0 +1,97 @@
+{
+  "filename": "kilter_image226.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 3,
+    "foot": 3
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 15,
+        "role": "foot",
+        "coverage": 0.6721,
+        "margin": 0.6721
+      },
+      {
+        "hold_id": 101,
+        "role": "start",
+        "coverage": 0.682,
+        "margin": 0.682
+      },
+      {
+        "hold_id": 103,
+        "role": "start",
+        "coverage": 0.727,
+        "margin": 0.727
+      },
+      {
+        "hold_id": 124,
+        "role": "foot",
+        "coverage": 0.7061,
+        "margin": 0.7061
+      },
+      {
+        "hold_id": 180,
+        "role": "hand",
+        "coverage": 0.6532,
+        "margin": 0.6532
+      },
+      {
+        "hold_id": 217,
+        "role": "foot",
+        "coverage": 0.6778,
+        "margin": 0.6778
+      },
+      {
+        "hold_id": 276,
+        "role": "hand",
+        "coverage": 0.6496,
+        "margin": 0.6496
+      },
+      {
+        "hold_id": 349,
+        "role": "hand",
+        "coverage": 0.6459,
+        "margin": 0.6459
+      },
+      {
+        "hold_id": 468,
+        "role": "finish",
+        "coverage": 0.7035,
+        "margin": 0.7035
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "smena is back\nsmena\n\n7c/V9 Ye vee\n",
+  "lines": [
+    "smena is back",
+    "smena",
+    "7c/V9 Ye vee"
+  ],
+  "name": "smena is back",
+  "setter": "smena",
+  "grade_raw": "7c/V9 Ye vee",
+  "grade_v": 9,
+  "stars": 3
+}

@@ -1,0 +1,85 @@
+{
+  "filename": "kilter_image600.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 3,
+    "foot": 1
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 168,
+        "role": "start",
+        "coverage": 0.5968,
+        "margin": 0.5968
+      },
+      {
+        "hold_id": 179,
+        "role": "foot",
+        "coverage": 0.6642,
+        "margin": 0.6642
+      },
+      {
+        "hold_id": 194,
+        "role": "start",
+        "coverage": 0.6579,
+        "margin": 0.6579
+      },
+      {
+        "hold_id": 201,
+        "role": "hand",
+        "coverage": 0.6616,
+        "margin": 0.6616
+      },
+      {
+        "hold_id": 300,
+        "role": "hand",
+        "coverage": 0.6522,
+        "margin": 0.6522
+      },
+      {
+        "hold_id": 434,
+        "role": "hand",
+        "coverage": 0.6491,
+        "margin": 0.6491
+      },
+      {
+        "hold_id": 462,
+        "role": "finish",
+        "coverage": 0.6878,
+        "margin": 0.6878
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "DOO'1\ndavisjstew\n\n7c/V9 Ye vee\n",
+  "lines": [
+    "DOO'1",
+    "davisjstew",
+    "7c/V9 Ye vee"
+  ],
+  "name": "DOO'1",
+  "setter": "davisjstew",
+  "grade_raw": "7c/V9 Ye vee",
+  "grade_v": 9,
+  "stars": 3
+}

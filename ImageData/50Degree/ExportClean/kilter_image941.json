@@ -1,0 +1,103 @@
+{
+  "filename": "kilter_image941.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 6,
+    "foot": 2
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 20,
+        "role": "foot",
+        "coverage": 0.7035,
+        "margin": 0.7035
+      },
+      {
+        "hold_id": 91,
+        "role": "start",
+        "coverage": 0.6229,
+        "margin": 0.6229
+      },
+      {
+        "hold_id": 115,
+        "role": "foot",
+        "coverage": 0.6145,
+        "margin": 0.6145
+      },
+      {
+        "hold_id": 200,
+        "role": "hand",
+        "coverage": 0.6255,
+        "margin": 0.6255
+      },
+      {
+        "hold_id": 230,
+        "role": "hand",
+        "coverage": 0.626,
+        "margin": 0.626
+      },
+      {
+        "hold_id": 259,
+        "role": "hand",
+        "coverage": 0.6355,
+        "margin": 0.6355
+      },
+      {
+        "hold_id": 336,
+        "role": "hand",
+        "coverage": 0.6266,
+        "margin": 0.6266
+      },
+      {
+        "hold_id": 354,
+        "role": "hand",
+        "coverage": 0.6485,
+        "margin": 0.6485
+      },
+      {
+        "hold_id": 432,
+        "role": "hand",
+        "coverage": 0.602,
+        "margin": 0.602
+      },
+      {
+        "hold_id": 459,
+        "role": "finish",
+        "coverage": 0.7139,
+        "margin": 0.7139
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Super Cereal\njwilder\n\n7a/V6 Ye ee\n",
+  "lines": [
+    "Super Cereal",
+    "jwilder",
+    "7a/V6 Ye ee"
+  ],
+  "name": "Super Cereal",
+  "setter": "jwilder",
+  "grade_raw": "7a/V6 Ye ee",
+  "grade_v": 6,
+  "stars": 2
+}

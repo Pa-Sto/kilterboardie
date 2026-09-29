@@ -1,0 +1,91 @@
+{
+  "filename": "kilter_image808.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 3,
+    "foot": 2
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 101,
+        "role": "foot",
+        "coverage": 0.6695,
+        "margin": 0.6695
+      },
+      {
+        "hold_id": 205,
+        "role": "start",
+        "coverage": 0.6721,
+        "margin": 0.6721
+      },
+      {
+        "hold_id": 218,
+        "role": "start",
+        "coverage": 0.6585,
+        "margin": 0.6585
+      },
+      {
+        "hold_id": 237,
+        "role": "foot",
+        "coverage": 0.7254,
+        "margin": 0.7254
+      },
+      {
+        "hold_id": 297,
+        "role": "hand",
+        "coverage": 0.6506,
+        "margin": 0.6506
+      },
+      {
+        "hold_id": 323,
+        "role": "hand",
+        "coverage": 0.625,
+        "margin": 0.625
+      },
+      {
+        "hold_id": 413,
+        "role": "hand",
+        "coverage": 0.6538,
+        "margin": 0.6538
+      },
+      {
+        "hold_id": 468,
+        "role": "finish",
+        "coverage": 0.7035,
+        "margin": 0.7035
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Infinite Void\nEnlife\n\nZat/V7 Yeo.\n",
+  "lines": [
+    "Infinite Void",
+    "Enlife",
+    "Zat/V7 Yeo."
+  ],
+  "name": "Infinite Void",
+  "setter": "Enlife",
+  "grade_raw": "Zat/V7 Yeo.",
+  "grade_v": 7,
+  "stars": 3
+}

@@ -1,0 +1,103 @@
+{
+  "filename": "kilter_image302.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 5,
+    "foot": 3
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 24,
+        "role": "foot",
+        "coverage": 0.6998,
+        "margin": 0.6998
+      },
+      {
+        "hold_id": 124,
+        "role": "start",
+        "coverage": 0.6799,
+        "margin": 0.6799
+      },
+      {
+        "hold_id": 208,
+        "role": "hand",
+        "coverage": 0.5601,
+        "margin": 0.5601
+      },
+      {
+        "hold_id": 218,
+        "role": "hand",
+        "coverage": 0.6381,
+        "margin": 0.6381
+      },
+      {
+        "hold_id": 264,
+        "role": "foot",
+        "coverage": 0.5158,
+        "margin": 0.5158
+      },
+      {
+        "hold_id": 315,
+        "role": "foot",
+        "coverage": 0.5113,
+        "margin": 0.5113
+      },
+      {
+        "hold_id": 335,
+        "role": "hand",
+        "coverage": 0.6569,
+        "margin": 0.6569
+      },
+      {
+        "hold_id": 357,
+        "role": "hand",
+        "coverage": 0.6543,
+        "margin": 0.6543
+      },
+      {
+        "hold_id": 426,
+        "role": "hand",
+        "coverage": 0.637,
+        "margin": 0.637
+      },
+      {
+        "hold_id": 468,
+        "role": "finish",
+        "coverage": 0.7035,
+        "margin": 0.7035
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": ">oastal Climbing V4\nliahwalrus\n\n7a/V6 Ye ee\n",
+  "lines": [
+    ">oastal Climbing V4",
+    "liahwalrus",
+    "7a/V6 Ye ee"
+  ],
+  "name": ">oastal Climbing V4",
+  "setter": "liahwalrus",
+  "grade_raw": "7a/V6 Ye ee",
+  "grade_v": 6,
+  "stars": 2
+}

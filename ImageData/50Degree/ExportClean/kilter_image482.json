@@ -1,0 +1,127 @@
+{
+  "filename": "kilter_image482.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 5
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 0,
+        "role": "foot",
+        "coverage": 0.5071,
+        "margin": 0.5071
+      },
+      {
+        "hold_id": 56,
+        "role": "foot",
+        "coverage": 0.5162,
+        "margin": 0.5162
+      },
+      {
+        "hold_id": 66,
+        "role": "start",
+        "coverage": 0.5628,
+        "margin": 0.5628
+      },
+      {
+        "hold_id": 73,
+        "role": "start",
+        "coverage": 0.6093,
+        "margin": 0.6093
+      },
+      {
+        "hold_id": 130,
+        "role": "foot",
+        "coverage": 0.5504,
+        "margin": 0.5504
+      },
+      {
+        "hold_id": 140,
+        "role": "hand",
+        "coverage": 0.5701,
+        "margin": 0.5701
+      },
+      {
+        "hold_id": 208,
+        "role": "foot",
+        "coverage": 0.5884,
+        "margin": 0.5884
+      },
+      {
+        "hold_id": 227,
+        "role": "hand",
+        "coverage": 0.6271,
+        "margin": 0.6271
+      },
+      {
+        "hold_id": 229,
+        "role": "hand",
+        "coverage": 0.6459,
+        "margin": 0.6459
+      },
+      {
+        "hold_id": 235,
+        "role": "foot",
+        "coverage": 0.5853,
+        "margin": 0.5853
+      },
+      {
+        "hold_id": 324,
+        "role": "hand",
+        "coverage": 0.648,
+        "margin": 0.648
+      },
+      {
+        "hold_id": 363,
+        "role": "hand",
+        "coverage": 0.6559,
+        "margin": 0.6559
+      },
+      {
+        "hold_id": 445,
+        "role": "hand",
+        "coverage": 0.6234,
+        "margin": 0.6234
+      },
+      {
+        "hold_id": 464,
+        "role": "finish",
+        "coverage": 0.7155,
+        "margin": 0.7155
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Gangster Style\ndaxxta\n\n7c+/V10 ye vee\n",
+  "lines": [
+    "Gangster Style",
+    "daxxta",
+    "7c+/V10 ye vee"
+  ],
+  "name": "Gangster Style",
+  "setter": "daxxta",
+  "grade_raw": "7c+/V10 ye vee",
+  "grade_v": 10,
+  "stars": 3
+}

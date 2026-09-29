@@ -1,0 +1,85 @@
+{
+  "filename": "kilter_image456.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 4,
+    "foot": 1
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 10,
+        "role": "foot",
+        "coverage": 0.5497,
+        "margin": 0.5497
+      },
+      {
+        "hold_id": 114,
+        "role": "start",
+        "coverage": 0.681,
+        "margin": 0.681
+      },
+      {
+        "hold_id": 194,
+        "role": "hand",
+        "coverage": 0.6313,
+        "margin": 0.6313
+      },
+      {
+        "hold_id": 246,
+        "role": "hand",
+        "coverage": 0.6475,
+        "margin": 0.6475
+      },
+      {
+        "hold_id": 321,
+        "role": "hand",
+        "coverage": 0.6109,
+        "margin": 0.6109
+      },
+      {
+        "hold_id": 404,
+        "role": "hand",
+        "coverage": 0.6548,
+        "margin": 0.6548
+      },
+      {
+        "hold_id": 471,
+        "role": "finish",
+        "coverage": 0.7139,
+        "margin": 0.7139
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Cucky Cameron\nimportedbean\n\n6b+/V4 Yeo.\n",
+  "lines": [
+    "Cucky Cameron",
+    "importedbean",
+    "6b+/V4 Yeo."
+  ],
+  "name": "Cucky Cameron",
+  "setter": "importedbean",
+  "grade_raw": "6b+/V4 Yeo.",
+  "grade_v": 4,
+  "stars": 3
+}

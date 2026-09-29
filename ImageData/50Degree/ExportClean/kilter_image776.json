@@ -1,0 +1,121 @@
+{
+  "filename": "kilter_image776.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 5
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 55,
+        "role": "foot",
+        "coverage": 0.6412,
+        "margin": 0.6412
+      },
+      {
+        "hold_id": 59,
+        "role": "foot",
+        "coverage": 0.6334,
+        "margin": 0.6334
+      },
+      {
+        "hold_id": 121,
+        "role": "start",
+        "coverage": 0.6799,
+        "margin": 0.6799
+      },
+      {
+        "hold_id": 154,
+        "role": "start",
+        "coverage": 0.6632,
+        "margin": 0.6632
+      },
+      {
+        "hold_id": 182,
+        "role": "foot",
+        "coverage": 0.6935,
+        "margin": 0.6935
+      },
+      {
+        "hold_id": 225,
+        "role": "hand",
+        "coverage": 0.6308,
+        "margin": 0.6308
+      },
+      {
+        "hold_id": 253,
+        "role": "hand",
+        "coverage": 0.6192,
+        "margin": 0.6192
+      },
+      {
+        "hold_id": 260,
+        "role": "foot",
+        "coverage": 0.5879,
+        "margin": 0.5879
+      },
+      {
+        "hold_id": 312,
+        "role": "foot",
+        "coverage": 0.4487,
+        "margin": 0.3787
+      },
+      {
+        "hold_id": 336,
+        "role": "hand",
+        "coverage": 0.6234,
+        "margin": 0.6015
+      },
+      {
+        "hold_id": 355,
+        "role": "hand",
+        "coverage": 0.6532,
+        "margin": 0.6532
+      },
+      {
+        "hold_id": 434,
+        "role": "hand",
+        "coverage": 0.6491,
+        "margin": 0.6491
+      },
+      {
+        "hold_id": 468,
+        "role": "finish",
+        "coverage": 0.7035,
+        "margin": 0.7035
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Easy Living\nRajath\n\n6a/V3 Ye ee\n",
+  "lines": [
+    "Easy Living",
+    "Rajath",
+    "6a/V3 Ye ee"
+  ],
+  "name": "Easy Living",
+  "setter": "Rajath",
+  "grade_raw": "6a/V3 Ye ee",
+  "grade_v": 3,
+  "stars": 2
+}

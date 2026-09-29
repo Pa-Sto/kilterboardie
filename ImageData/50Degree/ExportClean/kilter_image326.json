@@ -1,0 +1,97 @@
+{
+  "filename": "kilter_image326.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 2
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 9,
+        "role": "foot",
+        "coverage": 0.6449,
+        "margin": 0.6449
+      },
+      {
+        "hold_id": 78,
+        "role": "foot",
+        "coverage": 0.5481,
+        "margin": 0.5481
+      },
+      {
+        "hold_id": 117,
+        "role": "start",
+        "coverage": 0.5774,
+        "margin": 0.5774
+      },
+      {
+        "hold_id": 126,
+        "role": "start",
+        "coverage": 0.5256,
+        "margin": 0.5256
+      },
+      {
+        "hold_id": 217,
+        "role": "hand",
+        "coverage": 0.6318,
+        "margin": 0.6318
+      },
+      {
+        "hold_id": 295,
+        "role": "hand",
+        "coverage": 0.636,
+        "margin": 0.636
+      },
+      {
+        "hold_id": 376,
+        "role": "hand",
+        "coverage": 0.6485,
+        "margin": 0.6485
+      },
+      {
+        "hold_id": 445,
+        "role": "hand",
+        "coverage": 0.6234,
+        "margin": 0.6234
+      },
+      {
+        "hold_id": 467,
+        "role": "finish",
+        "coverage": 0.7019,
+        "margin": 0.7019
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Intended beta only\nsteil_boulderhalle\n\n7c+/V10 ye vee\n",
+  "lines": [
+    "Intended beta only",
+    "steil_boulderhalle",
+    "7c+/V10 ye vee"
+  ],
+  "name": "Intended beta only",
+  "setter": "steil_boulderhalle",
+  "grade_raw": "7c+/V10 ye vee",
+  "grade_v": 10,
+  "stars": 3
+}

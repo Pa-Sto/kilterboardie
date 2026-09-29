@@ -1,0 +1,103 @@
+{
+  "filename": "kilter_image861.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 2
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 61,
+        "role": "foot",
+        "coverage": 0.6825,
+        "margin": 0.6825
+      },
+      {
+        "hold_id": 123,
+        "role": "foot",
+        "coverage": 0.7165,
+        "margin": 0.7165
+      },
+      {
+        "hold_id": 167,
+        "role": "start",
+        "coverage": 0.6512,
+        "margin": 0.6512
+      },
+      {
+        "hold_id": 218,
+        "role": "start",
+        "coverage": 0.6585,
+        "margin": 0.6585
+      },
+      {
+        "hold_id": 276,
+        "role": "hand",
+        "coverage": 0.6496,
+        "margin": 0.6496
+      },
+      {
+        "hold_id": 326,
+        "role": "hand",
+        "coverage": 0.6522,
+        "margin": 0.6522
+      },
+      {
+        "hold_id": 379,
+        "role": "hand",
+        "coverage": 0.6616,
+        "margin": 0.6616
+      },
+      {
+        "hold_id": 403,
+        "role": "hand",
+        "coverage": 0.6532,
+        "margin": 0.6532
+      },
+      {
+        "hold_id": 453,
+        "role": "hand",
+        "coverage": 0.5476,
+        "margin": 0.4895
+      },
+      {
+        "hold_id": 462,
+        "role": "finish",
+        "coverage": 0.6742,
+        "margin": 0.6595
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Beat It\nKilterStudio\n\n6b/V4 ye yee\n",
+  "lines": [
+    "Beat It",
+    "KilterStudio",
+    "6b/V4 ye yee"
+  ],
+  "name": "Beat It",
+  "setter": "KilterStudio",
+  "grade_raw": "6b/V4 ye yee",
+  "grade_v": 4,
+  "stars": 3
+}

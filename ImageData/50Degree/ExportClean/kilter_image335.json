@@ -1,0 +1,103 @@
+{
+  "filename": "kilter_image335.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 3
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 20,
+        "role": "foot",
+        "coverage": 0.7035,
+        "margin": 0.7035
+      },
+      {
+        "hold_id": 115,
+        "role": "foot",
+        "coverage": 0.6145,
+        "margin": 0.6145
+      },
+      {
+        "hold_id": 140,
+        "role": "start",
+        "coverage": 0.6318,
+        "margin": 0.6318
+      },
+      {
+        "hold_id": 148,
+        "role": "start",
+        "coverage": 0.5554,
+        "margin": 0.5554
+      },
+      {
+        "hold_id": 208,
+        "role": "foot",
+        "coverage": 0.5884,
+        "margin": 0.5884
+      },
+      {
+        "hold_id": 224,
+        "role": "hand",
+        "coverage": 0.6229,
+        "margin": 0.6229
+      },
+      {
+        "hold_id": 270,
+        "role": "hand",
+        "coverage": 0.6407,
+        "margin": 0.6407
+      },
+      {
+        "hold_id": 328,
+        "role": "hand",
+        "coverage": 0.6412,
+        "margin": 0.6412
+      },
+      {
+        "hold_id": 357,
+        "role": "hand",
+        "coverage": 0.6543,
+        "margin": 0.6543
+      },
+      {
+        "hold_id": 468,
+        "role": "finish",
+        "coverage": 0.7035,
+        "margin": 0.7035
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "dddd231\nddddunkin\n\n7a/V6 Ye ee\n",
+  "lines": [
+    "dddd231",
+    "ddddunkin",
+    "7a/V6 Ye ee"
+  ],
+  "name": "dddd231",
+  "setter": "ddddunkin",
+  "grade_raw": "7a/V6 Ye ee",
+  "grade_v": 6,
+  "stars": 2
+}

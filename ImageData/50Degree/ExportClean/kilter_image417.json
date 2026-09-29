@@ -1,0 +1,103 @@
+{
+  "filename": "kilter_image417.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 3,
+    "foot": 4
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 128,
+        "role": "foot",
+        "coverage": 0.5816,
+        "margin": 0.5816
+      },
+      {
+        "hold_id": 131,
+        "role": "foot",
+        "coverage": 0.4869,
+        "margin": 0.4869
+      },
+      {
+        "hold_id": 172,
+        "role": "foot",
+        "coverage": 0.5999,
+        "margin": 0.5999
+      },
+      {
+        "hold_id": 199,
+        "role": "start",
+        "coverage": 0.6658,
+        "margin": 0.6658
+      },
+      {
+        "hold_id": 259,
+        "role": "start",
+        "coverage": 0.6579,
+        "margin": 0.6579
+      },
+      {
+        "hold_id": 383,
+        "role": "hand",
+        "coverage": 0.6485,
+        "margin": 0.6485
+      },
+      {
+        "hold_id": 391,
+        "role": "foot",
+        "coverage": 0.5005,
+        "margin": 0.5005
+      },
+      {
+        "hold_id": 413,
+        "role": "hand",
+        "coverage": 0.6538,
+        "margin": 0.6538
+      },
+      {
+        "hold_id": 452,
+        "role": "hand",
+        "coverage": 0.6328,
+        "margin": 0.6328
+      },
+      {
+        "hold_id": 462,
+        "role": "finish",
+        "coverage": 0.6878,
+        "margin": 0.6878
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "reeses in pieces\nryanneedles\n\n8a/V11 eee\n",
+  "lines": [
+    "reeses in pieces",
+    "ryanneedles",
+    "8a/V11 eee"
+  ],
+  "name": "reeses in pieces",
+  "setter": "ryanneedles",
+  "grade_raw": "8a/V11 eee",
+  "grade_v": 11,
+  "stars": 3
+}

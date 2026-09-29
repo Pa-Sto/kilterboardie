@@ -1,0 +1,97 @@
+{
+  "filename": "kilter_image353.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 3,
+    "foot": 3
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 154,
+        "role": "foot",
+        "coverage": 0.6831,
+        "margin": 0.6831
+      },
+      {
+        "hold_id": 161,
+        "role": "foot",
+        "coverage": 0.5021,
+        "margin": 0.5021
+      },
+      {
+        "hold_id": 230,
+        "role": "start",
+        "coverage": 0.6517,
+        "margin": 0.6517
+      },
+      {
+        "hold_id": 282,
+        "role": "foot",
+        "coverage": 0.7134,
+        "margin": 0.7134
+      },
+      {
+        "hold_id": 284,
+        "role": "start",
+        "coverage": 0.6783,
+        "margin": 0.6783
+      },
+      {
+        "hold_id": 332,
+        "role": "hand",
+        "coverage": 0.6522,
+        "margin": 0.6522
+      },
+      {
+        "hold_id": 385,
+        "role": "hand",
+        "coverage": 0.6454,
+        "margin": 0.6454
+      },
+      {
+        "hold_id": 451,
+        "role": "hand",
+        "coverage": 0.6276,
+        "margin": 0.6276
+      },
+      {
+        "hold_id": 470,
+        "role": "finish",
+        "coverage": 0.7113,
+        "margin": 0.7113
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Sweet Pinch\namik23\n\n6c+/V5 Yevroe\n",
+  "lines": [
+    "Sweet Pinch",
+    "amik23",
+    "6c+/V5 Yevroe"
+  ],
+  "name": "Sweet Pinch",
+  "setter": "amik23",
+  "grade_raw": "6c+/V5 Yevroe",
+  "grade_v": 5,
+  "stars": 4
+}

@@ -1,0 +1,121 @@
+{
+  "filename": "kilter_image284.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 4
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 37,
+        "role": "foot",
+        "coverage": 0.6009,
+        "margin": 0.6009
+      },
+      {
+        "hold_id": 87,
+        "role": "foot",
+        "coverage": 0.6208,
+        "margin": 0.6208
+      },
+      {
+        "hold_id": 140,
+        "role": "start",
+        "coverage": 0.5936,
+        "margin": 0.5936
+      },
+      {
+        "hold_id": 143,
+        "role": "start",
+        "coverage": 0.5816,
+        "margin": 0.5816
+      },
+      {
+        "hold_id": 201,
+        "role": "foot",
+        "coverage": 0.7097,
+        "margin": 0.7097
+      },
+      {
+        "hold_id": 229,
+        "role": "hand",
+        "coverage": 0.6459,
+        "margin": 0.6459
+      },
+      {
+        "hold_id": 256,
+        "role": "hand",
+        "coverage": 0.6187,
+        "margin": 0.6187
+      },
+      {
+        "hold_id": 270,
+        "role": "hand",
+        "coverage": 0.6407,
+        "margin": 0.6407
+      },
+      {
+        "hold_id": 284,
+        "role": "hand",
+        "coverage": 0.6532,
+        "margin": 0.6532
+      },
+      {
+        "hold_id": 287,
+        "role": "foot",
+        "coverage": 0.5256,
+        "margin": 0.5256
+      },
+      {
+        "hold_id": 300,
+        "role": "hand",
+        "coverage": 0.6522,
+        "margin": 0.6522
+      },
+      {
+        "hold_id": 405,
+        "role": "hand",
+        "coverage": 0.6543,
+        "margin": 0.6543
+      },
+      {
+        "hold_id": 468,
+        "role": "finish",
+        "coverage": 0.7035,
+        "margin": 0.7035
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Thor's Hammer\nc_Dog32\n\n& 7alV6 ke ee\n",
+  "lines": [
+    "Thor's Hammer",
+    "c_Dog32",
+    "& 7alV6 ke ee"
+  ],
+  "name": "Thor's Hammer",
+  "setter": "c_Dog32",
+  "grade_raw": "& 7alV6 ke ee",
+  "grade_v": 6,
+  "stars": 2
+}

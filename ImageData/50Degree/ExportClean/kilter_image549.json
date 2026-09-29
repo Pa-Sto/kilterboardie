@@ -1,0 +1,103 @@
+{
+  "filename": "kilter_image549.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 5,
+    "foot": 3
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 6,
+        "role": "foot",
+        "coverage": 0.659,
+        "margin": 0.659
+      },
+      {
+        "hold_id": 53,
+        "role": "foot",
+        "coverage": 0.6804,
+        "margin": 0.6804
+      },
+      {
+        "hold_id": 118,
+        "role": "start",
+        "coverage": 0.6752,
+        "margin": 0.6752
+      },
+      {
+        "hold_id": 176,
+        "role": "hand",
+        "coverage": 0.626,
+        "margin": 0.626
+      },
+      {
+        "hold_id": 278,
+        "role": "hand",
+        "coverage": 0.6438,
+        "margin": 0.6276
+      },
+      {
+        "hold_id": 283,
+        "role": "foot",
+        "coverage": 0.6161,
+        "margin": 0.5288
+      },
+      {
+        "hold_id": 349,
+        "role": "hand",
+        "coverage": 0.6459,
+        "margin": 0.6459
+      },
+      {
+        "hold_id": 413,
+        "role": "hand",
+        "coverage": 0.6538,
+        "margin": 0.6538
+      },
+      {
+        "hold_id": 448,
+        "role": "hand",
+        "coverage": 0.6433,
+        "margin": 0.6433
+      },
+      {
+        "hold_id": 471,
+        "role": "finish",
+        "coverage": 0.7139,
+        "margin": 0.7139
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Necrophiliac\nimportedbean\n\nZat/V7 Yeo.\n",
+  "lines": [
+    "Necrophiliac",
+    "importedbean",
+    "Zat/V7 Yeo."
+  ],
+  "name": "Necrophiliac",
+  "setter": "importedbean",
+  "grade_raw": "Zat/V7 Yeo.",
+  "grade_v": 7,
+  "stars": 3
+}

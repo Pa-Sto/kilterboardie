@@ -1,0 +1,127 @@
+{
+  "filename": "kilter_image926.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 6
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 19,
+        "role": "foot",
+        "coverage": 0.7087,
+        "margin": 0.7087
+      },
+      {
+        "hold_id": 33,
+        "role": "foot",
+        "coverage": 0.704,
+        "margin": 0.704
+      },
+      {
+        "hold_id": 89,
+        "role": "foot",
+        "coverage": 0.6663,
+        "margin": 0.6663
+      },
+      {
+        "hold_id": 120,
+        "role": "start",
+        "coverage": 0.5643,
+        "margin": 0.5643
+      },
+      {
+        "hold_id": 141,
+        "role": "foot",
+        "coverage": 0.5507,
+        "margin": 0.4346
+      },
+      {
+        "hold_id": 165,
+        "role": "foot",
+        "coverage": 0.7045,
+        "margin": 0.7045
+      },
+      {
+        "hold_id": 169,
+        "role": "start",
+        "coverage": 0.6825,
+        "margin": 0.6825
+      },
+      {
+        "hold_id": 222,
+        "role": "hand",
+        "coverage": 0.6386,
+        "margin": 0.6386
+      },
+      {
+        "hold_id": 271,
+        "role": "foot",
+        "coverage": 0.6888,
+        "margin": 0.6888
+      },
+      {
+        "hold_id": 278,
+        "role": "hand",
+        "coverage": 0.6475,
+        "margin": 0.6475
+      },
+      {
+        "hold_id": 300,
+        "role": "hand",
+        "coverage": 0.6522,
+        "margin": 0.6522
+      },
+      {
+        "hold_id": 355,
+        "role": "hand",
+        "coverage": 0.6532,
+        "margin": 0.6532
+      },
+      {
+        "hold_id": 427,
+        "role": "hand",
+        "coverage": 0.637,
+        "margin": 0.637
+      },
+      {
+        "hold_id": 468,
+        "role": "finish",
+        "coverage": 0.7035,
+        "margin": 0.7035
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Not Worth Killing\nKilterStudio\n\n6c/V5 eee\n",
+  "lines": [
+    "Not Worth Killing",
+    "KilterStudio",
+    "6c/V5 eee"
+  ],
+  "name": "Not Worth Killing",
+  "setter": "KilterStudio",
+  "grade_raw": "6c/V5 eee",
+  "grade_v": 5,
+  "stars": 3
+}

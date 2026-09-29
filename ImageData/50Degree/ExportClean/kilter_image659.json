@@ -1,0 +1,115 @@
+{
+  "filename": "kilter_image659.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 3
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 25,
+        "role": "foot",
+        "coverage": 0.7008,
+        "margin": 0.7008
+      },
+      {
+        "hold_id": 90,
+        "role": "foot",
+        "coverage": 0.67,
+        "margin": 0.67
+      },
+      {
+        "hold_id": 114,
+        "role": "start",
+        "coverage": 0.7139,
+        "margin": 0.7139
+      },
+      {
+        "hold_id": 119,
+        "role": "start",
+        "coverage": 0.625,
+        "margin": 0.625
+      },
+      {
+        "hold_id": 226,
+        "role": "hand",
+        "coverage": 0.636,
+        "margin": 0.636
+      },
+      {
+        "hold_id": 231,
+        "role": "foot",
+        "coverage": 0.7076,
+        "margin": 0.7076
+      },
+      {
+        "hold_id": 249,
+        "role": "hand",
+        "coverage": 0.6182,
+        "margin": 0.6182
+      },
+      {
+        "hold_id": 253,
+        "role": "hand",
+        "coverage": 0.6192,
+        "margin": 0.6192
+      },
+      {
+        "hold_id": 278,
+        "role": "hand",
+        "coverage": 0.6475,
+        "margin": 0.6475
+      },
+      {
+        "hold_id": 322,
+        "role": "hand",
+        "coverage": 0.6512,
+        "margin": 0.6512
+      },
+      {
+        "hold_id": 386,
+        "role": "hand",
+        "coverage": 0.6454,
+        "margin": 0.6454
+      },
+      {
+        "hold_id": 461,
+        "role": "finish",
+        "coverage": 0.7061,
+        "margin": 0.7061
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "PT Cruiser\njwebxl\n\n6at/V3 Ye oroe\n",
+  "lines": [
+    "PT Cruiser",
+    "jwebxl",
+    "6at/V3 Ye oroe"
+  ],
+  "name": "PT Cruiser",
+  "setter": "jwebxl",
+  "grade_raw": "6at/V3 Ye oroe",
+  "grade_v": 3,
+  "stars": 4
+}

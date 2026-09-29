@@ -1,0 +1,127 @@
+{
+  "filename": "kilter_image8.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 2,
+    "hand": 4,
+    "foot": 6
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 34,
+        "role": "foot",
+        "coverage": 0.7008,
+        "margin": 0.7008
+      },
+      {
+        "hold_id": 46,
+        "role": "foot",
+        "coverage": 0.6036,
+        "margin": 0.6036
+      },
+      {
+        "hold_id": 104,
+        "role": "foot",
+        "coverage": 0.5366,
+        "margin": 0.5366
+      },
+      {
+        "hold_id": 148,
+        "role": "start",
+        "coverage": 0.5465,
+        "margin": 0.5465
+      },
+      {
+        "hold_id": 166,
+        "role": "start",
+        "coverage": 0.6234,
+        "margin": 0.5978
+      },
+      {
+        "hold_id": 184,
+        "role": "foot",
+        "coverage": 0.5539,
+        "margin": 0.4786
+      },
+      {
+        "hold_id": 237,
+        "role": "foot",
+        "coverage": 0.7254,
+        "margin": 0.7254
+      },
+      {
+        "hold_id": 246,
+        "role": "foot",
+        "coverage": 0.7029,
+        "margin": 0.7029
+      },
+      {
+        "hold_id": 296,
+        "role": "hand",
+        "coverage": 0.659,
+        "margin": 0.659
+      },
+      {
+        "hold_id": 347,
+        "role": "hand",
+        "coverage": 0.6506,
+        "margin": 0.6506
+      },
+      {
+        "hold_id": 380,
+        "role": "hand",
+        "coverage": 0.6627,
+        "margin": 0.6627
+      },
+      {
+        "hold_id": 399,
+        "role": "hand",
+        "coverage": 0.6794,
+        "margin": 0.6794
+      },
+      {
+        "hold_id": 446,
+        "role": "finish",
+        "coverage": 0.6684,
+        "margin": 0.6684
+      },
+      {
+        "hold_id": 468,
+        "role": "finish",
+        "coverage": 0.7207,
+        "margin": 0.7207
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "\u2018eachiness Is a Myth\nGirthQuake\n\n7b+/V8 Yee.\n",
+  "lines": [
+    "\u2018eachiness Is a Myth",
+    "GirthQuake",
+    "7b+/V8 Yee."
+  ],
+  "name": "\u2018eachiness Is a Myth",
+  "setter": "GirthQuake",
+  "grade_raw": "7b+/V8 Yee.",
+  "grade_v": 8,
+  "stars": 3
+}

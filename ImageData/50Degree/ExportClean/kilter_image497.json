@@ -1,0 +1,133 @@
+{
+  "filename": "kilter_image497.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 7,
+    "foot": 5
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 12,
+        "role": "foot",
+        "coverage": 0.6297,
+        "margin": 0.6297
+      },
+      {
+        "hold_id": 88,
+        "role": "foot",
+        "coverage": 0.5565,
+        "margin": 0.4833
+      },
+      {
+        "hold_id": 92,
+        "role": "start",
+        "coverage": 0.6145,
+        "margin": 0.5811
+      },
+      {
+        "hold_id": 115,
+        "role": "foot",
+        "coverage": 0.5371,
+        "margin": 0.4247
+      },
+      {
+        "hold_id": 126,
+        "role": "start",
+        "coverage": 0.5267,
+        "margin": 0.5267
+      },
+      {
+        "hold_id": 194,
+        "role": "hand",
+        "coverage": 0.6313,
+        "margin": 0.6313
+      },
+      {
+        "hold_id": 201,
+        "role": "foot",
+        "coverage": 0.7097,
+        "margin": 0.7097
+      },
+      {
+        "hold_id": 255,
+        "role": "hand",
+        "coverage": 0.6438,
+        "margin": 0.6438
+      },
+      {
+        "hold_id": 321,
+        "role": "hand",
+        "coverage": 0.6109,
+        "margin": 0.6109
+      },
+      {
+        "hold_id": 322,
+        "role": "foot",
+        "coverage": 0.6982,
+        "margin": 0.6982
+      },
+      {
+        "hold_id": 354,
+        "role": "hand",
+        "coverage": 0.6485,
+        "margin": 0.6485
+      },
+      {
+        "hold_id": 402,
+        "role": "hand",
+        "coverage": 0.6491,
+        "margin": 0.6491
+      },
+      {
+        "hold_id": 441,
+        "role": "hand",
+        "coverage": 0.6501,
+        "margin": 0.6501
+      },
+      {
+        "hold_id": 460,
+        "role": "hand",
+        "coverage": 0.6355,
+        "margin": 0.6355
+      },
+      {
+        "hold_id": 461,
+        "role": "finish",
+        "coverage": 0.7061,
+        "margin": 0.7061
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Hover Bored\ntomhwright\n\n6a/V3 Ye ee\n",
+  "lines": [
+    "Hover Bored",
+    "tomhwright",
+    "6a/V3 Ye ee"
+  ],
+  "name": "Hover Bored",
+  "setter": "tomhwright",
+  "grade_raw": "6a/V3 Ye ee",
+  "grade_v": 3,
+  "stars": 2
+}

@@ -1,0 +1,145 @@
+{
+  "filename": "kilter_image340.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 9
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 1,
+        "role": "foot",
+        "coverage": 0.7029,
+        "margin": 0.7029
+      },
+      {
+        "hold_id": 12,
+        "role": "foot",
+        "coverage": 0.6297,
+        "margin": 0.6297
+      },
+      {
+        "hold_id": 53,
+        "role": "foot",
+        "coverage": 0.6804,
+        "margin": 0.6804
+      },
+      {
+        "hold_id": 55,
+        "role": "foot",
+        "coverage": 0.6412,
+        "margin": 0.6412
+      },
+      {
+        "hold_id": 81,
+        "role": "foot",
+        "coverage": 0.7238,
+        "margin": 0.7238
+      },
+      {
+        "hold_id": 83,
+        "role": "foot",
+        "coverage": 0.6077,
+        "margin": 0.6077
+      },
+      {
+        "hold_id": 106,
+        "role": "foot",
+        "coverage": 0.4477,
+        "margin": 0.4477
+      },
+      {
+        "hold_id": 107,
+        "role": "foot",
+        "coverage": 0.5251,
+        "margin": 0.5251
+      },
+      {
+        "hold_id": 146,
+        "role": "start",
+        "coverage": 0.6606,
+        "margin": 0.6606
+      },
+      {
+        "hold_id": 148,
+        "role": "start",
+        "coverage": 0.5465,
+        "margin": 0.5465
+      },
+      {
+        "hold_id": 212,
+        "role": "foot",
+        "coverage": 0.6517,
+        "margin": 0.6517
+      },
+      {
+        "hold_id": 226,
+        "role": "hand",
+        "coverage": 0.636,
+        "margin": 0.636
+      },
+      {
+        "hold_id": 249,
+        "role": "hand",
+        "coverage": 0.6182,
+        "margin": 0.6182
+      },
+      {
+        "hold_id": 323,
+        "role": "hand",
+        "coverage": 0.625,
+        "margin": 0.625
+      },
+      {
+        "hold_id": 352,
+        "role": "hand",
+        "coverage": 0.6579,
+        "margin": 0.6579
+      },
+      {
+        "hold_id": 410,
+        "role": "hand",
+        "coverage": 0.6543,
+        "margin": 0.6543
+      },
+      {
+        "hold_id": 465,
+        "role": "finish",
+        "coverage": 0.7082,
+        "margin": 0.7082
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Nanunananana\nArne\n\n6c/V5 eee\n",
+  "lines": [
+    "Nanunananana",
+    "Arne",
+    "6c/V5 eee"
+  ],
+  "name": "Nanunananana",
+  "setter": "Arne",
+  "grade_raw": "6c/V5 eee",
+  "grade_v": 5,
+  "stars": 3
+}

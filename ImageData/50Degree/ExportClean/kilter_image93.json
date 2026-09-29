@@ -1,0 +1,145 @@
+{
+  "filename": "kilter_image93.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 8
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 4,
+        "role": "foot",
+        "coverage": 0.6119,
+        "margin": 0.6119
+      },
+      {
+        "hold_id": 13,
+        "role": "foot",
+        "coverage": 0.7055,
+        "margin": 0.7055
+      },
+      {
+        "hold_id": 99,
+        "role": "start",
+        "coverage": 0.534,
+        "margin": 0.4629
+      },
+      {
+        "hold_id": 104,
+        "role": "foot",
+        "coverage": 0.5335,
+        "margin": 0.4963
+      },
+      {
+        "hold_id": 105,
+        "role": "foot",
+        "coverage": 0.6365,
+        "margin": 0.6365
+      },
+      {
+        "hold_id": 145,
+        "role": "start",
+        "coverage": 0.6145,
+        "margin": 0.5429
+      },
+      {
+        "hold_id": 159,
+        "role": "foot",
+        "coverage": 0.6156,
+        "margin": 0.5858
+      },
+      {
+        "hold_id": 189,
+        "role": "foot",
+        "coverage": 0.738,
+        "margin": 0.738
+      },
+      {
+        "hold_id": 211,
+        "role": "foot",
+        "coverage": 0.6987,
+        "margin": 0.6987
+      },
+      {
+        "hold_id": 253,
+        "role": "hand",
+        "coverage": 0.6192,
+        "margin": 0.6192
+      },
+      {
+        "hold_id": 278,
+        "role": "hand",
+        "coverage": 0.6475,
+        "margin": 0.6475
+      },
+      {
+        "hold_id": 286,
+        "role": "foot",
+        "coverage": 0.5016,
+        "margin": 0.5016
+      },
+      {
+        "hold_id": 356,
+        "role": "hand",
+        "coverage": 0.6532,
+        "margin": 0.6532
+      },
+      {
+        "hold_id": 387,
+        "role": "hand",
+        "coverage": 0.6454,
+        "margin": 0.6454
+      },
+      {
+        "hold_id": 434,
+        "role": "hand",
+        "coverage": 0.6491,
+        "margin": 0.6491
+      },
+      {
+        "hold_id": 453,
+        "role": "hand",
+        "coverage": 0.6224,
+        "margin": 0.6224
+      },
+      {
+        "hold_id": 467,
+        "role": "finish",
+        "coverage": 0.7019,
+        "margin": 0.7019
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Super Ups\nkilterjackie\n\nZat/V7 Yeo.\n",
+  "lines": [
+    "Super Ups",
+    "kilterjackie",
+    "Zat/V7 Yeo."
+  ],
+  "name": "Super Ups",
+  "setter": "kilterjackie",
+  "grade_raw": "Zat/V7 Yeo.",
+  "grade_v": 7,
+  "stars": 3
+}

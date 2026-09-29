@@ -1,0 +1,133 @@
+{
+  "filename": "kilter_image278.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 7,
+    "foot": 5
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 44,
+        "role": "foot",
+        "coverage": 0.6569,
+        "margin": 0.6569
+      },
+      {
+        "hold_id": 132,
+        "role": "foot",
+        "coverage": 0.7338,
+        "margin": 0.7338
+      },
+      {
+        "hold_id": 142,
+        "role": "start",
+        "coverage": 0.5758,
+        "margin": 0.5758
+      },
+      {
+        "hold_id": 148,
+        "role": "start",
+        "coverage": 0.5465,
+        "margin": 0.5465
+      },
+      {
+        "hold_id": 186,
+        "role": "foot",
+        "coverage": 0.7035,
+        "margin": 0.7035
+      },
+      {
+        "hold_id": 226,
+        "role": "hand",
+        "coverage": 0.636,
+        "margin": 0.636
+      },
+      {
+        "hold_id": 234,
+        "role": "foot",
+        "coverage": 0.5471,
+        "margin": 0.5471
+      },
+      {
+        "hold_id": 247,
+        "role": "hand",
+        "coverage": 0.6119,
+        "margin": 0.6119
+      },
+      {
+        "hold_id": 305,
+        "role": "hand",
+        "coverage": 0.6344,
+        "margin": 0.6344
+      },
+      {
+        "hold_id": 319,
+        "role": "foot",
+        "coverage": 0.7155,
+        "margin": 0.7155
+      },
+      {
+        "hold_id": 328,
+        "role": "hand",
+        "coverage": 0.6412,
+        "margin": 0.6412
+      },
+      {
+        "hold_id": 333,
+        "role": "hand",
+        "coverage": 0.6475,
+        "margin": 0.6475
+      },
+      {
+        "hold_id": 378,
+        "role": "hand",
+        "coverage": 0.6517,
+        "margin": 0.6517
+      },
+      {
+        "hold_id": 441,
+        "role": "hand",
+        "coverage": 0.6501,
+        "margin": 0.6501
+      },
+      {
+        "hold_id": 469,
+        "role": "finish",
+        "coverage": 0.6987,
+        "margin": 0.6987
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "s a beautiful morning\nBKBChicago\n\n6b/V4 ye yee\n",
+  "lines": [
+    "s a beautiful morning",
+    "BKBChicago",
+    "6b/V4 ye yee"
+  ],
+  "name": "s a beautiful morning",
+  "setter": "BKBChicago",
+  "grade_raw": "6b/V4 ye yee",
+  "grade_v": 4,
+  "stars": 3
+}

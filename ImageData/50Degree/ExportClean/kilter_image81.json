@@ -1,0 +1,139 @@
+{
+  "filename": "kilter_image81.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 7,
+    "foot": 6
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 2,
+        "role": "foot",
+        "coverage": 0.6454,
+        "margin": 0.6454
+      },
+      {
+        "hold_id": 27,
+        "role": "foot",
+        "coverage": 0.7045,
+        "margin": 0.7045
+      },
+      {
+        "hold_id": 55,
+        "role": "foot",
+        "coverage": 0.6412,
+        "margin": 0.6412
+      },
+      {
+        "hold_id": 117,
+        "role": "foot",
+        "coverage": 0.5905,
+        "margin": 0.5628
+      },
+      {
+        "hold_id": 120,
+        "role": "start",
+        "coverage": 0.4942,
+        "margin": 0.4221
+      },
+      {
+        "hold_id": 154,
+        "role": "start",
+        "coverage": 0.6632,
+        "margin": 0.6632
+      },
+      {
+        "hold_id": 194,
+        "role": "foot",
+        "coverage": 0.6789,
+        "margin": 0.6789
+      },
+      {
+        "hold_id": 195,
+        "role": "hand",
+        "coverage": 0.659,
+        "margin": 0.659
+      },
+      {
+        "hold_id": 198,
+        "role": "hand",
+        "coverage": 0.6841,
+        "margin": 0.6841
+      },
+      {
+        "hold_id": 247,
+        "role": "foot",
+        "coverage": 0.6449,
+        "margin": 0.6449
+      },
+      {
+        "hold_id": 281,
+        "role": "hand",
+        "coverage": 0.6313,
+        "margin": 0.6313
+      },
+      {
+        "hold_id": 353,
+        "role": "hand",
+        "coverage": 0.6888,
+        "margin": 0.6888
+      },
+      {
+        "hold_id": 354,
+        "role": "hand",
+        "coverage": 0.6731,
+        "margin": 0.6731
+      },
+      {
+        "hold_id": 412,
+        "role": "hand",
+        "coverage": 0.6506,
+        "margin": 0.6506
+      },
+      {
+        "hold_id": 438,
+        "role": "hand",
+        "coverage": 0.624,
+        "margin": 0.624
+      },
+      {
+        "hold_id": 468,
+        "role": "finish",
+        "coverage": 0.7035,
+        "margin": 0.7035
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "ne la V7 blanche ac\nFrancisGroleau\n\n7a/V6 Ye ee\n",
+  "lines": [
+    "ne la V7 blanche ac",
+    "FrancisGroleau",
+    "7a/V6 Ye ee"
+  ],
+  "name": "ne la V7 blanche ac",
+  "setter": "FrancisGroleau",
+  "grade_raw": "7a/V6 Ye ee",
+  "grade_v": 6,
+  "stars": 2
+}

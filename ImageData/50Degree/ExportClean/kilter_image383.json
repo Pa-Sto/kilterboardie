@@ -1,0 +1,103 @@
+{
+  "filename": "kilter_image383.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 3
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 109,
+        "role": "foot",
+        "coverage": 0.7108,
+        "margin": 0.7108
+      },
+      {
+        "hold_id": 175,
+        "role": "start",
+        "coverage": 0.6266,
+        "margin": 0.6266
+      },
+      {
+        "hold_id": 179,
+        "role": "foot",
+        "coverage": 0.6642,
+        "margin": 0.6642
+      },
+      {
+        "hold_id": 195,
+        "role": "start",
+        "coverage": 0.7108,
+        "margin": 0.7108
+      },
+      {
+        "hold_id": 209,
+        "role": "foot",
+        "coverage": 0.7333,
+        "margin": 0.7333
+      },
+      {
+        "hold_id": 295,
+        "role": "hand",
+        "coverage": 0.6381,
+        "margin": 0.6381
+      },
+      {
+        "hold_id": 310,
+        "role": "hand",
+        "coverage": 0.6752,
+        "margin": 0.6752
+      },
+      {
+        "hold_id": 375,
+        "role": "hand",
+        "coverage": 0.6454,
+        "margin": 0.6454
+      },
+      {
+        "hold_id": 400,
+        "role": "hand",
+        "coverage": 0.6532,
+        "margin": 0.6532
+      },
+      {
+        "hold_id": 460,
+        "role": "finish",
+        "coverage": 0.6804,
+        "margin": 0.6804
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "bph20\nbrianharrington\n\n7b+/V8 Yee.\n",
+  "lines": [
+    "bph20",
+    "brianharrington",
+    "7b+/V8 Yee."
+  ],
+  "name": "bph20",
+  "setter": "brianharrington",
+  "grade_raw": "7b+/V8 Yee.",
+  "grade_v": 8,
+  "stars": 3
+}

@@ -1,0 +1,121 @@
+{
+  "filename": "kilter_image903.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 7,
+    "foot": 3
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 38,
+        "role": "foot",
+        "coverage": 0.6993,
+        "margin": 0.6993
+      },
+      {
+        "hold_id": 115,
+        "role": "foot",
+        "coverage": 0.6145,
+        "margin": 0.6145
+      },
+      {
+        "hold_id": 121,
+        "role": "start",
+        "coverage": 0.6799,
+        "margin": 0.6799
+      },
+      {
+        "hold_id": 154,
+        "role": "start",
+        "coverage": 0.6632,
+        "margin": 0.6632
+      },
+      {
+        "hold_id": 156,
+        "role": "foot",
+        "coverage": 0.4854,
+        "margin": 0.4854
+      },
+      {
+        "hold_id": 205,
+        "role": "hand",
+        "coverage": 0.6444,
+        "margin": 0.6444
+      },
+      {
+        "hold_id": 226,
+        "role": "hand",
+        "coverage": 0.636,
+        "margin": 0.636
+      },
+      {
+        "hold_id": 253,
+        "role": "hand",
+        "coverage": 0.6192,
+        "margin": 0.6192
+      },
+      {
+        "hold_id": 282,
+        "role": "hand",
+        "coverage": 0.6595,
+        "margin": 0.6595
+      },
+      {
+        "hold_id": 375,
+        "role": "hand",
+        "coverage": 0.66,
+        "margin": 0.66
+      },
+      {
+        "hold_id": 410,
+        "role": "hand",
+        "coverage": 0.6904,
+        "margin": 0.6904
+      },
+      {
+        "hold_id": 427,
+        "role": "hand",
+        "coverage": 0.637,
+        "margin": 0.637
+      },
+      {
+        "hold_id": 465,
+        "role": "finish",
+        "coverage": 0.7082,
+        "margin": 0.7082
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "wrmps\njwebxl\n\n6at/V3 Ye oroe\n",
+  "lines": [
+    "wrmps",
+    "jwebxl",
+    "6at/V3 Ye oroe"
+  ],
+  "name": "wrmps",
+  "setter": "jwebxl",
+  "grade_raw": "6at/V3 Ye oroe",
+  "grade_v": 3,
+  "stars": 4
+}

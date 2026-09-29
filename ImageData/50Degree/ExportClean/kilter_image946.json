@@ -1,0 +1,115 @@
+{
+  "filename": "kilter_image946.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 4
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 10,
+        "role": "foot",
+        "coverage": 0.5497,
+        "margin": 0.5497
+      },
+      {
+        "hold_id": 12,
+        "role": "foot",
+        "coverage": 0.6297,
+        "margin": 0.6297
+      },
+      {
+        "hold_id": 93,
+        "role": "start",
+        "coverage": 0.6841,
+        "margin": 0.6841
+      },
+      {
+        "hold_id": 142,
+        "role": "start",
+        "coverage": 0.5758,
+        "margin": 0.5758
+      },
+      {
+        "hold_id": 157,
+        "role": "foot",
+        "coverage": 0.6161,
+        "margin": 0.6161
+      },
+      {
+        "hold_id": 245,
+        "role": "hand",
+        "coverage": 0.6559,
+        "margin": 0.6559
+      },
+      {
+        "hold_id": 269,
+        "role": "hand",
+        "coverage": 0.6292,
+        "margin": 0.6292
+      },
+      {
+        "hold_id": 315,
+        "role": "foot",
+        "coverage": 0.5113,
+        "margin": 0.5113
+      },
+      {
+        "hold_id": 376,
+        "role": "hand",
+        "coverage": 0.6485,
+        "margin": 0.6485
+      },
+      {
+        "hold_id": 429,
+        "role": "hand",
+        "coverage": 0.6402,
+        "margin": 0.6402
+      },
+      {
+        "hold_id": 453,
+        "role": "hand",
+        "coverage": 0.6224,
+        "margin": 0.6224
+      },
+      {
+        "hold_id": 472,
+        "role": "finish",
+        "coverage": 0.6867,
+        "margin": 0.6867
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Boulder A+\nStijnvU\n\n7b+/V8 Yee.\n",
+  "lines": [
+    "Boulder A+",
+    "StijnvU",
+    "7b+/V8 Yee."
+  ],
+  "name": "Boulder A+",
+  "setter": "StijnvU",
+  "grade_raw": "7b+/V8 Yee.",
+  "grade_v": 8,
+  "stars": 3
+}

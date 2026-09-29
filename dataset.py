@@ -1,6 +1,9 @@
 # This is a sample Python script.
 import os
 import json
+import hashlib
+import math
+import re
 import numpy as np
 from tqdm import tqdm
 from pynput.keyboard import Key, Controller
@@ -513,6 +516,98 @@ def map_rings_to_holds(ring_centers, hold_map):
     return mapped
 
 
+def _hsv_bounds(hsv_cfg):
+    if isinstance(hsv_cfg, dict):
+        return hsv_cfg["lower"], hsv_cfg["upper"]
+    return hsv_cfg
+
+
+def classify_rings_at_hold_centers(
+    image_path,
+    hold_map,
+    hsv_ranges,
+    inner_radius=25,
+    outer_radius=35,
+    min_coverage=0.30,
+):
+    """Classify the colored annulus around each calibrated hold center.
+
+    Each hold can receive at most one role. This avoids the duplicate and
+    nearest-neighbour errors caused by detecting unconstrained circle centers.
+    """
+    _require_cv2()
+    if inner_radius < 0 or outer_radius <= inner_radius:
+        raise ValueError("Expected 0 <= inner_radius < outer_radius.")
+
+    img = cv2.imread(image_path)
+    if img is None:
+        raise FileNotFoundError(f"Could not read image: {image_path}")
+    hsv = cv2.cvtColor(img, cv2.COLOR_BGR2HSV)
+    role_masks = {}
+    for role, hsv_cfg in hsv_ranges.items():
+        lower, upper = _hsv_bounds(hsv_cfg)
+        role_masks[role] = cv2.inRange(
+            hsv,
+            np.asarray(lower, dtype=np.uint8),
+            np.asarray(upper, dtype=np.uint8),
+        )
+
+    radius = int(math.ceil(outer_radius))
+    offsets = np.arange(-radius, radius + 1)
+    xx, yy = np.meshgrid(offsets, offsets)
+    distance_squared = xx * xx + yy * yy
+    full_annulus = (
+        (distance_squared >= float(inner_radius) ** 2)
+        & (distance_squared <= float(outer_radius) ** 2)
+    )
+
+    assignments = {role: [] for role in hsv_ranges}
+    selected_scores = []
+    image_height, image_width = hsv.shape[:2]
+    for hold in hold_map["holds"]:
+        center_x = int(round(hold["x"]))
+        center_y = int(round(hold["y"]))
+        x0 = max(center_x - radius, 0)
+        x1 = min(center_x + radius + 1, image_width)
+        y0 = max(center_y - radius, 0)
+        y1 = min(center_y + radius + 1, image_height)
+        annulus = full_annulus[
+            y0 - (center_y - radius):y1 - (center_y - radius),
+            x0 - (center_x - radius):x1 - (center_x - radius),
+        ]
+        annulus_pixels = int(annulus.sum())
+        if annulus_pixels == 0:
+            continue
+
+        scores = {
+            role: float(np.count_nonzero(mask[y0:y1, x0:x1][annulus])) / annulus_pixels
+            for role, mask in role_masks.items()
+        }
+        ranked = sorted(scores.items(), key=lambda item: item[1], reverse=True)
+        role, score = ranked[0]
+        if score < min_coverage:
+            continue
+        assignments[role].append(hold["id"])
+        runner_up = ranked[1][1] if len(ranked) > 1 else 0.0
+        selected_scores.append(
+            {
+                "hold_id": hold["id"],
+                "role": role,
+                "coverage": round(score, 4),
+                "margin": round(score - runner_up, 4),
+            }
+        )
+
+    diagnostics = {
+        "method": "fixed-centers",
+        "inner_radius": inner_radius,
+        "outer_radius": outer_radius,
+        "min_coverage": min_coverage,
+        "selected": selected_scores,
+    }
+    return assignments, diagnostics
+
+
 def build_board_matrix(hold_map, ring_hold_ids, channels):
     rows = hold_map["rows"]
     cols = hold_map["cols"]
@@ -525,6 +620,43 @@ def build_board_matrix(hold_map, ring_hold_ids, channels):
                 continue
             mat[h["row"], h["col"], ch_i] = 1.0
     return mat
+
+
+def build_export_matrix(hold_map, ring_hold_ids, channels):
+    """Build dynamic route and static board channels in the requested order."""
+    rows = int(hold_map["rows"])
+    cols = int(hold_map["cols"])
+    matrix = np.zeros((rows, cols, len(channels)), dtype=np.float32)
+    channel_indices = {name: index for index, name in enumerate(channels)}
+
+    hold_by_id = {hold["id"]: hold for hold in hold_map["holds"]}
+    for role in ("start", "finish", "hand", "foot"):
+        channel_index = channel_indices.get(role)
+        if channel_index is None:
+            continue
+        for hold_id in ring_hold_ids.get(role, []):
+            hold = hold_by_id.get(hold_id)
+            if hold is not None:
+                matrix[hold["row"], hold["col"], channel_index] = 1.0
+
+    max_area = max(float(hold.get("area_shape") or 0.0) for hold in hold_map["holds"])
+    for hold in hold_map["holds"]:
+        row, col = int(hold["row"]), int(hold["col"])
+        if "hold_presence" in channel_indices:
+            matrix[row, col, channel_indices["hold_presence"]] = 1.0
+        if "hold_size" in channel_indices and max_area > 0.0:
+            matrix[row, col, channel_indices["hold_size"]] = (
+                float(hold.get("area_shape") or 0.0) / max_area
+            )
+        orientations = hold.get("orientations") or []
+        for orientation_index, angle in enumerate(orientations[:2], start=1):
+            sin_name = f"orient_sin{orientation_index}"
+            cos_name = f"orient_cos{orientation_index}"
+            if sin_name in channel_indices:
+                matrix[row, col, channel_indices[sin_name]] = math.sin(float(angle))
+            if cos_name in channel_indices:
+                matrix[row, col, channel_indices[cos_name]] = math.cos(float(angle))
+    return matrix
 
 
 def save_debug_overlay(image_path, hold_map, ring_centers, output_path):
@@ -643,6 +775,11 @@ def export_dataset_json_npy(
     hsv_ranges,
     channels,
     method="hough",
+    max_images=None,
+    metadata_dir=None,
+    inner_radius=25,
+    outer_radius=35,
+    min_coverage=0.30,
 ):
     """
     Exports per-route matrix (.npy) and metadata (.json).
@@ -651,66 +788,121 @@ def export_dataset_json_npy(
     os.makedirs(output_dir, exist_ok=True)
     hold_map = load_hold_map(hold_map_path)
 
-    for filename in sorted(os.listdir(image_dir)):
-        if not filename.endswith(".png"):
-            continue
-        if "label" in filename or "debug_overlay" in filename:
-            continue
+    route_pattern = re.compile(r"^kilter_image(\d+)\.png$")
+    image_files = []
+    for filename in os.listdir(image_dir):
+        match = route_pattern.match(filename)
+        if match:
+            image_files.append((int(match.group(1)), filename))
+    image_files.sort(key=lambda item: item[0])
+    if max_images is not None:
+        image_files = image_files[:max(int(max_images), 0)]
+
+    audit = {
+        "image_dir": image_dir,
+        "hold_map": hold_map_path,
+        "method": method,
+        "channels": channels,
+        "total_routes": 0,
+        "valid_routes": 0,
+        "flagged_routes": [],
+        "grade_counts": {},
+        "ring_count_histograms": {role: {} for role in ("start", "finish", "hand", "foot")},
+        "unique_route_matrices": 0,
+    }
+    route_hashes = set()
+    metadata_fields = ("raw_text", "lines", "name", "setter", "grade_raw", "grade_v", "stars")
+
+    for _, filename in tqdm(image_files, desc="Exporting routes"):
         board_path = os.path.join(image_dir, filename)
         label_path = os.path.join(image_dir, filename[:-4] + "label_.png")
 
-        ring_centers = detect_rings(
-            board_path,
-            hsv_ranges,
-            separate_touching=True,
-            method=method,
-            hough_min_radius=26,
-            hough_max_radius=34,
-            hough_min_dist=40,
-            hough_param1=120,
-            hough_param2=16,
-            nms_radius=20,
-            ring_coverage=0.45,
+        detection_diagnostics = None
+        if method == "fixed-centers":
+            ring_ids, detection_diagnostics = classify_rings_at_hold_centers(
+                board_path,
+                hold_map,
+                hsv_ranges,
+                inner_radius=inner_radius,
+                outer_radius=outer_radius,
+                min_coverage=min_coverage,
+            )
+        else:
+            ring_centers = detect_rings(
+                board_path,
+                hsv_ranges,
+                separate_touching=True,
+                method=method,
+                hough_min_radius=26,
+                hough_max_radius=34,
+                hough_min_dist=40,
+                hough_param1=120,
+                hough_param2=16,
+                nms_radius=20,
+                ring_coverage=0.45,
+            )
+            ring_ids = map_rings_to_holds(ring_centers, hold_map)
+
+        matrix = build_export_matrix(hold_map, ring_ids, channels)
+        ring_counts = {role: len(set(ring_ids.get(role, []))) for role in ("start", "finish", "hand", "foot")}
+        role_sets = {role: set(ring_ids.get(role, [])) for role in ring_counts}
+        overlap_count = sum(
+            len(role_sets[left] & role_sets[right])
+            for index, left in enumerate(role_sets)
+            for right in list(role_sets)[index + 1:]
         )
-        ring_ids = map_rings_to_holds(ring_centers, hold_map)
-
-        dynamic_channels = [c for c in channels if c in ("start", "finish", "hand", "foot")]
-        mat_route = build_board_matrix(hold_map, ring_ids, dynamic_channels)
-
-        rows = hold_map["rows"]
-        cols = hold_map["cols"]
-        hold_presence = np.zeros((rows, cols), dtype=np.float32)
-        hold_size = np.zeros((rows, cols), dtype=np.float32)
-        for h in hold_map["holds"]:
-            r = h["row"]
-            c = h["col"]
-            hold_presence[r, c] = 1.0
-            area = h.get("area_shape") or 0.0
-            hold_size[r, c] = max(hold_size[r, c], float(area))
-        if hold_size.max() > 0:
-            hold_size = hold_size / hold_size.max()
-
-        extras = []
-        if "hold_presence" in channels:
-            extras.append(hold_presence[:, :, None])
-        if "hold_size" in channels:
-            extras.append(hold_size[:, :, None])
-        matrix = mat_route if not extras else np.concatenate([mat_route] + extras, axis=2)
+        validation_errors = []
+        if not 1 <= ring_counts["start"] <= 2:
+            validation_errors.append("start_count_not_in_1_2")
+        if not 1 <= ring_counts["finish"] <= 2:
+            validation_errors.append("finish_count_not_in_1_2")
+        if overlap_count:
+            validation_errors.append("role_overlap")
 
         meta = {
             "filename": filename,
             "rows": hold_map["rows"],
             "cols": hold_map["cols"],
             "channels": channels,
-            "ring_counts": {k: len(v) for k, v in ring_ids.items()},
+            "ring_counts": ring_counts,
+            "ring_detection": detection_diagnostics or {"method": method},
+            "validation_errors": validation_errors,
         }
-        if os.path.exists(label_path):
+        base = os.path.splitext(filename)[0]
+        old_metadata_path = os.path.join(metadata_dir, base + ".json") if metadata_dir else None
+        if old_metadata_path and os.path.exists(old_metadata_path):
+            with open(old_metadata_path, "r") as f:
+                old_metadata = json.load(f)
+            meta.update({key: old_metadata.get(key) for key in metadata_fields})
+        elif os.path.exists(label_path):
             meta.update(extract_metadata_from_label_image(label_path))
 
-        base = os.path.splitext(filename)[0]
         np.save(os.path.join(output_dir, base + ".npy"), matrix)
         with open(os.path.join(output_dir, base + ".json"), "w") as f:
             json.dump(meta, f, indent=2)
+
+        audit["total_routes"] += 1
+        if validation_errors:
+            audit["flagged_routes"].append({"filename": filename, "errors": validation_errors})
+        else:
+            audit["valid_routes"] += 1
+        grade_key = "null" if meta.get("grade_v") is None else str(meta["grade_v"])
+        audit["grade_counts"][grade_key] = audit["grade_counts"].get(grade_key, 0) + 1
+        for role, count in ring_counts.items():
+            count_key = str(count)
+            histogram = audit["ring_count_histograms"][role]
+            histogram[count_key] = histogram.get(count_key, 0) + 1
+        route_hashes.add(hashlib.sha256(matrix[:, :, :4].tobytes()).hexdigest())
+
+    audit["unique_route_matrices"] = len(route_hashes)
+    audit["fixed_center_config"] = {
+        "inner_radius": inner_radius,
+        "outer_radius": outer_radius,
+        "min_coverage": min_coverage,
+    } if method == "fixed-centers" else None
+    with open(os.path.join(output_dir, "dataset_audit.json"), "w") as f:
+        json.dump(audit, f, indent=2)
+    return audit
 
 
 def extract_orientations_from_image(
@@ -1097,6 +1289,12 @@ if __name__ == '__main__':
     p_export.add_argument("--image-dir", required=True)
     p_export.add_argument("--hold-map", required=True)
     p_export.add_argument("--output-dir", required=True)
+    p_export.add_argument("--ring-method", choices=("hough", "fixed-centers"), default="fixed-centers")
+    p_export.add_argument("--max-images", type=int, default=None)
+    p_export.add_argument("--metadata-dir", default=None, help="Reuse OCR fields from an existing export.")
+    p_export.add_argument("--inner-radius", type=float, default=25.0)
+    p_export.add_argument("--outer-radius", type=float, default=35.0)
+    p_export.add_argument("--min-coverage", type=float, default=0.30)
 
     args = parser.parse_args()
 
@@ -1168,8 +1366,16 @@ if __name__ == '__main__':
             args.hold_map,
             args.output_dir,
             hsv_ranges,
-            channels=["start", "finish", "hand", "foot", "hold_presence", "hold_size"],
-            method="hough",
+            channels=[
+                "start", "finish", "hand", "foot", "hold_presence", "hold_size",
+                "orient_sin1", "orient_cos1", "orient_sin2", "orient_cos2",
+            ],
+            method=args.ring_method,
+            max_images=args.max_images,
+            metadata_dir=args.metadata_dir,
+            inner_radius=args.inner_radius,
+            outer_radius=args.outer_radius,
+            min_coverage=args.min_coverage,
         )
         print(f"Exported dataset to {args.output_dir}")
 

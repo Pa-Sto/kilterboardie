@@ -1,0 +1,133 @@
+{
+  "filename": "kilter_image735.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 6
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 2,
+        "role": "foot",
+        "coverage": 0.6454,
+        "margin": 0.6454
+      },
+      {
+        "hold_id": 71,
+        "role": "start",
+        "coverage": 0.5952,
+        "margin": 0.5952
+      },
+      {
+        "hold_id": 115,
+        "role": "start",
+        "coverage": 0.5983,
+        "margin": 0.5983
+      },
+      {
+        "hold_id": 137,
+        "role": "foot",
+        "coverage": 0.7029,
+        "margin": 0.7029
+      },
+      {
+        "hold_id": 157,
+        "role": "foot",
+        "coverage": 0.6161,
+        "margin": 0.6161
+      },
+      {
+        "hold_id": 195,
+        "role": "hand",
+        "coverage": 0.659,
+        "margin": 0.659
+      },
+      {
+        "hold_id": 198,
+        "role": "hand",
+        "coverage": 0.6841,
+        "margin": 0.6841
+      },
+      {
+        "hold_id": 234,
+        "role": "foot",
+        "coverage": 0.5471,
+        "margin": 0.5471
+      },
+      {
+        "hold_id": 261,
+        "role": "foot",
+        "coverage": 0.7249,
+        "margin": 0.7249
+      },
+      {
+        "hold_id": 284,
+        "role": "hand",
+        "coverage": 0.6496,
+        "margin": 0.6318
+      },
+      {
+        "hold_id": 292,
+        "role": "foot",
+        "coverage": 0.6219,
+        "margin": 0.5528
+      },
+      {
+        "hold_id": 309,
+        "role": "hand",
+        "coverage": 0.637,
+        "margin": 0.637
+      },
+      {
+        "hold_id": 389,
+        "role": "hand",
+        "coverage": 0.6454,
+        "margin": 0.6454
+      },
+      {
+        "hold_id": 414,
+        "role": "hand",
+        "coverage": 0.6527,
+        "margin": 0.6527
+      },
+      {
+        "hold_id": 468,
+        "role": "finish",
+        "coverage": 0.7035,
+        "margin": 0.7035
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "ung Whippersnappe\nkilterjackie\n\n7b/V8 Ye ee\n",
+  "lines": [
+    "ung Whippersnappe",
+    "kilterjackie",
+    "7b/V8 Ye ee"
+  ],
+  "name": "ung Whippersnappe",
+  "setter": "kilterjackie",
+  "grade_raw": "7b/V8 Ye ee",
+  "grade_v": 8,
+  "stars": 2
+}

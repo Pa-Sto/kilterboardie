@@ -1,0 +1,139 @@
+{
+  "filename": "kilter_image431.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 7
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 20,
+        "role": "foot",
+        "coverage": 0.7035,
+        "margin": 0.7035
+      },
+      {
+        "hold_id": 75,
+        "role": "foot",
+        "coverage": 0.6637,
+        "margin": 0.6637
+      },
+      {
+        "hold_id": 104,
+        "role": "foot",
+        "coverage": 0.5366,
+        "margin": 0.5366
+      },
+      {
+        "hold_id": 115,
+        "role": "start",
+        "coverage": 0.5983,
+        "margin": 0.5983
+      },
+      {
+        "hold_id": 132,
+        "role": "foot",
+        "coverage": 0.7338,
+        "margin": 0.7338
+      },
+      {
+        "hold_id": 148,
+        "role": "start",
+        "coverage": 0.5465,
+        "margin": 0.5465
+      },
+      {
+        "hold_id": 182,
+        "role": "foot",
+        "coverage": 0.6935,
+        "margin": 0.6935
+      },
+      {
+        "hold_id": 211,
+        "role": "foot",
+        "coverage": 0.6987,
+        "margin": 0.6987
+      },
+      {
+        "hold_id": 254,
+        "role": "hand",
+        "coverage": 0.6156,
+        "margin": 0.6156
+      },
+      {
+        "hold_id": 256,
+        "role": "hand",
+        "coverage": 0.6187,
+        "margin": 0.6187
+      },
+      {
+        "hold_id": 287,
+        "role": "foot",
+        "coverage": 0.5256,
+        "margin": 0.5256
+      },
+      {
+        "hold_id": 297,
+        "role": "hand",
+        "coverage": 0.6506,
+        "margin": 0.6506
+      },
+      {
+        "hold_id": 337,
+        "role": "hand",
+        "coverage": 0.6501,
+        "margin": 0.6501
+      },
+      {
+        "hold_id": 378,
+        "role": "hand",
+        "coverage": 0.6517,
+        "margin": 0.6517
+      },
+      {
+        "hold_id": 414,
+        "role": "hand",
+        "coverage": 0.6527,
+        "margin": 0.6527
+      },
+      {
+        "hold_id": 445,
+        "role": "finish",
+        "coverage": 0.6757,
+        "margin": 0.6757
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Boss the Cross\nJaeden\n\nZat/V7 Yeo.\n",
+  "lines": [
+    "Boss the Cross",
+    "Jaeden",
+    "Zat/V7 Yeo."
+  ],
+  "name": "Boss the Cross",
+  "setter": "Jaeden",
+  "grade_raw": "Zat/V7 Yeo.",
+  "grade_v": 7,
+  "stars": 3
+}

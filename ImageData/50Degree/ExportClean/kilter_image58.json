@@ -1,0 +1,145 @@
+{
+  "filename": "kilter_image58.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 7,
+    "foot": 7
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 14,
+        "role": "foot",
+        "coverage": 0.6266,
+        "margin": 0.6266
+      },
+      {
+        "hold_id": 42,
+        "role": "foot",
+        "coverage": 0.7092,
+        "margin": 0.7092
+      },
+      {
+        "hold_id": 86,
+        "role": "foot",
+        "coverage": 0.6998,
+        "margin": 0.6998
+      },
+      {
+        "hold_id": 128,
+        "role": "foot",
+        "coverage": 0.5816,
+        "margin": 0.5816
+      },
+      {
+        "hold_id": 144,
+        "role": "start",
+        "coverage": 0.6946,
+        "margin": 0.6946
+      },
+      {
+        "hold_id": 148,
+        "role": "foot",
+        "coverage": 0.6245,
+        "margin": 0.6245
+      },
+      {
+        "hold_id": 170,
+        "role": "start",
+        "coverage": 0.715,
+        "margin": 0.715
+      },
+      {
+        "hold_id": 200,
+        "role": "foot",
+        "coverage": 0.67,
+        "margin": 0.67
+      },
+      {
+        "hold_id": 202,
+        "role": "foot",
+        "coverage": 0.6946,
+        "margin": 0.6946
+      },
+      {
+        "hold_id": 227,
+        "role": "hand",
+        "coverage": 0.6271,
+        "margin": 0.6271
+      },
+      {
+        "hold_id": 254,
+        "role": "hand",
+        "coverage": 0.6156,
+        "margin": 0.6156
+      },
+      {
+        "hold_id": 296,
+        "role": "hand",
+        "coverage": 0.6919,
+        "margin": 0.6919
+      },
+      {
+        "hold_id": 308,
+        "role": "hand",
+        "coverage": 0.625,
+        "margin": 0.625
+      },
+      {
+        "hold_id": 383,
+        "role": "hand",
+        "coverage": 0.6485,
+        "margin": 0.6485
+      },
+      {
+        "hold_id": 412,
+        "role": "hand",
+        "coverage": 0.6768,
+        "margin": 0.6768
+      },
+      {
+        "hold_id": 413,
+        "role": "hand",
+        "coverage": 0.6799,
+        "margin": 0.6799
+      },
+      {
+        "hold_id": 439,
+        "role": "finish",
+        "coverage": 0.6987,
+        "margin": 0.6987
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "204 cm\ngrainycurd\n\n7c/V9 Ye vee\n",
+  "lines": [
+    "204 cm",
+    "grainycurd",
+    "7c/V9 Ye vee"
+  ],
+  "name": "204 cm",
+  "setter": "grainycurd",
+  "grade_raw": "7c/V9 Ye vee",
+  "grade_v": 9,
+  "stars": 3
+}

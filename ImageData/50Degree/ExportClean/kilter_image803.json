@@ -1,0 +1,91 @@
+{
+  "filename": "kilter_image803.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 3,
+    "foot": 2
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 82,
+        "role": "foot",
+        "coverage": 0.6004,
+        "margin": 0.6004
+      },
+      {
+        "hold_id": 109,
+        "role": "foot",
+        "coverage": 0.6522,
+        "margin": 0.5753
+      },
+      {
+        "hold_id": 129,
+        "role": "start",
+        "coverage": 0.6376,
+        "margin": 0.6151
+      },
+      {
+        "hold_id": 165,
+        "role": "start",
+        "coverage": 0.6464,
+        "margin": 0.6464
+      },
+      {
+        "hold_id": 251,
+        "role": "hand",
+        "coverage": 0.6213,
+        "margin": 0.6213
+      },
+      {
+        "hold_id": 270,
+        "role": "hand",
+        "coverage": 0.6407,
+        "margin": 0.6407
+      },
+      {
+        "hold_id": 328,
+        "role": "hand",
+        "coverage": 0.6412,
+        "margin": 0.6412
+      },
+      {
+        "hold_id": 441,
+        "role": "finish",
+        "coverage": 0.7045,
+        "margin": 0.7045
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Geez, Brad!\njwilder\n\n& 7b/V8 eke oe\n",
+  "lines": [
+    "Geez, Brad!",
+    "jwilder",
+    "& 7b/V8 eke oe"
+  ],
+  "name": "Geez, Brad!",
+  "setter": "jwilder",
+  "grade_raw": "& 7b/V8 eke oe",
+  "grade_v": 8,
+  "stars": 2
+}

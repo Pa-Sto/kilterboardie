@@ -1,0 +1,97 @@
+{
+  "filename": "kilter_image193.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 1
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 19,
+        "role": "foot",
+        "coverage": 0.7087,
+        "margin": 0.7087
+      },
+      {
+        "hold_id": 101,
+        "role": "start",
+        "coverage": 0.6569,
+        "margin": 0.6569
+      },
+      {
+        "hold_id": 154,
+        "role": "start",
+        "coverage": 0.6632,
+        "margin": 0.6632
+      },
+      {
+        "hold_id": 205,
+        "role": "hand",
+        "coverage": 0.6444,
+        "margin": 0.6444
+      },
+      {
+        "hold_id": 284,
+        "role": "hand",
+        "coverage": 0.6595,
+        "margin": 0.6595
+      },
+      {
+        "hold_id": 296,
+        "role": "hand",
+        "coverage": 0.6993,
+        "margin": 0.6993
+      },
+      {
+        "hold_id": 358,
+        "role": "hand",
+        "coverage": 0.6632,
+        "margin": 0.6632
+      },
+      {
+        "hold_id": 415,
+        "role": "hand",
+        "coverage": 0.6444,
+        "margin": 0.6444
+      },
+      {
+        "hold_id": 475,
+        "role": "finish",
+        "coverage": 0.7097,
+        "margin": 0.7097
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "The Cult\nRiverTulloss\n\n7bIVE Ye yee\n",
+  "lines": [
+    "The Cult",
+    "RiverTulloss",
+    "7bIVE Ye yee"
+  ],
+  "name": "The Cult",
+  "setter": "RiverTulloss",
+  "grade_raw": "7bIVE Ye yee",
+  "grade_v": null,
+  "stars": 3
+}

@@ -1,0 +1,115 @@
+{
+  "filename": "kilter_image809.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 4
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 23,
+        "role": "foot",
+        "coverage": 0.7066,
+        "margin": 0.7066
+      },
+      {
+        "hold_id": 75,
+        "role": "start",
+        "coverage": 0.6438,
+        "margin": 0.6438
+      },
+      {
+        "hold_id": 129,
+        "role": "start",
+        "coverage": 0.6391,
+        "margin": 0.6151
+      },
+      {
+        "hold_id": 133,
+        "role": "foot",
+        "coverage": 0.6224,
+        "margin": 0.5476
+      },
+      {
+        "hold_id": 210,
+        "role": "foot",
+        "coverage": 0.7212,
+        "margin": 0.704
+      },
+      {
+        "hold_id": 230,
+        "role": "hand",
+        "coverage": 0.5711,
+        "margin": 0.4796
+      },
+      {
+        "hold_id": 240,
+        "role": "foot",
+        "coverage": 0.5523,
+        "margin": 0.4864
+      },
+      {
+        "hold_id": 273,
+        "role": "hand",
+        "coverage": 0.6752,
+        "margin": 0.6752
+      },
+      {
+        "hold_id": 276,
+        "role": "hand",
+        "coverage": 0.671,
+        "margin": 0.671
+      },
+      {
+        "hold_id": 359,
+        "role": "hand",
+        "coverage": 0.6512,
+        "margin": 0.6512
+      },
+      {
+        "hold_id": 399,
+        "role": "hand",
+        "coverage": 0.6438,
+        "margin": 0.6438
+      },
+      {
+        "hold_id": 466,
+        "role": "finish",
+        "coverage": 0.6961,
+        "margin": 0.6961
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Oldschool V7\nYoshisapple\n\n7b/V8 Ye ee\n",
+  "lines": [
+    "Oldschool V7",
+    "Yoshisapple",
+    "7b/V8 Ye ee"
+  ],
+  "name": "Oldschool V7",
+  "setter": "Yoshisapple",
+  "grade_raw": "7b/V8 Ye ee",
+  "grade_v": 8,
+  "stars": 2
+}

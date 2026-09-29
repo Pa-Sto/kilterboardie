@@ -1,0 +1,103 @@
+{
+  "filename": "kilter_image645.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 4,
+    "foot": 4
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 6,
+        "role": "foot",
+        "coverage": 0.659,
+        "margin": 0.659
+      },
+      {
+        "hold_id": 53,
+        "role": "foot",
+        "coverage": 0.6804,
+        "margin": 0.6804
+      },
+      {
+        "hold_id": 120,
+        "role": "start",
+        "coverage": 0.5643,
+        "margin": 0.5643
+      },
+      {
+        "hold_id": 157,
+        "role": "foot",
+        "coverage": 0.6161,
+        "margin": 0.6161
+      },
+      {
+        "hold_id": 199,
+        "role": "hand",
+        "coverage": 0.6407,
+        "margin": 0.6407
+      },
+      {
+        "hold_id": 265,
+        "role": "foot",
+        "coverage": 0.6977,
+        "margin": 0.6977
+      },
+      {
+        "hold_id": 272,
+        "role": "hand",
+        "coverage": 0.6119,
+        "margin": 0.6119
+      },
+      {
+        "hold_id": 376,
+        "role": "hand",
+        "coverage": 0.6485,
+        "margin": 0.6485
+      },
+      {
+        "hold_id": 443,
+        "role": "hand",
+        "coverage": 0.5486,
+        "margin": 0.4906
+      },
+      {
+        "hold_id": 459,
+        "role": "finish",
+        "coverage": 0.7003,
+        "margin": 0.6862
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Lock Off, Lock Ahn\nAhnsight\n\n7b/V8 Ye ee\n",
+  "lines": [
+    "Lock Off, Lock Ahn",
+    "Ahnsight",
+    "7b/V8 Ye ee"
+  ],
+  "name": "Lock Off, Lock Ahn",
+  "setter": "Ahnsight",
+  "grade_raw": "7b/V8 Ye ee",
+  "grade_v": 8,
+  "stars": 2
+}

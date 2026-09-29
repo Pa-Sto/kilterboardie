@@ -1,0 +1,115 @@
+{
+  "filename": "kilter_image408.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 4
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 8,
+        "role": "foot",
+        "coverage": 0.7516,
+        "margin": 0.7516
+      },
+      {
+        "hold_id": 14,
+        "role": "foot",
+        "coverage": 0.6726,
+        "margin": 0.6726
+      },
+      {
+        "hold_id": 89,
+        "role": "foot",
+        "coverage": 0.6663,
+        "margin": 0.6663
+      },
+      {
+        "hold_id": 108,
+        "role": "foot",
+        "coverage": 0.6281,
+        "margin": 0.6281
+      },
+      {
+        "hold_id": 144,
+        "role": "start",
+        "coverage": 0.6946,
+        "margin": 0.6946
+      },
+      {
+        "hold_id": 170,
+        "role": "start",
+        "coverage": 0.715,
+        "margin": 0.715
+      },
+      {
+        "hold_id": 243,
+        "role": "hand",
+        "coverage": 0.6255,
+        "margin": 0.6255
+      },
+      {
+        "hold_id": 276,
+        "role": "hand",
+        "coverage": 0.6909,
+        "margin": 0.6909
+      },
+      {
+        "hold_id": 355,
+        "role": "hand",
+        "coverage": 0.6532,
+        "margin": 0.6532
+      },
+      {
+        "hold_id": 376,
+        "role": "hand",
+        "coverage": 0.6485,
+        "margin": 0.6485
+      },
+      {
+        "hold_id": 410,
+        "role": "hand",
+        "coverage": 0.6543,
+        "margin": 0.6543
+      },
+      {
+        "hold_id": 466,
+        "role": "finish",
+        "coverage": 0.6961,
+        "margin": 0.6961
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "he Wagon Mini Mini.\nManolo69\n\nZat/V7 Yeo.\n",
+  "lines": [
+    "he Wagon Mini Mini.",
+    "Manolo69",
+    "Zat/V7 Yeo."
+  ],
+  "name": "he Wagon Mini Mini.",
+  "setter": "Manolo69",
+  "grade_raw": "Zat/V7 Yeo.",
+  "grade_v": 7,
+  "stars": 3
+}

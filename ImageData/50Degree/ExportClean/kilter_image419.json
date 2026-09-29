@@ -1,0 +1,91 @@
+{
+  "filename": "kilter_image419.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 3,
+    "foot": 2
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 19,
+        "role": "foot",
+        "coverage": 0.7087,
+        "margin": 0.7087
+      },
+      {
+        "hold_id": 84,
+        "role": "foot",
+        "coverage": 0.7123,
+        "margin": 0.7123
+      },
+      {
+        "hold_id": 170,
+        "role": "start",
+        "coverage": 0.6878,
+        "margin": 0.6878
+      },
+      {
+        "hold_id": 230,
+        "role": "start",
+        "coverage": 0.6517,
+        "margin": 0.6517
+      },
+      {
+        "hold_id": 297,
+        "role": "hand",
+        "coverage": 0.6506,
+        "margin": 0.6506
+      },
+      {
+        "hold_id": 323,
+        "role": "hand",
+        "coverage": 0.625,
+        "margin": 0.625
+      },
+      {
+        "hold_id": 358,
+        "role": "hand",
+        "coverage": 0.6632,
+        "margin": 0.6632
+      },
+      {
+        "hold_id": 474,
+        "role": "finish",
+        "coverage": 0.7207,
+        "margin": 0.7207
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "powerful game\nNathan_Collard\n\n7c+/V10 ye vee\n",
+  "lines": [
+    "powerful game",
+    "Nathan_Collard",
+    "7c+/V10 ye vee"
+  ],
+  "name": "powerful game",
+  "setter": "Nathan_Collard",
+  "grade_raw": "7c+/V10 ye vee",
+  "grade_v": 10,
+  "stars": 3
+}

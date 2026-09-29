@@ -1,0 +1,139 @@
+{
+  "filename": "kilter_image330.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 7,
+    "foot": 6
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 14,
+        "role": "foot",
+        "coverage": 0.6266,
+        "margin": 0.6266
+      },
+      {
+        "hold_id": 60,
+        "role": "foot",
+        "coverage": 0.6287,
+        "margin": 0.6287
+      },
+      {
+        "hold_id": 112,
+        "role": "foot",
+        "coverage": 0.7297,
+        "margin": 0.7297
+      },
+      {
+        "hold_id": 151,
+        "role": "start",
+        "coverage": 0.6653,
+        "margin": 0.6653
+      },
+      {
+        "hold_id": 165,
+        "role": "foot",
+        "coverage": 0.6585,
+        "margin": 0.6585
+      },
+      {
+        "hold_id": 203,
+        "role": "start",
+        "coverage": 0.6867,
+        "margin": 0.6867
+      },
+      {
+        "hold_id": 237,
+        "role": "foot",
+        "coverage": 0.7254,
+        "margin": 0.7254
+      },
+      {
+        "hold_id": 278,
+        "role": "hand",
+        "coverage": 0.6736,
+        "margin": 0.6736
+      },
+      {
+        "hold_id": 283,
+        "role": "hand",
+        "coverage": 0.6747,
+        "margin": 0.6747
+      },
+      {
+        "hold_id": 300,
+        "role": "hand",
+        "coverage": 0.6522,
+        "margin": 0.6522
+      },
+      {
+        "hold_id": 317,
+        "role": "foot",
+        "coverage": 0.5282,
+        "margin": 0.5282
+      },
+      {
+        "hold_id": 355,
+        "role": "hand",
+        "coverage": 0.6532,
+        "margin": 0.6532
+      },
+      {
+        "hold_id": 385,
+        "role": "hand",
+        "coverage": 0.66,
+        "margin": 0.66
+      },
+      {
+        "hold_id": 415,
+        "role": "hand",
+        "coverage": 0.6804,
+        "margin": 0.6804
+      },
+      {
+        "hold_id": 465,
+        "role": "hand",
+        "coverage": 0.6496,
+        "margin": 0.6496
+      },
+      {
+        "hold_id": 468,
+        "role": "finish",
+        "coverage": 0.7035,
+        "margin": 0.7035
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Shauna 1\nshaunafee\n\n6b+/V4 Yeo.\n",
+  "lines": [
+    "Shauna 1",
+    "shaunafee",
+    "6b+/V4 Yeo."
+  ],
+  "name": "Shauna 1",
+  "setter": "shaunafee",
+  "grade_raw": "6b+/V4 Yeo.",
+  "grade_v": 4,
+  "stars": 3
+}

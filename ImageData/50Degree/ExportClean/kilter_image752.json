@@ -1,0 +1,145 @@
+{
+  "filename": "kilter_image752.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 2,
+    "hand": 6,
+    "foot": 7
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 19,
+        "role": "foot",
+        "coverage": 0.7087,
+        "margin": 0.7087
+      },
+      {
+        "hold_id": 121,
+        "role": "foot",
+        "coverage": 0.7024,
+        "margin": 0.7024
+      },
+      {
+        "hold_id": 157,
+        "role": "foot",
+        "coverage": 0.5659,
+        "margin": 0.4901
+      },
+      {
+        "hold_id": 163,
+        "role": "foot",
+        "coverage": 0.5983,
+        "margin": 0.5675
+      },
+      {
+        "hold_id": 170,
+        "role": "start",
+        "coverage": 0.636,
+        "margin": 0.5659
+      },
+      {
+        "hold_id": 176,
+        "role": "start",
+        "coverage": 0.6512,
+        "margin": 0.6313
+      },
+      {
+        "hold_id": 205,
+        "role": "hand",
+        "coverage": 0.6444,
+        "margin": 0.6444
+      },
+      {
+        "hold_id": 249,
+        "role": "hand",
+        "coverage": 0.5481,
+        "margin": 0.4885
+      },
+      {
+        "hold_id": 260,
+        "role": "foot",
+        "coverage": 0.5879,
+        "margin": 0.5879
+      },
+      {
+        "hold_id": 275,
+        "role": "foot",
+        "coverage": 0.6653,
+        "margin": 0.6355
+      },
+      {
+        "hold_id": 278,
+        "role": "hand",
+        "coverage": 0.6475,
+        "margin": 0.6475
+      },
+      {
+        "hold_id": 300,
+        "role": "hand",
+        "coverage": 0.5748,
+        "margin": 0.4817
+      },
+      {
+        "hold_id": 308,
+        "role": "foot",
+        "coverage": 0.6695,
+        "margin": 0.6695
+      },
+      {
+        "hold_id": 356,
+        "role": "hand",
+        "coverage": 0.6532,
+        "margin": 0.6532
+      },
+      {
+        "hold_id": 402,
+        "role": "hand",
+        "coverage": 0.6491,
+        "margin": 0.6491
+      },
+      {
+        "hold_id": 465,
+        "role": "finish",
+        "coverage": 0.7082,
+        "margin": 0.7082
+      },
+      {
+        "hold_id": 468,
+        "role": "finish",
+        "coverage": 0.7035,
+        "margin": 0.7035
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "boldis\nadam_lke\n\n6b/V4 ye yee\n",
+  "lines": [
+    "boldis",
+    "adam_lke",
+    "6b/V4 ye yee"
+  ],
+  "name": "boldis",
+  "setter": "adam_lke",
+  "grade_raw": "6b/V4 ye yee",
+  "grade_v": 4,
+  "stars": 3
+}

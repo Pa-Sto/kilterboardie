@@ -1,0 +1,103 @@
+{
+  "filename": "kilter_image555.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 5,
+    "foot": 3
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 57,
+        "role": "foot",
+        "coverage": 0.4404,
+        "margin": 0.4404
+      },
+      {
+        "hold_id": 149,
+        "role": "hand",
+        "coverage": 0.5873,
+        "margin": 0.5873
+      },
+      {
+        "hold_id": 163,
+        "role": "foot",
+        "coverage": 0.5983,
+        "margin": 0.5983
+      },
+      {
+        "hold_id": 173,
+        "role": "start",
+        "coverage": 0.6831,
+        "margin": 0.6831
+      },
+      {
+        "hold_id": 180,
+        "role": "hand",
+        "coverage": 0.6532,
+        "margin": 0.6532
+      },
+      {
+        "hold_id": 189,
+        "role": "foot",
+        "coverage": 0.738,
+        "margin": 0.738
+      },
+      {
+        "hold_id": 272,
+        "role": "hand",
+        "coverage": 0.6119,
+        "margin": 0.6119
+      },
+      {
+        "hold_id": 298,
+        "role": "hand",
+        "coverage": 0.6491,
+        "margin": 0.6491
+      },
+      {
+        "hold_id": 414,
+        "role": "hand",
+        "coverage": 0.6527,
+        "margin": 0.6527
+      },
+      {
+        "hold_id": 472,
+        "role": "finish",
+        "coverage": 0.6867,
+        "margin": 0.6867
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Plus Minus One\ndaxxta\n\n8at/V12 Yroe ve\n",
+  "lines": [
+    "Plus Minus One",
+    "daxxta",
+    "8at/V12 Yroe ve"
+  ],
+  "name": "Plus Minus One",
+  "setter": "daxxta",
+  "grade_raw": "8at/V12 Yroe ve",
+  "grade_v": 12,
+  "stars": 2
+}

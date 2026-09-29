@@ -1,0 +1,133 @@
+{
+  "filename": "kilter_image420.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 8,
+    "foot": 4
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 13,
+        "role": "foot",
+        "coverage": 0.7055,
+        "margin": 0.7055
+      },
+      {
+        "hold_id": 35,
+        "role": "foot",
+        "coverage": 0.7087,
+        "margin": 0.7087
+      },
+      {
+        "hold_id": 86,
+        "role": "foot",
+        "coverage": 0.6444,
+        "margin": 0.5696
+      },
+      {
+        "hold_id": 94,
+        "role": "hand",
+        "coverage": 0.6192,
+        "margin": 0.6192
+      },
+      {
+        "hold_id": 102,
+        "role": "start",
+        "coverage": 0.6914,
+        "margin": 0.6768
+      },
+      {
+        "hold_id": 151,
+        "role": "start",
+        "coverage": 0.6653,
+        "margin": 0.6653
+      },
+      {
+        "hold_id": 158,
+        "role": "foot",
+        "coverage": 0.5241,
+        "margin": 0.5241
+      },
+      {
+        "hold_id": 180,
+        "role": "hand",
+        "coverage": 0.6532,
+        "margin": 0.6532
+      },
+      {
+        "hold_id": 209,
+        "role": "hand",
+        "coverage": 0.6783,
+        "margin": 0.6783
+      },
+      {
+        "hold_id": 217,
+        "role": "hand",
+        "coverage": 0.6318,
+        "margin": 0.6318
+      },
+      {
+        "hold_id": 295,
+        "role": "hand",
+        "coverage": 0.6381,
+        "margin": 0.6381
+      },
+      {
+        "hold_id": 310,
+        "role": "hand",
+        "coverage": 0.6752,
+        "margin": 0.6752
+      },
+      {
+        "hold_id": 325,
+        "role": "hand",
+        "coverage": 0.6428,
+        "margin": 0.6428
+      },
+      {
+        "hold_id": 440,
+        "role": "hand",
+        "coverage": 0.6145,
+        "margin": 0.6145
+      },
+      {
+        "hold_id": 473,
+        "role": "finish",
+        "coverage": 0.7024,
+        "margin": 0.7024
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "check yaself\nzealot\n\n& 7c/V9 Ye vee\n",
+  "lines": [
+    "check yaself",
+    "zealot",
+    "& 7c/V9 Ye vee"
+  ],
+  "name": "check yaself",
+  "setter": "zealot",
+  "grade_raw": "& 7c/V9 Ye vee",
+  "grade_v": 9,
+  "stars": 3
+}

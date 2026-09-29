@@ -1,0 +1,175 @@
+{
+  "filename": "kilter_image962.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 13
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 5,
+        "role": "foot",
+        "coverage": 0.6156,
+        "margin": 0.6156
+      },
+      {
+        "hold_id": 7,
+        "role": "foot",
+        "coverage": 0.6287,
+        "margin": 0.6287
+      },
+      {
+        "hold_id": 13,
+        "role": "foot",
+        "coverage": 0.7291,
+        "margin": 0.7291
+      },
+      {
+        "hold_id": 18,
+        "role": "foot",
+        "coverage": 0.7233,
+        "margin": 0.7233
+      },
+      {
+        "hold_id": 83,
+        "role": "foot",
+        "coverage": 0.6077,
+        "margin": 0.6077
+      },
+      {
+        "hold_id": 128,
+        "role": "foot",
+        "coverage": 0.5816,
+        "margin": 0.5816
+      },
+      {
+        "hold_id": 135,
+        "role": "foot",
+        "coverage": 0.5968,
+        "margin": 0.5968
+      },
+      {
+        "hold_id": 151,
+        "role": "start",
+        "coverage": 0.6893,
+        "margin": 0.6893
+      },
+      {
+        "hold_id": 154,
+        "role": "start",
+        "coverage": 0.6851,
+        "margin": 0.6851
+      },
+      {
+        "hold_id": 172,
+        "role": "hand",
+        "coverage": 0.5654,
+        "margin": 0.5654
+      },
+      {
+        "hold_id": 210,
+        "role": "foot",
+        "coverage": 0.7275,
+        "margin": 0.7275
+      },
+      {
+        "hold_id": 213,
+        "role": "foot",
+        "coverage": 0.7301,
+        "margin": 0.7301
+      },
+      {
+        "hold_id": 225,
+        "role": "hand",
+        "coverage": 0.6308,
+        "margin": 0.6308
+      },
+      {
+        "hold_id": 253,
+        "role": "hand",
+        "coverage": 0.6192,
+        "margin": 0.6192
+      },
+      {
+        "hold_id": 261,
+        "role": "foot",
+        "coverage": 0.7249,
+        "margin": 0.7249
+      },
+      {
+        "hold_id": 292,
+        "role": "foot",
+        "coverage": 0.6804,
+        "margin": 0.6804
+      },
+      {
+        "hold_id": 314,
+        "role": "foot",
+        "coverage": 0.5701,
+        "margin": 0.5701
+      },
+      {
+        "hold_id": 336,
+        "role": "hand",
+        "coverage": 0.6266,
+        "margin": 0.6266
+      },
+      {
+        "hold_id": 355,
+        "role": "hand",
+        "coverage": 0.6532,
+        "margin": 0.6532
+      },
+      {
+        "hold_id": 364,
+        "role": "foot",
+        "coverage": 0.478,
+        "margin": 0.478
+      },
+      {
+        "hold_id": 441,
+        "role": "hand",
+        "coverage": 0.6501,
+        "margin": 0.6501
+      },
+      {
+        "hold_id": 475,
+        "role": "finish",
+        "coverage": 0.7097,
+        "margin": 0.7097
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Frohe Ostern!\nArne\n\n6b/V4 ye yee\n",
+  "lines": [
+    "Frohe Ostern!",
+    "Arne",
+    "6b/V4 ye yee"
+  ],
+  "name": "Frohe Ostern!",
+  "setter": "Arne",
+  "grade_raw": "6b/V4 ye yee",
+  "grade_v": 4,
+  "stars": 3
+}

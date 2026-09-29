@@ -1,0 +1,85 @@
+{
+  "filename": "kilter_image683.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 2,
+    "foot": 2
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 187,
+        "role": "foot",
+        "coverage": 0.6863,
+        "margin": 0.6863
+      },
+      {
+        "hold_id": 285,
+        "role": "start",
+        "coverage": 0.6757,
+        "margin": 0.6328
+      },
+      {
+        "hold_id": 291,
+        "role": "foot",
+        "coverage": 0.6553,
+        "margin": 0.5633
+      },
+      {
+        "hold_id": 302,
+        "role": "start",
+        "coverage": 0.6606,
+        "margin": 0.637
+      },
+      {
+        "hold_id": 399,
+        "role": "hand",
+        "coverage": 0.6438,
+        "margin": 0.6438
+      },
+      {
+        "hold_id": 428,
+        "role": "hand",
+        "coverage": 0.6496,
+        "margin": 0.6496
+      },
+      {
+        "hold_id": 460,
+        "role": "finish",
+        "coverage": 0.6804,
+        "margin": 0.6804
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Body Aches\nwillbyrd\n\n7c/V9 Ye vee\n",
+  "lines": [
+    "Body Aches",
+    "willbyrd",
+    "7c/V9 Ye vee"
+  ],
+  "name": "Body Aches",
+  "setter": "willbyrd",
+  "grade_raw": "7c/V9 Ye vee",
+  "grade_v": 9,
+  "stars": 3
+}

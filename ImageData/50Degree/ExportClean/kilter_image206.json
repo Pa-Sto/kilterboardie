@@ -1,0 +1,115 @@
+{
+  "filename": "kilter_image206.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 3,
+    "foot": 6
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 14,
+        "role": "foot",
+        "coverage": 0.6266,
+        "margin": 0.6266
+      },
+      {
+        "hold_id": 24,
+        "role": "foot",
+        "coverage": 0.6998,
+        "margin": 0.6998
+      },
+      {
+        "hold_id": 83,
+        "role": "foot",
+        "coverage": 0.6077,
+        "margin": 0.6077
+      },
+      {
+        "hold_id": 87,
+        "role": "foot",
+        "coverage": 0.6208,
+        "margin": 0.6208
+      },
+      {
+        "hold_id": 127,
+        "role": "start",
+        "coverage": 0.5785,
+        "margin": 0.5785
+      },
+      {
+        "hold_id": 157,
+        "role": "foot",
+        "coverage": 0.6161,
+        "margin": 0.6161
+      },
+      {
+        "hold_id": 180,
+        "role": "start",
+        "coverage": 0.6831,
+        "margin": 0.6831
+      },
+      {
+        "hold_id": 198,
+        "role": "hand",
+        "coverage": 0.6491,
+        "margin": 0.6491
+      },
+      {
+        "hold_id": 267,
+        "role": "foot",
+        "coverage": 0.7181,
+        "margin": 0.7181
+      },
+      {
+        "hold_id": 308,
+        "role": "hand",
+        "coverage": 0.6213,
+        "margin": 0.6213
+      },
+      {
+        "hold_id": 375,
+        "role": "hand",
+        "coverage": 0.6454,
+        "margin": 0.6454
+      },
+      {
+        "hold_id": 465,
+        "role": "finish",
+        "coverage": 0.7082,
+        "margin": 0.7082
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "nycelial connection\nflo_brailsford\n\n7a/V6 Ye ee\n",
+  "lines": [
+    "nycelial connection",
+    "flo_brailsford",
+    "7a/V6 Ye ee"
+  ],
+  "name": "nycelial connection",
+  "setter": "flo_brailsford",
+  "grade_raw": "7a/V6 Ye ee",
+  "grade_v": 6,
+  "stars": 2
+}

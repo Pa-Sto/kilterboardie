@@ -1,0 +1,115 @@
+{
+  "filename": "kilter_image922.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 3,
+    "foot": 6
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 62,
+        "role": "foot",
+        "coverage": 0.7055,
+        "margin": 0.7055
+      },
+      {
+        "hold_id": 74,
+        "role": "foot",
+        "coverage": 0.7055,
+        "margin": 0.7055
+      },
+      {
+        "hold_id": 151,
+        "role": "start",
+        "coverage": 0.6653,
+        "margin": 0.6653
+      },
+      {
+        "hold_id": 174,
+        "role": "start",
+        "coverage": 0.6799,
+        "margin": 0.6799
+      },
+      {
+        "hold_id": 188,
+        "role": "foot",
+        "coverage": 0.5952,
+        "margin": 0.5952
+      },
+      {
+        "hold_id": 208,
+        "role": "foot",
+        "coverage": 0.5884,
+        "margin": 0.5884
+      },
+      {
+        "hold_id": 214,
+        "role": "foot",
+        "coverage": 0.6766,
+        "margin": 0.6766
+      },
+      {
+        "hold_id": 283,
+        "role": "hand",
+        "coverage": 0.6485,
+        "margin": 0.6485
+      },
+      {
+        "hold_id": 318,
+        "role": "foot",
+        "coverage": 0.6674,
+        "margin": 0.648
+      },
+      {
+        "hold_id": 329,
+        "role": "hand",
+        "coverage": 0.5905,
+        "margin": 0.5235
+      },
+      {
+        "hold_id": 439,
+        "role": "hand",
+        "coverage": 0.647,
+        "margin": 0.647
+      },
+      {
+        "hold_id": 472,
+        "role": "finish",
+        "coverage": 0.6867,
+        "margin": 0.6867
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "slow rush\njwebxl\n\n6b+/V4 Yeo.\n",
+  "lines": [
+    "slow rush",
+    "jwebxl",
+    "6b+/V4 Yeo."
+  ],
+  "name": "slow rush",
+  "setter": "jwebxl",
+  "grade_raw": "6b+/V4 Yeo.",
+  "grade_v": 4,
+  "stars": 3
+}

@@ -1,0 +1,109 @@
+{
+  "filename": "kilter_image916.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 5,
+    "foot": 4
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 7,
+        "role": "foot",
+        "coverage": 0.6287,
+        "margin": 0.6287
+      },
+      {
+        "hold_id": 54,
+        "role": "foot",
+        "coverage": 0.7547,
+        "margin": 0.7547
+      },
+      {
+        "hold_id": 81,
+        "role": "foot",
+        "coverage": 0.7238,
+        "margin": 0.7238
+      },
+      {
+        "hold_id": 113,
+        "role": "start",
+        "coverage": 0.6308,
+        "margin": 0.6308
+      },
+      {
+        "hold_id": 225,
+        "role": "hand",
+        "coverage": 0.6308,
+        "margin": 0.6308
+      },
+      {
+        "hold_id": 236,
+        "role": "foot",
+        "coverage": 0.5319,
+        "margin": 0.5319
+      },
+      {
+        "hold_id": 278,
+        "role": "hand",
+        "coverage": 0.6475,
+        "margin": 0.6475
+      },
+      {
+        "hold_id": 357,
+        "role": "hand",
+        "coverage": 0.6543,
+        "margin": 0.6543
+      },
+      {
+        "hold_id": 405,
+        "role": "hand",
+        "coverage": 0.6543,
+        "margin": 0.6543
+      },
+      {
+        "hold_id": 429,
+        "role": "hand",
+        "coverage": 0.6402,
+        "margin": 0.6402
+      },
+      {
+        "hold_id": 468,
+        "role": "finish",
+        "coverage": 0.7035,
+        "margin": 0.7035
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Two Minds\nkilterjackie\n\n7a/V6 Ye ee\n",
+  "lines": [
+    "Two Minds",
+    "kilterjackie",
+    "7a/V6 Ye ee"
+  ],
+  "name": "Two Minds",
+  "setter": "kilterjackie",
+  "grade_raw": "7a/V6 Ye ee",
+  "grade_v": 6,
+  "stars": 2
+}

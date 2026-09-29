@@ -1,0 +1,133 @@
+{
+  "filename": "kilter_image898.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 6
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 13,
+        "role": "foot",
+        "coverage": 0.7055,
+        "margin": 0.7055
+      },
+      {
+        "hold_id": 75,
+        "role": "foot",
+        "coverage": 0.6637,
+        "margin": 0.6637
+      },
+      {
+        "hold_id": 110,
+        "role": "foot",
+        "coverage": 0.7212,
+        "margin": 0.7212
+      },
+      {
+        "hold_id": 145,
+        "role": "start",
+        "coverage": 0.6904,
+        "margin": 0.6904
+      },
+      {
+        "hold_id": 150,
+        "role": "start",
+        "coverage": 0.6423,
+        "margin": 0.6423
+      },
+      {
+        "hold_id": 199,
+        "role": "foot",
+        "coverage": 0.6841,
+        "margin": 0.6841
+      },
+      {
+        "hold_id": 243,
+        "role": "hand",
+        "coverage": 0.6255,
+        "margin": 0.6255
+      },
+      {
+        "hold_id": 247,
+        "role": "foot",
+        "coverage": 0.6449,
+        "margin": 0.6449
+      },
+      {
+        "hold_id": 248,
+        "role": "hand",
+        "coverage": 0.6271,
+        "margin": 0.6271
+      },
+      {
+        "hold_id": 271,
+        "role": "foot",
+        "coverage": 0.6888,
+        "margin": 0.6888
+      },
+      {
+        "hold_id": 337,
+        "role": "hand",
+        "coverage": 0.6501,
+        "margin": 0.6501
+      },
+      {
+        "hold_id": 354,
+        "role": "hand",
+        "coverage": 0.6485,
+        "margin": 0.6485
+      },
+      {
+        "hold_id": 357,
+        "role": "hand",
+        "coverage": 0.6543,
+        "margin": 0.6543
+      },
+      {
+        "hold_id": 402,
+        "role": "hand",
+        "coverage": 0.6491,
+        "margin": 0.6491
+      },
+      {
+        "hold_id": 465,
+        "role": "finish",
+        "coverage": 0.7082,
+        "margin": 0.7082
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Choose Carefully\nCuckovich\n\n6c/V5 eee\n",
+  "lines": [
+    "Choose Carefully",
+    "Cuckovich",
+    "6c/V5 eee"
+  ],
+  "name": "Choose Carefully",
+  "setter": "Cuckovich",
+  "grade_raw": "6c/V5 eee",
+  "grade_v": 5,
+  "stars": 3
+}

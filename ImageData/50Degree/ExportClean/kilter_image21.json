@@ -1,0 +1,127 @@
+{
+  "filename": "kilter_image21.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 5
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 0,
+        "role": "foot",
+        "coverage": 0.5071,
+        "margin": 0.5071
+      },
+      {
+        "hold_id": 57,
+        "role": "foot",
+        "coverage": 0.4404,
+        "margin": 0.4404
+      },
+      {
+        "hold_id": 76,
+        "role": "start",
+        "coverage": 0.6799,
+        "margin": 0.6799
+      },
+      {
+        "hold_id": 80,
+        "role": "foot",
+        "coverage": 0.6051,
+        "margin": 0.6051
+      },
+      {
+        "hold_id": 128,
+        "role": "start",
+        "coverage": 0.5675,
+        "margin": 0.5675
+      },
+      {
+        "hold_id": 177,
+        "role": "hand",
+        "coverage": 0.5774,
+        "margin": 0.5774
+      },
+      {
+        "hold_id": 179,
+        "role": "hand",
+        "coverage": 0.6271,
+        "margin": 0.6271
+      },
+      {
+        "hold_id": 211,
+        "role": "foot",
+        "coverage": 0.6987,
+        "margin": 0.6987
+      },
+      {
+        "hold_id": 284,
+        "role": "hand",
+        "coverage": 0.6532,
+        "margin": 0.6532
+      },
+      {
+        "hold_id": 291,
+        "role": "foot",
+        "coverage": 0.7176,
+        "margin": 0.7176
+      },
+      {
+        "hold_id": 332,
+        "role": "hand",
+        "coverage": 0.6522,
+        "margin": 0.6522
+      },
+      {
+        "hold_id": 428,
+        "role": "hand",
+        "coverage": 0.6496,
+        "margin": 0.6496
+      },
+      {
+        "hold_id": 443,
+        "role": "hand",
+        "coverage": 0.6234,
+        "margin": 0.6234
+      },
+      {
+        "hold_id": 473,
+        "role": "finish",
+        "coverage": 0.7024,
+        "margin": 0.7024
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "teil\u2019s steiler Sommer\nsteil.boulderhalle\n\n7c+/V10 ye vee\n",
+  "lines": [
+    "teil\u2019s steiler Sommer",
+    "steil.boulderhalle",
+    "7c+/V10 ye vee"
+  ],
+  "name": "teil\u2019s steiler Sommer",
+  "setter": "steil.boulderhalle",
+  "grade_raw": "7c+/V10 ye vee",
+  "grade_v": 10,
+  "stars": 3
+}

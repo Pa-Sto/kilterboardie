@@ -1,0 +1,127 @@
+{
+  "filename": "kilter_image34.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 5
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 7,
+        "role": "foot",
+        "coverage": 0.6287,
+        "margin": 0.6287
+      },
+      {
+        "hold_id": 35,
+        "role": "foot",
+        "coverage": 0.7087,
+        "margin": 0.7087
+      },
+      {
+        "hold_id": 112,
+        "role": "foot",
+        "coverage": 0.7297,
+        "margin": 0.7297
+      },
+      {
+        "hold_id": 118,
+        "role": "start",
+        "coverage": 0.6909,
+        "margin": 0.6909
+      },
+      {
+        "hold_id": 121,
+        "role": "start",
+        "coverage": 0.6323,
+        "margin": 0.5659
+      },
+      {
+        "hold_id": 144,
+        "role": "foot",
+        "coverage": 0.6993,
+        "margin": 0.6668
+      },
+      {
+        "hold_id": 223,
+        "role": "hand",
+        "coverage": 0.6559,
+        "margin": 0.6559
+      },
+      {
+        "hold_id": 258,
+        "role": "hand",
+        "coverage": 0.6454,
+        "margin": 0.6454
+      },
+      {
+        "hold_id": 322,
+        "role": "hand",
+        "coverage": 0.6794,
+        "margin": 0.6794
+      },
+      {
+        "hold_id": 347,
+        "role": "foot",
+        "coverage": 0.7097,
+        "margin": 0.7097
+      },
+      {
+        "hold_id": 357,
+        "role": "hand",
+        "coverage": 0.6674,
+        "margin": 0.6674
+      },
+      {
+        "hold_id": 402,
+        "role": "hand",
+        "coverage": 0.6491,
+        "margin": 0.6491
+      },
+      {
+        "hold_id": 458,
+        "role": "hand",
+        "coverage": 0.6323,
+        "margin": 0.6323
+      },
+      {
+        "hold_id": 459,
+        "role": "finish",
+        "coverage": 0.7139,
+        "margin": 0.7139
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "You Oughta Know\nTymton\n\n7a/V6 Ye ee\n",
+  "lines": [
+    "You Oughta Know",
+    "Tymton",
+    "7a/V6 Ye ee"
+  ],
+  "name": "You Oughta Know",
+  "setter": "Tymton",
+  "grade_raw": "7a/V6 Ye ee",
+  "grade_v": 6,
+  "stars": 2
+}

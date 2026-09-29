@@ -1,0 +1,127 @@
+{
+  "filename": "kilter_image391.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 7,
+    "foot": 5
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 7,
+        "role": "foot",
+        "coverage": 0.6287,
+        "margin": 0.6287
+      },
+      {
+        "hold_id": 55,
+        "role": "foot",
+        "coverage": 0.6412,
+        "margin": 0.6412
+      },
+      {
+        "hold_id": 64,
+        "role": "start",
+        "coverage": 0.6658,
+        "margin": 0.6658
+      },
+      {
+        "hold_id": 143,
+        "role": "hand",
+        "coverage": 0.5115,
+        "margin": 0.4367
+      },
+      {
+        "hold_id": 158,
+        "role": "foot",
+        "coverage": 0.522,
+        "margin": 0.488
+      },
+      {
+        "hold_id": 199,
+        "role": "hand",
+        "coverage": 0.6407,
+        "margin": 0.6407
+      },
+      {
+        "hold_id": 237,
+        "role": "foot",
+        "coverage": 0.7254,
+        "margin": 0.7254
+      },
+      {
+        "hold_id": 273,
+        "role": "hand",
+        "coverage": 0.6417,
+        "margin": 0.6417
+      },
+      {
+        "hold_id": 306,
+        "role": "hand",
+        "coverage": 0.6433,
+        "margin": 0.6433
+      },
+      {
+        "hold_id": 312,
+        "role": "foot",
+        "coverage": 0.4911,
+        "margin": 0.4911
+      },
+      {
+        "hold_id": 349,
+        "role": "hand",
+        "coverage": 0.6459,
+        "margin": 0.6459
+      },
+      {
+        "hold_id": 399,
+        "role": "hand",
+        "coverage": 0.6438,
+        "margin": 0.6438
+      },
+      {
+        "hold_id": 428,
+        "role": "hand",
+        "coverage": 0.6496,
+        "margin": 0.6496
+      },
+      {
+        "hold_id": 466,
+        "role": "finish",
+        "coverage": 0.6961,
+        "margin": 0.6961
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Mike Hawk\npgfv\n\n& 7b/V8 eke oe\n",
+  "lines": [
+    "Mike Hawk",
+    "pgfv",
+    "& 7b/V8 eke oe"
+  ],
+  "name": "Mike Hawk",
+  "setter": "pgfv",
+  "grade_raw": "& 7b/V8 eke oe",
+  "grade_v": 8,
+  "stars": 2
+}

@@ -1,0 +1,169 @@
+{
+  "filename": "kilter_image523.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 2,
+    "hand": 8,
+    "foot": 9
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 93,
+        "role": "foot",
+        "coverage": 0.7019,
+        "margin": 0.7019
+      },
+      {
+        "hold_id": 128,
+        "role": "foot",
+        "coverage": 0.5816,
+        "margin": 0.5816
+      },
+      {
+        "hold_id": 156,
+        "role": "foot",
+        "coverage": 0.4854,
+        "margin": 0.4854
+      },
+      {
+        "hold_id": 193,
+        "role": "start",
+        "coverage": 0.6778,
+        "margin": 0.6778
+      },
+      {
+        "hold_id": 197,
+        "role": "start",
+        "coverage": 0.6752,
+        "margin": 0.6752
+      },
+      {
+        "hold_id": 209,
+        "role": "foot",
+        "coverage": 0.7333,
+        "margin": 0.7333
+      },
+      {
+        "hold_id": 240,
+        "role": "foot",
+        "coverage": 0.603,
+        "margin": 0.603
+      },
+      {
+        "hold_id": 245,
+        "role": "hand",
+        "coverage": 0.6559,
+        "margin": 0.6559
+      },
+      {
+        "hold_id": 260,
+        "role": "foot",
+        "coverage": 0.5879,
+        "margin": 0.5879
+      },
+      {
+        "hold_id": 271,
+        "role": "hand",
+        "coverage": 0.6428,
+        "margin": 0.6428
+      },
+      {
+        "hold_id": 292,
+        "role": "foot",
+        "coverage": 0.6804,
+        "margin": 0.6804
+      },
+      {
+        "hold_id": 319,
+        "role": "foot",
+        "coverage": 0.7155,
+        "margin": 0.7155
+      },
+      {
+        "hold_id": 321,
+        "role": "hand",
+        "coverage": 0.6109,
+        "margin": 0.6109
+      },
+      {
+        "hold_id": 342,
+        "role": "foot",
+        "coverage": 0.6344,
+        "margin": 0.6344
+      },
+      {
+        "hold_id": 349,
+        "role": "hand",
+        "coverage": 0.6459,
+        "margin": 0.6459
+      },
+      {
+        "hold_id": 376,
+        "role": "hand",
+        "coverage": 0.6485,
+        "margin": 0.6485
+      },
+      {
+        "hold_id": 377,
+        "role": "hand",
+        "coverage": 0.6444,
+        "margin": 0.6444
+      },
+      {
+        "hold_id": 429,
+        "role": "hand",
+        "coverage": 0.6402,
+        "margin": 0.6402
+      },
+      {
+        "hold_id": 453,
+        "role": "hand",
+        "coverage": 0.6224,
+        "margin": 0.6224
+      },
+      {
+        "hold_id": 464,
+        "role": "finish",
+        "coverage": 0.7155,
+        "margin": 0.7155
+      },
+      {
+        "hold_id": 467,
+        "role": "finish",
+        "coverage": 0.7019,
+        "margin": 0.7019
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Earwax\nkilterjackie\n\n6c+/V5 Yevroe\n",
+  "lines": [
+    "Earwax",
+    "kilterjackie",
+    "6c+/V5 Yevroe"
+  ],
+  "name": "Earwax",
+  "setter": "kilterjackie",
+  "grade_raw": "6c+/V5 Yevroe",
+  "grade_v": 5,
+  "stars": 4
+}

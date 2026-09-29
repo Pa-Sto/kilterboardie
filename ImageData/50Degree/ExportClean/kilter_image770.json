@@ -1,0 +1,109 @@
+{
+  "filename": "kilter_image770.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 6,
+    "foot": 3
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 25,
+        "role": "foot",
+        "coverage": 0.7008,
+        "margin": 0.7008
+      },
+      {
+        "hold_id": 87,
+        "role": "foot",
+        "coverage": 0.6208,
+        "margin": 0.6208
+      },
+      {
+        "hold_id": 114,
+        "role": "start",
+        "coverage": 0.681,
+        "margin": 0.681
+      },
+      {
+        "hold_id": 175,
+        "role": "hand",
+        "coverage": 0.6025,
+        "margin": 0.6025
+      },
+      {
+        "hold_id": 245,
+        "role": "hand",
+        "coverage": 0.6559,
+        "margin": 0.6559
+      },
+      {
+        "hold_id": 264,
+        "role": "foot",
+        "coverage": 0.5158,
+        "margin": 0.5158
+      },
+      {
+        "hold_id": 349,
+        "role": "hand",
+        "coverage": 0.6459,
+        "margin": 0.6459
+      },
+      {
+        "hold_id": 361,
+        "role": "hand",
+        "coverage": 0.6512,
+        "margin": 0.6512
+      },
+      {
+        "hold_id": 377,
+        "role": "hand",
+        "coverage": 0.6444,
+        "margin": 0.6444
+      },
+      {
+        "hold_id": 381,
+        "role": "hand",
+        "coverage": 0.6339,
+        "margin": 0.6339
+      },
+      {
+        "hold_id": 472,
+        "role": "finish",
+        "coverage": 0.6867,
+        "margin": 0.6867
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Off the sickness\n\nPoerselmat\n\n\u00ae 8a/V11 eke\n",
+  "lines": [
+    "Off the sickness",
+    "Poerselmat",
+    "\u00ae 8a/V11 eke"
+  ],
+  "name": "Off the sickness",
+  "setter": "Poerselmat",
+  "grade_raw": "\u00ae 8a/V11 eke",
+  "grade_v": 11,
+  "stars": 3
+}

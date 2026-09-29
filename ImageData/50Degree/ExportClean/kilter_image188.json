@@ -1,0 +1,127 @@
+{
+  "filename": "kilter_image188.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 5,
+    "foot": 7
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 1,
+        "role": "foot",
+        "coverage": 0.7029,
+        "margin": 0.7029
+      },
+      {
+        "hold_id": 91,
+        "role": "start",
+        "coverage": 0.6229,
+        "margin": 0.6229
+      },
+      {
+        "hold_id": 105,
+        "role": "foot",
+        "coverage": 0.6365,
+        "margin": 0.6365
+      },
+      {
+        "hold_id": 134,
+        "role": "foot",
+        "coverage": 0.6302,
+        "margin": 0.6302
+      },
+      {
+        "hold_id": 159,
+        "role": "foot",
+        "coverage": 0.6198,
+        "margin": 0.6198
+      },
+      {
+        "hold_id": 192,
+        "role": "hand",
+        "coverage": 0.6004,
+        "margin": 0.6004
+      },
+      {
+        "hold_id": 195,
+        "role": "hand",
+        "coverage": 0.6428,
+        "margin": 0.6428
+      },
+      {
+        "hold_id": 211,
+        "role": "foot",
+        "coverage": 0.6987,
+        "margin": 0.6987
+      },
+      {
+        "hold_id": 236,
+        "role": "foot",
+        "coverage": 0.5319,
+        "margin": 0.5319
+      },
+      {
+        "hold_id": 290,
+        "role": "foot",
+        "coverage": 0.5429,
+        "margin": 0.5429
+      },
+      {
+        "hold_id": 328,
+        "role": "hand",
+        "coverage": 0.6412,
+        "margin": 0.6412
+      },
+      {
+        "hold_id": 357,
+        "role": "hand",
+        "coverage": 0.6543,
+        "margin": 0.6543
+      },
+      {
+        "hold_id": 386,
+        "role": "hand",
+        "coverage": 0.6454,
+        "margin": 0.6454
+      },
+      {
+        "hold_id": 464,
+        "role": "finish",
+        "coverage": 0.7155,
+        "margin": 0.7155
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Tamago Gohan\naqueousplanet\n\n7c/V9 Ye vee\n",
+  "lines": [
+    "Tamago Gohan",
+    "aqueousplanet",
+    "7c/V9 Ye vee"
+  ],
+  "name": "Tamago Gohan",
+  "setter": "aqueousplanet",
+  "grade_raw": "7c/V9 Ye vee",
+  "grade_v": 9,
+  "stars": 3
+}

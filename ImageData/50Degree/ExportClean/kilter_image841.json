@@ -1,0 +1,103 @@
+{
+  "filename": "kilter_image841.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 3
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 112,
+        "role": "foot",
+        "coverage": 0.7297,
+        "margin": 0.7297
+      },
+      {
+        "hold_id": 122,
+        "role": "start",
+        "coverage": 0.6909,
+        "margin": 0.6909
+      },
+      {
+        "hold_id": 139,
+        "role": "foot",
+        "coverage": 0.5439,
+        "margin": 0.3462
+      },
+      {
+        "hold_id": 174,
+        "role": "start",
+        "coverage": 0.681,
+        "margin": 0.6721
+      },
+      {
+        "hold_id": 186,
+        "role": "foot",
+        "coverage": 0.7035,
+        "margin": 0.7035
+      },
+      {
+        "hold_id": 254,
+        "role": "hand",
+        "coverage": 0.6156,
+        "margin": 0.6156
+      },
+      {
+        "hold_id": 296,
+        "role": "hand",
+        "coverage": 0.659,
+        "margin": 0.659
+      },
+      {
+        "hold_id": 336,
+        "role": "hand",
+        "coverage": 0.6266,
+        "margin": 0.6266
+      },
+      {
+        "hold_id": 415,
+        "role": "hand",
+        "coverage": 0.6444,
+        "margin": 0.6444
+      },
+      {
+        "hold_id": 471,
+        "role": "finish",
+        "coverage": 0.7139,
+        "margin": 0.7139
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "10, 4.11.19\ngriffinwhiteside\n\n7c/V9 Ye vee\n",
+  "lines": [
+    "10, 4.11.19",
+    "griffinwhiteside",
+    "7c/V9 Ye vee"
+  ],
+  "name": "10, 4.11.19",
+  "setter": "griffinwhiteside",
+  "grade_raw": "7c/V9 Ye vee",
+  "grade_v": 9,
+  "stars": 3
+}

@@ -1,0 +1,133 @@
+{
+  "filename": "kilter_image957.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 9,
+    "foot": 3
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 10,
+        "role": "foot",
+        "coverage": 0.5497,
+        "margin": 0.5497
+      },
+      {
+        "hold_id": 68,
+        "role": "start",
+        "coverage": 0.5753,
+        "margin": 0.5753
+      },
+      {
+        "hold_id": 95,
+        "role": "start",
+        "coverage": 0.5947,
+        "margin": 0.5947
+      },
+      {
+        "hold_id": 130,
+        "role": "foot",
+        "coverage": 0.5504,
+        "margin": 0.5504
+      },
+      {
+        "hold_id": 187,
+        "role": "foot",
+        "coverage": 0.6863,
+        "margin": 0.6863
+      },
+      {
+        "hold_id": 194,
+        "role": "hand",
+        "coverage": 0.6313,
+        "margin": 0.6313
+      },
+      {
+        "hold_id": 245,
+        "role": "hand",
+        "coverage": 0.6559,
+        "margin": 0.6559
+      },
+      {
+        "hold_id": 269,
+        "role": "hand",
+        "coverage": 0.6292,
+        "margin": 0.6292
+      },
+      {
+        "hold_id": 334,
+        "role": "hand",
+        "coverage": 0.591,
+        "margin": 0.591
+      },
+      {
+        "hold_id": 354,
+        "role": "hand",
+        "coverage": 0.6485,
+        "margin": 0.6485
+      },
+      {
+        "hold_id": 383,
+        "role": "hand",
+        "coverage": 0.6485,
+        "margin": 0.6485
+      },
+      {
+        "hold_id": 413,
+        "role": "hand",
+        "coverage": 0.6627,
+        "margin": 0.6627
+      },
+      {
+        "hold_id": 429,
+        "role": "hand",
+        "coverage": 0.6825,
+        "margin": 0.6825
+      },
+      {
+        "hold_id": 449,
+        "role": "hand",
+        "coverage": 0.6323,
+        "margin": 0.6323
+      },
+      {
+        "hold_id": 472,
+        "role": "finish",
+        "coverage": 0.6867,
+        "margin": 0.6867
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "heartilation\nmondragon\n\nZat/V7 Yeo.\n",
+  "lines": [
+    "heartilation",
+    "mondragon",
+    "Zat/V7 Yeo."
+  ],
+  "name": "heartilation",
+  "setter": "mondragon",
+  "grade_raw": "Zat/V7 Yeo.",
+  "grade_v": 7,
+  "stars": 3
+}

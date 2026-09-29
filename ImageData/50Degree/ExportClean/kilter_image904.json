@@ -1,0 +1,139 @@
+{
+  "filename": "kilter_image904.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 7
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 14,
+        "role": "foot",
+        "coverage": 0.6266,
+        "margin": 0.6266
+      },
+      {
+        "hold_id": 16,
+        "role": "foot",
+        "coverage": 0.6142,
+        "margin": 0.6142
+      },
+      {
+        "hold_id": 38,
+        "role": "foot",
+        "coverage": 0.6993,
+        "margin": 0.6993
+      },
+      {
+        "hold_id": 58,
+        "role": "foot",
+        "coverage": 0.7441,
+        "margin": 0.7441
+      },
+      {
+        "hold_id": 112,
+        "role": "foot",
+        "coverage": 0.7297,
+        "margin": 0.7297
+      },
+      {
+        "hold_id": 122,
+        "role": "start",
+        "coverage": 0.7197,
+        "margin": 0.7197
+      },
+      {
+        "hold_id": 123,
+        "role": "start",
+        "coverage": 0.7008,
+        "margin": 0.7008
+      },
+      {
+        "hold_id": 151,
+        "role": "foot",
+        "coverage": 0.6851,
+        "margin": 0.6851
+      },
+      {
+        "hold_id": 204,
+        "role": "hand",
+        "coverage": 0.6627,
+        "margin": 0.6627
+      },
+      {
+        "hold_id": 277,
+        "role": "hand",
+        "coverage": 0.6747,
+        "margin": 0.6747
+      },
+      {
+        "hold_id": 279,
+        "role": "foot",
+        "coverage": 0.7076,
+        "margin": 0.7076
+      },
+      {
+        "hold_id": 283,
+        "role": "hand",
+        "coverage": 0.6736,
+        "margin": 0.6736
+      },
+      {
+        "hold_id": 381,
+        "role": "hand",
+        "coverage": 0.6783,
+        "margin": 0.6783
+      },
+      {
+        "hold_id": 384,
+        "role": "hand",
+        "coverage": 0.6637,
+        "margin": 0.6637
+      },
+      {
+        "hold_id": 439,
+        "role": "hand",
+        "coverage": 0.647,
+        "margin": 0.647
+      },
+      {
+        "hold_id": 464,
+        "role": "finish",
+        "coverage": 0.7155,
+        "margin": 0.7155
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Sort of warm\nKilterStudio\n\n6a/V3 Ye ee\n",
+  "lines": [
+    "Sort of warm",
+    "KilterStudio",
+    "6a/V3 Ye ee"
+  ],
+  "name": "Sort of warm",
+  "setter": "KilterStudio",
+  "grade_raw": "6a/V3 Ye ee",
+  "grade_v": 3,
+  "stars": 2
+}

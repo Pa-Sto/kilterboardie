@@ -1,0 +1,109 @@
+{
+  "filename": "kilter_image983.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 4
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 8,
+        "role": "foot",
+        "coverage": 0.7202,
+        "margin": 0.7202
+      },
+      {
+        "hold_id": 108,
+        "role": "foot",
+        "coverage": 0.6281,
+        "margin": 0.6281
+      },
+      {
+        "hold_id": 124,
+        "role": "start",
+        "coverage": 0.6799,
+        "margin": 0.6799
+      },
+      {
+        "hold_id": 178,
+        "role": "start",
+        "coverage": 0.6815,
+        "margin": 0.6815
+      },
+      {
+        "hold_id": 210,
+        "role": "foot",
+        "coverage": 0.7275,
+        "margin": 0.7275
+      },
+      {
+        "hold_id": 215,
+        "role": "foot",
+        "coverage": 0.7505,
+        "margin": 0.7505
+      },
+      {
+        "hold_id": 222,
+        "role": "hand",
+        "coverage": 0.6386,
+        "margin": 0.6386
+      },
+      {
+        "hold_id": 278,
+        "role": "hand",
+        "coverage": 0.6475,
+        "margin": 0.6475
+      },
+      {
+        "hold_id": 356,
+        "role": "hand",
+        "coverage": 0.6532,
+        "margin": 0.6532
+      },
+      {
+        "hold_id": 426,
+        "role": "hand",
+        "coverage": 0.637,
+        "margin": 0.637
+      },
+      {
+        "hold_id": 467,
+        "role": "finish",
+        "coverage": 0.7019,
+        "margin": 0.7019
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "rmediate Intro to Ste\nbhkillian\n\n6b/V4 ye yee\n",
+  "lines": [
+    "rmediate Intro to Ste",
+    "bhkillian",
+    "6b/V4 ye yee"
+  ],
+  "name": "rmediate Intro to Ste",
+  "setter": "bhkillian",
+  "grade_raw": "6b/V4 ye yee",
+  "grade_v": 4,
+  "stars": 3
+}

@@ -1,0 +1,109 @@
+{
+  "filename": "kilter_image490.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 3
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 15,
+        "role": "foot",
+        "coverage": 0.6721,
+        "margin": 0.6721
+      },
+      {
+        "hold_id": 58,
+        "role": "foot",
+        "coverage": 0.7441,
+        "margin": 0.7441
+      },
+      {
+        "hold_id": 69,
+        "role": "start",
+        "coverage": 0.682,
+        "margin": 0.682
+      },
+      {
+        "hold_id": 181,
+        "role": "start",
+        "coverage": 0.6365,
+        "margin": 0.5664
+      },
+      {
+        "hold_id": 190,
+        "role": "foot",
+        "coverage": 0.6145,
+        "margin": 0.5832
+      },
+      {
+        "hold_id": 199,
+        "role": "hand",
+        "coverage": 0.6407,
+        "margin": 0.6407
+      },
+      {
+        "hold_id": 262,
+        "role": "hand",
+        "coverage": 0.5649,
+        "margin": 0.5649
+      },
+      {
+        "hold_id": 308,
+        "role": "hand",
+        "coverage": 0.6213,
+        "margin": 0.6213
+      },
+      {
+        "hold_id": 333,
+        "role": "hand",
+        "coverage": 0.6475,
+        "margin": 0.6475
+      },
+      {
+        "hold_id": 383,
+        "role": "hand",
+        "coverage": 0.6485,
+        "margin": 0.6485
+      },
+      {
+        "hold_id": 457,
+        "role": "finish",
+        "coverage": 0.7092,
+        "margin": 0.7092
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "isters Before Misters\ngriffinwhiteside\n\n8b/V13 Yeo e\n",
+  "lines": [
+    "isters Before Misters",
+    "griffinwhiteside",
+    "8b/V13 Yeo e"
+  ],
+  "name": "isters Before Misters",
+  "setter": "griffinwhiteside",
+  "grade_raw": "8b/V13 Yeo e",
+  "grade_v": 13,
+  "stars": 1
+}

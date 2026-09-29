@@ -1,0 +1,73 @@
+{
+  "filename": "kilter_image149.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 2,
+    "foot": 0
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 203,
+        "role": "start",
+        "coverage": 0.6867,
+        "margin": 0.6867
+      },
+      {
+        "hold_id": 337,
+        "role": "start",
+        "coverage": 0.6836,
+        "margin": 0.6836
+      },
+      {
+        "hold_id": 357,
+        "role": "hand",
+        "coverage": 0.6543,
+        "margin": 0.6543
+      },
+      {
+        "hold_id": 425,
+        "role": "hand",
+        "coverage": 0.637,
+        "margin": 0.637
+      },
+      {
+        "hold_id": 461,
+        "role": "finish",
+        "coverage": 0.7061,
+        "margin": 0.7061
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "spicy campus #1\nJustCampus\n\n7b/V8 Ye ee\n",
+  "lines": [
+    "spicy campus #1",
+    "JustCampus",
+    "7b/V8 Ye ee"
+  ],
+  "name": "spicy campus #1",
+  "setter": "JustCampus",
+  "grade_raw": "7b/V8 Ye ee",
+  "grade_v": 8,
+  "stars": 2
+}

@@ -1,0 +1,139 @@
+{
+  "filename": "kilter_image4.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 8
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 75,
+        "role": "foot",
+        "coverage": 0.6637,
+        "margin": 0.6637
+      },
+      {
+        "hold_id": 76,
+        "role": "foot",
+        "coverage": 0.7066,
+        "margin": 0.7066
+      },
+      {
+        "hold_id": 83,
+        "role": "foot",
+        "coverage": 0.6077,
+        "margin": 0.6077
+      },
+      {
+        "hold_id": 105,
+        "role": "foot",
+        "coverage": 0.6365,
+        "margin": 0.6365
+      },
+      {
+        "hold_id": 142,
+        "role": "start",
+        "coverage": 0.5826,
+        "margin": 0.5826
+      },
+      {
+        "hold_id": 147,
+        "role": "start",
+        "coverage": 0.659,
+        "margin": 0.659
+      },
+      {
+        "hold_id": 201,
+        "role": "hand",
+        "coverage": 0.6616,
+        "margin": 0.6616
+      },
+      {
+        "hold_id": 215,
+        "role": "foot",
+        "coverage": 0.7505,
+        "margin": 0.7505
+      },
+      {
+        "hold_id": 226,
+        "role": "hand",
+        "coverage": 0.636,
+        "margin": 0.636
+      },
+      {
+        "hold_id": 234,
+        "role": "foot",
+        "coverage": 0.5471,
+        "margin": 0.5471
+      },
+      {
+        "hold_id": 261,
+        "role": "foot",
+        "coverage": 0.7249,
+        "margin": 0.7249
+      },
+      {
+        "hold_id": 263,
+        "role": "foot",
+        "coverage": 0.4142,
+        "margin": 0.4142
+      },
+      {
+        "hold_id": 300,
+        "role": "hand",
+        "coverage": 0.6522,
+        "margin": 0.6522
+      },
+      {
+        "hold_id": 357,
+        "role": "hand",
+        "coverage": 0.6543,
+        "margin": 0.6543
+      },
+      {
+        "hold_id": 426,
+        "role": "hand",
+        "coverage": 0.637,
+        "margin": 0.637
+      },
+      {
+        "hold_id": 464,
+        "role": "finish",
+        "coverage": 0.7155,
+        "margin": 0.7155
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "kiel training 2:1\nKilterStudio\n\n7a/V6 Ye ee\n",
+  "lines": [
+    "kiel training 2:1",
+    "KilterStudio",
+    "7a/V6 Ye ee"
+  ],
+  "name": "kiel training 2:1",
+  "setter": "KilterStudio",
+  "grade_raw": "7a/V6 Ye ee",
+  "grade_v": 6,
+  "stars": 2
+}

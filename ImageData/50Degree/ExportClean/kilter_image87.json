@@ -1,0 +1,121 @@
+{
+  "filename": "kilter_image87.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 6
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 16,
+        "role": "foot",
+        "coverage": 0.6142,
+        "margin": 0.6142
+      },
+      {
+        "hold_id": 32,
+        "role": "foot",
+        "coverage": 0.7066,
+        "margin": 0.7066
+      },
+      {
+        "hold_id": 102,
+        "role": "start",
+        "coverage": 0.6872,
+        "margin": 0.6872
+      },
+      {
+        "hold_id": 138,
+        "role": "foot",
+        "coverage": 0.7197,
+        "margin": 0.7197
+      },
+      {
+        "hold_id": 164,
+        "role": "foot",
+        "coverage": 0.6355,
+        "margin": 0.6355
+      },
+      {
+        "hold_id": 180,
+        "role": "start",
+        "coverage": 0.6831,
+        "margin": 0.6831
+      },
+      {
+        "hold_id": 189,
+        "role": "foot",
+        "coverage": 0.738,
+        "margin": 0.738
+      },
+      {
+        "hold_id": 252,
+        "role": "hand",
+        "coverage": 0.6496,
+        "margin": 0.6496
+      },
+      {
+        "hold_id": 270,
+        "role": "hand",
+        "coverage": 0.6407,
+        "margin": 0.6407
+      },
+      {
+        "hold_id": 310,
+        "role": "foot",
+        "coverage": 0.6668,
+        "margin": 0.6668
+      },
+      {
+        "hold_id": 328,
+        "role": "hand",
+        "coverage": 0.6412,
+        "margin": 0.6412
+      },
+      {
+        "hold_id": 425,
+        "role": "hand",
+        "coverage": 0.637,
+        "margin": 0.637
+      },
+      {
+        "hold_id": 460,
+        "role": "finish",
+        "coverage": 0.6804,
+        "margin": 0.6804
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "bmission (B Variatio1\nRavioliTriceps\n\n7c+/V10 ye vee\n",
+  "lines": [
+    "bmission (B Variatio1",
+    "RavioliTriceps",
+    "7c+/V10 ye vee"
+  ],
+  "name": "bmission (B Variatio1",
+  "setter": "RavioliTriceps",
+  "grade_raw": "7c+/V10 ye vee",
+  "grade_v": 10,
+  "stars": 3
+}

@@ -1,0 +1,97 @@
+{
+  "filename": "kilter_image318.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 3,
+    "foot": 3
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 41,
+        "role": "foot",
+        "coverage": 0.7144,
+        "margin": 0.7144
+      },
+      {
+        "hold_id": 68,
+        "role": "foot",
+        "coverage": 0.5936,
+        "margin": 0.5936
+      },
+      {
+        "hold_id": 175,
+        "role": "start",
+        "coverage": 0.6266,
+        "margin": 0.6266
+      },
+      {
+        "hold_id": 195,
+        "role": "start",
+        "coverage": 0.7108,
+        "margin": 0.7108
+      },
+      {
+        "hold_id": 236,
+        "role": "foot",
+        "coverage": 0.5319,
+        "margin": 0.5319
+      },
+      {
+        "hold_id": 273,
+        "role": "hand",
+        "coverage": 0.6417,
+        "margin": 0.6417
+      },
+      {
+        "hold_id": 363,
+        "role": "hand",
+        "coverage": 0.6559,
+        "margin": 0.6559
+      },
+      {
+        "hold_id": 452,
+        "role": "hand",
+        "coverage": 0.6328,
+        "margin": 0.6328
+      },
+      {
+        "hold_id": 462,
+        "role": "finish",
+        "coverage": 0.6878,
+        "margin": 0.6878
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Vicious Pastimes\nSeaOfCzars\n8a/V11 eee\n",
+  "lines": [
+    "Vicious Pastimes",
+    "SeaOfCzars",
+    "8a/V11 eee"
+  ],
+  "name": "Vicious Pastimes",
+  "setter": "SeaOfCzars",
+  "grade_raw": "8a/V11 eee",
+  "grade_v": 11,
+  "stars": 3
+}

@@ -1,0 +1,121 @@
+{
+  "filename": "kilter_image967.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 7,
+    "foot": 3
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 42,
+        "role": "foot",
+        "coverage": 0.7092,
+        "margin": 0.7092
+      },
+      {
+        "hold_id": 62,
+        "role": "foot",
+        "coverage": 0.7055,
+        "margin": 0.7055
+      },
+      {
+        "hold_id": 64,
+        "role": "start",
+        "coverage": 0.6658,
+        "margin": 0.6658
+      },
+      {
+        "hold_id": 150,
+        "role": "start",
+        "coverage": 0.6156,
+        "margin": 0.6156
+      },
+      {
+        "hold_id": 192,
+        "role": "hand",
+        "coverage": 0.6004,
+        "margin": 0.6004
+      },
+      {
+        "hold_id": 195,
+        "role": "hand",
+        "coverage": 0.6428,
+        "margin": 0.6428
+      },
+      {
+        "hold_id": 247,
+        "role": "hand",
+        "coverage": 0.6119,
+        "margin": 0.6119
+      },
+      {
+        "hold_id": 275,
+        "role": "foot",
+        "coverage": 0.5947,
+        "margin": 0.5277
+      },
+      {
+        "hold_id": 300,
+        "role": "hand",
+        "coverage": 0.648,
+        "margin": 0.6323
+      },
+      {
+        "hold_id": 377,
+        "role": "hand",
+        "coverage": 0.6773,
+        "margin": 0.6773
+      },
+      {
+        "hold_id": 378,
+        "role": "hand",
+        "coverage": 0.6742,
+        "margin": 0.6742
+      },
+      {
+        "hold_id": 446,
+        "role": "hand",
+        "coverage": 0.5465,
+        "margin": 0.4906
+      },
+      {
+        "hold_id": 468,
+        "role": "finish",
+        "coverage": 0.6899,
+        "margin": 0.6841
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "unknown #17\nspalermo\n\n6c+/V5 Yevroe\n",
+  "lines": [
+    "unknown #17",
+    "spalermo",
+    "6c+/V5 Yevroe"
+  ],
+  "name": "unknown #17",
+  "setter": "spalermo",
+  "grade_raw": "6c+/V5 Yevroe",
+  "grade_v": 5,
+  "stars": 4
+}

@@ -1,0 +1,97 @@
+{
+  "filename": "kilter_image20.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 3,
+    "foot": 3
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 68,
+        "role": "foot",
+        "coverage": 0.5936,
+        "margin": 0.5936
+      },
+      {
+        "hold_id": 116,
+        "role": "foot",
+        "coverage": 0.5617,
+        "margin": 0.5617
+      },
+      {
+        "hold_id": 143,
+        "role": "foot",
+        "coverage": 0.5905,
+        "margin": 0.5371
+      },
+      {
+        "hold_id": 150,
+        "role": "start",
+        "coverage": 0.6156,
+        "margin": 0.6156
+      },
+      {
+        "hold_id": 172,
+        "role": "start",
+        "coverage": 0.5921,
+        "margin": 0.5471
+      },
+      {
+        "hold_id": 276,
+        "role": "hand",
+        "coverage": 0.6496,
+        "margin": 0.6496
+      },
+      {
+        "hold_id": 332,
+        "role": "hand",
+        "coverage": 0.6522,
+        "margin": 0.6522
+      },
+      {
+        "hold_id": 376,
+        "role": "hand",
+        "coverage": 0.6485,
+        "margin": 0.6485
+      },
+      {
+        "hold_id": 468,
+        "role": "finish",
+        "coverage": 0.7035,
+        "margin": 0.7035
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "iticipation is Kiltering\nrockclimbthis\n\n\u00ae 7a+/V7 vee\n",
+  "lines": [
+    "iticipation is Kiltering",
+    "rockclimbthis",
+    "\u00ae 7a+/V7 vee"
+  ],
+  "name": "iticipation is Kiltering",
+  "setter": "rockclimbthis",
+  "grade_raw": "\u00ae 7a+/V7 vee",
+  "grade_v": 7,
+  "stars": 3
+}

@@ -1,0 +1,91 @@
+{
+  "filename": "kilter_image440.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 0
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 27,
+        "role": "hand",
+        "coverage": 0.6527,
+        "margin": 0.6527
+      },
+      {
+        "hold_id": 143,
+        "role": "start",
+        "coverage": 0.6276,
+        "margin": 0.6276
+      },
+      {
+        "hold_id": 149,
+        "role": "start",
+        "coverage": 0.6276,
+        "margin": 0.6276
+      },
+      {
+        "hold_id": 223,
+        "role": "hand",
+        "coverage": 0.6559,
+        "margin": 0.6559
+      },
+      {
+        "hold_id": 270,
+        "role": "hand",
+        "coverage": 0.6407,
+        "margin": 0.6407
+      },
+      {
+        "hold_id": 298,
+        "role": "hand",
+        "coverage": 0.6491,
+        "margin": 0.6491
+      },
+      {
+        "hold_id": 405,
+        "role": "hand",
+        "coverage": 0.6543,
+        "margin": 0.6543
+      },
+      {
+        "hold_id": 463,
+        "role": "finish",
+        "coverage": 0.6998,
+        "margin": 0.6998
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "The Albatross\nagrphoto\n\n7b/V8 Ye ee\n",
+  "lines": [
+    "The Albatross",
+    "agrphoto",
+    "7b/V8 Ye ee"
+  ],
+  "name": "The Albatross",
+  "setter": "agrphoto",
+  "grade_raw": "7b/V8 Ye ee",
+  "grade_v": 8,
+  "stars": 2
+}

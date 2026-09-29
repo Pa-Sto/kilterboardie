@@ -1,0 +1,91 @@
+{
+  "filename": "kilter_image364.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 0
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 98,
+        "role": "start",
+        "coverage": 0.5596,
+        "margin": 0.5596
+      },
+      {
+        "hold_id": 125,
+        "role": "start",
+        "coverage": 0.6815,
+        "margin": 0.6815
+      },
+      {
+        "hold_id": 197,
+        "role": "hand",
+        "coverage": 0.6464,
+        "margin": 0.6464
+      },
+      {
+        "hold_id": 282,
+        "role": "hand",
+        "coverage": 0.6595,
+        "margin": 0.6595
+      },
+      {
+        "hold_id": 327,
+        "role": "hand",
+        "coverage": 0.6349,
+        "margin": 0.6349
+      },
+      {
+        "hold_id": 436,
+        "role": "hand",
+        "coverage": 0.6501,
+        "margin": 0.6501
+      },
+      {
+        "hold_id": 466,
+        "role": "finish",
+        "coverage": 0.6961,
+        "margin": 0.6961
+      },
+      {
+        "hold_id": 471,
+        "role": "hand",
+        "coverage": 0.6522,
+        "margin": 0.6522
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "figure fours are fun\nclimber_marc\n\n6b+/V4 Yeo.\n",
+  "lines": [
+    "figure fours are fun",
+    "climber_marc",
+    "6b+/V4 Yeo."
+  ],
+  "name": "figure fours are fun",
+  "setter": "climber_marc",
+  "grade_raw": "6b+/V4 Yeo.",
+  "grade_v": 4,
+  "stars": 3
+}

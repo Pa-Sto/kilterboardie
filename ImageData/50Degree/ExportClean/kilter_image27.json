@@ -1,0 +1,127 @@
+{
+  "filename": "kilter_image27.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 5
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 25,
+        "role": "foot",
+        "coverage": 0.7008,
+        "margin": 0.7008
+      },
+      {
+        "hold_id": 65,
+        "role": "start",
+        "coverage": 0.5884,
+        "margin": 0.5178
+      },
+      {
+        "hold_id": 79,
+        "role": "foot",
+        "coverage": 0.3996,
+        "margin": 0.3536
+      },
+      {
+        "hold_id": 155,
+        "role": "start",
+        "coverage": 0.6773,
+        "margin": 0.6773
+      },
+      {
+        "hold_id": 170,
+        "role": "foot",
+        "coverage": 0.7071,
+        "margin": 0.7071
+      },
+      {
+        "hold_id": 192,
+        "role": "hand",
+        "coverage": 0.6004,
+        "margin": 0.6004
+      },
+      {
+        "hold_id": 221,
+        "role": "hand",
+        "coverage": 0.5983,
+        "margin": 0.5277
+      },
+      {
+        "hold_id": 236,
+        "role": "foot",
+        "coverage": 0.5262,
+        "margin": 0.4911
+      },
+      {
+        "hold_id": 264,
+        "role": "foot",
+        "coverage": 0.5158,
+        "margin": 0.5158
+      },
+      {
+        "hold_id": 272,
+        "role": "hand",
+        "coverage": 0.6119,
+        "margin": 0.6119
+      },
+      {
+        "hold_id": 306,
+        "role": "hand",
+        "coverage": 0.6517,
+        "margin": 0.6517
+      },
+      {
+        "hold_id": 309,
+        "role": "hand",
+        "coverage": 0.6773,
+        "margin": 0.6773
+      },
+      {
+        "hold_id": 387,
+        "role": "hand",
+        "coverage": 0.6454,
+        "margin": 0.6454
+      },
+      {
+        "hold_id": 461,
+        "role": "finish",
+        "coverage": 0.7061,
+        "margin": 0.7061
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "is the new yellow ak\nwandzi\n\n7c+/V10 ye vee\n",
+  "lines": [
+    "is the new yellow ak",
+    "wandzi",
+    "7c+/V10 ye vee"
+  ],
+  "name": "is the new yellow ak",
+  "setter": "wandzi",
+  "grade_raw": "7c+/V10 ye vee",
+  "grade_v": 10,
+  "stars": 3
+}

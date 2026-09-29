@@ -1,0 +1,151 @@
+{
+  "filename": "kilter_image11.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 7,
+    "foot": 8
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 15,
+        "role": "foot",
+        "coverage": 0.6721,
+        "margin": 0.6721
+      },
+      {
+        "hold_id": 58,
+        "role": "foot",
+        "coverage": 0.7441,
+        "margin": 0.7441
+      },
+      {
+        "hold_id": 63,
+        "role": "start",
+        "coverage": 0.6778,
+        "margin": 0.6778
+      },
+      {
+        "hold_id": 109,
+        "role": "foot",
+        "coverage": 0.7108,
+        "margin": 0.7108
+      },
+      {
+        "hold_id": 122,
+        "role": "start",
+        "coverage": 0.6904,
+        "margin": 0.6904
+      },
+      {
+        "hold_id": 134,
+        "role": "foot",
+        "coverage": 0.6302,
+        "margin": 0.6302
+      },
+      {
+        "hold_id": 174,
+        "role": "hand",
+        "coverage": 0.6538,
+        "margin": 0.6538
+      },
+      {
+        "hold_id": 175,
+        "role": "foot",
+        "coverage": 0.6391,
+        "margin": 0.6391
+      },
+      {
+        "hold_id": 215,
+        "role": "foot",
+        "coverage": 0.7505,
+        "margin": 0.7505
+      },
+      {
+        "hold_id": 243,
+        "role": "hand",
+        "coverage": 0.6255,
+        "margin": 0.6255
+      },
+      {
+        "hold_id": 276,
+        "role": "hand",
+        "coverage": 0.6909,
+        "margin": 0.6909
+      },
+      {
+        "hold_id": 300,
+        "role": "hand",
+        "coverage": 0.6606,
+        "margin": 0.6606
+      },
+      {
+        "hold_id": 305,
+        "role": "hand",
+        "coverage": 0.6747,
+        "margin": 0.6747
+      },
+      {
+        "hold_id": 316,
+        "role": "foot",
+        "coverage": 0.5863,
+        "margin": 0.5863
+      },
+      {
+        "hold_id": 350,
+        "role": "foot",
+        "coverage": 0.7087,
+        "margin": 0.7087
+      },
+      {
+        "hold_id": 376,
+        "role": "hand",
+        "coverage": 0.6485,
+        "margin": 0.6485
+      },
+      {
+        "hold_id": 458,
+        "role": "hand",
+        "coverage": 0.6323,
+        "margin": 0.6323
+      },
+      {
+        "hold_id": 471,
+        "role": "finish",
+        "coverage": 0.7139,
+        "margin": 0.7139
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "+ Wettkampfboulde\nFlashikovksi\n\n7a/V6 Ye ee\n",
+  "lines": [
+    "+ Wettkampfboulde",
+    "Flashikovksi",
+    "7a/V6 Ye ee"
+  ],
+  "name": "+ Wettkampfboulde",
+  "setter": "Flashikovksi",
+  "grade_raw": "7a/V6 Ye ee",
+  "grade_v": 6,
+  "stars": 2
+}

@@ -1,0 +1,133 @@
+{
+  "filename": "kilter_image765.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 7
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 16,
+        "role": "foot",
+        "coverage": 0.6651,
+        "margin": 0.6651
+      },
+      {
+        "hold_id": 30,
+        "role": "foot",
+        "coverage": 0.7275,
+        "margin": 0.7275
+      },
+      {
+        "hold_id": 112,
+        "role": "foot",
+        "coverage": 0.7297,
+        "margin": 0.7297
+      },
+      {
+        "hold_id": 121,
+        "role": "start",
+        "coverage": 0.6799,
+        "margin": 0.6799
+      },
+      {
+        "hold_id": 170,
+        "role": "start",
+        "coverage": 0.6878,
+        "margin": 0.6878
+      },
+      {
+        "hold_id": 179,
+        "role": "foot",
+        "coverage": 0.6642,
+        "margin": 0.6642
+      },
+      {
+        "hold_id": 195,
+        "role": "hand",
+        "coverage": 0.6428,
+        "margin": 0.6428
+      },
+      {
+        "hold_id": 242,
+        "role": "foot",
+        "coverage": 0.6823,
+        "margin": 0.6823
+      },
+      {
+        "hold_id": 271,
+        "role": "hand",
+        "coverage": 0.6428,
+        "margin": 0.6428
+      },
+      {
+        "hold_id": 272,
+        "role": "hand",
+        "coverage": 0.6119,
+        "margin": 0.6119
+      },
+      {
+        "hold_id": 293,
+        "role": "foot",
+        "coverage": 0.7508,
+        "margin": 0.7508
+      },
+      {
+        "hold_id": 380,
+        "role": "hand",
+        "coverage": 0.648,
+        "margin": 0.648
+      },
+      {
+        "hold_id": 391,
+        "role": "foot",
+        "coverage": 0.5005,
+        "margin": 0.5005
+      },
+      {
+        "hold_id": 452,
+        "role": "hand",
+        "coverage": 0.5528,
+        "margin": 0.4801
+      },
+      {
+        "hold_id": 469,
+        "role": "finish",
+        "coverage": 0.6851,
+        "margin": 0.6789
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Off The Rails\ntortesla\n\n8a/V11 eee\n",
+  "lines": [
+    "Off The Rails",
+    "tortesla",
+    "8a/V11 eee"
+  ],
+  "name": "Off The Rails",
+  "setter": "tortesla",
+  "grade_raw": "8a/V11 eee",
+  "grade_v": 11,
+  "stars": 3
+}

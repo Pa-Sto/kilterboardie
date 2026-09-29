@@ -1,0 +1,121 @@
+{
+  "filename": "kilter_image137.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 4
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 0,
+        "role": "foot",
+        "coverage": 0.5071,
+        "margin": 0.5071
+      },
+      {
+        "hold_id": 37,
+        "role": "foot",
+        "coverage": 0.6009,
+        "margin": 0.6009
+      },
+      {
+        "hold_id": 119,
+        "role": "start",
+        "coverage": 0.6177,
+        "margin": 0.6177
+      },
+      {
+        "hold_id": 197,
+        "role": "start",
+        "coverage": 0.6752,
+        "margin": 0.6752
+      },
+      {
+        "hold_id": 255,
+        "role": "hand",
+        "coverage": 0.6438,
+        "margin": 0.6438
+      },
+      {
+        "hold_id": 282,
+        "role": "foot",
+        "coverage": 0.7134,
+        "margin": 0.7134
+      },
+      {
+        "hold_id": 351,
+        "role": "foot",
+        "coverage": 0.7097,
+        "margin": 0.7097
+      },
+      {
+        "hold_id": 358,
+        "role": "hand",
+        "coverage": 0.6632,
+        "margin": 0.6632
+      },
+      {
+        "hold_id": 376,
+        "role": "hand",
+        "coverage": 0.6485,
+        "margin": 0.6485
+      },
+      {
+        "hold_id": 452,
+        "role": "hand",
+        "coverage": 0.6459,
+        "margin": 0.6459
+      },
+      {
+        "hold_id": 458,
+        "role": "hand",
+        "coverage": 0.6323,
+        "margin": 0.6323
+      },
+      {
+        "hold_id": 467,
+        "role": "finish",
+        "coverage": 0.7019,
+        "margin": 0.7019
+      },
+      {
+        "hold_id": 469,
+        "role": "hand",
+        "coverage": 0.6632,
+        "margin": 0.6632
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "ing das Tanz- ahhh!\nJohannSoe\n\n\u00ae 7a+/V7 vee\n",
+  "lines": [
+    "ing das Tanz- ahhh!",
+    "JohannSoe",
+    "\u00ae 7a+/V7 vee"
+  ],
+  "name": "ing das Tanz- ahhh!",
+  "setter": "JohannSoe",
+  "grade_raw": "\u00ae 7a+/V7 vee",
+  "grade_v": 7,
+  "stars": 3
+}

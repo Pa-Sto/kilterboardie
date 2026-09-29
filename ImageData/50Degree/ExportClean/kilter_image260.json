@@ -1,0 +1,151 @@
+{
+  "filename": "kilter_image260.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 9
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 8,
+        "role": "foot",
+        "coverage": 0.7202,
+        "margin": 0.7202
+      },
+      {
+        "hold_id": 13,
+        "role": "foot",
+        "coverage": 0.7055,
+        "margin": 0.7055
+      },
+      {
+        "hold_id": 41,
+        "role": "foot",
+        "coverage": 0.7144,
+        "margin": 0.7144
+      },
+      {
+        "hold_id": 80,
+        "role": "foot",
+        "coverage": 0.6051,
+        "margin": 0.6051
+      },
+      {
+        "hold_id": 96,
+        "role": "start",
+        "coverage": 0.6872,
+        "margin": 0.6872
+      },
+      {
+        "hold_id": 117,
+        "role": "foot",
+        "coverage": 0.5978,
+        "margin": 0.5978
+      },
+      {
+        "hold_id": 144,
+        "role": "start",
+        "coverage": 0.6825,
+        "margin": 0.6825
+      },
+      {
+        "hold_id": 158,
+        "role": "foot",
+        "coverage": 0.5241,
+        "margin": 0.5241
+      },
+      {
+        "hold_id": 159,
+        "role": "foot",
+        "coverage": 0.6198,
+        "margin": 0.6198
+      },
+      {
+        "hold_id": 176,
+        "role": "hand",
+        "coverage": 0.626,
+        "margin": 0.626
+      },
+      {
+        "hold_id": 219,
+        "role": "foot",
+        "coverage": 0.6668,
+        "margin": 0.6668
+      },
+      {
+        "hold_id": 243,
+        "role": "hand",
+        "coverage": 0.6255,
+        "margin": 0.6255
+      },
+      {
+        "hold_id": 275,
+        "role": "hand",
+        "coverage": 0.6423,
+        "margin": 0.6423
+      },
+      {
+        "hold_id": 292,
+        "role": "foot",
+        "coverage": 0.6804,
+        "margin": 0.6804
+      },
+      {
+        "hold_id": 300,
+        "role": "hand",
+        "coverage": 0.6836,
+        "margin": 0.6836
+      },
+      {
+        "hold_id": 328,
+        "role": "hand",
+        "coverage": 0.6412,
+        "margin": 0.6412
+      },
+      {
+        "hold_id": 400,
+        "role": "hand",
+        "coverage": 0.6532,
+        "margin": 0.6532
+      },
+      {
+        "hold_id": 465,
+        "role": "finish",
+        "coverage": 0.7082,
+        "margin": 0.7082
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Platypus\nByrons\n\n6b+/V4 Yeo.\n",
+  "lines": [
+    "Platypus",
+    "Byrons",
+    "6b+/V4 Yeo."
+  ],
+  "name": "Platypus",
+  "setter": "Byrons",
+  "grade_raw": "6b+/V4 Yeo.",
+  "grade_v": 4,
+  "stars": 3
+}

@@ -1,0 +1,127 @@
+{
+  "filename": "kilter_image256.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 6
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 57,
+        "role": "foot",
+        "coverage": 0.4404,
+        "margin": 0.4404
+      },
+      {
+        "hold_id": 85,
+        "role": "foot",
+        "coverage": 0.7299,
+        "margin": 0.7299
+      },
+      {
+        "hold_id": 105,
+        "role": "foot",
+        "coverage": 0.5821,
+        "margin": 0.5162
+      },
+      {
+        "hold_id": 127,
+        "role": "hand",
+        "coverage": 0.5528,
+        "margin": 0.5267
+      },
+      {
+        "hold_id": 131,
+        "role": "foot",
+        "coverage": 0.4869,
+        "margin": 0.4869
+      },
+      {
+        "hold_id": 159,
+        "role": "foot",
+        "coverage": 0.6198,
+        "margin": 0.6198
+      },
+      {
+        "hold_id": 168,
+        "role": "start",
+        "coverage": 0.5968,
+        "margin": 0.5968
+      },
+      {
+        "hold_id": 207,
+        "role": "start",
+        "coverage": 0.6736,
+        "margin": 0.6736
+      },
+      {
+        "hold_id": 215,
+        "role": "foot",
+        "coverage": 0.7505,
+        "margin": 0.7505
+      },
+      {
+        "hold_id": 272,
+        "role": "hand",
+        "coverage": 0.6119,
+        "margin": 0.6119
+      },
+      {
+        "hold_id": 298,
+        "role": "hand",
+        "coverage": 0.6491,
+        "margin": 0.6491
+      },
+      {
+        "hold_id": 425,
+        "role": "hand",
+        "coverage": 0.637,
+        "margin": 0.637
+      },
+      {
+        "hold_id": 458,
+        "role": "hand",
+        "coverage": 0.6323,
+        "margin": 0.6323
+      },
+      {
+        "hold_id": 459,
+        "role": "finish",
+        "coverage": 0.7139,
+        "margin": 0.7139
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "King Corona\npajaro\n\n\u00ae& 8at+/V12 ye oe oe\n",
+  "lines": [
+    "King Corona",
+    "pajaro",
+    "\u00ae& 8at+/V12 ye oe oe"
+  ],
+  "name": "King Corona",
+  "setter": "pajaro",
+  "grade_raw": "\u00ae& 8at+/V12 ye oe oe",
+  "grade_v": 12,
+  "stars": 2
+}

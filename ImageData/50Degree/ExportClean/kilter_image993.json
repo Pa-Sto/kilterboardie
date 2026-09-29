@@ -1,0 +1,115 @@
+{
+  "filename": "kilter_image993.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 4
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 29,
+        "role": "foot",
+        "coverage": 0.7087,
+        "margin": 0.7087
+      },
+      {
+        "hold_id": 59,
+        "role": "foot",
+        "coverage": 0.6334,
+        "margin": 0.6334
+      },
+      {
+        "hold_id": 122,
+        "role": "start",
+        "coverage": 0.7197,
+        "margin": 0.7197
+      },
+      {
+        "hold_id": 123,
+        "role": "start",
+        "coverage": 0.7008,
+        "margin": 0.7008
+      },
+      {
+        "hold_id": 163,
+        "role": "foot",
+        "coverage": 0.5978,
+        "margin": 0.5701
+      },
+      {
+        "hold_id": 169,
+        "role": "hand",
+        "coverage": 0.5931,
+        "margin": 0.522
+      },
+      {
+        "hold_id": 258,
+        "role": "hand",
+        "coverage": 0.6454,
+        "margin": 0.6454
+      },
+      {
+        "hold_id": 260,
+        "role": "foot",
+        "coverage": 0.5371,
+        "margin": 0.4691
+      },
+      {
+        "hold_id": 276,
+        "role": "hand",
+        "coverage": 0.6449,
+        "margin": 0.6271
+      },
+      {
+        "hold_id": 297,
+        "role": "hand",
+        "coverage": 0.6506,
+        "margin": 0.6506
+      },
+      {
+        "hold_id": 413,
+        "role": "hand",
+        "coverage": 0.6538,
+        "margin": 0.6538
+      },
+      {
+        "hold_id": 468,
+        "role": "finish",
+        "coverage": 0.7035,
+        "margin": 0.7035
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "nds of Letterkenny (\njwilder\n\nSY @ 7alvV6 ee\n",
+  "lines": [
+    "nds of Letterkenny (",
+    "jwilder",
+    "SY @ 7alvV6 ee"
+  ],
+  "name": "nds of Letterkenny (",
+  "setter": "jwilder",
+  "grade_raw": "SY @ 7alvV6 ee",
+  "grade_v": 6,
+  "stars": 2
+}

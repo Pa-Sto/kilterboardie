@@ -1,0 +1,103 @@
+{
+  "filename": "kilter_image153.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 2,
+    "hand": 5,
+    "foot": 2
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 12,
+        "role": "foot",
+        "coverage": 0.6297,
+        "margin": 0.6297
+      },
+      {
+        "hold_id": 91,
+        "role": "start",
+        "coverage": 0.6229,
+        "margin": 0.6229
+      },
+      {
+        "hold_id": 116,
+        "role": "hand",
+        "coverage": 0.5267,
+        "margin": 0.5267
+      },
+      {
+        "hold_id": 189,
+        "role": "foot",
+        "coverage": 0.738,
+        "margin": 0.738
+      },
+      {
+        "hold_id": 217,
+        "role": "hand",
+        "coverage": 0.6318,
+        "margin": 0.6318
+      },
+      {
+        "hold_id": 243,
+        "role": "hand",
+        "coverage": 0.6255,
+        "margin": 0.6255
+      },
+      {
+        "hold_id": 359,
+        "role": "hand",
+        "coverage": 0.6512,
+        "margin": 0.6512
+      },
+      {
+        "hold_id": 399,
+        "role": "hand",
+        "coverage": 0.6438,
+        "margin": 0.6438
+      },
+      {
+        "hold_id": 465,
+        "role": "finish",
+        "coverage": 0.7286,
+        "margin": 0.7286
+      },
+      {
+        "hold_id": 471,
+        "role": "finish",
+        "coverage": 0.7442,
+        "margin": 0.7442
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "follas a un novato be\nsharma\n\n7b/V8 Ye ee\n",
+  "lines": [
+    "follas a un novato be",
+    "sharma",
+    "7b/V8 Ye ee"
+  ],
+  "name": "follas a un novato be",
+  "setter": "sharma",
+  "grade_raw": "7b/V8 Ye ee",
+  "grade_v": 8,
+  "stars": 2
+}

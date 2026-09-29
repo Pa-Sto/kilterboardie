@@ -1,0 +1,91 @@
+{
+  "filename": "kilter_image9.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 2,
+    "foot": 3
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 1,
+        "role": "foot",
+        "coverage": 0.7029,
+        "margin": 0.7029
+      },
+      {
+        "hold_id": 52,
+        "role": "foot",
+        "coverage": 0.4838,
+        "margin": 0.4838
+      },
+      {
+        "hold_id": 156,
+        "role": "start",
+        "coverage": 0.4702,
+        "margin": 0.4702
+      },
+      {
+        "hold_id": 177,
+        "role": "start",
+        "coverage": 0.5973,
+        "margin": 0.5973
+      },
+      {
+        "hold_id": 223,
+        "role": "foot",
+        "coverage": 0.7176,
+        "margin": 0.7176
+      },
+      {
+        "hold_id": 271,
+        "role": "hand",
+        "coverage": 0.6428,
+        "margin": 0.6428
+      },
+      {
+        "hold_id": 359,
+        "role": "hand",
+        "coverage": 0.6512,
+        "margin": 0.6512
+      },
+      {
+        "hold_id": 475,
+        "role": "finish",
+        "coverage": 0.7097,
+        "margin": 0.7097
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "ded end 2\ncliff_shredder\n\n7c+/V10 ye vee\n",
+  "lines": [
+    "ded end 2",
+    "cliff_shredder",
+    "7c+/V10 ye vee"
+  ],
+  "name": "ded end 2",
+  "setter": "cliff_shredder",
+  "grade_raw": "7c+/V10 ye vee",
+  "grade_v": 10,
+  "stars": 3
+}

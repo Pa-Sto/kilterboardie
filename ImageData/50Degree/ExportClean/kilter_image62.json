@@ -1,0 +1,127 @@
+{
+  "filename": "kilter_image62.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 6,
+    "foot": 6
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 2,
+        "role": "foot",
+        "coverage": 0.6454,
+        "margin": 0.6454
+      },
+      {
+        "hold_id": 91,
+        "role": "start",
+        "coverage": 0.6229,
+        "margin": 0.6229
+      },
+      {
+        "hold_id": 115,
+        "role": "foot",
+        "coverage": 0.6145,
+        "margin": 0.6145
+      },
+      {
+        "hold_id": 133,
+        "role": "foot",
+        "coverage": 0.6768,
+        "margin": 0.6768
+      },
+      {
+        "hold_id": 175,
+        "role": "hand",
+        "coverage": 0.6025,
+        "margin": 0.6025
+      },
+      {
+        "hold_id": 206,
+        "role": "foot",
+        "coverage": 0.6982,
+        "margin": 0.6982
+      },
+      {
+        "hold_id": 251,
+        "role": "hand",
+        "coverage": 0.6156,
+        "margin": 0.5947
+      },
+      {
+        "hold_id": 260,
+        "role": "foot",
+        "coverage": 0.5408,
+        "margin": 0.4733
+      },
+      {
+        "hold_id": 284,
+        "role": "hand",
+        "coverage": 0.6532,
+        "margin": 0.6532
+      },
+      {
+        "hold_id": 290,
+        "role": "foot",
+        "coverage": 0.5429,
+        "margin": 0.5429
+      },
+      {
+        "hold_id": 333,
+        "role": "hand",
+        "coverage": 0.6475,
+        "margin": 0.6475
+      },
+      {
+        "hold_id": 412,
+        "role": "hand",
+        "coverage": 0.6506,
+        "margin": 0.6506
+      },
+      {
+        "hold_id": 414,
+        "role": "hand",
+        "coverage": 0.6527,
+        "margin": 0.6527
+      },
+      {
+        "hold_id": 462,
+        "role": "finish",
+        "coverage": 0.6878,
+        "margin": 0.6878
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "yt me straight pinchi\njohnsona87\n\n7b+/V8 Yee.\n",
+  "lines": [
+    "yt me straight pinchi",
+    "johnsona87",
+    "7b+/V8 Yee."
+  ],
+  "name": "yt me straight pinchi",
+  "setter": "johnsona87",
+  "grade_raw": "7b+/V8 Yee.",
+  "grade_v": 8,
+  "stars": 3
+}

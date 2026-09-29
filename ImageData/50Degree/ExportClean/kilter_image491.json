@@ -1,0 +1,103 @@
+{
+  "filename": "kilter_image491.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 3
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 181,
+        "role": "foot",
+        "coverage": 0.7071,
+        "margin": 0.7071
+      },
+      {
+        "hold_id": 200,
+        "role": "foot",
+        "coverage": 0.67,
+        "margin": 0.67
+      },
+      {
+        "hold_id": 243,
+        "role": "start",
+        "coverage": 0.681,
+        "margin": 0.681
+      },
+      {
+        "hold_id": 252,
+        "role": "start",
+        "coverage": 0.7139,
+        "margin": 0.7139
+      },
+      {
+        "hold_id": 302,
+        "role": "foot",
+        "coverage": 0.6532,
+        "margin": 0.6532
+      },
+      {
+        "hold_id": 309,
+        "role": "hand",
+        "coverage": 0.637,
+        "margin": 0.637
+      },
+      {
+        "hold_id": 328,
+        "role": "hand",
+        "coverage": 0.67,
+        "margin": 0.67
+      },
+      {
+        "hold_id": 354,
+        "role": "hand",
+        "coverage": 0.6731,
+        "margin": 0.6731
+      },
+      {
+        "hold_id": 399,
+        "role": "hand",
+        "coverage": 0.6438,
+        "margin": 0.6438
+      },
+      {
+        "hold_id": 459,
+        "role": "finish",
+        "coverage": 0.7139,
+        "margin": 0.7139
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Barfclava\nSTNKYCHEEZ\n\nZat/V7 Yeo.\n",
+  "lines": [
+    "Barfclava",
+    "STNKYCHEEZ",
+    "Zat/V7 Yeo."
+  ],
+  "name": "Barfclava",
+  "setter": "STNKYCHEEZ",
+  "grade_raw": "Zat/V7 Yeo.",
+  "grade_v": 7,
+  "stars": 3
+}

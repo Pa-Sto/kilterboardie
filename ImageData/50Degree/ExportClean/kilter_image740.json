@@ -1,0 +1,115 @@
+{
+  "filename": "kilter_image740.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 6,
+    "foot": 4
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 2,
+        "role": "foot",
+        "coverage": 0.6454,
+        "margin": 0.6454
+      },
+      {
+        "hold_id": 54,
+        "role": "foot",
+        "coverage": 0.7547,
+        "margin": 0.7547
+      },
+      {
+        "hold_id": 87,
+        "role": "foot",
+        "coverage": 0.6156,
+        "margin": 0.5753
+      },
+      {
+        "hold_id": 91,
+        "role": "start",
+        "coverage": 0.5539,
+        "margin": 0.4874
+      },
+      {
+        "hold_id": 158,
+        "role": "foot",
+        "coverage": 0.5214,
+        "margin": 0.4854
+      },
+      {
+        "hold_id": 172,
+        "role": "hand",
+        "coverage": 0.5183,
+        "margin": 0.4461
+      },
+      {
+        "hold_id": 180,
+        "role": "hand",
+        "coverage": 0.6532,
+        "margin": 0.6532
+      },
+      {
+        "hold_id": 198,
+        "role": "hand",
+        "coverage": 0.682,
+        "margin": 0.682
+      },
+      {
+        "hold_id": 297,
+        "role": "hand",
+        "coverage": 0.6506,
+        "margin": 0.6506
+      },
+      {
+        "hold_id": 349,
+        "role": "hand",
+        "coverage": 0.6459,
+        "margin": 0.6459
+      },
+      {
+        "hold_id": 458,
+        "role": "hand",
+        "coverage": 0.6323,
+        "margin": 0.6323
+      },
+      {
+        "hold_id": 471,
+        "role": "finish",
+        "coverage": 0.7139,
+        "margin": 0.7139
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "devil's work\nianjchurch\n\n7b/V8 Ye ee\n",
+  "lines": [
+    "devil's work",
+    "ianjchurch",
+    "7b/V8 Ye ee"
+  ],
+  "name": "devil's work",
+  "setter": "ianjchurch",
+  "grade_raw": "7b/V8 Ye ee",
+  "grade_v": 8,
+  "stars": 2
+}

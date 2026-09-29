@@ -1,0 +1,145 @@
+{
+  "filename": "kilter_image324.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 2,
+    "hand": 6,
+    "foot": 7
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 12,
+        "role": "foot",
+        "coverage": 0.66,
+        "margin": 0.66
+      },
+      {
+        "hold_id": 22,
+        "role": "foot",
+        "coverage": 0.7265,
+        "margin": 0.7265
+      },
+      {
+        "hold_id": 52,
+        "role": "foot",
+        "coverage": 0.4838,
+        "margin": 0.4838
+      },
+      {
+        "hold_id": 92,
+        "role": "start",
+        "coverage": 0.6124,
+        "margin": 0.6124
+      },
+      {
+        "hold_id": 115,
+        "role": "foot",
+        "coverage": 0.6145,
+        "margin": 0.6145
+      },
+      {
+        "hold_id": 148,
+        "role": "start",
+        "coverage": 0.5465,
+        "margin": 0.5465
+      },
+      {
+        "hold_id": 154,
+        "role": "foot",
+        "coverage": 0.6831,
+        "margin": 0.6831
+      },
+      {
+        "hold_id": 205,
+        "role": "foot",
+        "coverage": 0.694,
+        "margin": 0.694
+      },
+      {
+        "hold_id": 240,
+        "role": "foot",
+        "coverage": 0.603,
+        "margin": 0.603
+      },
+      {
+        "hold_id": 255,
+        "role": "hand",
+        "coverage": 0.6438,
+        "margin": 0.6438
+      },
+      {
+        "hold_id": 269,
+        "role": "hand",
+        "coverage": 0.6355,
+        "margin": 0.6355
+      },
+      {
+        "hold_id": 305,
+        "role": "hand",
+        "coverage": 0.6757,
+        "margin": 0.6757
+      },
+      {
+        "hold_id": 309,
+        "role": "hand",
+        "coverage": 0.637,
+        "margin": 0.637
+      },
+      {
+        "hold_id": 377,
+        "role": "hand",
+        "coverage": 0.6444,
+        "margin": 0.6444
+      },
+      {
+        "hold_id": 426,
+        "role": "hand",
+        "coverage": 0.637,
+        "margin": 0.637
+      },
+      {
+        "hold_id": 461,
+        "role": "finish",
+        "coverage": 0.7061,
+        "margin": 0.7061
+      },
+      {
+        "hold_id": 467,
+        "role": "finish",
+        "coverage": 0.7019,
+        "margin": 0.7019
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "A Fuori\nGirthQuake\n\n6b/V4 ye yee\n",
+  "lines": [
+    "A Fuori",
+    "GirthQuake",
+    "6b/V4 ye yee"
+  ],
+  "name": "A Fuori",
+  "setter": "GirthQuake",
+  "grade_raw": "6b/V4 ye yee",
+  "grade_v": 4,
+  "stars": 3
+}

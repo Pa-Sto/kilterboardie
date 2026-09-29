@@ -1,0 +1,127 @@
+{
+  "filename": "kilter_image385.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 2,
+    "hand": 5,
+    "foot": 5
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 3,
+        "role": "foot",
+        "coverage": 0.4121,
+        "margin": 0.4121
+      },
+      {
+        "hold_id": 46,
+        "role": "foot",
+        "coverage": 0.6036,
+        "margin": 0.6036
+      },
+      {
+        "hold_id": 135,
+        "role": "start",
+        "coverage": 0.5863,
+        "margin": 0.5863
+      },
+      {
+        "hold_id": 158,
+        "role": "foot",
+        "coverage": 0.5241,
+        "margin": 0.5241
+      },
+      {
+        "hold_id": 173,
+        "role": "start",
+        "coverage": 0.6831,
+        "margin": 0.6831
+      },
+      {
+        "hold_id": 184,
+        "role": "foot",
+        "coverage": 0.602,
+        "margin": 0.602
+      },
+      {
+        "hold_id": 213,
+        "role": "foot",
+        "coverage": 0.7301,
+        "margin": 0.7301
+      },
+      {
+        "hold_id": 255,
+        "role": "hand",
+        "coverage": 0.6438,
+        "margin": 0.6438
+      },
+      {
+        "hold_id": 295,
+        "role": "hand",
+        "coverage": 0.636,
+        "margin": 0.636
+      },
+      {
+        "hold_id": 308,
+        "role": "hand",
+        "coverage": 0.6213,
+        "margin": 0.6213
+      },
+      {
+        "hold_id": 385,
+        "role": "hand",
+        "coverage": 0.6454,
+        "margin": 0.6454
+      },
+      {
+        "hold_id": 399,
+        "role": "hand",
+        "coverage": 0.6438,
+        "margin": 0.6438
+      },
+      {
+        "hold_id": 456,
+        "role": "finish",
+        "coverage": 0.7118,
+        "margin": 0.7118
+      },
+      {
+        "hold_id": 459,
+        "role": "finish",
+        "coverage": 0.7139,
+        "margin": 0.7139
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "CrumBrule\u00e9\nSTNKYCHEEZ\n\n7a/V6 Ye ee\n",
+  "lines": [
+    "CrumBrule\u00e9",
+    "STNKYCHEEZ",
+    "7a/V6 Ye ee"
+  ],
+  "name": "CrumBrule\u00e9",
+  "setter": "STNKYCHEEZ",
+  "grade_raw": "7a/V6 Ye ee",
+  "grade_v": 6,
+  "stars": 2
+}

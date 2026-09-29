@@ -1,0 +1,91 @@
+{
+  "filename": "kilter_image238.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 1
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 18,
+        "role": "foot",
+        "coverage": 0.6977,
+        "margin": 0.6977
+      },
+      {
+        "hold_id": 133,
+        "role": "start",
+        "coverage": 0.693,
+        "margin": 0.693
+      },
+      {
+        "hold_id": 145,
+        "role": "start",
+        "coverage": 0.693,
+        "margin": 0.693
+      },
+      {
+        "hold_id": 224,
+        "role": "hand",
+        "coverage": 0.6229,
+        "margin": 0.6229
+      },
+      {
+        "hold_id": 309,
+        "role": "hand",
+        "coverage": 0.6512,
+        "margin": 0.6512
+      },
+      {
+        "hold_id": 333,
+        "role": "hand",
+        "coverage": 0.6653,
+        "margin": 0.6653
+      },
+      {
+        "hold_id": 405,
+        "role": "hand",
+        "coverage": 0.6543,
+        "margin": 0.6543
+      },
+      {
+        "hold_id": 466,
+        "role": "finish",
+        "coverage": 0.6961,
+        "margin": 0.6961
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Ny Weak Right Hand\nvukyle\n\n& 7c/V9 Ye ye oe\n",
+  "lines": [
+    "Ny Weak Right Hand",
+    "vukyle",
+    "& 7c/V9 Ye ye oe"
+  ],
+  "name": "Ny Weak Right Hand",
+  "setter": "vukyle",
+  "grade_raw": "& 7c/V9 Ye ye oe",
+  "grade_v": 9,
+  "stars": 2
+}

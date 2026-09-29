@@ -1,0 +1,91 @@
+{
+  "filename": "kilter_image375.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 0
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 326,
+        "role": "start",
+        "coverage": 0.6972,
+        "margin": 0.6972
+      },
+      {
+        "hold_id": 330,
+        "role": "start",
+        "coverage": 0.7207,
+        "margin": 0.7207
+      },
+      {
+        "hold_id": 432,
+        "role": "hand",
+        "coverage": 0.602,
+        "margin": 0.602
+      },
+      {
+        "hold_id": 436,
+        "role": "hand",
+        "coverage": 0.6501,
+        "margin": 0.6501
+      },
+      {
+        "hold_id": 439,
+        "role": "hand",
+        "coverage": 0.647,
+        "margin": 0.647
+      },
+      {
+        "hold_id": 441,
+        "role": "hand",
+        "coverage": 0.6501,
+        "margin": 0.6501
+      },
+      {
+        "hold_id": 453,
+        "role": "hand",
+        "coverage": 0.6224,
+        "margin": 0.6224
+      },
+      {
+        "hold_id": 470,
+        "role": "finish",
+        "coverage": 0.7113,
+        "margin": 0.7113
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "\u2018y go round campus\nLimSeungWon98\n\n\u00ae 7a+/V7 vee\n",
+  "lines": [
+    "\u2018y go round campus",
+    "LimSeungWon98",
+    "\u00ae 7a+/V7 vee"
+  ],
+  "name": "\u2018y go round campus",
+  "setter": "LimSeungWon98",
+  "grade_raw": "\u00ae 7a+/V7 vee",
+  "grade_v": 7,
+  "stars": 3
+}

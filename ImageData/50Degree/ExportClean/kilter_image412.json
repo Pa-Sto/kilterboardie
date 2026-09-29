@@ -1,0 +1,145 @@
+{
+  "filename": "kilter_image412.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 7,
+    "foot": 8
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 1,
+        "role": "foot",
+        "coverage": 0.7029,
+        "margin": 0.7029
+      },
+      {
+        "hold_id": 56,
+        "role": "foot",
+        "coverage": 0.5162,
+        "margin": 0.5162
+      },
+      {
+        "hold_id": 85,
+        "role": "foot",
+        "coverage": 0.7299,
+        "margin": 0.7299
+      },
+      {
+        "hold_id": 91,
+        "role": "start",
+        "coverage": 0.6229,
+        "margin": 0.6229
+      },
+      {
+        "hold_id": 171,
+        "role": "foot",
+        "coverage": 0.624,
+        "margin": 0.624
+      },
+      {
+        "hold_id": 179,
+        "role": "foot",
+        "coverage": 0.6642,
+        "margin": 0.6642
+      },
+      {
+        "hold_id": 223,
+        "role": "foot",
+        "coverage": 0.7176,
+        "margin": 0.7176
+      },
+      {
+        "hold_id": 229,
+        "role": "hand",
+        "coverage": 0.6459,
+        "margin": 0.6459
+      },
+      {
+        "hold_id": 259,
+        "role": "hand",
+        "coverage": 0.6355,
+        "margin": 0.6355
+      },
+      {
+        "hold_id": 274,
+        "role": "foot",
+        "coverage": 0.6961,
+        "margin": 0.6961
+      },
+      {
+        "hold_id": 286,
+        "role": "foot",
+        "coverage": 0.5016,
+        "margin": 0.5016
+      },
+      {
+        "hold_id": 296,
+        "role": "hand",
+        "coverage": 0.659,
+        "margin": 0.659
+      },
+      {
+        "hold_id": 328,
+        "role": "hand",
+        "coverage": 0.6412,
+        "margin": 0.6412
+      },
+      {
+        "hold_id": 357,
+        "role": "hand",
+        "coverage": 0.6763,
+        "margin": 0.6763
+      },
+      {
+        "hold_id": 363,
+        "role": "hand",
+        "coverage": 0.6888,
+        "margin": 0.6888
+      },
+      {
+        "hold_id": 455,
+        "role": "hand",
+        "coverage": 0.6438,
+        "margin": 0.6438
+      },
+      {
+        "hold_id": 475,
+        "role": "finish",
+        "coverage": 0.7097,
+        "margin": 0.7097
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Fat Tire\nbordboy93\n\n7c+/V10 Yeo ve\n",
+  "lines": [
+    "Fat Tire",
+    "bordboy93",
+    "7c+/V10 Yeo ve"
+  ],
+  "name": "Fat Tire",
+  "setter": "bordboy93",
+  "grade_raw": "7c+/V10 Yeo ve",
+  "grade_v": 10,
+  "stars": 2
+}

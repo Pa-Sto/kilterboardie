@@ -1,0 +1,115 @@
+{
+  "filename": "kilter_image214.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 1,
+    "finish": 1,
+    "hand": 6,
+    "foot": 4
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 2,
+        "role": "foot",
+        "coverage": 0.6454,
+        "margin": 0.6454
+      },
+      {
+        "hold_id": 3,
+        "role": "foot",
+        "coverage": 0.4121,
+        "margin": 0.4121
+      },
+      {
+        "hold_id": 87,
+        "role": "start",
+        "coverage": 0.6098,
+        "margin": 0.6098
+      },
+      {
+        "hold_id": 159,
+        "role": "foot",
+        "coverage": 0.6198,
+        "margin": 0.6198
+      },
+      {
+        "hold_id": 166,
+        "role": "hand",
+        "coverage": 0.5983,
+        "margin": 0.5983
+      },
+      {
+        "hold_id": 254,
+        "role": "hand",
+        "coverage": 0.6156,
+        "margin": 0.6156
+      },
+      {
+        "hold_id": 256,
+        "role": "hand",
+        "coverage": 0.6187,
+        "margin": 0.6187
+      },
+      {
+        "hold_id": 263,
+        "role": "foot",
+        "coverage": 0.4142,
+        "margin": 0.4142
+      },
+      {
+        "hold_id": 337,
+        "role": "hand",
+        "coverage": 0.6501,
+        "margin": 0.6501
+      },
+      {
+        "hold_id": 387,
+        "role": "hand",
+        "coverage": 0.6454,
+        "margin": 0.6454
+      },
+      {
+        "hold_id": 433,
+        "role": "hand",
+        "coverage": 0.6475,
+        "margin": 0.6475
+      },
+      {
+        "hold_id": 469,
+        "role": "finish",
+        "coverage": 0.6987,
+        "margin": 0.6987
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "ture Of The Rebel Ar\nAffenKalle\n\n\u00ae 8a/V11 eke\n",
+  "lines": [
+    "ture Of The Rebel Ar",
+    "AffenKalle",
+    "\u00ae 8a/V11 eke"
+  ],
+  "name": "ture Of The Rebel Ar",
+  "setter": "AffenKalle",
+  "grade_raw": "\u00ae 8a/V11 eke",
+  "grade_v": 11,
+  "stars": 3
+}

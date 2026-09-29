@@ -1,0 +1,85 @@
+{
+  "filename": "kilter_image502.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 2,
+    "foot": 2
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 59,
+        "role": "foot",
+        "coverage": 0.6334,
+        "margin": 0.6334
+      },
+      {
+        "hold_id": 96,
+        "role": "start",
+        "coverage": 0.6872,
+        "margin": 0.6872
+      },
+      {
+        "hold_id": 164,
+        "role": "foot",
+        "coverage": 0.6343,
+        "margin": 0.6047
+      },
+      {
+        "hold_id": 178,
+        "role": "start",
+        "coverage": 0.6245,
+        "margin": 0.5549
+      },
+      {
+        "hold_id": 283,
+        "role": "hand",
+        "coverage": 0.6485,
+        "margin": 0.6485
+      },
+      {
+        "hold_id": 381,
+        "role": "hand",
+        "coverage": 0.6339,
+        "margin": 0.6339
+      },
+      {
+        "hold_id": 462,
+        "role": "finish",
+        "coverage": 0.6878,
+        "margin": 0.6878
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Raisinette\nmikey. light\n\n7a/V6 Ye ee\n",
+  "lines": [
+    "Raisinette",
+    "mikey. light",
+    "7a/V6 Ye ee"
+  ],
+  "name": "Raisinette",
+  "setter": "mikey. light",
+  "grade_raw": "7a/V6 Ye ee",
+  "grade_v": 6,
+  "stars": 2
+}

@@ -1,0 +1,109 @@
+{
+  "filename": "kilter_image473.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 4
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 1,
+        "role": "foot",
+        "coverage": 0.7029,
+        "margin": 0.7029
+      },
+      {
+        "hold_id": 78,
+        "role": "foot",
+        "coverage": 0.5481,
+        "margin": 0.5481
+      },
+      {
+        "hold_id": 99,
+        "role": "start",
+        "coverage": 0.5826,
+        "margin": 0.5826
+      },
+      {
+        "hold_id": 127,
+        "role": "start",
+        "coverage": 0.5785,
+        "margin": 0.5785
+      },
+      {
+        "hold_id": 212,
+        "role": "foot",
+        "coverage": 0.6464,
+        "margin": 0.6219
+      },
+      {
+        "hold_id": 229,
+        "role": "hand",
+        "coverage": 0.591,
+        "margin": 0.5209
+      },
+      {
+        "hold_id": 284,
+        "role": "hand",
+        "coverage": 0.6532,
+        "margin": 0.6532
+      },
+      {
+        "hold_id": 306,
+        "role": "foot",
+        "coverage": 0.6961,
+        "margin": 0.6961
+      },
+      {
+        "hold_id": 383,
+        "role": "hand",
+        "coverage": 0.6485,
+        "margin": 0.6485
+      },
+      {
+        "hold_id": 457,
+        "role": "hand",
+        "coverage": 0.6444,
+        "margin": 0.6444
+      },
+      {
+        "hold_id": 460,
+        "role": "finish",
+        "coverage": 0.6804,
+        "margin": 0.6804
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Scrumptious\njwebxl\n\n8a/V11 eee\n",
+  "lines": [
+    "Scrumptious",
+    "jwebxl",
+    "8a/V11 eee"
+  ],
+  "name": "Scrumptious",
+  "setter": "jwebxl",
+  "grade_raw": "8a/V11 eee",
+  "grade_v": 11,
+  "stars": 3
+}

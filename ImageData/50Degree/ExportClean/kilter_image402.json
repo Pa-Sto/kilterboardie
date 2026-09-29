@@ -1,0 +1,103 @@
+{
+  "filename": "kilter_image402.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 3
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 85,
+        "role": "foot",
+        "coverage": 0.7299,
+        "margin": 0.7299
+      },
+      {
+        "hold_id": 130,
+        "role": "foot",
+        "coverage": 0.5504,
+        "margin": 0.5504
+      },
+      {
+        "hold_id": 179,
+        "role": "foot",
+        "coverage": 0.6642,
+        "margin": 0.6642
+      },
+      {
+        "hold_id": 220,
+        "role": "start",
+        "coverage": 0.7003,
+        "margin": 0.7003
+      },
+      {
+        "hold_id": 232,
+        "role": "start",
+        "coverage": 0.7113,
+        "margin": 0.7113
+      },
+      {
+        "hold_id": 352,
+        "role": "hand",
+        "coverage": 0.6579,
+        "margin": 0.6579
+      },
+      {
+        "hold_id": 356,
+        "role": "hand",
+        "coverage": 0.6532,
+        "margin": 0.6532
+      },
+      {
+        "hold_id": 360,
+        "role": "hand",
+        "coverage": 0.6475,
+        "margin": 0.6475
+      },
+      {
+        "hold_id": 430,
+        "role": "hand",
+        "coverage": 0.6077,
+        "margin": 0.6077
+      },
+      {
+        "hold_id": 472,
+        "role": "finish",
+        "coverage": 0.6867,
+        "margin": 0.6867
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "STEIL helicopter &\nAlex2004\n\n\u00ae 8a/V11 eke\n",
+  "lines": [
+    "STEIL helicopter &",
+    "Alex2004",
+    "\u00ae 8a/V11 eke"
+  ],
+  "name": "STEIL helicopter &",
+  "setter": "Alex2004",
+  "grade_raw": "\u00ae 8a/V11 eke",
+  "grade_v": 11,
+  "stars": 3
+}

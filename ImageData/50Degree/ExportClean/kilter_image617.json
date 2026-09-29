@@ -1,0 +1,121 @@
+{
+  "filename": "kilter_image617.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 7,
+    "foot": 3
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 15,
+        "role": "foot",
+        "coverage": 0.6721,
+        "margin": 0.6721
+      },
+      {
+        "hold_id": 43,
+        "role": "start",
+        "coverage": 0.6752,
+        "margin": 0.6752
+      },
+      {
+        "hold_id": 122,
+        "role": "start",
+        "coverage": 0.6904,
+        "margin": 0.6904
+      },
+      {
+        "hold_id": 228,
+        "role": "hand",
+        "coverage": 0.6444,
+        "margin": 0.6444
+      },
+      {
+        "hold_id": 237,
+        "role": "foot",
+        "coverage": 0.7537,
+        "margin": 0.7537
+      },
+      {
+        "hold_id": 255,
+        "role": "foot",
+        "coverage": 0.7171,
+        "margin": 0.7171
+      },
+      {
+        "hold_id": 298,
+        "role": "hand",
+        "coverage": 0.6491,
+        "margin": 0.6491
+      },
+      {
+        "hold_id": 326,
+        "role": "hand",
+        "coverage": 0.6522,
+        "margin": 0.6522
+      },
+      {
+        "hold_id": 353,
+        "role": "hand",
+        "coverage": 0.6893,
+        "margin": 0.6893
+      },
+      {
+        "hold_id": 360,
+        "role": "hand",
+        "coverage": 0.6475,
+        "margin": 0.6475
+      },
+      {
+        "hold_id": 377,
+        "role": "hand",
+        "coverage": 0.6444,
+        "margin": 0.6444
+      },
+      {
+        "hold_id": 380,
+        "role": "hand",
+        "coverage": 0.6883,
+        "margin": 0.6883
+      },
+      {
+        "hold_id": 475,
+        "role": "finish",
+        "coverage": 0.7097,
+        "margin": 0.7097
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "not soft, small\nconnor.kainalu\n\nJS \u00ae 7c+/V10 9 ee\n",
+  "lines": [
+    "not soft, small",
+    "connor.kainalu",
+    "JS \u00ae 7c+/V10 9 ee"
+  ],
+  "name": "not soft, small",
+  "setter": "connor.kainalu",
+  "grade_raw": "JS \u00ae 7c+/V10 9 ee",
+  "grade_v": 10,
+  "stars": 2
+}

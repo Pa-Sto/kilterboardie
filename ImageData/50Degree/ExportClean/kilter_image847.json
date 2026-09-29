@@ -1,0 +1,109 @@
+{
+  "filename": "kilter_image847.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 5,
+    "foot": 3
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 6,
+        "role": "foot",
+        "coverage": 0.659,
+        "margin": 0.659
+      },
+      {
+        "hold_id": 90,
+        "role": "start",
+        "coverage": 0.6548,
+        "margin": 0.6548
+      },
+      {
+        "hold_id": 150,
+        "role": "start",
+        "coverage": 0.569,
+        "margin": 0.4963
+      },
+      {
+        "hold_id": 157,
+        "role": "foot",
+        "coverage": 0.6114,
+        "margin": 0.5816
+      },
+      {
+        "hold_id": 173,
+        "role": "foot",
+        "coverage": 0.7008,
+        "margin": 0.7008
+      },
+      {
+        "hold_id": 192,
+        "role": "hand",
+        "coverage": 0.6004,
+        "margin": 0.6004
+      },
+      {
+        "hold_id": 256,
+        "role": "hand",
+        "coverage": 0.6187,
+        "margin": 0.6187
+      },
+      {
+        "hold_id": 295,
+        "role": "hand",
+        "coverage": 0.6789,
+        "margin": 0.6789
+      },
+      {
+        "hold_id": 303,
+        "role": "hand",
+        "coverage": 0.5962,
+        "margin": 0.5962
+      },
+      {
+        "hold_id": 399,
+        "role": "hand",
+        "coverage": 0.6438,
+        "margin": 0.6438
+      },
+      {
+        "hold_id": 441,
+        "role": "finish",
+        "coverage": 0.7045,
+        "margin": 0.7045
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Cat Pillar\njwebxl\n\n7a/V6 Ye ee\n",
+  "lines": [
+    "Cat Pillar",
+    "jwebxl",
+    "7a/V6 Ye ee"
+  ],
+  "name": "Cat Pillar",
+  "setter": "jwebxl",
+  "grade_raw": "7a/V6 Ye ee",
+  "grade_v": 6,
+  "stars": 2
+}

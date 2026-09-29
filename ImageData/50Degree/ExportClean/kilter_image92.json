@@ -1,0 +1,115 @@
+{
+  "filename": "kilter_image92.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 4,
+    "foot": 5
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 57,
+        "role": "foot",
+        "coverage": 0.4404,
+        "margin": 0.4404
+      },
+      {
+        "hold_id": 93,
+        "role": "foot",
+        "coverage": 0.7019,
+        "margin": 0.7019
+      },
+      {
+        "hold_id": 173,
+        "role": "start",
+        "coverage": 0.6831,
+        "margin": 0.6831
+      },
+      {
+        "hold_id": 216,
+        "role": "foot",
+        "coverage": 0.5743,
+        "margin": 0.5743
+      },
+      {
+        "hold_id": 226,
+        "role": "start",
+        "coverage": 0.6679,
+        "margin": 0.6679
+      },
+      {
+        "hold_id": 241,
+        "role": "foot",
+        "coverage": 0.7359,
+        "margin": 0.7359
+      },
+      {
+        "hold_id": 267,
+        "role": "foot",
+        "coverage": 0.7181,
+        "margin": 0.7181
+      },
+      {
+        "hold_id": 353,
+        "role": "hand",
+        "coverage": 0.6579,
+        "margin": 0.6579
+      },
+      {
+        "hold_id": 358,
+        "role": "hand",
+        "coverage": 0.6632,
+        "margin": 0.6632
+      },
+      {
+        "hold_id": 385,
+        "role": "hand",
+        "coverage": 0.6454,
+        "margin": 0.6454
+      },
+      {
+        "hold_id": 458,
+        "role": "hand",
+        "coverage": 0.6323,
+        "margin": 0.6323
+      },
+      {
+        "hold_id": 475,
+        "role": "finish",
+        "coverage": 0.7097,
+        "margin": 0.7097
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "ngry Birds Incoming\nc_Dog32\n\n@ 6b/V4 Heke\n",
+  "lines": [
+    "ngry Birds Incoming",
+    "c_Dog32",
+    "@ 6b/V4 Heke"
+  ],
+  "name": "ngry Birds Incoming",
+  "setter": "c_Dog32",
+  "grade_raw": "@ 6b/V4 Heke",
+  "grade_v": 4,
+  "stars": 4
+}

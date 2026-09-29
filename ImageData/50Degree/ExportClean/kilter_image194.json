@@ -1,0 +1,181 @@
+{
+  "filename": "kilter_image194.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 14
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 4,
+        "role": "foot",
+        "coverage": 0.6119,
+        "margin": 0.6119
+      },
+      {
+        "hold_id": 6,
+        "role": "foot",
+        "coverage": 0.659,
+        "margin": 0.659
+      },
+      {
+        "hold_id": 88,
+        "role": "foot",
+        "coverage": 0.6339,
+        "margin": 0.6339
+      },
+      {
+        "hold_id": 132,
+        "role": "foot",
+        "coverage": 0.7306,
+        "margin": 0.7082
+      },
+      {
+        "hold_id": 145,
+        "role": "start",
+        "coverage": 0.6653,
+        "margin": 0.6459
+      },
+      {
+        "hold_id": 148,
+        "role": "foot",
+        "coverage": 0.5659,
+        "margin": 0.5659
+      },
+      {
+        "hold_id": 149,
+        "role": "start",
+        "coverage": 0.5628,
+        "margin": 0.4901
+      },
+      {
+        "hold_id": 159,
+        "role": "foot",
+        "coverage": 0.569,
+        "margin": 0.4932
+      },
+      {
+        "hold_id": 188,
+        "role": "foot",
+        "coverage": 0.5952,
+        "margin": 0.5952
+      },
+      {
+        "hold_id": 208,
+        "role": "foot",
+        "coverage": 0.5884,
+        "margin": 0.5884
+      },
+      {
+        "hold_id": 236,
+        "role": "foot",
+        "coverage": 0.5319,
+        "margin": 0.5319
+      },
+      {
+        "hold_id": 254,
+        "role": "hand",
+        "coverage": 0.6156,
+        "margin": 0.6156
+      },
+      {
+        "hold_id": 263,
+        "role": "foot",
+        "coverage": 0.4142,
+        "margin": 0.4142
+      },
+      {
+        "hold_id": 273,
+        "role": "hand",
+        "coverage": 0.6417,
+        "margin": 0.6417
+      },
+      {
+        "hold_id": 290,
+        "role": "foot",
+        "coverage": 0.5429,
+        "margin": 0.5429
+      },
+      {
+        "hold_id": 300,
+        "role": "hand",
+        "coverage": 0.6522,
+        "margin": 0.6522
+      },
+      {
+        "hold_id": 315,
+        "role": "foot",
+        "coverage": 0.5113,
+        "margin": 0.5113
+      },
+      {
+        "hold_id": 318,
+        "role": "foot",
+        "coverage": 0.6768,
+        "margin": 0.6768
+      },
+      {
+        "hold_id": 342,
+        "role": "foot",
+        "coverage": 0.6344,
+        "margin": 0.6344
+      },
+      {
+        "hold_id": 357,
+        "role": "hand",
+        "coverage": 0.6543,
+        "margin": 0.6543
+      },
+      {
+        "hold_id": 405,
+        "role": "hand",
+        "coverage": 0.6543,
+        "margin": 0.6543
+      },
+      {
+        "hold_id": 454,
+        "role": "hand",
+        "coverage": 0.6313,
+        "margin": 0.6313
+      },
+      {
+        "hold_id": 464,
+        "role": "finish",
+        "coverage": 0.7155,
+        "margin": 0.7155
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "C6\njuligris\n\n6c+/V5 Yevroe\n",
+  "lines": [
+    "C6",
+    "juligris",
+    "6c+/V5 Yevroe"
+  ],
+  "name": "C6",
+  "setter": "juligris",
+  "grade_raw": "6c+/V5 Yevroe",
+  "grade_v": 5,
+  "stars": 4
+}

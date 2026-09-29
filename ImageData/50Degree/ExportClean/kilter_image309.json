@@ -1,0 +1,121 @@
+{
+  "filename": "kilter_image309.png",
+  "rows": 34,
+  "cols": 35,
+  "channels": [
+    "start",
+    "finish",
+    "hand",
+    "foot",
+    "hold_presence",
+    "hold_size",
+    "orient_sin1",
+    "orient_cos1",
+    "orient_sin2",
+    "orient_cos2"
+  ],
+  "ring_counts": {
+    "start": 2,
+    "finish": 1,
+    "hand": 6,
+    "foot": 4
+  },
+  "ring_detection": {
+    "method": "fixed-centers",
+    "inner_radius": 25.0,
+    "outer_radius": 35.0,
+    "min_coverage": 0.3,
+    "selected": [
+      {
+        "hold_id": 56,
+        "role": "foot",
+        "coverage": 0.5162,
+        "margin": 0.5162
+      },
+      {
+        "hold_id": 111,
+        "role": "foot",
+        "coverage": 0.6611,
+        "margin": 0.6611
+      },
+      {
+        "hold_id": 166,
+        "role": "start",
+        "coverage": 0.6287,
+        "margin": 0.603
+      },
+      {
+        "hold_id": 171,
+        "role": "start",
+        "coverage": 0.6595,
+        "margin": 0.6334
+      },
+      {
+        "hold_id": 184,
+        "role": "foot",
+        "coverage": 0.5272,
+        "margin": 0.4069
+      },
+      {
+        "hold_id": 221,
+        "role": "hand",
+        "coverage": 0.6606,
+        "margin": 0.6606
+      },
+      {
+        "hold_id": 230,
+        "role": "hand",
+        "coverage": 0.6287,
+        "margin": 0.6287
+      },
+      {
+        "hold_id": 237,
+        "role": "foot",
+        "coverage": 0.7254,
+        "margin": 0.7254
+      },
+      {
+        "hold_id": 254,
+        "role": "hand",
+        "coverage": 0.66,
+        "margin": 0.66
+      },
+      {
+        "hold_id": 306,
+        "role": "hand",
+        "coverage": 0.6433,
+        "margin": 0.6433
+      },
+      {
+        "hold_id": 330,
+        "role": "hand",
+        "coverage": 0.6538,
+        "margin": 0.6538
+      },
+      {
+        "hold_id": 414,
+        "role": "hand",
+        "coverage": 0.6527,
+        "margin": 0.6527
+      },
+      {
+        "hold_id": 463,
+        "role": "finish",
+        "coverage": 0.6998,
+        "margin": 0.6998
+      }
+    ]
+  },
+  "validation_errors": [],
+  "raw_text": "Perps\nfaculangbehn\n\n8at/V12 Yroe ve\n",
+  "lines": [
+    "Perps",
+    "faculangbehn",
+    "8at/V12 Yroe ve"
+  ],
+  "name": "Perps",
+  "setter": "faculangbehn",
+  "grade_raw": "8at/V12 Yroe ve",
+  "grade_v": 12,
+  "stars": 2
+}
