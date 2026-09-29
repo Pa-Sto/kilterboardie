@@ -35,10 +35,6 @@ ImageData/References/*.afphoto~lock~
 /docker-compose*.yml
 /fly.toml
 /server.py
-/config.js
-/index.html
-/script.js
-/styles.css
 /worker/
 /generated/
 /.github/workflows/generate-climb.yml
