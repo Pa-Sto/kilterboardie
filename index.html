@@ -25,7 +25,7 @@
               </div>
               <div>
                 <h1>Kilterboardie</h1>
-                <p class="subtitle">Generate new Kilterboard climbs from a 34 x 35 x 10 board tensor using our CVAE and diffusion models.</p>
+                <p class="subtitle">Generate new Kilterboard climbs from a 34 x 35 x 10 board tensor using our CVAE, diffusion, and graph Transformer models.</p>
               </div>
             </div>
             <label class="theme-toggle" for="themeToggle">
@@ -37,7 +37,7 @@
 
           <section class="panel controls" aria-labelledby="controls-title">
             <h2 id="controls-title">Generate a Climb</h2>
-            <p class="panel-hint">Pick grade, angle, and model. Both generators predict the 4 route channels while conditioning on hold presence, size, and orientation features.</p>
+            <p class="panel-hint">Pick grade, angle, and model. The CVAE and diffusion models predict route channels; the graph Transformer selects holds in sequence.</p>
 
             <label class="field">
               <span class="field-label">Grade (V / French)</span>
@@ -68,6 +68,7 @@
               <span class="field-label">Model</span>
               <select id="modelSelect" class="field-control" aria-label="Select model">
                 <option value="Diffusion" selected>Diffusion (U-Net DDPM)</option>
+                <option value="Graph Transformer">Graph Transformer (hold sequence)</option>
                 <option value="KilterCVAE">KilterCVAE (latent generator)</option>
               </select>
             </label>
@@ -82,6 +83,9 @@
             </p>
             <p class="panel-hint">
               The CVAE is a compact grade-conditioned latent model. The diffusion model is a grade- and timestep-conditioned U-Net trained with denoising, reconstruction, count, path, upward, and density losses for more structured samples.
+            </p>
+            <p class="panel-hint">
+              The graph Transformer builds a climb hold by hold, selecting real board holds and assigning start, finish, hand, or foot roles.
             </p>
           </section>
         </div>
@@ -117,6 +121,7 @@
           <ul class="footer-list">
             <li>KilterCVAE with structural count, path, and upward regularization</li>
             <li>Diffusion U-Net with DDPM sampling and density-aware structure losses</li>
+            <li>Graph Transformer with hold-graph encoding and sequence decoding</li>
           </ul>
         </div>
       </footer>
