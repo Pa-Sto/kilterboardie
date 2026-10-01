@@ -8,8 +8,6 @@ This repository contains model implementations, training and local inference too
 
 The [Kilterboardie generator](https://pa-sto.github.io/kilterboardie/) offers three models for 50-degree V3-V13 climbs: the conditional VAE, diffusion (the default), and the hierarchical graph Transformer. Select a grade and model, then generate a new climb on the reference board. Generated routes are experimental proposals, not validated climbs.
 
-The deployed graph Transformer uses the `graph_transformer_clean` checkpoint at `runs/graph_transformer_clean/20260716_101603/best.pt`, copied to `models/graph_transformer_best.pt` on the homeserver. This checkpoint was trained on the older `ExportClean` data. The homeserver backend and graph checkpoint are not included in the public repository clone.
-
 ## Download the NumPy Dataset
 
 The **Boardsesh dataset** contains **37,051 unique Kilter Original routes at 50 degrees, V3-V13**, converted into training-ready NumPy arrays.
