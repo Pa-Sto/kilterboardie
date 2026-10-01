@@ -3,6 +3,8 @@ from __future__ import annotations
 import argparse
 import json
 import os
+import time
+from comparison_data import manifest_subsets
 import random
 from datetime import datetime
 from typing import Dict, Tuple
@@ -52,6 +54,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--device", default=default_device())
     parser.add_argument("--out-dir", default="runs/graph_transformer")
     parser.add_argument("--seed", type=int, default=42)
+    parser.add_argument("--split-manifest", default=None)
     return parser.parse_args()
 
 
@@ -153,7 +156,12 @@ def main() -> None:
         k_neighbors=args.k_neighbors,
         edge_radius=args.edge_radius,
     )
-    train_dataset, val_dataset = split_dataset(dataset, args.val_split, args.seed, args.max_samples)
+    if args.split_manifest:
+        if args.max_samples:
+            raise ValueError("Cannot limit samples in a shared-split run.")
+        train_dataset, val_dataset, _ = manifest_subsets(dataset, args.split_manifest)
+    else:
+        train_dataset, val_dataset = split_dataset(dataset, args.val_split, args.seed, args.max_samples)
     train_loader = DataLoader(
         train_dataset,
         batch_size=args.batch_size,
@@ -213,9 +221,10 @@ def main() -> None:
     )
 
     for epoch in range(1, args.epochs + 1):
+        epoch_started = time.perf_counter()
         train_metrics = run_epoch(model, train_loader, graph, device, optimizer, args)
         val_metrics = run_epoch(model, val_loader, graph, device, None, args)
-        record = {"epoch": epoch}
+        record = {"epoch": epoch, "epoch_seconds": time.perf_counter() - epoch_started}
         record.update({f"train_{key}": value for key, value in train_metrics.items()})
         record.update({f"val_{key}": value for key, value in val_metrics.items()})
         with open(metrics_path, "a") as f:

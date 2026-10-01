@@ -4,6 +4,43 @@ Kilterboard route-generation research with a tensor dataset, conditional VAE, co
 
 This repository contains model implementations, training and local inference tools, dataset preparation utilities, and research documentation. See [DATASET.md](DATASET.md) for the data representation and collection limitations.
 
+## Website
+
+The [Kilterboardie generator](https://pa-sto.github.io/kilterboardie/) offers three models for 50-degree V3-V13 climbs: the conditional VAE, diffusion (the default), and the hierarchical graph Transformer. Select a grade and model, then generate a new climb on the reference board. Generated routes are experimental proposals, not validated climbs.
+
+The deployed graph Transformer uses the `graph_transformer_clean` checkpoint at `runs/graph_transformer_clean/20260716_101603/best.pt`, copied to `models/graph_transformer_best.pt` on the homeserver. This checkpoint was trained on the older `ExportClean` data. The homeserver backend and graph checkpoint are not included in the public repository clone.
+
+## Download the NumPy Dataset
+
+The **Boardsesh dataset** contains **37,051 unique Kilter Original routes at 50 degrees, V3-V13**, converted into training-ready NumPy arrays.
+
+- [Download the dataset ZIP (226 MB)](https://github.com/Pa-Sto/kilterboardie/releases/download/dataset-boardsesh-50degree-20260930/kilterboardie-boardsesh-50degree-20260930-numpy.zip)
+- [Release notes and checksums](https://github.com/Pa-Sto/kilterboardie/releases/tag/dataset-boardsesh-50degree-20260930)
+- [Source and snapshot provenance](https://github.com/Pa-Sto/kilterboardie/releases/download/dataset-boardsesh-50degree-20260930/SOURCE.json)
+
+The losslessly compressed archive expands to approximately **1.8 GB**. It is distributed as a GitHub Release asset, not included in a repository clone. Extract it from the project root:
+
+```bash
+unzip /path/to/kilterboardie-boardsesh-50degree-20260930-numpy.zip -d .
+```
+
+Route files are placed in `ImageData/50Degree/ExportBoardsesh/`. Each route has a `float32` `.npy` array of shape `(34, 35, 10)` and a matching `.json` metadata file. Both orientation sin/cos pairs are included. The archive also contains documentation, the importer, validation reports, source attribution, and per-file SHA-256 checksums.
+
+```python
+from pathlib import Path
+import json
+import numpy as np
+
+path = next(Path("ImageData/50Degree/ExportBoardsesh").glob("*.npy"))
+matrix = np.load(path, allow_pickle=False)
+metadata = json.loads(path.with_suffix(".json").read_text())
+print(matrix.shape, matrix.dtype)  # (34, 35, 10) float32
+```
+
+**Source:** Route roles and metadata were converted from the [Boardsesh Kilter Original database snapshot built on September 30, 2026](https://boardsesh-board-snapshots.t3.tigrisfiles.io/board-snapshots/v1-gzip/kilter/1/2026-09-30T18-37-44-688Z.db). Boardsesh supplied a database, not these NumPy arrays. Hold presence, normalized size, and manually annotated orientations come from the existing Kilterboardie reference. Each route's metadata preserves its setter and source UUID. Third-party data rights remain with their respective owners; the repository's software license does not grant additional rights to that data.
+
+All 37,051 matrices and the compressed archive were validated before publication. Do not combine this dataset with the older `ExportClean` dataset without deduplication. See [DATASET.md](DATASET.md) for filtering and encoding details.
+
 ## Local Setup
 
 Use Python 3.11 or newer and install the model dependencies:
@@ -45,12 +82,12 @@ The exported matrices are `34 x 35 x 10` with the channel list above.
 
 ### File Format
 
-For each canonical route in `ImageData/50Degree/ExportClean`:
+For each route in `ImageData/50Degree/ExportBoardsesh` or the older `ImageData/50Degree/ExportClean`:
 
 - `<route>.npy`: `H x W x 10` float32 matrix
 - `<route>.json`: metadata with `rows`, `cols`, `channels`, `grade_v`, and ring counts
 
-The clean dataset contains 1,000 canonical routes. The original 30,000 screenshots
+The older screenshot-derived clean dataset contains 1,000 canonical routes. The original 30,000 screenshots
 are 30 captures of those same 1,000 route slots. Ring roles are classified at the
 476 calibrated hold centers using HSV coverage in a 25-35 pixel annulus; each hold
 can therefore receive at most one role. `dataset_audit.json` records count-rule and
@@ -118,11 +155,11 @@ Legend:
 
 - The grid is derived from the detected hold centers stored in `ImageData/References/holds.json`.
 - `hold_size` is normalized by the maximum hold area in the board so values are in `[0, 1]`.
-- The dataset currently contains only 50° climbs (grade `V3` and higher).
+- The downloadable Boardsesh dataset contains 50-degree climbs, grades `V3` through `V13`; historical screenshot exports are separate.
 
 ## Channel Split Used By Models
 
-The exported tensor has 10 channels, but both model families split it into:
+The grid-based CVAE and diffusion models split the 10-channel tensor into:
 
 - `route`: 4 dynamic channels (`start`, `finish`, `hand`, `foot`)
 - `static`: 6 conditioning channels (`hold_presence`, `hold_size`, `orient_sin1`, `orient_cos1`, `orient_sin2`, `orient_cos2`)
@@ -305,6 +342,7 @@ This produces a contact sheet and manifest under `runs/graph_sequence_preview/`.
 
 ## Project Layout
 
+- `ImageData/50Degree/ExportBoardsesh/`: downloadable Boardsesh dataset (37,051 routes; extract the release ZIP)
 - `ImageData/50Degree/ExportClean/`: canonical cleaned dataset (`.npy` + `.json` per route)
 - `ImageData/50Degree/Export/`: legacy 30-pass Hough export
 - `ImageData/References/`: hold grid, overlays, orientation assets, `holds.json`
@@ -328,6 +366,7 @@ This produces a contact sheet and manifest under `runs/graph_sequence_preview/`.
 
 - `models/best.pt`: CVAE checkpoint.
 - `models/diffusion_best.pt`: diffusion checkpoint.
+- Graph Transformer: deployed from `runs/graph_transformer_clean/20260716_101603/best.pt`; its checkpoint is not included in the public clone.
 - `inference_bundle/`: standalone CVAE inference code, checkpoint, static board tensor, hold metadata, and count priors.
 
 Training and generation run locally using the commands above. Model outputs are experimental route proposals; the documented structural constraints are not a validation of climbing quality.
@@ -354,3 +393,37 @@ Source screenshot counts: **45° = 32813**, **50° = 30000**. The 50° counts in
 | V12/8a+ | 99 | 0.3% | 690 | 2.3% |
 | V13/8b | 0 | 0% | 90 | 0.3% |
 | Unknown | 559 | 1.7% | 240 | 0.8% |
+
+### Larger Boardsesh Training Dataset
+
+The [downloadable Boardsesh export](#download-the-numpy-dataset) at
+`ImageData/50Degree/ExportBoardsesh/` contains 37,051 unique
+50-degree V3-V13 routes in the existing ten-channel format. See [DATASET.md](DATASET.md)
+for provenance, filtering, validation, and the reproducible importer command.
+For graph training, use `--data-dir ImageData/50Degree/ExportBoardsesh`
+and `--max-sequence-length 64` (the longest route needs 49 events).
+
+### Shared three-model benchmark (Boardsesh)
+
+`comparison_data.py` creates an 80/10/10 grade-stratified split, grouping identical
+hold occupancy (including role variants) to prevent layout leakage. All three
+trainers accept `--split-manifest`; the test partition is never used for training
+or checkpoint selection.
+
+`train_comparison.py` runs 30 epochs each of CVAE, diffusion, and graph Transformer
+on MPS, sequentially, with batch size 32. The graph sequence limit is 64. This
+experiment uses `runs/model_comparison_20260930/split.json`; its runner refuses to
+overwrite an existing status file. Keep the computer awake while training.
+Check `status.json`, each model's log, and timestamped `metrics.jsonl` for progress.
+Best and latest weights are saved separately. The comparison does not replace
+website model bundles.
+
+After all three jobs succeed, `evaluate_comparison.py` automatically generates
+220 routes per model, measures warmed single-route latency (including decoding),
+and compares role/count statistics with the held-out data. Count priors are
+computed from the training partition only. Outputs include `comparison.json`,
+`REPORT.md`, `routes.png`, `training.png`, and generated route archives in the
+experiment folder. Reachability uses calibrated image coordinates rather than
+matrix-index distances. These structural scores do not establish climbing grade
+or actual climbability; imposed decoder constraints are not learned-rule scores.
+Training losses have different meanings and must not be ranked across models.

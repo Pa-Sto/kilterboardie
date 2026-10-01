@@ -134,3 +134,65 @@ Source screenshot files: **45° = 32813**, **50° = 30000**. The 50° counts bel
 | V12/8a+ | 99 | 0.3% | 690 | 2.3% |
 | V13/8b | 0 | 0% | 90 | 0.3% |
 | Unknown | 559 | 1.7% | 240 | 0.8% |
+
+## Boardsesh Import (2026-09-30)
+
+`boardsesh_import.py` exports `ImageData/50Degree/ExportBoardsesh/` in the same
+34 x 35 x 10 float32 format as ExportClean. The first four channels are decoded
+from catalog placement IDs and roles (12=start, 14=finish, 13=hand, 15=foot).
+All six static channels are copied exactly from the validated reference dataset.
+The catalog's display difficulty at the requested angle is mapped through its
+own difficulty table to V grades; setter angle and average difficulty are not
+used as substitutes. This does not add actual movement-sequence labels.
+
+```bash
+python3 boardsesh_import.py
+python3 graph_transformer_train.py \
+  --data-dir ImageData/50Degree/ExportBoardsesh \
+  --max-sequence-length 64
+```
+
+The default importer paths refer to the locally downloaded 2026-09-30 route
+snapshot and verified hardware/mapping artifacts under `runs/`. Use `--help`
+to supply other paths. The output directory must be empty. Snapshots and the
+large generated dataset are ignored by Git; keep their manifest and audit files
+with them for provenance.
+
+Filtering retains public, listed, non-hidden, single-frame Original-layout
+routes compatible with size 10, graded at 50 degrees in V3-V13. Unsupported
+roles, missing placements, repeated placements, and invalid start/finish counts
+are rejected, never silently dropped. The 38 outer-column catalog placements
+outside our image cannot be represented in the current matrix.
+
+The snapshot contains 44,132 records at 50 degrees; 37,051 unique role-aware
+layouts were exported. Duplicates retain the route with most ascensionists
+(ties broken by UUID). Of 241 duplicate layouts removed, 112 had differing
+V grades; their source IDs and grade differences are recorded in the audit.
+No minimum ascent-count or quality threshold is imposed in this initial import.
+Source UUID, setter, grade statistics, and original frames are retained.
+
+| Grade | Routes |
+|---|---:|
+| V3 | 2507 |
+| V4 | 3756 |
+| V5 | 5467 |
+| V6 | 4703 |
+| V7 | 4760 |
+| V8 | 7394 |
+| V9 | 3666 |
+| V10 | 2464 |
+| V11 | 1460 |
+| V12 | 686 |
+| V13 | 188 |
+
+Validation: all tensors passed shape, dtype, finite/binary, exclusive-role,
+board-mask, and static-channel checks. 994 of the 1,000 old reference routes
+have exact role-aware layout matches among eligible catalog routes. Named
+examples Trust Your Shoes, Morphonite, and Cult Sacrifice match exactly.
+Names alone are not unique identifiers. All graph sequences were checked;
+the longest is 49 events (two exceed the old 48-event limit). Use 64 for a
+new model; existing checkpoints retain their original configuration.
+
+Details: `dataset_audit.json` and `integration_validation.json` in the output
+directory. Avoid combining this export with ExportClean without deduplication,
+as nearly all old routes already occur in the larger dataset.

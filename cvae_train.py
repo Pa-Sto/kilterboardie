@@ -1,6 +1,8 @@
 import argparse
 import json
 import os
+import time
+from comparison_data import manifest_subsets
 from datetime import datetime
 from typing import Tuple
 
@@ -33,6 +35,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--device", type=str, default="cuda" if torch.cuda.is_available() else "cpu")
     parser.add_argument("--out-dir", type=str, default="runs/cvae")
     parser.add_argument("--seed", type=int, default=42)
+    parser.add_argument("--split-manifest", default=None)
     return parser.parse_args()
 
 
@@ -53,7 +56,10 @@ def main() -> None:
     set_seed(args.seed)
 
     dataset = KilterRouteDataset(args.data_dir)
-    train_ds, val_ds = split_dataset(dataset, args.val_split, args.seed)
+    if args.split_manifest:
+        train_ds, val_ds, _ = manifest_subsets(dataset, args.split_manifest)
+    else:
+        train_ds, val_ds = split_dataset(dataset, args.val_split, args.seed)
 
     train_loader = DataLoader(train_ds, batch_size=args.batch_size, shuffle=True, num_workers=args.num_workers)
     val_loader = DataLoader(val_ds, batch_size=args.batch_size, shuffle=False, num_workers=args.num_workers)
@@ -84,6 +90,7 @@ def main() -> None:
     best_val = float("inf")
 
     for epoch in range(1, args.epochs + 1):
+        epoch_started = time.perf_counter()
         model.train()
         total_loss = 0.0
         total_recon = 0.0
@@ -200,6 +207,7 @@ def main() -> None:
         with open(metrics_path, "a") as f:
             f.write(json.dumps({
                 "epoch": epoch,
+                "epoch_seconds": time.perf_counter() - epoch_started,
                 "train_loss": train_loss,
                 "train_recon": train_recon,
                 "train_kl": train_kl,
@@ -216,6 +224,8 @@ def main() -> None:
 
         ckpt = {
             "model_state": model.state_dict(),
+            "epoch": epoch,
+            "optimizer_state": optimizer.state_dict(),
             "pos_weight": pos_weight.detach().cpu(),
             "config": config,
         }
